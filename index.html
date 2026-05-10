@@ -2,74 +2,119 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#2c2c2c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>艾莉亚 — 资料档案</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFang SC',serif;min-height:100vh}
-.top{background:#2c2c2c;color:#ccc;padding:12px 24px;display:flex;gap:16px;align-items:center;position:sticky;top:0;z-index:100}
-.top h1{font-size:1rem;color:#e8d5a3;font-weight:normal;letter-spacing:2px}
-.top .sub{font-size:0.78rem;color:#888;margin-left:auto}
-.tabs{display:flex;gap:2px;padding:10px 20px;background:#e8e0d0;border-bottom:1px solid #ccc;overflow-x:auto}
-.tab{padding:6px 16px;background:transparent;border:none;color:#666;font-size:0.82rem;cursor:pointer;border-radius:3px 3px 0 0;white-space:nowrap;font-family:inherit}
-.tab:hover{background:#ddd;color:#333}
-.tab.active{background:#fff;color:#222;border:1px solid #ccc;border-bottom:1px solid #fff;margin-bottom:-1px}
-main{max-width:960px;margin:0 auto;padding:24px 20px}
+body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFang SC',serif;min-height:100vh;min-height:100dvh;overflow-x:hidden}
+
+/* ===== Top Bar ===== */
+.top{background:#2c2c2c;color:#ccc;padding:10px 16px;display:flex;gap:10px;align-items:center;position:sticky;top:0;z-index:100;flex-wrap:wrap;min-height:48px}
+.top h1{font-size:0.95rem;color:#e8d5a3;font-weight:normal;letter-spacing:1.5px}
+.top .mid{font-size:0.72rem;color:#888;display:block;white-space:nowrap}
+.top .sub{font-size:0.72rem;color:#666;margin-left:auto}
+@media(max-width:420px){
+  .top{padding:8px 12px;gap:6px}
+  .top h1{font-size:0.85rem}
+  .top .mid{font-size:0.65rem}
+  .top .sub{display:none}
+}
+
+/* ===== Tabs ===== */
+.tabs{display:flex;gap:0;padding:0;background:#e8e0d0;border-bottom:1px solid #ccc;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;position:sticky;top:48px;z-index:99}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1 0 auto;padding:10px 12px;background:transparent;border:none;color:#888;font-size:0.78rem;cursor:pointer;white-space:nowrap;font-family:inherit;text-align:center;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;min-width:0}
+.tab:active{opacity:.7}
+.tab.active{color:#222;border-bottom-color:#2c2c2c;font-weight:600}
+@media(max-width:420px){
+  .tab{font-size:0.72rem;padding:8px 8px}
+}
+
+/* ===== Main ===== */
+main{max-width:960px;margin:0 auto;padding:16px;padding:clamp(12px,4vw,24px)}
 .panel{display:none}
 .panel.active{display:block}
-.doc{border:1px solid #ddd;border-radius:2px;margin-bottom:16px;background:#fff}
-.doc-head{background:#f8f6f0;padding:8px 16px;font-size:0.82rem;color:#555;border-bottom:1px solid #ddd;display:flex;gap:8px;align-items:center}
-.doc-body{padding:16px;font-size:0.88rem;line-height:1.8;color:#444}
+
+/* ===== Doc Cards ===== */
+.doc{border:1px solid #ddd;border-radius:6px;margin-bottom:12px;background:#fff;overflow:hidden}
+.doc-head{background:#f8f6f0;padding:10px 14px;font-size:0.82rem;color:#555;border-bottom:1px solid #ddd;display:flex;gap:8px;align-items:center}
+.doc-body{padding:14px;font-size:0.88rem;line-height:1.8;color:#444}
 .doc-body hr,.doc-body div:has(>hr){display:none}
 
-/* Table */
-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:0.84rem}
-th{background:#f0ece4;text-align:left;padding:6px 10px;border:1px solid #ddd;color:#555}
+/* ===== Tables ===== */
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:0.84rem;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+th{background:#f0ece4;text-align:left;padding:6px 10px;border:1px solid #ddd;color:#555;white-space:nowrap}
 td{padding:6px 10px;border:1px solid #ddd;color:#444}
 tr:nth-child(even) td{background:#fafaf5}
 
-/* Grids */
-.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.grid-3{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-.item{border:1px solid #eee;padding:10px 14px;background:#fcfcfa;border-radius:2px}
-.item strong{color:#333}
+/* ===== Grids ===== */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid-3{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:10px}
+@media(max-width:500px){
+  .grid-2{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr}
+}
+.item{border:1px solid #eee;padding:10px 12px;background:#fcfcfa;border-radius:4px}
+.item strong{color:#333;display:block;margin-bottom:2px}
 .item .mute{color:#999;font-size:0.78rem}
 
-/* Relations */
+/* ===== Relations ===== */
 .rels{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.rel{display:inline-flex;gap:6px;background:#f0ece4;padding:3px 10px;border-radius:3px;font-size:0.82rem}
+.rel{display:inline-flex;gap:6px;background:#f0ece4;padding:3px 10px;border-radius:4px;font-size:0.82rem}
 .rel .nm{color:#333}
 .rel .rd{color:#888;font-size:0.78rem}
 
-/* Stats */
+/* ===== Stats ===== */
 .stat{display:flex;gap:10px;align-items:center;margin-bottom:6px}
-.stat label{color:#999;width:70px;text-align:right;font-size:0.82rem}
-.stat .bar{flex:1;height:6px;background:#eee;border-radius:3px;overflow:hidden}
+.stat label{color:#999;width:70px;flex-shrink:0;text-align:right;font-size:0.82rem}
+.stat .bar{flex:1;min-width:0;height:6px;background:#eee;border-radius:3px;overflow:hidden}
 .stat .bar .fill{height:100%;border-radius:3px;background:#6a8}
-.stat .val{font-size:0.82rem;color:#555}
+.stat .val{font-size:0.82rem;color:#555;flex-shrink:0;min-width:auto}
 
-/* Tags */
-.tag{display:inline-block;background:#e8e0d0;padding:1px 8px;border-radius:3px;font-size:0.78rem;color:#666;margin-right:4px}
+/* ===== Tags ===== */
+.tag{display:inline-block;background:#e8e0d0;padding:2px 8px;border-radius:3px;font-size:0.78rem;color:#666;margin-right:4px;margin-bottom:3px}
 
-.loading{color:#999;padding:20px;text-align:center}
-#ft{text-align:center;font-size:0.78rem;color:#aaa;margin-top:32px;padding-bottom:20px}
-#rf{position:fixed;bottom:16px;right:16px;background:#2c2c2c;color:#ccc;border:1px solid #555;padding:8px 16px;border-radius:4px;cursor:pointer;font-size:0.82rem;font-family:inherit;z-index:200}
+/* ===== Misc ===== */
+.loading{color:#999;padding:24px 16px;text-align:center;font-size:0.88rem}
+#ft{text-align:center;font-size:0.75rem;color:#aaa;margin-top:24px;padding-bottom:24px}
+#rf{position:fixed;bottom:16px;right:16px;background:#2c2c2c;color:#ccc;border:1px solid #555;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:0.82rem;font-family:inherit;z-index:200;box-shadow:0 2px 8px rgba(0,0,0,.25);-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 #rf:hover{background:#444;color:#fff}
-@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
-::-webkit-scrollbar{width:5px}
-::-webkit-scrollbar-thumb{background:#ccc}
+#rf:active{transform:scale(.95)}
+@media(max-width:420px){
+  #rf{bottom:10px;right:10px;padding:8px 14px;font-size:0.78rem}
+}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}
 
-/* Modal */
-#char-overlay,#bestiary-overlay,#org-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.4);z-index:1000;justify-content:center;align-items:center;padding:40px;overflow-y:auto}
-.modal{background:#fff;border:1px solid #ddd;border-radius:4px;padding:20px;max-width:640px;width:100%;margin:auto}
-.modal .doc{margin-bottom:12px}
-</style>
+/* ===== Modals ===== */
+#char-overlay,#bestiary-overlay,#org-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.modal{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;max-width:640px;width:100%;margin:auto;margin-top:clamp(12px,8vh,40px);box-shadow:0 4px 24px rgba(0,0,0,.15)}
+.modal .doc{margin-bottom:12px;border-radius:6px}
+.modal .doc:last-child{margin-bottom:0}
+@media(max-width:420px){
+  #char-overlay,#bestiary-overlay,#org-overlay{padding:8px}
+  .modal{padding:12px;border-radius:8px;margin-top:8px}
+}
+
+/* ===== Adventurer Profile Layout ===== */
+@media(max-width:640px){
+  #p-eriya > div[style*="grid-template-columns:200px"]{grid-template-columns:1fr !important;gap:12px}
+  #p-eriya > div[style*="grid-template-columns:200px"] > div:first-child{
+    display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:12px !important
+  }
+  #p-eriya > div[style*="grid-template-columns:200px"] > div:first-child > div{
+    margin:0 !important
+  }
+}</style>
 </head>
 <body>
 
 <div class="top">
   <h1>✦ ELDEA ARCHIVE</h1>
-  <span>エルデア大陆 · 资料档案</span>
+  <span class="mid">エルデア大陆 · 资料档案</span>
   <span class="sub">v0.13.0</span>
 </div>
 
