@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>艾莉亚 — 资料档案</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFang SC',serif;min-height:100vh}
+.top{background:#2c2c2c;color:#ccc;padding:12px 24px;display:flex;gap:16px;align-items:center;position:sticky;top:0;z-index:100}
+.top h1{font-size:1rem;color:#e8d5a3;font-weight:normal;letter-spacing:2px}
+.top .sub{font-size:0.78rem;color:#888;margin-left:auto}
+.tabs{display:flex;gap:2px;padding:10px 20px;background:#e8e0d0;border-bottom:1px solid #ccc;overflow-x:auto}
+.tab{padding:6px 16px;background:transparent;border:none;color:#666;font-size:0.82rem;cursor:pointer;border-radius:3px 3px 0 0;white-space:nowrap;font-family:inherit}
+.tab:hover{background:#ddd;color:#333}
+.tab.active{background:#fff;color:#222;border:1px solid #ccc;border-bottom:1px solid #fff;margin-bottom:-1px}
+main{max-width:960px;margin:0 auto;padding:24px 20px}
+.panel{display:none}
+.panel.active{display:block}
+.doc{border:1px solid #ddd;border-radius:2px;margin-bottom:16px;background:#fff}
+.doc-head{background:#f8f6f0;padding:8px 16px;font-size:0.82rem;color:#555;border-bottom:1px solid #ddd;display:flex;gap:8px;align-items:center}
+.doc-body{padding:16px;font-size:0.88rem;line-height:1.8;color:#444}
+.doc-body hr,.doc-body div:has(>hr){display:none}
+
+/* Table */
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:0.84rem}
+th{background:#f0ece4;text-align:left;padding:6px 10px;border:1px solid #ddd;color:#555}
+td{padding:6px 10px;border:1px solid #ddd;color:#444}
+tr:nth-child(even) td{background:#fafaf5}
+
+/* Grids */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid-3{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.item{border:1px solid #eee;padding:10px 14px;background:#fcfcfa;border-radius:2px}
+.item strong{color:#333}
+.item .mute{color:#999;font-size:0.78rem}
+
+/* Relations */
+.rels{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.rel{display:inline-flex;gap:6px;background:#f0ece4;padding:3px 10px;border-radius:3px;font-size:0.82rem}
+.rel .nm{color:#333}
+.rel .rd{color:#888;font-size:0.78rem}
+
+/* Stats */
+.stat{display:flex;gap:10px;align-items:center;margin-bottom:6px}
+.stat label{color:#999;width:70px;text-align:right;font-size:0.82rem}
+.stat .bar{flex:1;height:6px;background:#eee;border-radius:3px;overflow:hidden}
+.stat .bar .fill{height:100%;border-radius:3px;background:#6a8}
+.stat .val{font-size:0.82rem;color:#555}
+
+/* Tags */
+.tag{display:inline-block;background:#e8e0d0;padding:1px 8px;border-radius:3px;font-size:0.78rem;color:#666;margin-right:4px}
+
+.loading{color:#999;padding:20px;text-align:center}
+#ft{text-align:center;font-size:0.78rem;color:#aaa;margin-top:32px;padding-bottom:20px}
+#rf{position:fixed;bottom:16px;right:16px;background:#2c2c2c;color:#ccc;border:1px solid #555;padding:8px 16px;border-radius:4px;cursor:pointer;font-size:0.82rem;font-family:inherit;z-index:200}
+#rf:hover{background:#444;color:#fff}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-thumb{background:#ccc}
+
+/* Modal */
+#char-overlay,#bestiary-overlay,#org-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.4);z-index:1000;justify-content:center;align-items:center;padding:40px;overflow-y:auto}
+.modal{background:#fff;border:1px solid #ddd;border-radius:4px;padding:20px;max-width:640px;width:100%;margin:auto}
+.modal .doc{margin-bottom:12px}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <h1>✦ ELDEA ARCHIVE</h1>
+  <span>エルデア大陆 · 资料档案</span>
+  <span class="sub">v0.13.0</span>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-p="eriya">冒险者档案</button>
+  <button class="tab" data-p="characters">人物</button>
+  <button class="tab" data-p="equipment">装备</button>
+  <button class="tab" data-p="questline">任务记录</button>
+  <button class="tab" data-p="bestiary">生物图鉴</button>
+  <button class="tab" data-p="organizations">组织</button>
+  <button class="tab" data-p="world">世界观</button>
+</div>
+
+<main>
+  <div class="panel active" id="p-eriya"></div>
+  <div class="panel" id="p-characters"></div>
+  <div class="panel" id="p-equipment"></div>
+  <div class="panel" id="p-questline"></div>
+  <div class="panel" id="p-bestiary"></div>
+  <div class="panel" id="p-organizations"></div>
+  <div class="panel" id="p-world"></div>
+  <div id="ft"></div>
+</main>
+<button id="rf" onclick="loadAll()">🔄 刷新</button>
+
+<script>
+const F = ['eriya','characters','equipment','questline','bestiary','organizations','world'];
+const P = n => 'memory/'+n+'.md?'+Date.now();
+
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click',()=>{
+    document.querySelectorAll('.tab,.panel').forEach(e=>e.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('p-'+t.dataset.p).classList.add('active');
+    localStorage.setItem('p',t.dataset.p);
+  });
+});
+
+const C={};
+function gc(k){const d=localStorage.getItem('c_'+k);if(!d)return null;const j=JSON.parse(d);return Date.now()-j.t<300000?j.v:null}
+function sc(k,v){try{localStorage.setItem('c_'+k,JSON.stringify({v,t:Date.now()}))}catch{}}
+
+// 🔧 Parse: - key：value (fullwidth or halfwidth colon, no space after colon)
+function kv(text) {
+  const r = {};
+  text.split('\n').forEach(l => {
+    const m = l.match(/^- (.+?)[\uff1a:](.+)/);
+    if (m) r[m[1].trim()] = m[2].trim();
+  });
+  return r;
+}
+// 🔧 Parse: ## Header → content
+function sec(text) {
+  const r={};let c=null;
+  text.split('\n').forEach(l=>{const m=l.match(/^## (.+)/);if(m){c=m[1].trim();r[c]=[]}else if(c)r[c].push(l)});
+  return Object.fromEntries(Object.entries(r).map(([k,v])=>[k,v.join('\n').trim()]));
+}
+// 🔧 Parse markdown table
+function tbl(text){
+  let hd=[],rows=[],inT=false;
+  text.split('\n').forEach(l=>{
+    const cells=l.split('|').filter(c=>c.trim()).map(c=>c.trim());
+    if(l.startsWith('|')&&cells.length&&!cells.some(c=>/^-{3,}$/.test(c))){if(!inT){hd=cells;inT=true}else rows.push(cells)}else inT=false
+  });
+  return {hd,rows};
+}
+function thtml(t){return t.hd.length?'<table><thead><tr>'+t.hd.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table>':''}
+
+async function loadAll(){
+  document.querySelectorAll('.panel').forEach(p=>{if(p.classList.contains('active'))p.innerHTML='<div class="loading">加载中...</div>'});
+
+  const d={};
+  await Promise.all(F.map(async n=>{const c=gc(n);if(c)d[n]=c;else{try{const r=await fetch(P(n));d[n]=r.ok?await r.text():'';sc(n,d[n])}catch{d[n]=''}}}));
+
+  // === 冒险者档案 ===
+  (()=>{
+    const s=sec(d.eriya||'');const k=kv(s['基本信息']||'');
+    const fl=(s['基本信息']||'').split('\n')[0].replace(/^- /,'').trim();
+    if(fl&&!fl.includes('：')&&!fl.includes(':')){
+      const parts=fl.split(/[,，]/).map(s=>s.trim()).filter(Boolean);
+      parts.forEach(p=>{if(p.includes('级')&&!k['等级'])k['等级']=p;if(p.includes('公会')&&!k['所属组织'])k['所属组织']=p;if(p.includes('岁')&&!k['年龄'])k['年龄']=p});
+    }
+    const goals=(s['目标进度']||'').split('\n').filter(l=>l.startsWith('-')).map(l=>{const m=l.match(/^- (.+?)[\uff1a:](.+)/);return m?{t:m[1].trim(),v:m[2].trim()}:null}).filter(Boolean);
+    const miles=(s['已完成里程碑']||'').split('\n').filter(l=>l.startsWith('-')).map(l=>l.replace(/^[-✅\s]*/,'').trim()).filter(Boolean);
+    const skills=(k['技能']||'').split('/').map(s=>s.trim()).filter(Boolean);
+
+    document.getElementById('p-eriya').innerHTML=`
+      <div style="display:grid;grid-template-columns:200px 1fr;gap:16px">
+        <div style="text-align:center;padding:20px;background:#f8f6f0;border:1px solid #ddd">
+          <div style="font-size:3rem;margin-bottom:8px">🗡️</div>
+          <div style="font-weight:bold;font-size:1rem">艾莉亚</div>
+          <div style="color:#999;font-size:0.82rem;margin-top:4px">${k['等级']||'冒险者'}</div>
+          <div style="color:#999;font-size:0.78rem;margin-top:2px">${k['所属组织']||''}</div>
+          <div style="color:#666;font-size:0.82rem;margin-top:10px">💰 ${k['存款']||'—'}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="doc">
+            <div class="doc-head">📋 基础信息</div>
+            <div class="doc-body">
+              <div class="grid-2">
+                ${['年龄','武器','饰品','存款'].filter(kk=>k[kk]).map(kk=>'<div class="item"><strong>'+kk+'</strong><br><span>'+k[kk]+'</span></div>').join('')}
+                ${k['技能']?'<div class="item"><strong>技能</strong><br>'+skills.map(s=>'<span class="tag">'+s+'</span>').join('')+'</div>':''}
+              </div>
+            </div>
+          </div>
+          ${skills.length?`
+          <div class="doc">
+            <div class="doc-head">⚔️ 技能详情</div>
+            <div class="doc-body">
+              ${skills.map(s=>{const lv=s.match(/Lv\.?(\d+)/);const l=lv?'Lv.'+lv[1]:'—';const n=s.replace(/Lv\.?\d+/,'').trim();return '<div class="stat"><label>'+l+'</label><span>'+n+'</span></div>'}).join('')}
+            </div>
+          </div>`:''}
+          ${goals.length?`
+          <div class="doc">
+            <div class="doc-head">🎯 目标进度</div>
+            <div class="doc-body">
+              ${goals.map(g=>{const p=parseInt(g.v.replace(/[^0-9]/g,''))||0;return '<div class="stat"><label>'+g.t.slice(0,10)+'</label><div class="bar"><div class="fill" style="width:'+Math.min(100,p)+'%"></div></div><span class="val">'+g.v+'</span></div>'}).join('')}
+            </div>
+          </div>`:''}
+          ${miles.length?`
+          <div class="doc">
+            <div class="doc-head">✅ 已达成里程碑</div>
+            <div class="doc-body">
+              ${miles.map(m=>'<div>✅ '+m+'</div>').join('')}
+            </div>
+          </div>`:''}
+        </div>
+      </div>`;
+  })();
+
+  // === 人物 ===
+  (()=>{
+    const chars=[];
+    const blocks=(d.characters||'').split(/^##\s+/m);blocks.shift();
+    blocks.forEach(b=>{
+      const lines=b.split('\n'),name=lines[0].trim(),rest=lines.slice(1).join('\n');
+      const infoM=rest.match(/\*\*基本信息\*\*([\s\S]*?)(?=\*\*[^*]+\*\*|$)/);
+      const relM=rest.match(/\*\*人物关系\*\*([\s\S]*?)(?=\*\*[^*]+\*\*|$)/);
+      const bioM=rest.match(/\*\*小传\*\*([\s\S]*?)(?=\n---|$)/);
+      const lookM=rest.match(/\*\*外貌特征\*\*([\s\S]*?)(?=\*\*[^*]+\*\*|$)/);
+      const kvs=infoM?kv(infoM[1]):{};
+      let rels=[];
+      if(relM){const tb=tbl(relM[1]);rels=tb.rows.map(r=>({n:r[0],d:r[1]||''}))}
+      const bio=bioM?bioM[1].trim():'';
+      const looks=lookM?lookM[1].split('\n').filter(l=>l.trim().startsWith('-')).map(l=>l.replace(/^- /,'').trim()):[];
+      chars.push({name,kvs,rels,bio,looks});
+    });
+
+    function charDetail(idx){
+      const c=chars[idx];if(!c)return;
+      const icon=c.name.includes('艾莉亚')?'🗡️':c.name.includes('ルナ')?'⚔️':c.name.includes('莉娜')?'🔧':c.name.includes('エルマー')?'🕵️':'👤';
+      const overlay=document.getElementById('char-overlay');
+      overlay.innerHTML='<div class="modal"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px"><h2 style="font-size:1rem;font-weight:normal">'+icon+' '+c.name+'</h2><button onclick="closeChar()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button></div>'+
+        (Object.keys(c.kvs).length?'<div class="doc"><div class="doc-head">📋 基本信息</div><div class="doc-body"><div class="grid-2">'+
+        Object.entries(c.kvs).map(([k,v])=>'<div class="item"><strong>'+k+'</strong><br><span>'+v+'</span></div>').join('')+'</div></div></div>':'')+
+        (c.looks.length?'<div class="doc"><div class="doc-head">👤 外貌特征</div><div class="doc-body">'+c.looks.map(l=>'<div>• '+l+'</div>').join('')+'</div></div>':'')+
+        (c.rels.length?'<div class="doc"><div class="doc-head">🤝 人物关系</div><div class="doc-body"><div class="rels">'+c.rels.map(r=>'<span class="rel"><span class="nm">'+r.n+'</span><span class="rd">'+r.d+'</span></span>').join('')+'</div></div></div>':'')+
+        (c.bio?'<div class="doc"><div class="doc-head">📖 小传</div><div class="doc-body"><div style="font-size:0.84rem;line-height:1.8">'+c.bio.replace(/\n/g,'<br>')+'</div></div></div>':'')+'</div></div>';
+      overlay.style.display='flex';
+    }
+    window.closeChar=function(){document.getElementById('char-overlay').style.display='none'};
+    window.openChar=charDetail;
+
+    document.getElementById('p-characters').innerHTML='<div class="grid-3" style="margin-bottom:16px">'+chars.map((c,i)=>{
+      const icon=c.name.includes('艾莉亚')?'🗡️':c.name.includes('ルナ')?'⚔️':c.name.includes('莉娜')?'🔧':c.name.includes('エルマー')?'🕵️':'👤';
+      return '<div class="doc" style="margin-bottom:0;cursor:pointer" onclick="openChar('+i+')"><div class="doc-head">'+icon+' '+c.name+(c.kvs['等级']?' <span style="color:#999;font-weight:normal">'+c.kvs['等级']+' · '+c.kvs['职业']+'</span>':'')+'</div><div class="doc-body">'+
+        '<div style="color:#666;font-size:0.82rem">'+(c.kvs['年龄']?c.kvs['年龄']+' · ':'')+(c.kvs['所属组织']||'')+'</div>'+
+        '<div style="text-align:right;margin-top:8px;color:#999;font-size:0.78rem">点击查看详情 →</div></div></div>';
+    }).join('')+'</div><div id="char-overlay"></div>';
+  })();
+
+  // === 装备 ===
+  (()=>{
+    document.getElementById('p-equipment').innerHTML=`
+      <div class="doc">
+        <div class="doc-head">⚔️ 当前装备</div>
+        <div class="doc-body">
+          <div class="grid-3">
+            <div class="item"><strong>主武器</strong><br><span>🗡️ 精钢短剑</span></div>
+            <div class="item"><strong>饰品</strong><br><span>💎 星辉石饰品</span></div>
+            <div class="item"><strong>饰品</strong><br><span>护身符</span></div>
+            <div class="item"><strong>护甲</strong><br><span class="mute">—</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="doc">
+        <div class="doc-head">📋 装备详情</div>
+        <div class="doc-body">
+          <p style="color:#888;font-size:0.82rem">详细数据请查看原始装备文件。</p>
+        </div>
+      </div>`;
+  })();
+
+  // === 任务记录 ===
+  (()=>{
+    const s=sec(d.questline||'');
+    const overview=s['主线概要']||'';
+    const chapters=Object.entries(s).filter(([k])=>k.startsWith('第'));
+    document.getElementById('p-questline').innerHTML=`
+      <div class="doc">
+        <div class="doc-head">📜 主线 — 星辉石的共鸣</div>
+        <div class="doc-body">
+          <div style="color:#666;font-size:0.82rem;line-height:1.7">${overview.replace(/\n/g,' ').slice(0,300)}</div>
+        </div>
+      </div>
+      ${chapters.map(([title,content])=>{
+        const done=content.includes('✅');
+        return '<div class="doc"><div class="doc-head">'+title+' <span style="color:#'+(done?'396':'996')+';font-size:0.78rem;font-weight:normal">'+(done?'✅ 已完成':'▪️ 进行中')+'</span></div><div class="doc-body"><div style="font-size:0.84rem;line-height:1.7">'+content.replace(/\n/g,'<br>').slice(0,500)+'</div></div></div>';
+      }).join('')}`;
+  })();
+
+  // === 生物图鉴 ===
+  (()=>{
+    const monsters=[];
+    const blocks=(d.bestiary||'').split(/^##\s+/m);blocks.shift();
+    blocks.forEach((b,i)=>{
+      const lines=b.split('\n'),name=lines[0].trim(),rest=lines.slice(1).join('\n');
+      const kvs=kv(rest);
+      // Split into **sections**
+      const sections=[];
+      rest.split(/\*\*(.+?)\*\*/).forEach((part,j)=>{
+        if(j%2===1)sections.push({title:part.trim(),content:''});
+        else if(sections.length)sections[sections.length-1].content+=part;
+      });
+      monsters.push({name,kvs,sections});
+    });
+
+    function monsterDetail(idx){
+      const m=monsters[idx];if(!m)return;
+      const overlay=document.getElementById('bestiary-overlay');
+      overlay.innerHTML='<div class="modal"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px"><h2 style="font-size:1rem;font-weight:normal">🐾 '+m.name+'</h2><button onclick="closeMonster()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button></div>'+
+        m.sections.map(s=>{
+          const lines=s.content.split('\n').filter(l=>l.trim());
+          const items=lines.map(l=>l.replace(/^- /,'').trim()).filter(Boolean);
+          return '<div class="doc"><div class="doc-head">'+s.title+'</div><div class="doc-body">'+
+            (s.title==='基本信息'||s.title==='战斗数据'||s.title==='弱点'||s.title==='掉落素材'
+              ?'<div class="grid-2">'+items.map(i=>{
+                  const p=i.match(/(.+?)[：:](.+)/);
+                  return p?'<div class="item"><strong>'+p[1].trim()+'</strong><br><span>'+p[2].trim()+'</span></div>':'<div class="item"><span>'+i+'</span></div>';
+                }).join('')+'</div>'
+              :'<div style="font-size:0.84rem;line-height:1.8;white-space:pre-wrap">'+s.content.replace(/^- /gm,'• ').trim()+'</div>')+
+            '</div></div>';
+        }).join('')+
+        '</div></div>';
+      overlay.style.display='flex';
+    }
+    window.closeMonster=function(){document.getElementById('bestiary-overlay').style.display='none'};
+    window.openMonster=monsterDetail;
+
+    document.getElementById('p-bestiary').innerHTML='<div class="grid-3" style="margin-bottom:16px">'+monsters.map((m,i)=>{
+      return '<div class="doc" style="margin-bottom:0;cursor:pointer" onclick="openMonster('+i+')"><div class="doc-head">🐾 '+m.name+'</div><div class="doc-body">'+
+        (m.kvs['等级范围']||m.kvs['类型']?'<div style="color:#999;font-size:0.78rem;margin-bottom:6px">'+(m.kvs['等级范围']||'')+' · '+(m.kvs['类型']||'')+'</div>':'')+
+        (m.kvs['习性']?'<div style="color:#666;font-size:0.82rem">'+m.kvs['习性']+'</div>':'')+
+        '<div style="text-align:right;margin-top:8px;color:#999;font-size:0.78rem">点击查看详情 →</div></div></div>';
+    }).join('')+'</div><div id="bestiary-overlay"></div>';
+  })();
+
+  // === 组织 ===
+  (()=>{
+    const orgs=[];
+    const blocks=(d.organizations||'').split(/^##\s+/m);blocks.shift();
+    blocks.forEach((b,i)=>{
+      const lines=b.split('\n'),name=lines[0].trim(),rest=lines.slice(1).join('\n');
+      // Parse table kv (| key | value |)
+      const tblKvs={};
+      let inT=false;
+      rest.split('\n').forEach(l=>{
+        if(l.startsWith('|')&&l.endsWith('|')){
+          const cells=l.split('|').filter(c=>c.trim());
+          if(cells.length>=2&&!cells[0].startsWith('项目')&&!cells[0].startsWith('---')&&!cells[0].match(/^-{3,}$/)){
+            tblKvs[cells[0].replace(/\*\*/g,'').trim()]=cells[1].trim();
+          }
+        }
+      });
+      // Parse **xxx** sections
+      const sections=[];
+      rest.split(/\*\*(.+?)\*\*/).forEach((part,j)=>{
+        if(j%2===1)sections.push({title:part.trim(),content:''});
+        else if(sections.length&&part.trim())sections[sections.length-1].content+=part;
+      });
+      orgs.push({name,kvs:tblKvs,sections});
+    });
+
+    function orgDetail(idx){
+      const o=orgs[idx];if(!o)return;
+      const overlay=document.getElementById('org-overlay');
+      overlay.innerHTML='<div class="modal"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px"><h2 style="font-size:1rem;font-weight:normal">🏛 '+o.name+'</h2><button onclick="closeOrg()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button></div>'+
+        '<div class="doc"><div class="doc-head">📋 基础档案</div><div class="doc-body"><div class="grid-2">'+
+        Object.entries(o.kvs).map(([k,v])=>'<div class="item"><strong>'+k+'</strong><br><span>'+v+'</span></div>').join('')+'</div></div></div>'+
+        o.sections.map(s=>{
+          const items=s.content.split('\n').filter(l=>l.trim()&&!l.includes('---'));
+          const listItems=items.filter(l=>l.startsWith('-')).map(l=>l.replace(/^- /,'').trim());
+          const textItems=items.filter(l=>!l.startsWith('-'));
+          return '<div class="doc"><div class="doc-head">'+s.title+'</div><div class="doc-body">'+
+            (textItems.length?'<div style="font-size:0.84rem;line-height:1.8;margin-bottom:8px">'+textItems.join('\n').trim()+'</div>':'')+
+            (listItems.length?'<div style="font-size:0.82rem">'+listItems.map(i=>'<div style="margin-bottom:4px">• '+i+'</div>').join('')+'</div>':'')+'</div></div>';
+        }).join('')+'</div></div>';
+      overlay.style.display='flex';
+    }
+    window.closeOrg=function(){document.getElementById('org-overlay').style.display='none'};
+    window.openOrg=orgDetail;
+
+    document.getElementById('p-organizations').innerHTML='<div class="grid-3" style="margin-bottom:16px">'+orgs.map((o,i)=>{
+      const known=o.kvs['已知程度']||'';
+      const stars=known.match(/⭐+/);
+      const starText=stars?stars[0]:'⭐';
+      return '<div class="doc" style="margin-bottom:0;cursor:pointer" onclick="openOrg('+i+')"><div class="doc-head">🏛 '+o.name+' <span style="color:#c90;font-size:0.75rem;font-weight:normal">'+starText+'</span></div><div class="doc-body">'+
+        '<div style="color:#888;font-size:0.78rem;margin-bottom:4px">'+(o.kvs['类型']||'')+(o.kvs['活动区域']?' · '+o.kvs['活动区域']:'')+'</div>'+
+        (o.kvs['成员规模']?'<div style="color:#666;font-size:0.8rem">👥 '+o.kvs['成员规模']+'</div>':'')+
+        (o.kvs['负责人']&&o.kvs['负责人']!=='未知'?'<div style="color:#666;font-size:0.8rem">👤 '+o.kvs['负责人']+'</div>':'')+
+        '<div style="text-align:right;margin-top:8px;color:#999;font-size:0.78rem">点击查看详情 →</div></div></div>';
+    }).join('')+'</div><div id="org-overlay"></div>';
+  })();
+
+  // === 世界观 ===
+  (()=>{
+    const text=d.world||'';
+    // Split by ## sections
+    const sections=text.split(/^##\s+/m).filter(Boolean);
+    // section[0] is the title, rest are data sections
+    const dataSections=sections.map(s=>{
+      const lines=s.split('\n');
+      const title=lines[0].replace(/^[一二三四五六七八九十]+、/,'').trim();
+      const body=lines.slice(1).join('\n').trim();
+      // Extract tables
+      const tables=[];
+      const restLines=[];
+      let inT=false,cur=[];
+      body.split('\n').forEach(l=>{
+        if(l.startsWith('|')&&l.endsWith('|')){cur.push(l);inT=true}
+        else{if(inT){tables.push(cur);cur=[];inT=false}restLines.push(l)}
+      });
+      if(cur.length)tables.push(cur);
+      return {title,body,tables,rest:restLines.filter(l=>!l.match(/^---$|^>/)).join('\n').trim()};
+    });
+
+    document.getElementById('p-world').innerHTML=dataSections.filter(s=>s.body).map(s=>{
+      return '<div class="doc"><div class="doc-head">'+s.title+'</div><div class="doc-body">'+
+        (s.rest?'<div style="font-size:0.84rem;line-height:1.7;margin-bottom:12px;white-space:pre-wrap">'+s.rest.replace(/^- (.+)/gm,'• $1').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\n\n/g,'<br><br>')+'</div>':'')+
+        s.tables.map(t=>{
+          const hd=t[0].split('|').filter(c=>c.trim()).map(c=>c.trim());
+          const rows=t.slice(2).map(r=>r.split('|').filter(c=>c.trim()).map(c=>c.trim()));
+          if(!hd.length)return '';
+          return '<table class="world-table"><thead><tr>'+hd.map(h=>'<th>'+h.replace(/\*\*/g,'')+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c.replace(/\*\*/g,'')+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
+        }).join('')+'</div></div>';
+    }).join('');
+  })();
+
+  const ap=localStorage.getItem('p')||'eriya';
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.p===ap));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='p-'+ap));
+  document.getElementById('ft').textContent='最后更新: '+new Date().toLocaleString('zh-CN');
+}
+loadAll();
+</script>
+</body>
+</html>
