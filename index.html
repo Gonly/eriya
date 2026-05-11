@@ -90,12 +90,12 @@ tr:nth-child(even) td{background:#fafaf5}
 ::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}
 
 /* ===== Modals ===== */
-#char-overlay,#bestiary-overlay,#org-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .modal{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;max-width:640px;width:100%;margin:auto;margin-top:clamp(12px,8vh,40px);box-shadow:0 4px 24px rgba(0,0,0,.15)}
 .modal .doc{margin-bottom:12px;border-radius:6px}
 .modal .doc:last-child{margin-bottom:0}
 @media(max-width:420px){
-  #char-overlay,#bestiary-overlay,#org-overlay{padding:8px}
+  #char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{padding:8px}
   .modal{padding:12px;border-radius:8px;margin-top:8px}
 }
 
@@ -108,7 +108,48 @@ tr:nth-child(even) td{background:#fafaf5}
   #p-eriya > div[style*="grid-template-columns:200px"] > div:first-child > div{
     margin:0 !important
   }
-}</style>
+}
+
+/* ===== Equipment Quality Colors ===== */
+.q-white{color:#999}.q-blue{color:#369}.q-purple{color:#93c}.q-gold{color:#c83}.q-red{color:#c33}
+.qb-white{border-color:#999 !important;background:#fafafa !important}
+.qb-blue{border-color:#369 !important;background:#eef5ff !important}
+.qb-purple{border-color:#93c !important;background:#f8eefd !important}
+.qb-gold{border-color:#c83 !important;background:#fff8e8 !important}
+.qb-red{border-color:#c33 !important;background:#fff0ee !important}
+
+/* ===== Equipment Tree ===== */
+.tree-wrap{overflow-x:auto;padding:8px 0}
+.tree{display:flex;align-items:center;gap:4px;font-size:0.8rem;flex-wrap:wrap}
+.tree-node{display:inline-flex;align-items:center;gap:4px;padding:5px 10px;border-radius:6px;border:1px solid #ddd;background:#fff;cursor:pointer;transition:all .15s;white-space:nowrap}
+.tree-node:hover{border-color:#666;transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.tree-node.active-node{border-width:2px}
+.tree-node .q{border-radius:3px;padding:1px 5px;font-size:0.72rem}
+.tree-arrow{color:#aaa;font-size:1.1rem;flex-shrink:0}
+
+/* ===== Equipment Item Cards ===== */
+.eq-slot-label{font-size:0.78rem;color:#888;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.eq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.eq-card{border:1px solid #ddd;border-radius:8px;padding:12px;background:#fff;cursor:pointer;transition:all .15s;position:relative}
+.eq-card:hover{border-color:#888;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.1)}
+.eq-card.in-use{border-width:2px}
+.eq-card .eq-icon{font-size:1.8rem;margin-bottom:6px}
+.eq-card .eq-name{font-weight:bold;margin-bottom:4px;font-size:0.9rem}
+.eq-card .eq-quality{font-size:0.72rem;padding:2px 7px;border-radius:3px;display:inline-block;margin-bottom:6px}
+.eq-card .eq-stat{font-size:0.8rem;color:#666;margin-bottom:2px}
+.eq-card .eq-status{position:absolute;top:8px;right:8px;font-size:0.68rem;padding:2px 6px;border-radius:3px;background:#e8e0d0;color:#666}
+.eq-card .eq-status.in-use{background:#d4edda;color:#155724}
+.eq-card .eq-status.obsolete{background:#f8d7da;color:#721c24}
+
+/* ===== Section Divider ===== */
+.section-divider{font-size:0.78rem;color:#888;padding:8px 0;margin:12px 0 8px;border-bottom:1px dashed #ddd}
+
+/* ===== Unlocked Slot ===== */
+.slot-empty{border:1px dashed #ccc;border-radius:8px;padding:12px;background:#fafaf8;text-align:center;color:#aaa;font-size:0.82rem}
+
+/* ===== Upcoming Slot ===== */
+.slot-locked{border:1px dashed #ddd;border-radius:8px;padding:12px;background:#f8f8f8;text-align:center;color:#bbb;font-size:0.82rem}
+</style>
 </head>
 <body>
 
@@ -182,6 +223,145 @@ function tbl(text){
   return {hd,rows};
 }
 function thtml(t){return t.hd.length?'<table><thead><tr>'+t.hd.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table>':''}
+
+// === Quality helpers ===
+const QUAL_COLORS = {
+  '普通(白色)':{text:'q-white',bg:'qb-white',label:'白'},
+  '普通（白色）':{text:'q-white',bg:'qb-white',label:'白'},
+  '普通':{text:'q-white',bg:'qb-white',label:'白'},
+  '精良（蓝色）':{text:'q-blue',bg:'qb-blue',label:'蓝'},
+  '精良(蓝色)':{text:'q-blue',bg:'qb-blue',label:'蓝'},
+  '精良':{text:'q-blue',bg:'qb-blue',label:'蓝'},
+  '稀有（紫色）':{text:'q-purple',bg:'qb-purple',label:'紫'},
+  '稀有(紫色)':{text:'q-purple',bg:'qb-purple',label:'紫'},
+  '稀有':{text:'q-purple',bg:'qb-purple',label:'紫'},
+  '优良（绿色）':{text:'q-green',bg:'qb-green',label:'绿'},
+  '优良':{text:'q-green',bg:'qb-green',label:'绿'},
+  '史诗（金色）':{text:'q-gold',bg:'qb-gold',label:'金'},
+  '史诗(金色)':{text:'q-gold',bg:'qb-gold',label:'金'},
+  '史诗':{text:'q-gold',bg:'qb-gold',label:'金'},
+  '传说（红色）':{text:'q-red',bg:'qb-red',label:'红'},
+  '传说(红色)':{text:'q-red',bg:'qb-red',label:'红'},
+  '传说':{text:'q-red',bg:'qb-red',label:'红'},
+  '特殊（故事道具）':{text:'q-rainbow',bg:'qb-rainbow',label:'彩'},
+  '特殊':{text:'q-rainbow',bg:'qb-rainbow',label:'彩'},
+};
+const QUAL_ORDER = {'白':1,'绿':2,'蓝':3,'紫':4,'金':5,'红':6,'彩':7};
+function getQualInfo(q){
+  if(!q)return QUAL_COLORS['普通'];
+  for(const[k] of Object.entries(QUAL_COLORS)){
+    if(q.includes(k.replace(/[()（）]/g,'')))return QUAL_COLORS[k];
+  }
+  return QUAL_COLORS['普通'];
+}
+function qColor(q){
+  const qi = getQualInfo(q);
+  return qi ? qi.text : 'q-white';
+}
+function qBg(q){
+  const qi = getQualInfo(q);
+  return qi ? qi.bg : 'qb-white';
+}
+function qLabel(q){
+  const qi = getQualInfo(q);
+  return qi ? qi.label : '白';
+}
+
+// === Equipment parse ===
+const SLOT_ICONS = {'武器':'🗡️','饰品':'💎','防具':'🛡️','道具':'🎒','戒指':'💍','护腕':'🖐️','腰带':'🎀','靴子':'👢','披风':'🧣'};
+const SLOT_ORDER = ['武器','饰品','防具','戒指','护腕','腰带','靴子','披风','道具'];
+
+function parseEquipment(text){
+  const sections = text.split(/^##\s+/m);
+  const overviewText = sections.find(s=>s.startsWith('一、升级图谱'));
+  const itemsText = sections.find(s=>s.startsWith('### 武器栏')||s.startsWith('### 饰品栏')||s.startsWith('### 防具栏'));
+  
+  // Parse upgrade trees from overview
+  const trees = {};
+  if(overviewText){
+    const treeBlocks = overviewText.split(/^###\s+/m).filter(Boolean);
+    treeBlocks.forEach(block => {
+      const lines = block.split('\n');
+      const slotMatch = lines[0].match(/^(武器|饰品|防具|其他装备)/);
+      if(slotMatch){
+        const slot = slotMatch[1];
+        const treeLines = lines.filter(l=>l.match(/^```/)||l.match(/^[├└│─→■□⭐?✦]+/));
+        if(treeLines.length){
+          trees[slot] = {raw: lines.join('\n')};
+        }
+      }
+    });
+  }
+  
+  // Parse individual items from the "已点亮装备" section
+  const items = [];
+  if(itemsText){
+    const itemBlocks = itemsText.split(/^---\s*$/m).filter(Boolean).join('\n---\n');
+    const itemMatches = itemsText.match(/^###\s+[^\n]+/gm);
+    if(itemMatches){
+      itemMatches.forEach(headerMatch => {
+        const start = headerMatch.index;
+        const end = itemsText.indexOf('###', start + 1);
+        const block = end > start ? itemsText.slice(start, end) : itemsText.slice(start);
+        const nameLine = headerMatch[0];
+        const nameMatch = nameLine.match(/###\s+(.+)/);
+        if(nameMatch){
+          const name = nameMatch[1].replace(/^✨\s*/,'').replace(/\([^)]+\)$/,'').trim();
+          const item = {name, raw: block};
+          const qMatch = nameLine.match(/\（([^）]+)\）/);
+          if(qMatch) item.quality = qMatch[1];
+          const kvs = kv(block);
+          if(kvs['部位']) item.slot = kvs['部位'];
+          else if(kvs['品质'] && kvs['品质'].includes('武器')) item.slot = '武器';
+          else if(kvs['品质'] && kvs['品质'].includes('饰品')) item.slot = '饰品';
+          else if(kvs['品质'] && kvs['品质'].includes('防具')) item.slot = '防具';
+          else if(kvs['品质'] && kvs['品质'].includes('道具')) item.slot = '道具';
+          if(kvs['状态']) item.status = kvs['状态'];
+          if(kvs['获取方式']) item.source = kvs['获取方式'];
+          if(kvs['属性']){item.props = kvs['属性'].split('\n').filter(l=>l.trim()).map(l=>l.trim())}
+          if(kvs['外观']) item.look = kvs['外观'];
+          if(kvs['备注']) item.notes = kvs['备注'];
+          if(kvs['获取时间']) item.when = kvs['获取时间'];
+          items.push(item);
+        }
+      });
+    }
+  }
+  
+  return {items, trees};
+}
+
+// === Equipment Tree Renderer ===
+function renderTree(treeText, items){
+  // Simple tree renderer - find item names in tree text
+  const lines = treeText.split('\n');
+  const nodes = [];
+  const seen = new Set();
+  
+  lines.forEach(l => {
+    const clean = l.replace(/[`┌└│\]→□■⭐?✦\s]+/g,'').trim();
+    if(clean && clean.length > 1 && !seen.has(clean)){
+      seen.add(clean);
+      const item = items.find(i=>i.name.includes(clean)||clean.includes(i.name));
+      if(item){
+        nodes.push({name:item.name, status:item.status||'', quality:item.quality||'普通'});
+      } else {
+        nodes.push({name:clean, status:'', quality:'普通'});
+      }
+    }
+  });
+  
+  if(!nodes.length) return '<div style="color:#999;font-size:0.82rem">升级路线暂无数据</div>';
+  
+  return '<div class="tree">'+
+    nodes.map((n,i)=>{
+      const qi = getQualInfo(n.quality);
+      const cls = qBg(n.quality);
+      const statusLabel = n.status==='使用中'?'✅':n.status==='佩戴中'?'✅':n.status==='已淘汰'?'❌':n.status==='持有中'?'📦':'';
+      return '<span class="tree-arrow'+(i>0?'">→</span>':'"></span>')+
+        '<div class="tree-node '+cls+'" data-name="'+n.name+'">'+statusLabel+' <span class="q qb-'+n.quality+'">'+qi.label+'</span> '+n.name+'</div>';
+    }).join('')+'</div>';
+}
 
 async function loadAll(){
   document.querySelectorAll('.panel').forEach(p=>{if(p.classList.contains('active'))p.innerHTML='<div class="loading">加载中...</div>'});
@@ -286,26 +466,141 @@ async function loadAll(){
     }).join('')+'</div><div id="char-overlay"></div>';
   })();
 
-  // === 装备 ===
+  // === 装备 (NEW) ===
   (()=>{
-    document.getElementById('p-equipment').innerHTML=`
-      <div class="doc">
-        <div class="doc-head">⚔️ 当前装备</div>
-        <div class="doc-body">
-          <div class="grid-3">
-            <div class="item"><strong>主武器</strong><br><span>🗡️ 精钢短剑</span></div>
-            <div class="item"><strong>饰品</strong><br><span>💎 星辉石饰品</span></div>
-            <div class="item"><strong>饰品</strong><br><span>护身符</span></div>
-            <div class="item"><strong>护甲</strong><br><span class="mute">—</span></div>
-          </div>
-        </div>
-      </div>
-      <div class="doc">
-        <div class="doc-head">📋 装备详情</div>
-        <div class="doc-body">
-          <p style="color:#888;font-size:0.82rem">详细数据请查看原始装备文件。</p>
-        </div>
-      </div>`;
+    const {items, trees} = parseEquipment(d.equipment||'');
+    
+    // Build item lookup
+    const bySlot = {};
+    items.forEach(item => {
+      const slot = item.slot || '道具';
+      if(!bySlot[slot]) bySlot[slot] = [];
+      bySlot[slot].push(item);
+    });
+    
+    // Group slots into categories
+    const mainSlots = ['武器','饰品','防具'];
+    const subSlots = Object.keys(bySlot).filter(s=>!mainSlots.includes(s));
+    
+    function renderItemCard(item, slotIcon){
+      const qi = getQualInfo(item.quality);
+      const cls = qBg(item.quality);
+      const statusClass = item.status==='使用中'||item.status==='佩戴中'?'in-use':item.status==='已淘汰'?'obsolete':'';
+      const statusLabel = item.status==='使用中'||item.status==='佩戴中'?'装备中':item.status==='持有中'?'持有':'已淘汰';
+      const icon = slotIcon || '📦';
+      
+      let propsHtml = '';
+      if(item.props && item.props.length){
+        propsHtml = '<div class="eq-stat" style="font-size:0.78rem;color:#888;margin-top:4px">'+item.props.slice(0,2).join(' · ')+'</div>';
+      }
+      
+      return '<div class="eq-card '+cls+' '+statusClass+'" onclick="openEquipDetail(\''+item.name.replace(/'/g,'\\')+'\')">'+
+        '<div class="eq-icon">'+icon+'</div>'+
+        '<div class="eq-name '+qColor(item.quality)+'">'+item.name+'</div>'+
+        '<span class="eq-quality '+qBg(item.quality)+'" style="color:'+(item.quality&&item.quality.includes('紫')?'#93c':item.quality&&item.quality.includes('蓝')?'#369':item.quality&&item.quality.includes('金')?'#c83':'#666')+'">'+qLabel(item.quality)+'</span>'+
+        propsHtml+
+        '<span class="eq-status '+statusClass+'">'+statusLabel+'</span>'+
+        '</div>';
+    }
+    
+    let html = '<div class="doc"><div class="doc-head">📊 升级图谱</div><div class="doc-body">';
+    
+    // Render trees
+    const treeSlots = {武器:'🗡️',饰品:'💎',防具:'🛡️'};
+    Object.entries(treeSlots).forEach(([slot, icon]) => {
+      if(trees[slot]){
+        html += '<div class="section-divider">'+icon+' '+slot+'升级路线</div>';
+        html += '<div class="tree-wrap">'+renderTree(trees[slot].raw, items)+'</div>';
+      }
+    });
+    
+    html += '</div></div>';
+    
+    // Render current equipment by slot
+    html += '<div class="doc"><div class="doc-head">⚔️ 当前装备</div><div class="doc-body">';
+    
+    mainSlots.forEach(slot => {
+      const slotItems = bySlot[slot] || [];
+      const inUse = slotItems.filter(i=>i.status==='使用中'||i.status==='佩戴中');
+      const others = slotItems.filter(i=>i.status!=='使用中'&&i.status!=='佩戴中');
+      
+      html += '<div class="section-divider">'+(SLOT_ICONS[slot]||'📦')+' '+slot+'</div>';
+      
+      if(inUse.length){
+        html += '<div class="eq-grid">'+inUse.map(item=>renderItemCard(item, SLOT_ICONS[slot]||'📦')).join('')+'</div>';
+      } else {
+        html += '<div class="slot-empty">尚未装备'+slot+'</div>';
+      }
+      
+      // Show other owned items in this slot
+      if(others.length){
+        html += '<div style="margin-top:8px"><div style="font-size:0.75rem;color:#999;margin-bottom:4px">其他持有</div><div class="eq-grid" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr))">'+others.map(item=>renderItemCard(item, SLOT_ICONS[slot]||'📦')).join('')+'</div></div>';
+      }
+    });
+    
+    html += '</div></div>';
+    
+    // Render all items (expandable grid)
+    html += '<div class="doc"><div class="doc-head">📋 装备图鉴</div><div class="doc-body">';
+    
+    // Group by slot
+    const allSlots = [...mainSlots, ...subSlots].filter(s=>bySlot[s]);
+    allSlots.forEach(slot => {
+      const slotItems = bySlot[slot];
+      html += '<div class="section-divider">'+(SLOT_ICONS[slot]||'📦')+' '+slot+'（'+slotItems.length+'件）</div>';
+      html += '<div class="eq-grid">'+slotItems.map(item=>renderItemCard(item, SLOT_ICONS[slot]||'📦')).join('')+'</div>';
+    });
+    
+    html += '</div></div>';
+    
+    document.getElementById('p-equipment').innerHTML = html;
+    
+    // Make items clickable
+    window.openEquipDetail = function(name){
+      const item = items.find(i=>i.name===name);
+      if(!item) return;
+      
+      const qi = getQualInfo(item.quality);
+      const overlay = document.getElementById('equip-overlay');
+      
+      let html = '<div class="modal"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">'+
+        '<div><span style="font-size:1.4rem;margin-right:8px">'+(SLOT_ICONS[item.slot]||'📦')+'</span><h2 style="font-size:1rem;font-weight:normal" class="'+qColor(item.quality)+'">'+item.name+'</h2></div>'+
+        '<button onclick="closeEquip()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button></div>';
+      
+      // Basic info
+      html += '<div class="doc"><div class="doc-head">📋 基础信息</div><div class="doc-body"><div class="grid-2">';
+      if(item.quality) html += '<div class="item"><strong>品质</strong><br><span class="'+qColor(item.quality)+'">'+item.quality+'</span></div>';
+      if(item.slot) html += '<div class="item"><strong>部位</strong><br><span>'+item.slot+'</span></div>';
+      if(item.status) html += '<div class="item"><strong>状态</strong><br><span>'+item.status+'</span></div>';
+      if(item.source) html += '<div class="item"><strong>获取</strong><br><span>'+item.source+'</span></div>';
+      if(item.when) html += '<div class="item"><strong>获取时间</strong><br><span>'+item.when+'</span></div>';
+      html += '</div></div></div>';
+      
+      // Properties
+      if(item.props && item.props.length){
+        html += '<div class="doc"><div class="doc-head">📊 属性</div><div class="doc-body">';
+        item.props.forEach(p => {
+          const [k,...v] = p.split('：');
+          html += '<div class="stat"><label>'+(k||'').trim()+'</label><span>'+v.join('：').trim()+'</span></div>';
+        });
+        html += '</div></div>';
+      }
+      
+      // Appearance
+      if(item.look){
+        html += '<div class="doc"><div class="doc-head">👁️ 外观</div><div class="doc-body"><div style="font-size:0.84rem;line-height:1.7;color:#555">'+item.look+'</div></div></div>';
+      }
+      
+      // Notes
+      if(item.notes){
+        html += '<div class="doc"><div class="doc-head">📝 备注</div><div class="doc-body"><div style="font-size:0.84rem;line-height:1.7">'+item.notes+'</div></div></div>';
+      }
+      
+      html += '</div>';
+      overlay.innerHTML = html;
+      overlay.style.display = 'flex';
+    };
+    window.closeEquip = function(){document.getElementById('equip-overlay').style.display='none'};
   })();
 
   // === 任务记录 ===
@@ -333,11 +628,10 @@ async function loadAll(){
     blocks.forEach((b,i)=>{
       const lines=b.split('\n'),name=lines[0].trim(),rest=lines.slice(1).join('\n');
       const kvs=kv(rest);
-      // Split into **sections**
       const sections=[];
       rest.split(/\*\*(.+?)\*\*/).forEach((part,j)=>{
         if(j%2===1)sections.push({title:part.trim(),content:''});
-        else if(sections.length)sections[sections.length-1].content+=part;
+        else if(sections.length&&part.trim())sections[sections.length-1].content+=part;
       });
       monsters.push({name,kvs,sections});
     });
@@ -357,8 +651,7 @@ async function loadAll(){
                 }).join('')+'</div>'
               :'<div style="font-size:0.84rem;line-height:1.8;white-space:pre-wrap">'+s.content.replace(/^- /gm,'• ').trim()+'</div>')+
             '</div></div>';
-        }).join('')+
-        '</div></div>';
+        }).join('')+'</div></div>';
       overlay.style.display='flex';
     }
     window.closeMonster=function(){document.getElementById('bestiary-overlay').style.display='none'};
@@ -376,11 +669,9 @@ async function loadAll(){
   (()=>{
     const orgs=[];
     const blocks=(d.organizations||'').split(/^##\s+/m);blocks.shift();
-    blocks.forEach((b,i)=>{
+    blocks.forEach(b=>{
       const lines=b.split('\n'),name=lines[0].trim(),rest=lines.slice(1).join('\n');
-      // Parse table kv (| key | value |)
       const tblKvs={};
-      let inT=false;
       rest.split('\n').forEach(l=>{
         if(l.startsWith('|')&&l.endsWith('|')){
           const cells=l.split('|').filter(c=>c.trim());
@@ -389,7 +680,6 @@ async function loadAll(){
           }
         }
       });
-      // Parse **xxx** sections
       const sections=[];
       rest.split(/\*\*(.+?)\*\*/).forEach((part,j)=>{
         if(j%2===1)sections.push({title:part.trim(),content:''});
@@ -432,14 +722,11 @@ async function loadAll(){
   // === 世界观 ===
   (()=>{
     const text=d.world||'';
-    // Split by ## sections
     const sections=text.split(/^##\s+/m).filter(Boolean);
-    // section[0] is the title, rest are data sections
     const dataSections=sections.map(s=>{
       const lines=s.split('\n');
       const title=lines[0].replace(/^[一二三四五六七八九十]+、/,'').trim();
       const body=lines.slice(1).join('\n').trim();
-      // Extract tables
       const tables=[];
       const restLines=[];
       let inT=false,cur=[];
@@ -458,7 +745,7 @@ async function loadAll(){
           const hd=t[0].split('|').filter(c=>c.trim()).map(c=>c.trim());
           const rows=t.slice(2).map(r=>r.split('|').filter(c=>c.trim()).map(c=>c.trim()));
           if(!hd.length)return '';
-          return '<table class="world-table"><thead><tr>'+hd.map(h=>'<th>'+h.replace(/\*\*/g,'')+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c.replace(/\*\*/g,'')+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
+          return '<table><thead><tr>'+hd.map(h=>'<th>'+h.replace(/\*\*/g,'')+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c.replace(/\*\*/g,'')+'</td>').join('')+'</tr>').join('')+'</tbody></table>';
         }).join('')+'</div></div>';
     }).join('');
   })();
