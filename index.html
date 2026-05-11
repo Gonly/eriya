@@ -477,7 +477,7 @@ function renderTree(treeText, items){
         ? '<div style="position:absolute;top:-8px;right:-8px;background:#c90;color:#fff;font-size:0.6rem;padding:2px 7px;border-radius:4px;font-weight:bold">\u2605\u5f53\u524d</div>'
         : n.isUnlocked ? '<div style="position:absolute;top:-8px;right:-8px;background:#396;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\u2713\u5df2\u89e3\u9501</div>'
         : '<div style="position:absolute;top:-8px;right:-8px;background:#999;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\ud83d\udd12\u672a\u89e3\u9501</div>';
-      const icon = i === 0 ? '\ud83d\udde1\ufe0f' : (n.isUnlocked ? '\u2694\ufe0f' : '\ud83d\udd12');
+      const icon = n.isUnlocked ? '\u2b50' : '\ud83d\udd12';
       const displayName = n.name.includes('???') ? '???' : n.name;
       return '<div style="text-align:center;flex:1;min-width:110px;max-width:150px">' +
         '<div class="' + cls + '" style="border-radius:10px;padding:10px;border:2px solid;position:relative;cursor:pointer" ' +
@@ -489,7 +489,7 @@ function renderTree(treeText, items){
         '<div style="font-size:0.65rem;padding:1px 6px;border-radius:3px;display:inline-block;margin-top:2px" class="' + cls + '">' + qi.label + '</div>' +
         '</div>' +
         (n.note && n.note !== '—' && n.note !== '—' && n.note !== '⁠—' ? '<div style="font-size:0.65rem;color:#888;margin-top:4px;line-height:1.3">' + n.note + '</div>' : '') +
-        (i < nodes.length - 1 ? '<div style="color:#ccc;font-size:1.2rem;margin:3px 0">\u2193</div>' : '') +
+         +
         '</div>';
     }).join('') + '</div>';
 }
