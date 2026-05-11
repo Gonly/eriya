@@ -199,11 +199,16 @@ function gc(k){const d=localStorage.getItem('c_'+k);if(!d)return null;const j=JS
 function sc(k,v){try{localStorage.setItem('c_'+k,JSON.stringify({v,t:Date.now()}))}catch{}}
 
 // 🔧 Parse: - key：value (fullwidth or halfwidth colon, no space after colon)
+// Strips **bold** markers from keys.
 function kv(text) {
   const r = {};
   text.split('\n').forEach(l => {
     const m = l.match(/^- (.+?)[\uff1a:](.+)/);
-    if (m) r[m[1].trim()] = m[2].trim();
+    if (m) {
+      let k = m[1].trim();
+      k = k.replace(/^\*+\s*|\s*\*+$/g, '').trim();
+      r[k] = m[2].trim();
+    }
   });
   return r;
 }
@@ -273,8 +278,8 @@ const SLOT_ORDER = ['武器','饰品','防具','戒指','护腕','腰带','靴�
 
 function parseEquipment(text){
   const sections = text.split(/^##\s+/m);
-  const overviewText = sections.find(s=>s.startsWith('一、升级图谱'));
-  const itemsText = sections.find(s=>s.startsWith('### 武器栏')||s.startsWith('### 饰品栏')||s.startsWith('### 防具栏'));
+  const overviewText = sections.find(s=>s.trimLeft().startsWith('一、升级图谱'));
+  const itemsText = sections.find(s=>s.trimLeft().startsWith('二、已点亮'));
   
   // Parse upgrade trees from overview
   const trees = {};
@@ -284,11 +289,7 @@ function parseEquipment(text){
       const lines = block.split('\n');
       const slotMatch = lines[0].match(/^(武器|饰品|防具|其他装备)/);
       if(slotMatch){
-        const slot = slotMatch[1];
-        const treeLines = lines.filter(l=>l.match(/^```/)||l.match(/^[├└│─→■□⭐?✦]+/));
-        if(treeLines.length){
-          trees[slot] = {raw: lines.join('\n')};
-        }
+        trees[slotMatch[1]] = {raw: lines.join('\n')};
       }
     });
   }
@@ -296,36 +297,66 @@ function parseEquipment(text){
   // Parse individual items from the "已点亮装备" section
   const items = [];
   if(itemsText){
-    const itemBlocks = itemsText.split(/^---\s*$/m).filter(Boolean).join('\n---\n');
-    const itemMatches = itemsText.match(/^###\s+[^\n]+/gm);
-    if(itemMatches){
-      itemMatches.forEach(headerMatch => {
-        const start = headerMatch.index;
-        const end = itemsText.indexOf('###', start + 1);
-        const block = end > start ? itemsText.slice(start, end) : itemsText.slice(start);
-        const nameLine = headerMatch[0];
-        const nameMatch = nameLine.match(/###\s+(.+)/);
-        if(nameMatch){
-          const name = nameMatch[1].replace(/^✨\s*/,'').replace(/\([^)]+\)$/,'').trim();
-          const item = {name, raw: block};
-          const qMatch = nameLine.match(/\（([^）]+)\）/);
-          if(qMatch) item.quality = qMatch[1];
-          const kvs = kv(block);
-          if(kvs['部位']) item.slot = kvs['部位'];
-          else if(kvs['品质'] && kvs['品质'].includes('武器')) item.slot = '武器';
-          else if(kvs['品质'] && kvs['品质'].includes('饰品')) item.slot = '饰品';
-          else if(kvs['品质'] && kvs['品质'].includes('防具')) item.slot = '防具';
-          else if(kvs['品质'] && kvs['品质'].includes('道具')) item.slot = '道具';
-          if(kvs['状态']) item.status = kvs['状态'];
-          if(kvs['获取方式']) item.source = kvs['获取方式'];
-          if(kvs['属性']){item.props = kvs['属性'].split('\n').filter(l=>l.trim()).map(l=>l.trim())}
-          if(kvs['外观']) item.look = kvs['外观'];
-          if(kvs['备注']) item.notes = kvs['备注'];
-          if(kvs['获取时间']) item.when = kvs['获取时间'];
-          items.push(item);
+    // Split into category blocks by ### (武器栏, 饰品栏, etc.)
+    const catBlocks = itemsText.split(/^###\s+/m).filter(Boolean);
+    catBlocks.forEach(catBlock => {
+      const lines = catBlock.split('\n');
+      const catName = lines[0].trim();
+      const body = lines.slice(1).join('\n');
+      
+      // Determine slot from category name
+      let catSlot = '';
+      if(catName.includes('武器')) catSlot = '武器';
+      else if(catName.includes('饰品')) catSlot = '饰品';
+      else if(catName.includes('防具')) catSlot = '防具';
+      else if(catName.includes('道具')) catSlot = '道具';
+      
+      // Split body into individual items by #### or ---
+      const itemBlocks = body.split(/^#{3,4}\s+/m).filter(Boolean);
+      itemBlocks.forEach(ib => {
+        // First line is item name (may include ## header) 
+        const ibLines = ib.split('\n');
+        let nameRaw = ibLines[0].trim();
+        // Remove leading ## marks if any
+        nameRaw = nameRaw.replace(/^#+\s*/,'');
+        // Remove parenthetical quality hint from name line
+        const nameClean = nameRaw.replace(/^✨\s*/,'').replace(/[（(][^)）]+[)）]\s*$/,'').trim();
+        if(!nameClean) return;
+        
+        const itemBlock = ibLines.slice(1).join('\n');
+        const item = {name: nameClean, raw: itemBlock};
+        
+        // Get quality from name line parenthetical
+        const qParen = nameRaw.match(/[（(]([^)）]+)[)）]\s*$/);
+        if(qParen) item.quality = qParen[1];
+        
+        item.slot = catSlot;
+        
+        // Parse key-values from item block
+        const kvs = kv(itemBlock);
+        if(kvs['品质']) item.quality = kvs['品质'];
+        if(kvs['状态']) item.status = kvs['状态'];
+        if(kvs['获取方式']) item.source = kvs['获取方式'];
+        if(kvs['获取时间']) item.when = kvs['获取时间'];
+        if(kvs['部位']) item.slot2 = kvs['部位'];
+        
+        // Parse property section
+        const propMatch = itemBlock.match(/\*\*属性\*\*([\s\S]*?)(?=\n\*\*)/);
+        if(propMatch){
+          item.props = propMatch[1].split('\n').filter(l=>l.trim().startsWith('-')).map(l=>l.replace(/^-\s*/,'').trim()).filter(Boolean);
         }
+        
+        // Parse appearance
+        const lookMatch = itemBlock.match(/\*\*外观\*\*([\s\S]*?)(?=\n\*\*|$)/);
+        if(lookMatch) item.look = lookMatch[1].trim();
+        
+        // Parse notes
+        const notesMatch = itemBlock.match(/\*\*备注\*\*([\s\S]*?)(?=\n\n##|\n---|$)/);
+        if(notesMatch) item.notes = notesMatch[1].trim();
+        
+        items.push(item);
       });
-    }
+    });
   }
   
   return {items, trees};
