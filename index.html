@@ -368,171 +368,132 @@ function renderTree(treeText, items){
   const lines = treeText.split('\n');
   const code = []; let inBlock = false;
   lines.forEach(l => { const t = l.trim(); if(t.startsWith('\x60\x60\x60')) inBlock = !inBlock; else if(inBlock) code.push(t); });
-  
-  // Parse horizontally arranged ASCII boxes
-  // Each tier has: top ┌─┐, middle │name│, bottom └─┘ plus optional info below
-  const topIdx = code.findIndex(l => l.startsWith('\u250c') || l.startsWith('\u250f'));
-  if(topIdx < 0) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
-  
-  // Parse column by column: each box is delimited by ┐ ┌ or ┘ └ boundaries
-  // On each line, split where corner chars are
-  const boxLines = []; let info = null;
-  for(let i = topIdx; i < code.length; i++){
-    const l = code[i];
-    if(l.startsWith('\u250c')||l.startsWith('\u250f')||l.startsWith('\u2502')||l.startsWith('\u2503')||l.startsWith('\u2514')||l.startsWith('\u2518')){
-      boxLines.push(l);
-    } else if(l.trim() && !info){
-      info = code.slice(i).filter(l=>l.trim()&&!l.startsWith('\u2500'));
-      break;
-    }
-  }
-  
-  if(!boxLines.length) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
-  
-  // Parse each line into columns by splitting at box corner boundaries
-  // Find all box positions from the top line
-  const tops = boxLines.filter(l => l.startsWith('\u250c')||l.startsWith('\u250f'));
-  if(!tops.length) return '<div style="color:#999;font-size:0.82rem">解析失败</div>';
-  
-  // For each box in the top line, find the start and end column
-  const cols = [];
-  tops[0].split('').forEach((ch, ci) => {
-    if(ch === '\u250c' || ch === '\u250f') {
-      // Find the closing ┐ or ┓ at the same height
-      const line = tops[0];
-      let start = ci;
-      let width = line.indexOf('\u2557', ci) - start;  // ┗ / ┛
-      if(width <= 0) width = line.indexOf('\u2510', ci) - start; // ┐
-      if(width <= 0) { const s = line.slice(ci+1); width = s.indexOf('\u250c') - 1; if(width <= 0) width = s.indexOf('\u2510') - 1; if(width <= 0) width = Math.max(8, line.match(/^.+'[']/.test) + 1); } // fallback
-      cols.push({start, width: Math.max(8, width)});
+
+  // Parse box-border character art more carefully
+  // Structure: ┌───┐  ┌───┐  ┌───┐    or  ┌───┬───┬───┐  
+  //           │A  │  │B  │  │C  │         │A  │B  │C  │
+  //           └───┘  └───┘  └───┘         └───┴───┴───┘
+  // Strategy: find ALL positions of '│' in content lines (not header/top lines),
+  // pair them to get box boundaries, then slice each line.
+
+  // Identify different line types
+  let midContent = '';     // │name│ line
+  let midQuality = '';     // │ (qual) │ line  
+  let noteContent = '';
+  const pipeLines = [];
+
+  code.forEach(l => {
+    const t = l.trim();
+    if(t.startsWith('│') && !t.match(/^│\s*$/) && !t.match(/^│\s*[（(]/)) midContent = l;
+    if(t.startsWith('│') && t.match(/^│\s*[（(]/)) midQuality = l;
+    if(t.startsWith('─') || t.startsWith('└') || t.startsWith('┘')) {} // skip frame lines
+    else if(t && !t.startsWith('│') && !t.startsWith('┌') && !t.startsWith('┐') && !t.startsWith('┓') && !t.startsWith('┏')){
+      if(!noteContent) noteContent = l;
     }
   });
-  
-  // Actually, simpler approach: split each box-line by identifying box boundaries
-  // Find all ┌-aligned horizontal positions
-  function findBoxes(line){
-    const boxes = []; let inBox = false, start = 0;
-    for(let j = 0; j < line.length; j++){
-      if(line[j] === '\u250c' || line[j] === '\u250f') { inBox = true; start = j; }
-      else if(inBox && (line[j] === '\u2510' || line[j] === '\u2557')) { inBox = false; boxes.push({s:start, e:j+1}); }
-    }
-    return boxes;
+
+  if(!midContent) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
+
+  // Find pipe positions in the middle content line
+  const pipes = [];
+  for(let i = 0; i < midContent.length; i++){
+    if(midContent[i] === '│') pipes.push(i);
   }
   
-  // Use the top-most box line to determine column count and positions
-  let boxPositions = [];
-  for(const l of boxLines){
-    if(l.startsWith('\u250c') || l.startsWith('\u250f')){
-      const b = findBoxes(l);
-      if(b.length > boxPositions.length) boxPositions = b;
-    }
-  }
-  
-  if(!boxPositions.length) return '<div style="color:#999;font-size:0.82rem">解析失败2</div>';
-  
+  if(pipes.length < 2) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
+
+  // Pair up: even indices are left edges, odd are right edges
   const nodes = [];
-  const notes = info && info.length ? info.map(l => l.trim()).filter(Boolean) : [];
-  
-  boxPositions.forEach((pos, idx) => {
-    // Extract name from each box using the middle line
-    let name = '', quality = '\u666e\u901a', hasStar = false;
-    for(const l of boxLines){
-      if(l.startsWith('\u2502') || l.startsWith('\u2503')){
-        const slice = l.slice(pos.s, pos.e);
-        const content = slice.replace(/[││\u2502\u2503\s]/g,'').trim();
-        if(content && !name) {
-          hasStar = content.includes('\u2b50');
-          name = content.replace(/\u2b50/g,'').trim();
-          // Check if this is the quality line (in parens)
-          if(content.match(/^[（(]/)) quality = content.replace(/[（(）)]/g,'').trim();
+  for(let i = 0; i + 1 < pipes.length; i += 2){
+    const left = pipes[i];
+    const right = pipes[i + 1];
+    
+    // Extract name
+    let name = midContent.slice(left + 1, right).trim();
+    if(!name) continue;
+    const hasStar = name.includes('\u2b50');
+    name = name.replace(/\u2b50/g, '').trim();
+    if(!name) continue;
+    
+    // Extract quality from quality line (find corresponding pipe pair in quality line)
+    let quality = '\u666e\u901a';
+    if(midQuality){
+      const qPipes = [];
+      for(let j = 0; j < midQuality.length; j++){
+        if(midQuality[j] === '│') qPipes.push(j);
+      }
+      if(qPipes.length >= pipes.length && i < qPipes.length){
+        const ql = qPipes[i], qr = qPipes[i+1];
+        const qContent = midQuality.slice(ql + 1, qr).trim();
+        if(qContent){
+          const qm = qContent.match(/[（(]([^）)]+)[）)]/);
+          if(qm) quality = qm[1];
+          else quality = qContent;
         }
-        // Second middle line typically has quality
-        if(content.match(/^[（(]/)) quality = content.replace(/[（）()]/g,'').trim();
       }
     }
     
-    // Check the full content for quality info
-    const allMiddle = boxLines.filter(l=>l.startsWith('\u2502')||l.startsWith('\u2503'));
-    if(allMiddle.length >= 2){
-      const ql = allMiddle[1].slice(boxPositions[idx].s, boxPositions[idx].e);
-      const qm = ql.match(/[（(]([^）)]+)[）)]/);
-      if(qm) quality = qm[1];
-    }
-    
-    // Get note from info lines
+    // Extract note from note content (align by left position)
     let note = '';
-    if(notes.length > 0) {
-      if(notes[0].includes('—')) note = '';
-      else if(idx < notes.length) note = notes[idx];
-      else note = notes[notes.length-1];
+    if(noteContent){
+      const noteSlice = noteContent.slice(left, Math.min(right + 12, noteContent.length)).trim();
+      note = noteSlice.replace(/^—+$/, '').trim();
+      if(note === '—' || note === '—' || note === '-' || note === '-') note = '';
     }
     
     // Match with items
-    const it = items.find(i => name && (i.name.includes(name) || name.includes(i.name)));
-    if(it) { quality = it.quality || quality; }
+    const it = items.find(x => x.name.includes(name) || name.includes(x.name));
+    if(it) {
+      quality = it.quality || quality;
+      if(!note && it.source) note = it.source;
+    }
     
-    nodes.push({name: name || '???', quality, hasStar, isUnlocked: it ? true : (name && !name.includes('???') && name.length > 0), note, tierIdx: idx});
+    const isUnlocked = !!it || (name && !name.includes('???') && name.length > 1);
+    nodes.push({name, quality, hasStar, isUnlocked, note, idx: i/2});
+  }
+
+  if(!nodes.length) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
+
+  // Match with items for status
+  nodes.forEach(n => {
+    const it = items.find(x => x.name.includes(n.name) || n.name.includes(x.name));
+    if(it) n.status = it.status || '';
+    // Use source as note if not already set
+    if(!n.note && it && it.source) n.note = it.source;
   });
-  
-  // Pretty loose fallback: just use item names and notes from the text
-  if(!nodes.length || nodes.every(n => !n.name)) {
-    // Try extracting from code lines directly
-    code.forEach(l => {
-      const items_match = /│(.+?)│/.exec(l);
-      if(items_match) {
-        // Split by │→│ or │ │ patterns
-        const parts = l.match(/│([^│]+)│/g);
-        if(parts) {
-          parts.forEach(p => {
-            const n = p.replace(/[││\s]/g,'').trim();
-            if(n && !nodes.find(x=>x.name===n)) {
-              const hasStar = n.includes('\u2b50');
-              const it = items.find(i => i.name.includes(n.replace(/\u2b50/g,'').trim()) || n.includes(i.name));
-              nodes.push({name: n.replace(/\u2b50/g,'').trim(), quality: it ? (it.quality||'\u666e\u901a') : '\u666e\u901a', hasStar, isUnlocked: !!it, note: ''});
-            }
-          });
-        }
-      }
-    });
+
+  // Check: if ALL are "???", something is wrong
+  if(nodes.every(n => n.name.includes('???'))){
+    return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
   }
-  
-  if(!nodes.length || nodes.every(n => !n.name)) return '<div style="color:#999;font-size:0.82rem">暂无升级路线数据</div>';
-  
-  // Merge source notes
-  if(notes.length && notes[0] && !/^$|^—$/.test(notes[0])){
-    nodes.forEach((n, i) => {
-      if(!n.note && i < notes.length && notes[i] && !/^$|^—$/.test(notes[i]))
-        n.note = notes[i];
-    });
-  }
-  
-  // Render vertical progression
+
+  // Render vertical progression with cards
   return '<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:10px 4px">' +
-    nodes.map((n, i) => {
+    nodes.filter(n => n.name).map((n, i) => {
       const qi = getQualInfo(n.quality), cls = qBg(n.quality);
-      const it = items.find(x => n.name && (x.name.includes(n.name) || n.name.includes(x.name)));
-      const note = n.note || (it ? it.source : '');
+      const isCurrent = n.hasStar || n.status === '\u4f7f\u7528\u4e2d' || n.status === '\u4f69\u6234\u4e2d';
       const tierLabel = (i + 1) + '\u9636';
-      const isCurrent = n.hasStar || (it && (it.status === '\u4f7f\u7528\u4e2d' || it.status === '\u4f69\u6234\u4e2d'));
-      const badge = isCurrent ? '<div style="position:absolute;top:-8px;right:-8px;background:#c90;color:#fff;font-size:0.6rem;padding:2px 7px;border-radius:4px;font-weight:bold">\u2605\u5f53\u524d</div>'
+      const badge = isCurrent
+        ? '<div style="position:absolute;top:-8px;right:-8px;background:#c90;color:#fff;font-size:0.6rem;padding:2px 7px;border-radius:4px;font-weight:bold">\u2605\u5f53\u524d</div>'
         : n.isUnlocked ? '<div style="position:absolute;top:-8px;right:-8px;background:#396;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\u2713\u5df2\u89e3\u9501</div>'
         : '<div style="position:absolute;top:-8px;right:-8px;background:#999;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\ud83d\udd12\u672a\u89e3\u9501</div>';
       const icon = i === 0 ? '\ud83d\udde1\ufe0f' : (n.isUnlocked ? '\u2694\ufe0f' : '\ud83d\udd12');
-      const name = n.name && n.name.includes('???') ? '???' : (n.name || '???');
+      const displayName = n.name.includes('???') ? '???' : n.name;
       return '<div style="text-align:center;flex:1;min-width:110px;max-width:150px">' +
         '<div class="' + cls + '" style="border-radius:10px;padding:10px;border:2px solid;position:relative;cursor:pointer" ' +
-        'onclick="' + (it ? 'openEquipDetail(\'' + it.name.replace(/'/g, '') + '\')' : '') + '">' +
+        'onclick="' + (n.isUnlocked && !n.name.includes('???') ? 'openEquipDetail(\'' + displayName.replace(/'/g, '') + '\')' : '') + '">' +
         badge +
         '<div style="font-size:0.62rem;color:#888;margin-bottom:4px">' + tierLabel + '</div>' +
         '<div style="font-size:1.5rem;margin-bottom:4px;opacity:' + (n.isUnlocked ? '1' : '0.3') + '">' + icon + '</div>' +
-        '<div style="font-weight:bold;font-size:0.85rem;margin-bottom:3px" class="' + qi.text + '">' + name + '</div>' +
+        '<div style="font-weight:bold;font-size:0.85rem;margin-bottom:3px" class="' + qi.text + '">' + displayName + '</div>' +
         '<div style="font-size:0.65rem;padding:1px 6px;border-radius:3px;display:inline-block;margin-top:2px" class="' + cls + '">' + qi.label + '</div>' +
         '</div>' +
-        (note && !/^$|^—$/.test(note) ? '<div style="font-size:0.65rem;color:#888;margin-top:4px;line-height:1.3">' + note + '</div>' : '') +
+        (n.note && n.note !== '—' && n.note !== '—' && n.note !== '⁠—' ? '<div style="font-size:0.65rem;color:#888;margin-top:4px;line-height:1.3">' + n.note + '</div>' : '') +
         (i < nodes.length - 1 ? '<div style="color:#ccc;font-size:1.2rem;margin:3px 0">\u2193</div>' : '') +
         '</div>';
     }).join('') + '</div>';
 }
+
 
 
 
