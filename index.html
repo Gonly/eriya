@@ -364,35 +364,87 @@ function parseEquipment(text){
 
 // === Equipment Tree Renderer ===
 function renderTree(treeText, items){
-  // Simple tree renderer - find item names in tree text
+  // Source: equipment.md ASCII box-drawing tree
+  // Format: ┌────┐ │name│ └────┘ with quality/notes below
   const lines = treeText.split('\n');
-  const nodes = [];
-  const seen = new Set();
-  
+  const codeLines = [];
+  let inBlock = false;
   lines.forEach(l => {
-    const clean = l.replace(/[`┌└│\]→□■⭐?✦\s]+/g,'').trim();
-    if(clean && clean.length > 1 && !seen.has(clean)){
-      seen.add(clean);
-      const item = items.find(i=>i.name.includes(clean)||clean.includes(i.name));
-      if(item){
-        nodes.push({name:item.name, status:item.status||'', quality:item.quality||'普通'});
-      } else {
-        nodes.push({name:clean, status:'', quality:'普通'});
+    const t = l.trim();
+    if(t.startsWith('```')) inBlock = !inBlock;
+    else if(inBlock) codeLines.push(l);
+  });
+  // Parse box nodes from ASCII art
+  const nodes = [];
+  let cur = [], inBox = false;
+  codeLines.forEach(l => {
+    const t = l;
+    if(/^[\u250c\u250f]/.test(t)) { inBox = true; cur = [t]; }
+    else if(inBox && /^[\u2502\u2503]/.test(t)) cur.push(t);
+    else if(inBox && /^[\u2514\u2518]/.test(t)) {
+      cur.push(t); inBox = false;
+      const nl = cur.find(b => /^[\u2502\u2503]/.test(b));
+      if(nl) {
+        let n = nl.replace(/[\u2502\u2503\u2500\u251c\u2524\s]/g,'').trim();
+        if(!n) return;
+        const ql = cur.length >= 3 ? cur[1] : '';
+        let quality = '\u666e\u901a';
+        const qm = ql.match(/[\uff08(]([^\uff09)]+)[\uff09)]/); if(qm) quality = qm[1];
+        const hasStar = n.includes('\u2b50');
+        n = n.replace(/\u2b50/g,'').trim();
+        if(n) nodes.push({name:n, quality, isUnlocked:!n.includes('???'), hasStar});
       }
     }
+    else if(!inBox && t && nodes.length && !t.startsWith('\u2500') && !t.startsWith('\u2502')) {
+      if(!nodes[nodes.length-1].note) nodes[nodes.length-1].note = t;
+    }
   });
-  
-  if(!nodes.length) return '<div style="color:#999;font-size:0.82rem">升级路线暂无数据</div>';
-  
-  return '<div class="tree">'+
-    nodes.map((n,i)=>{
-      const qi = getQualInfo(n.quality);
-      const cls = qBg(n.quality);
-      const statusLabel = n.status==='使用中'?'✅':n.status==='佩戴中'?'✅':n.status==='已淘汰'?'❌':n.status==='持有中'?'📦':'';
-      return '<span class="tree-arrow'+(i>0?'">→</span>':'"></span>')+
-        '<div class="tree-node '+cls+'" data-name="'+n.name+'">'+statusLabel+' <span class="q qb-'+n.quality+'">'+qi.label+'</span> '+n.name+'</div>';
-    }).join('')+'</div>';
+  // Fallback: text extraction if ASCII parser fails
+  if(!nodes.length) {
+    const seen = new Set();
+    codeLines.forEach(l => {
+      const c = l.replace(/[\u2502\u2503\u2514\u2518\u2500\u251c\u2524\u250c\u250f\u21d2\u25a0\u25a1\u2b50\u2766\uff1f\u2726\s]/g,'').trim();
+      if(c && c.length > 1 && !seen.has(c)) {
+        seen.add(c);
+        const it = items.find(i => i.name.includes(c) || c.includes(i.name));
+        if(it) nodes.push({name:it.name, quality:it.quality||'\u666e\u901a', isUnlocked:true, hasStar:it.status==='\u4f7f\u7528\u4e2d'||it.status==='\u4f69\u6234\u4e2d'});
+        else nodes.push({name:c, quality:'\u666e\u901a', isUnlocked:!c.includes('???'), hasStar:false});
+      }
+    });
+  }
+  if(!nodes.length) return '<div style="color:#999;font-size:0.82rem">\u6682\u65e0\u5347\u7ea7\u8def\u7ebf\u6570\u636e</div>';
+  nodes.forEach(n => {
+    if(n.isUnlocked) {
+      const it = items.find(i => i.name.includes(n.name) || n.name.includes(i.name));
+      if(it) { n.quality = it.quality || n.quality; n.status = it.status || ''; }
+    }
+  });
+  return '<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:10px 4px">' +
+    nodes.map((n, i) => {
+      const qi = getQualInfo(n.quality), cls = qBg(n.quality);
+      const it = items.find(x => x.name.includes(n.name) || n.name.includes(x.name));
+      const note = n.note || (it ? it.source : '');
+      const tierLabel = (i + 1) + '\u9636';
+      const isCurrent = n.hasStar || (it && (it.status === '\u4f7f\u7528\u4e2d' || it.status === '\u4f69\u6234\u4e2d'));
+      const badge = isCurrent ? '<div style="position:absolute;top:-8px;right:-8px;background:#c90;color:#fff;font-size:0.6rem;padding:2px 7px;border-radius:4px;font-weight:bold">\u2605\u5f53\u524d</div>'
+        : n.isUnlocked ? '<div style="position:absolute;top:-8px;right:-8px;background:#396;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\u2713\u5df2\u89e3\u9501</div>'
+        : '<div style="position:absolute;top:-8px;right:-8px;background:#999;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px">\ud83d\udd12\u672a\u89e3\u9501</div>';
+      const icon = i === 0 ? '\ud83d\udde1\ufe0f' : (n.isUnlocked ? '\u2694\ufe0f' : '\ud83d\udd12');
+      const name = n.name.includes('???') ? '???' : n.name;
+      return '<div style="text-align:center;flex:1;min-width:110px;max-width:150px">' +
+        '<div class="' + cls + '" style="border-radius:10px;padding:10px;border:2px solid;position:relative;cursor:pointer" onclick="' + (it ? 'openEquipDetail(\'' + it.name.replace(/'/g, '') + '\')' : '') + '">' +
+        badge +
+        '<div style="font-size:0.62rem;color:#888;margin-bottom:4px">' + tierLabel + '</div>' +
+        '<div style="font-size:1.5rem;margin-bottom:4px;opacity:' + (n.isUnlocked ? '1' : '0.3') + '">' + icon + '</div>' +
+        '<div style="font-weight:bold;font-size:0.85rem;margin-bottom:3px" class="' + qi.text + '">' + name + '</div>' +
+        '<div style="font-size:0.65rem;padding:1px 6px;border-radius:3px;display:inline-block;margin-top:2px" class="' + cls + '">' + qi.label + '</div>' +
+        '</div>' +
+        (note ? '<div style="font-size:0.65rem;color:#888;margin-top:4px;line-height:1.3">' + note + '</div>' : '') +
+        (i < nodes.length - 1 ? '<div style="color:#ccc;font-size:1.2rem;margin:3px 0">\u2193</div>' : '') +
+        '</div>';
+    }).join('') + '</div>';
 }
+
 
 async function loadAll(){
   document.querySelectorAll('.panel').forEach(p=>{if(p.classList.contains('active'))p.innerHTML='<div class="loading">加载中...</div>'});
