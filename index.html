@@ -901,47 +901,55 @@ async function loadAll(){
 
       html += '</div></div>';
 
-      if (schedule.length) {
-        html += '<div class="doc">';
-        html += '<div class="doc-head">📋 日程安排</div>';
-        html += '<div class="doc-body" style="padding:8px 0">';
-        schedule.forEach((item, idx) => {
-          const detail = item.detail || '';
-          const short = detail.substring(0, 80) + (detail.length > 80 ? '…' : '');
-          html += '<div style="padding:10px 14px;border-bottom:1px solid #eee;cursor:pointer" onclick="openSchedItem(' + idx + ', \'' + item.time.replace(/'/g, '\\'') + '\', \'' + item.activity.replace(/'/g, '\\'') + '\', \'' + detail.replace(/'/g, '\\\\\'').replace(/\n/g, ' ') + '\')">' +
-            '<div style="display:flex;gap:12px;align-items:baseline">' +
-            '<span style="font-size:0.78rem;color:#999;white-space:nowrap;width:40px">' + item.time + '</span>' +
-            '<span style="font-weight:600;font-size:0.88rem">' + item.activity + '</span>' +
-            '</div>' +
-            '<div style="font-size:0.8rem;color:#888;margin-top:4px;margin-left:52px">' + short + '</div>' +
-            '</div>';
-        });
-        html += '</div></div>';
-      }
+      // Store all schedule items in window._schedItems for event delegation
+      window._schedItems = (schedule||[]).map(item => ({t: item.time||'', a: item.activity||'', d: item.detail||''}));
+      (surprises||[]).forEach(ev => window._schedItems.push({t: ev.time||'', a: ev.event||'', d: ev.detail||''}));
+
+      html += '<div class="doc">';
+      html += '<div class="doc-head'>📋 日程安排</div>';
+      html += '<div class="doc-body" id="sched-list" style="padding:8px 0">';
+      schedule.forEach((item, idx) => {
+        const detail = item.detail || '';
+        const short = detail.substring(0, 80) + (detail.length > 80 ? '…' : '');
+        html += '<div class="sched-it" data-idx=' + idx + ' style="padding:10px 14px;border-bottom:1px solid #eee;cursor:pointer">' +
+          '<div style="display:flex;gap:12px;align-items:baseline">' +
+          '<span style="font-size:0.78rem;color:#999;white-space:nowrap;width:40px">' + item.time + '</span>' +
+          '<span style="font-weight:600;font-size:0.88rem">' + item.activity + '</span>' +
+          '</div>' +
+          '<div style="font-size:0.8rem;color:#888;margin-top:4px;margin-left:52px">' + short + '</div>' +
+          '</div>';
+      });
+      html += '</div></div>';
 
       if (surprises.length) {
         html += '<div class="doc">';
-        html += '<div class="doc-head">⚠️ 突发事件</div>';
+        html += '<div class="doc-head'>⚠️ 突发事件</div>';
         html += '<div class="doc-body">';
-        surprises.forEach(ev => {
+        surprises.forEach((ev, evIdx) => {
           const detail = ev.detail || '';
           const short = detail.substring(0, 80) + (detail.length > 80 ? '…' : '');
-          html += '<div style="padding:8px 0;border-bottom:1px solid #eee">' +
+          const siIdx = schedule.length + evIdx;
+          html += '<div class="sched-it" data-idx=' + siIdx + ' style="padding:8px 0;border-bottom:1px solid #eee">' +
             '<div style="margin-bottom:4px">' +
             '<strong style="color:#c00;font-size:0.82rem">⏰ ' + ev.time + '</strong> — <strong style="font-size:0.88rem">' + ev.event + '</strong>' +
             '</div>' +
             '<div style="font-size:0.82rem;color:#666">' + short + '</div>' +
-            '<div style="margin-top:6px"><button onclick="openSchedItem(-1, \'' + ev.time.replace(/'/g, '\\'') + '\', \'' + ev.event.replace(/'/g, '\\'') + '\', \'' + detail.replace(/'/g, '\\\\\'').replace(/\n/g, ' ') + '\')" style="background:#f0ece4;border:1px solid #ccc;padding:3px 10px;font-size:0.78rem;cursor:pointer;border-radius:4px">查看详情 →</button></div>' +
             '</div>';
         });
         html += '</div></div>';
       }
 
-      // Helper function for schedule modal
-      // Helper function for schedule modal
-      html += '';
-
       document.getElementById('p-schedule').innerHTML = html;
+
+      // Delegated click handler for schedule items
+      document.getElementById('p-schedule').addEventListener('click', function(e) {
+        var el = e.target.closest('.sched-it');
+        if (!el) return;
+        var idx = parseInt(el.getAttribute('data-idx'), 10);
+        var it = window._schedItems[idx];
+        if (it) openSchedItem(it.t, it.a, it.d);
+      });
+
     } catch(e) {
       document.getElementById('p-schedule').innerHTML = '<div style="color:#999;padding:20px;text-align:center">暂无日程数据</div>';
     }
