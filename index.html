@@ -167,6 +167,7 @@ tr:nth-child(even) td{background:#fafaf5}
   <button class="tab" data-p="bestiary">生物图鉴</button>
   <button class="tab" data-p="organizations">组织</button>
   <button class="tab" data-p="world">世界观</button>
+  <button class="tab" data-p="schedule">每日日程</button>
 </div>
 
 <main>
@@ -177,6 +178,7 @@ tr:nth-child(even) td{background:#fafaf5}
   <div class="panel" id="p-bestiary"></div>
   <div class="panel" id="p-organizations"></div>
   <div class="panel" id="p-world"></div>
+  <div class="panel" id="p-schedule"></div>
   <div id="ft"></div>
 </main>
 <button id="rf" onclick="loadAll()">🔄 刷新</button>
@@ -501,6 +503,8 @@ async function loadAll(){
 
   const d={};
   await Promise.all(F.map(async n=>{const c=gc(n);if(c)d[n]=c;else{try{const r=await fetch(P(n));d[n]=r.ok?await r.text():'';sc(n,d[n])}catch{d[n]=''}}}));
+  // Also fetch state.json for schedule tab
+  try{const r=await fetch('state.json?'+Date.now());if(r.ok){d.state=await r.text();sc('state',d.state)}}catch{}
 
   // === 冒险者档案 ===
   (()=>{
@@ -850,6 +854,85 @@ async function loadAll(){
         (o.kvs['负责人']&&o.kvs['负责人']!=='未知'?'<div style="color:#666;font-size:0.8rem">👤 '+o.kvs['负责人']+'</div>':'')+
         '<div style="text-align:right;margin-top:8px;color:#999;font-size:0.78rem">点击查看详情 →</div></div></div>';
     }).join('')+'</div><div id="org-overlay"></div>';
+  })();
+
+  // === 每日日程（从 state.json 解析）===
+  (()=>{
+    try {
+      const state = JSON.parse(d.state || localStorage.getItem('c_state') || '{}');
+      const ds = state.daily_schedule || {};
+      const date = ds.date || '';
+      const weather = ds.weather || {};
+      const mood = ds.mood_today || '';
+      const moodReason = ds.mood_reason || '';
+      const goalMsg = ds.goal_message || '';
+      const isExam = ds.is_exam_day || false;
+      const isCelebration = ds.is_celebration_day || false;
+      const schedule = ds.schedule || [];
+      const surprises = ds.surprise_events || [];
+
+      const flags = [];
+      if (isExam) flags.push('📝 考核日');
+      if (isCelebration) flags.push('🎉 庆祝日');
+
+      let html = '';
+      html += '<div class="doc">';
+      html += '<div class="doc-head">📅 ' + date + '</div>';
+      html += '<div class="doc-body">';
+
+      if (flags.length) {
+        html += '<div style="margin-bottom:10px">' + flags.join(' ') + '</div>';
+      }
+
+      if (weather.type) {
+        html += '<div style="margin-bottom:8px"><strong>天气：</strong>' + weather.type + '</div>';
+        if (weather.desc) html += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px">' + weather.desc + '</div>';
+      }
+
+      if (mood) {
+        html += '<div style="margin-bottom:6px"><strong>心情：</strong>' + mood + '</div>';
+        if (moodReason) html += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px;font-style:italic">' + moodReason + '</div>';
+      }
+
+      if (goalMsg) {
+        html += '<blockquote style="border-left:3px solid #ccc;padding-left:10px;color:#555;font-size:0.84rem;margin:10px 0">' + goalMsg + '</blockquote>';
+      }
+
+      html += '</div></div>';
+
+      if (schedule.length) {
+        html += '<div class="doc">';
+        html += '<div class="doc-head">📋 日程安排</div>';
+        html += '<div class="doc-body">';
+        html += '<table><thead><tr><th>时间</th><th>活动</th><th>详情</th></tr></thead><tbody>';
+        schedule.forEach(item => {
+          const detail = (item.detail || '').substring(0, 150);
+          html += '<tr>' +
+            '<td style="white-space:nowrap;font-size:0.8rem">' + item.time + '</td>' +
+            '<td style="font-weight:600;font-size:0.84rem">' + item.activity + '</td>' +
+            '<td style="font-size:0.82rem;color:#555">' + detail + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table></div></div>';
+      }
+
+      if (surprises.length) {
+        html += '<div class="doc">';
+        html += '<div class="doc-head">⚠️ 突发事件</div>';
+        html += '<div class="doc-body">';
+        surprises.forEach(ev => {
+          html += '<div style="margin-bottom:10px">' +
+            '<strong style="color:#c00">⏰ ' + ev.time + '</strong> — <strong>' + ev.event + '</strong><br>' +
+            '<span style="font-size:0.82rem;color:#555;margin-left:16px">' + (ev.detail || '').substring(0, 200) + '</span>' +
+            '</div>';
+        });
+        html += '</div></div>';
+      }
+
+      document.getElementById('p-schedule').innerHTML = html;
+    } catch(e) {
+      document.getElementById('p-schedule').innerHTML = '<div style="color:#999;padding:20px;text-align:center">暂无日程数据</div>';
+    }
   })();
 
   // === 世界观 ===
