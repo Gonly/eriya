@@ -90,12 +90,12 @@ tr:nth-child(even) td{background:#fafaf5}
 ::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}
 
 /* ===== Modals ===== */
-#char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay,#sched-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .modal{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;max-width:640px;width:100%;margin:auto;margin-top:clamp(12px,8vh,40px);box-shadow:0 4px 24px rgba(0,0,0,.15)}
 .modal .doc{margin-bottom:12px;border-radius:6px}
 .modal .doc:last-child{margin-bottom:0}
 @media(max-width:420px){
-  #char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay,#sched-overlay{padding:8px}
+  #char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{padding:8px}
   .modal{padding:12px;border-radius:8px;margin-top:8px}
 }
 
@@ -182,7 +182,6 @@ tr:nth-child(even) td{background:#fafaf5}
   <div id="ft"></div>
 </main>
 <button id="rf" onclick="loadAll()">🔄 刷新</button>
-<div id="sched-overlay"></div>
 
 <script>
 const F = ['eriya','characters','equipment','questline','bestiary','organizations','world'];
@@ -901,55 +900,36 @@ async function loadAll(){
 
       html += '</div></div>';
 
-      // Store all schedule items in window._schedItems for event delegation
-      window._schedItems = (schedule||[]).map(item => ({t: item.time||'', a: item.activity||'', d: item.detail||''}));
-      (surprises||[]).forEach(ev => window._schedItems.push({t: ev.time||'', a: ev.event||'', d: ev.detail||''}));
-
-      html += '<div class="doc">';
-      html += '<div class="doc-head'>📋 日程安排</div>';
-      html += '<div class="doc-body" id="sched-list" style="padding:8px 0">';
-      schedule.forEach((item, idx) => {
-        const detail = item.detail || '';
-        const short = detail.substring(0, 80) + (detail.length > 80 ? '…' : '');
-        html += '<div class="sched-it" data-idx=' + idx + ' style="padding:10px 14px;border-bottom:1px solid #eee;cursor:pointer">' +
-          '<div style="display:flex;gap:12px;align-items:baseline">' +
-          '<span style="font-size:0.78rem;color:#999;white-space:nowrap;width:40px">' + item.time + '</span>' +
-          '<span style="font-weight:600;font-size:0.88rem">' + item.activity + '</span>' +
-          '</div>' +
-          '<div style="font-size:0.8rem;color:#888;margin-top:4px;margin-left:52px">' + short + '</div>' +
-          '</div>';
-      });
-      html += '</div></div>';
+      if (schedule.length) {
+        html += '<div class="doc">';
+        html += '<div class="doc-head">📋 日程安排</div>';
+        html += '<div class="doc-body">';
+        html += '<table><thead><tr><th>时间</th><th>活动</th><th>详情</th></tr></thead><tbody>';
+        schedule.forEach(item => {
+          const detail = (item.detail || '').substring(0, 150);
+          html += '<tr>' +
+            '<td style="white-space:nowrap;font-size:0.8rem">' + item.time + '</td>' +
+            '<td style="font-weight:600;font-size:0.84rem">' + item.activity + '</td>' +
+            '<td style="font-size:0.82rem;color:#555">' + detail + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table></div></div>';
+      }
 
       if (surprises.length) {
         html += '<div class="doc">';
-        html += '<div class="doc-head'>⚠️ 突发事件</div>';
+        html += '<div class="doc-head">⚠️ 突发事件</div>';
         html += '<div class="doc-body">';
-        surprises.forEach((ev, evIdx) => {
-          const detail = ev.detail || '';
-          const short = detail.substring(0, 80) + (detail.length > 80 ? '…' : '');
-          const siIdx = schedule.length + evIdx;
-          html += '<div class="sched-it" data-idx=' + siIdx + ' style="padding:8px 0;border-bottom:1px solid #eee">' +
-            '<div style="margin-bottom:4px">' +
-            '<strong style="color:#c00;font-size:0.82rem">⏰ ' + ev.time + '</strong> — <strong style="font-size:0.88rem">' + ev.event + '</strong>' +
-            '</div>' +
-            '<div style="font-size:0.82rem;color:#666">' + short + '</div>' +
+        surprises.forEach(ev => {
+          html += '<div style="margin-bottom:10px">' +
+            '<strong style="color:#c00">⏰ ' + ev.time + '</strong> — <strong>' + ev.event + '</strong><br>' +
+            '<span style="font-size:0.82rem;color:#555;margin-left:16px">' + (ev.detail || '').substring(0, 200) + '</span>' +
             '</div>';
         });
         html += '</div></div>';
       }
 
       document.getElementById('p-schedule').innerHTML = html;
-
-      // Delegated click handler for schedule items
-      document.getElementById('p-schedule').addEventListener('click', function(e) {
-        var el = e.target.closest('.sched-it');
-        if (!el) return;
-        var idx = parseInt(el.getAttribute('data-idx'), 10);
-        var it = window._schedItems[idx];
-        if (it) openSchedItem(it.t, it.a, it.d);
-      });
-
     } catch(e) {
       document.getElementById('p-schedule').innerHTML = '<div style="color:#999;padding:20px;text-align:center">暂无日程数据</div>';
     }
@@ -991,21 +971,6 @@ async function loadAll(){
   document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='p-'+ap));
   document.getElementById('ft').textContent='最后更新: '+new Date().toLocaleString('zh-CN');
 }
-
-// Schedule item modal helpers
-function openSchedItem(idx, time, activity, detail) {
-  var ol = document.getElementById('sched-overlay');
-  ol.innerHTML = '<div class="modal">' +
-    '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">' +
-    '<div><div style="font-size:0.78rem;color:#999">'+time+'</div><div style="font-weight:bold;font-size:0.95rem">'+activity+'</div></div>' +
-    '<button onclick="closeSchedItem()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button>' +
-    '</div>' +
-    '<div style="font-size:0.88rem;line-height:1.8;color:#444;white-space:pre-wrap">'+detail+'</div>' +
-    '</div>';
-  ol.style.display = 'flex';
-}
-window.closeSchedItem = function(){ document.getElementById('sched-overlay').style.display='none'; };
-
 loadAll();
 </script>
 </body>
