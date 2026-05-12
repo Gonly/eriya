@@ -90,12 +90,12 @@ tr:nth-child(even) td{background:#fafaf5}
 ::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}
 
 /* ===== Modals ===== */
-#char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay,#sched-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:1000;justify-content:center;align-items:flex-start;padding:env(safe-area-inset-top,12px) 12px 12px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .modal{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;max-width:640px;width:100%;margin:auto;margin-top:clamp(12px,8vh,40px);box-shadow:0 4px 24px rgba(0,0,0,.15)}
 .modal .doc{margin-bottom:12px;border-radius:6px}
 .modal .doc:last-child{margin-bottom:0}
 @media(max-width:420px){
-  #char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay{padding:8px}
+  #char-overlay,#bestiary-overlay,#org-overlay,#equip-overlay,#sched-overlay{padding:8px}
   .modal{padding:12px;border-radius:8px;margin-top:8px}
 }
 
@@ -182,6 +182,7 @@ tr:nth-child(even) td{background:#fafaf5}
   <div id="ft"></div>
 </main>
 <button id="rf" onclick="loadAll()">🔄 刷新</button>
+<div id="sched-overlay"></div>
 
 <script>
 const F = ['eriya','characters','equipment','questline','bestiary','organizations','world'];
@@ -503,8 +504,7 @@ async function loadAll(){
 
   const d={};
   await Promise.all(F.map(async n=>{const c=gc(n);if(c)d[n]=c;else{try{const r=await fetch(P(n));d[n]=r.ok?await r.text():'';sc(n,d[n])}catch{d[n]=''}}}));
-  // Also fetch state.json for schedule tab
-  try{const r=await fetch('state.json?'+Date.now());if(r.ok){d.state=await r.text();sc('state',d.state)}}catch{}
+  try{const r=await fetch("state.json?"+Date.now());if(r.ok){d.state=await r.text();sc("state",d.state)}}catch{}
 
   // === 冒险者档案 ===
   (()=>{
@@ -856,85 +856,6 @@ async function loadAll(){
     }).join('')+'</div><div id="org-overlay"></div>';
   })();
 
-  // === 每日日程（从 state.json 解析）===
-  (()=>{
-    try {
-      const state = JSON.parse(d.state || localStorage.getItem('c_state') || '{}');
-      const ds = state.daily_schedule || {};
-      const date = ds.date || '';
-      const weather = ds.weather || {};
-      const mood = ds.mood_today || '';
-      const moodReason = ds.mood_reason || '';
-      const goalMsg = ds.goal_message || '';
-      const isExam = ds.is_exam_day || false;
-      const isCelebration = ds.is_celebration_day || false;
-      const schedule = ds.schedule || [];
-      const surprises = ds.surprise_events || [];
-
-      const flags = [];
-      if (isExam) flags.push('📝 考核日');
-      if (isCelebration) flags.push('🎉 庆祝日');
-
-      let html = '';
-      html += '<div class="doc">';
-      html += '<div class="doc-head">📅 ' + date + '</div>';
-      html += '<div class="doc-body">';
-
-      if (flags.length) {
-        html += '<div style="margin-bottom:10px">' + flags.join(' ') + '</div>';
-      }
-
-      if (weather.type) {
-        html += '<div style="margin-bottom:8px"><strong>天气：</strong>' + weather.type + '</div>';
-        if (weather.desc) html += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px">' + weather.desc + '</div>';
-      }
-
-      if (mood) {
-        html += '<div style="margin-bottom:6px"><strong>心情：</strong>' + mood + '</div>';
-        if (moodReason) html += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px;font-style:italic">' + moodReason + '</div>';
-      }
-
-      if (goalMsg) {
-        html += '<blockquote style="border-left:3px solid #ccc;padding-left:10px;color:#555;font-size:0.84rem;margin:10px 0">' + goalMsg + '</blockquote>';
-      }
-
-      html += '</div></div>';
-
-      if (schedule.length) {
-        html += '<div class="doc">';
-        html += '<div class="doc-head">📋 日程安排</div>';
-        html += '<div class="doc-body">';
-        html += '<table><thead><tr><th>时间</th><th>活动</th><th>详情</th></tr></thead><tbody>';
-        schedule.forEach(item => {
-          const detail = (item.detail || '').substring(0, 150);
-          html += '<tr>' +
-            '<td style="white-space:nowrap;font-size:0.8rem">' + item.time + '</td>' +
-            '<td style="font-weight:600;font-size:0.84rem">' + item.activity + '</td>' +
-            '<td style="font-size:0.82rem;color:#555">' + detail + '</td>' +
-            '</tr>';
-        });
-        html += '</tbody></table></div></div>';
-      }
-
-      if (surprises.length) {
-        html += '<div class="doc">';
-        html += '<div class="doc-head">⚠️ 突发事件</div>';
-        html += '<div class="doc-body">';
-        surprises.forEach(ev => {
-          html += '<div style="margin-bottom:10px">' +
-            '<strong style="color:#c00">⏰ ' + ev.time + '</strong> — <strong>' + ev.event + '</strong><br>' +
-            '<span style="font-size:0.82rem;color:#555;margin-left:16px">' + (ev.detail || '').substring(0, 200) + '</span>' +
-            '</div>';
-        });
-        html += '</div></div>';
-      }
-
-      document.getElementById('p-schedule').innerHTML = html;
-    } catch(e) {
-      document.getElementById('p-schedule').innerHTML = '<div style="color:#999;padding:20px;text-align:center">暂无日程数据</div>';
-    }
-  })();
-
   // === 世界观 ===
   (()=>{
     const text=d.world||'';
@@ -966,11 +887,88 @@ async function loadAll(){
     }).join('');
   })();
 
+
+  // === 每日日程 ===
+  (function(){
+    var sd = null;
+    try { sd = JSON.parse(d.state||'{}').daily_schedule||null; } catch(e) {}
+    if (!sd) {
+      document.getElementById('p-schedule').innerHTML = '<div style="color:#999;padding:20px;text-align:center">暂无日程数据</div>';
+      return;
+    }
+    window._sch = [];
+    var h = '';
+    if (sd.date) h += '<div class="doc"><div class="doc-head">'+sd.date+'</div><div class="doc-body">';
+    var f1 = [];
+    if (sd.is_exam_day) f1.push('📝 考核日');
+    if (sd.is_celebration_day) f1.push('🎉 庆祝日');
+    if (f1.length) h += '<div style="margin-bottom:10px">'+f1.join(' ')+'</div>';
+    if (sd.weather) {
+      if (sd.weather.type) h += '<div style="margin-bottom:8px"><strong>天气：</strong>'+sd.weather.type+'</div>';
+      if (sd.weather.desc) h += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px">'+sd.weather.desc+'</div>';
+    }
+    if (sd.mood_today) {
+      h += '<div style="margin-bottom:6px"><strong>心情：</strong>'+sd.mood_today+'</div>';
+      if (sd.mood_reason) h += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px;font-style:italic">'+sd.mood_reason+'</div>';
+    }
+    if (sd.goal_message) h += '<blockquote style="border-left:3px solid #ccc;padding-left:10px;color:#555;font-size:0.84rem;margin:10px 0">'+sd.goal_message+'</blockquote>';
+    h += '</div></div>';
+    if (sd.schedule && sd.schedule.length) {
+      h += '<div class="doc"><div class="doc-head">📋 日程安排</div><div class="doc-body" style="padding:8px 0">';
+      sd.schedule.forEach(function(item, idx) {
+        var detail = item.detail||'';
+        var short = detail.length > 80 ? detail.substring(0,80)+'…' : detail;
+        window._sch.push({t:item.time||'',a:item.activity||'',d:detail});
+        h += '<div class="sch-it" data-i="'+idx+'" style="padding:10px 14px;border-bottom:1px solid #eee;cursor:pointer">'+
+          '<div style="display:flex;gap:12px;align-items:baseline">'+
+          '<span style="font-size:0.78rem;color:#999;white-space:nowrap;width:40px">'+item.time+'</span>'+
+          '<span style="font-weight:600;font-size:0.88rem">'+item.activity+'</span></div>'+
+          '<div style="font-size:0.8rem;color:#888;margin-top:4px;margin-left:52px">'+short+'</div></div>';
+      });
+      h += '</div></div>';
+    }
+    if (sd.surprise_events && sd.surprise_events.length) {
+      h += '<div class="doc"><div class="doc-head">⚠️ 突发事件</div><div class="doc-body">';
+      sd.surprise_events.forEach(function(ev, evIdx) {
+        var detail = ev.detail||'';
+        var short = detail.length > 80 ? detail.substring(0,80)+'…' : detail;
+        window._sch.push({t:ev.time||'',a:ev.event||'',d:detail});
+        var si = (sd.schedule?sd.schedule.length:0) + evIdx;
+        h += '<div class="sch-it" data-i="'+si+'" style="padding:8px 0;border-bottom:1px solid #eee">'+
+          '<div style="margin-bottom:4px"><strong style="color:#c00;font-size:0.82rem">⏰ '+ev.time+'</strong> — <strong style="font-size:0.88rem">'+ev.event+'</strong></div>'+
+          '<div style="font-size:0.82rem;color:#666">'+short+'</div></div>';
+      });
+      h += '</div></div>';
+    }
+    document.getElementById('p-schedule').innerHTML = h;
+    document.getElementById('p-schedule').addEventListener('click', function(e) {
+      var el = e.target.closest('.sch-it');
+      if (!el) return;
+      var i = parseInt(el.getAttribute('data-i'), 10);
+      var it = window._sch[i];
+      if (it) _openSched(it.t, it.a, it.d);
+    });
+  })();
+
   const ap=localStorage.getItem('p')||'eriya';
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.p===ap));
   document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='p-'+ap));
   document.getElementById('ft').textContent='最后更新: '+new Date().toLocaleString('zh-CN');
 }
+// Schedule helpers
+function _openSched(t, a, d) {
+  var ol = document.getElementById('sched-overlay');
+  ol.innerHTML = '<div class="modal">'+
+    '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">'+
+    '<div><div style="font-size:0.78rem;color:#999">'+t+'</div><div style="font-weight:bold;font-size:0.95rem">'+a+'</div></div>'+
+    '<button onclick="_closeSched()" style="background:none;border:1px solid #ccc;padding:4px 12px;cursor:pointer;font-size:0.82rem;border-radius:4px">✕ 关闭</button>'+
+    '</div>'+
+    '<div style="font-size:0.88rem;line-height:1.8;color:#444;white-space:pre-wrap">'+d+'</div>'+
+    '</div>';
+  ol.style.display = 'flex';
+}
+window._closeSched = function(){ document.getElementById('sched-overlay').style.display='none'; };
+
 loadAll();
 </script>
 </body>

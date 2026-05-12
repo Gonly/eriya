@@ -22,7 +22,7 @@ for f in "$SRC"/*.md; do
   fi
 done
 
-# 2. Copy state.json to viewer root (for daily_schedule parsing in HTML)
+# 2. Copy state.json to viewer root
 if [ -f "$STATE" ]; then
   if [ ! -f "state.json" ] || [ "$STATE" -nt "state.json" ]; then
     cp "$STATE" "state.json"
