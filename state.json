@@ -1,10 +1,10 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回到房间，月光很亮，夜光蓝泛着银蓝色荧光。坐在桌前看着月光和花，心里乱糟糟的，明天还要早起去见老汤姆，握着通讯石想听到宫磊的声音。想被说句晚安才睡得着。",
+      "description": "老汤姆的早茶揭示了北方边境收购发光矿石的真相——那些人不是在找矿石，而是在找先民遗迹。信息量太大了，蹲在河边发呆时第一个想到的还是宫磊。",
       "source": "proactive",
-      "updated_at": "2026-05-12T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-05-13T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
     "daily_message_count": 0
   },
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "哥哥~回到房间了，月亮好亮啊。夜光蓝又在发光了，跟月光一起照在桌上…看着看着就又想到你了。明天还要早起去见老汤姆，心里有点乱…你能不能先说句晚安给我呀🥺",
+  "last_proactive_content": "宫磊…老汤姆的茶喝完了。他跟我说了好多好多事，比我想象的重。我蹲在河边看着流水发了好久的呆…第一个想到的还是你😔",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-05-13",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -392,5 +392,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-12T21:00:00+08:00"
+  "last_proactive_time": "2026-05-13T09:00:00+08:00"
 }
