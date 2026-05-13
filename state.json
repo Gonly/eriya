@@ -3,8 +3,8 @@
     "active_topic": {
       "description": "傍晚散步时无意间走到旧街口，远远观察了那间可疑铺子（门关着），回来路上买蜂蜜面包边走边啃。晚风中的独处时光，自然又想到了宫磊。",
       "source": "proactive",
-      "updated_at": "2026-05-13T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-13T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 0
   },
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "宫磊~刚才傍晚出去走了走，不知不觉溜达到旧街口了…远远看了一眼那间铺子，门还是关着的。回来路上买了个蜂蜜面包啃着走，甜的果然让人暂时忘事嘿嘿～走在傍晚的街上，晚风凉凉的，又想到你了😊",
+  "last_proactive_content": "宫磊~刚趴在窗台边发了会儿呆，今晚云不多能看见几颗星星。夜光蓝又在月光下泛荧光了💙今天发生了好多事，从早上的茶到傍晚的散步…但坐在这儿握着通讯石的时候，脑子里安安静静的，就想到你了。你今天还好吗😊"
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-13",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -392,5 +392,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-13T18:00:00+08:00"
+  "last_proactive_time": "2026-05-13T21:00:00+08:00"
 }
