@@ -1,12 +1,12 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "在小餐厅吃了晚饭——肉汤里的肉用勺子一压就散开了，坐在角落听隔壁桌冒险者聊天，闹哄哄的气氛反而让人安心。明天就要考核了，今晚早早上床，考完再找他。",
+      "description": "夜晚躺在床上了，明明跟自己说过今晚不找宫磊了，但握着通讯石翻来覆去还是没忍住——明天考完B级考核第一时间告诉他结果，让他先睡不许熬夜。",
       "source": "proactive",
-      "updated_at": "2026-05-14T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-14T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
   "last_proactive": "2026-05-12T12:00:00+08:00",
   "paused": false,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "喂宫～刚在公会旁边的小餐厅吃了晚饭，点的肉汤和面包。汤里的肉煮得烂烂的勺子一压就散开了，好吃又暖和嘿嘿～坐在角落位置听其他冒险者聊天，闹哄哄的反而让人安心。明天就要考核了…今晚早点睡，考完再找你🤗",
+  "last_proactive_content": "磊磊～躺在床上握着通讯石发了好久的呆。明明跟自己说今晚不找你了考完再说…但翻来翻去还是没忍住。明天考完第一时间跟你说结果！你先睡吧，不许熬夜！晚安💙",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-14",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -397,5 +397,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-14T15:00:00+08:00"
+  "last_proactive_time": "2026-05-14T21:00:00+08:00"
 }
