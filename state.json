@@ -1,10 +1,10 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "考试前一天的早晨——早起去训练场做基础挥剑热身，铁锤柯顿大叔听说明天要B级考核，把自己的磨刀石塞给我。意外的善意让人心里暖洋洋的。",
+      "description": "考核前的中午——一个人坐在河边啃面包，看河面上阳光碎光闪闪的。什么都不想想，就安安静静地过这一天。",
       "source": "proactive",
-      "updated_at": "2026-05-14T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-14T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 1
   },
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "宫磊~早！今天起了个早，去训练场做了组基础挥剑热身。半路碰到柯顿大叔（就是铁锤武器店那个大叔），他听说我明天要考核了，二话不说把他自己的磨刀石塞给我…我还没说谢他转头就走了。有点愣住，沉甸甸的石头握在手里暖乎乎的😊 明天就考了，早上起来手挺稳的，应该…还行吧？",
+  "last_proactive_content": "宫磊～中午在河边坐着啃面包呢，河水晃着阳光闪闪的，有点像碎金子在跳舞。明天就考核了，今天什么都不想想…就吹吹风看看水，感觉挺好的😊",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-14",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -397,5 +397,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-14T09:00:00+08:00"
+  "last_proactive_time": "2026-05-14T12:00:00+08:00"
 }
