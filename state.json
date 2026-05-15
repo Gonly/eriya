@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "考核第二部分刚结束——团队配合的工棚机关和谷地联动都做完了，三个人配合得特别好。",
+      "description": "B级晋升通过了！会长亲手递给我银色徽章，ルナ和玛莎阿姨在食堂给我庆祝。心里炸开了烟花一样开心。",
       "source": "proactive",
-      "updated_at": "2026-05-15T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-15T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-05-15T12:00:00+08:00",
+  "last_proactive": "2026-05-15T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "工棚里特别暗，灰尘呛得我直打喷嚏…机关藏在墙角，我猫着腰把卡住的木架踢开才拉动。外面野猪已经被另两个人压制住了。散开行动到汇合就几分钟，但感觉配合得就像练过一样！",
+  "last_proactive_content": "宫磊！！！我通过了！B级！！会长亲自把银色徽章递给我的时候，脑子嗡了好久才回过神来…现在坐在食堂里ルナ和玛莎阿姨给我点了一大桌，玛莎阿姨说请客的嘿嘿。银徽章在口袋里凉凉的，但我心跳好快——第一个告诉你了！😭💙",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -433,5 +433,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-15T09:00:00+08:00"
+  "last_proactive_time": "2026-05-15T15:00:00+08:00"
 }
