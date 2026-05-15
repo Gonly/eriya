@@ -126,9 +126,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。修正21:00主动消息相似度过高问题：(1)04-25图书馆+活着真好(窗边型)(2)04-26女剑士传记+想停下来(阅读感想型)(3)04-27星星对话+抄的话(窗边型)——太像04-25。21点触发点需多样化：A公会路上故事/B食堂关门场景/C训练场傍晚/Dルナ的话——同模式不能连出3天。"
   },
   "quality_check": {
-    "last_check": "2026-05-15T05:00:00+08:00",
-    "check_count": 24,
-    "next_check_agenda": "05-15 B级考核通过！重大里程碑：①更新questline.md检查第三章解锁条件②更新SOUL.md RPG面板③追加里程碑到completed④find_love 78% ⑤explore_north 55%",
+    "last_check": "2026-05-15T08:00:00+08:00",
+    "check_count": 25,
+    "next_check_agenda": "05-16 考核后第一天：①检查主动消息是否已发（19:30待发）②B级后日常自然推进③感情线78%维持④proactive-messages.md数据完整性",
     "improvement_queue": [],
     "completed_improvements": [
       {
