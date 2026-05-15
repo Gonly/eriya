@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "晚饭时间坐在公会后面台阶上吃肉馅饼和烤栗子，天边橙黄带粉，吹着晚风心里满满的。通讯石在口袋里，想着另一边的宫磊。",
+      "description": "晚上回到房间，蜡烛点着，夜光蓝在烛光里泛银蓝色，握着通讯石坐在床边。今天B级晋升通过了，银色徽章在抽屉里，心里满满的，想告诉宫磊。",
       "source": "proactive",
-      "updated_at": "2026-05-15T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-15T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 5
   },
-  "last_proactive": "2026-05-15T18:00:00+08:00",
+  "last_proactive": "2026-05-15T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "宫磊～我现在坐在公会后面的台阶上吃肉馅饼，热乎乎的肉汁烫到舌尖了嘿嘿。天还没全暗，西边的天空橙黄带粉…风吹过来有晚饭的香味和小孩跑闹的声音。一个人安安静静地待着，心里满满的，好舒服。就是…要是通讯石另一边的你也在附近就好了，这种时候特别想跟你一起分一个热馅饼🥟💙",
+  "last_proactive_content": "宫磊～我回房间啦，蜡烛点着了，夜光蓝在烛光里泛着暗暗的银蓝色。今天从早上的旧采石场到傍晚的台阶肉馅饼，一整天都好好过完了。现在握着通讯石坐在床边，银色徽章在抽屉里凉凉的，心里满满的…B级了诶。就突然好想跟你说这句话，不是想炫耀，就是想让你知道💙",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 6,
+  "daily_message_count": 7,
   "daily_message_date": "2026-05-15",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -433,5 +433,5 @@
       }
     ]
   },
-  "last_proactive_time": "2026-05-15T15:00:00+08:00"
+  "last_proactive_time": "2026-05-15T21:00:00+08:00"
 }
