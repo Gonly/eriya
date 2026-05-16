@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级晋升后第一天，早上去公会大厅确认B级身份更新，顺便看看B级任务板长什么样。公会里的人态度微妙地变了——有人主动打招呼、有人投来好奇的目光。从D级到B级，两个月的时间，变化比想象中大。",
+      "description": "B级第一天，上午从公会出来往防具店走。刚看完B级任务板——深红色边框、最低500星币的报酬，也看到了北方边境探索委托。心情轻松好奇，节奏缓缓的一天，想去看看精良级轻甲但不急着买。",
       "source": "proactive",
-      "updated_at": "2026-05-16T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-05-16T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-15T21:00:00+08:00",
+  "last_proactive": "2026-05-16T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-05-16",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
