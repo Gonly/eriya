@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第一天傍晚——和ルナ在烤鱼店吃晚饭，两条烤鱼滋滋冒着热气。B级第一天节奏缓缓地过完了——看任务板、逛防具店、河边发呆、午睡、训练场挥剑、烤红薯。心里蛮满意的。",
+      "description": "B级第二个任务的森林路上——提着采集袋往回走，23株月光草&#43;690星币变异蝙蝠也打过了，正午阳光从林隙洒下来，额头见了汗。心情踏实又有点莫名的慵懒——B级冒险者的第一个任务，意外地顺利。",
       "source": "proactive",
-      "updated_at": "2026-05-16T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-17T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-16T18:00:00+08:00",
+  "last_proactive": "2026-05-17T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-05-17",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
