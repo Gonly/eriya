@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "傍晚的窗口，天空正变成暖橙色，云彩被染成金红色。通讯石在掌心里凉下来，夜光蓝安静地开着。忙碌的一天，停下来的时候忽然格外想他。她在等宫磊联系。",
+      "description": "房间里蜡烛点着，夜光蓝在烛光里泛银蓝色。窗台小碟里的月光草在黑暗中发着银白色的微光，像两盏小灯。握着通讯石靠在床边，今天从森林的蝙蝠到超额完成的690星币，全想跟他说。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-17T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-17T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-05-17T18:00:00+08:00",
+  "last_proactive": "2026-05-17T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
