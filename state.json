@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第二个任务的森林路上——提着采集袋往回走，23株月光草&#43;690星币变异蝙蝠也打过了，正午阳光从林隙洒下来，额头见了汗。心情踏实又有点莫名的慵懒——B级冒险者的第一个任务，意外地顺利。",
+      "description": "训练场角落——刚练完火魔法，掌心还热热的。下午的阳光斜斜照在训练场的沙地上，从火苗只能冒烟到噗地窜出维持五秒，算是一大步了。心情是那种'又变强了一点点'的踏实感，连汗珠都带着成就感。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-17T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-17T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-17T12:00:00+08:00",
+  "last_proactive": "2026-05-17T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-17",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
