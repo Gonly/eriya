@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "刚吃完午饭，手里还捧着蘑菇浓汤的碗。上午在图书馆翻到好东西——二十年前的北境勘测笔记，写到『第三天夜，东北方向有规律性的蓝光闪动，间隔约两分钟一次』。旁边地图上还有人用铅笔标了矿脉走向线。她在等宫磊联系。",
+      "description": "刚从训练场回来，掌心还热热的。火魔法终于能搓出小火苗了——虽然也就七八秒。新买的精良级轻甲穿了大半天，膝盖和手肘处已经压出自然褶皱了。ルナ说如果我接北境任务她可以一起去——C级加B级，两个人总比一个人强。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-18T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-18T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 6
   },
-  "last_proactive": "2026-05-18T12:00:00+08:00",
+  "last_proactive": "2026-05-18T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "宫磊～我回房间啦，蜡烛点着了，夜光蓝在烛光里泛着暗暗的银蓝色。今天从早上的旧采石场到傍晚的台阶肉馅饼，一整天都好好过完了。现在握着通讯石坐在床边，银色徽章在抽屉里凉凉的，心里满满的…B级了诶。就突然好想跟你说这句话，不是想炫耀，就是想让你知道💙",
+  "last_proactive_content": "宫磊～刚训练场回来，掌心还热着。火魔法终于从冒烟进化到小火苗了——虽然七八秒就灭了，但好歹算火了对吧？新轻甲穿了大半天，开始有自己的痕迹了。还有ルナ说如果接北境任务她可以一起去…好多话想说。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-18",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
