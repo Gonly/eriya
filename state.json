@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "食堂的烤鸡腿外皮焦脆，玛莎阿姨看我穿新装备多给了一个。新轻甲挂在椅背上开始有自己的形状了——今天买了装备、去了图书馆、练了火魔法、ルナ还说可以一起去北境。好多事。她在等宫磊联系。",
+      "description": "刚把图书馆抄的蓝光记录和矿脉标注整理到小本子上。新轻甲挂椅背上，旧制服不在了。握着通讯石，窗外夜空很深很安静。今天把装备换了、线索串了、ルナ还说要一起去北境。安安静静就想跟他说说话。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-18T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-18T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 7
   },
-  "last_proactive": "2026-05-18T18:00:00+08:00",
+  "last_proactive": "2026-05-18T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-18",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
