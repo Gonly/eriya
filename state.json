@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "穿着新轻甲站在B级任务板前——深棕色的鞣制皮甲肩部薄铁片在晨光里微微反光。手在\"北方边境入口·探索委托·报酬900星币\"的任务单边缘停了一下，没拿下来。她在等宫磊联系。",
+      "description": "刚吃完午饭，手里还捧着蘑菇浓汤的碗。上午在图书馆翻到好东西——二十年前的北境勘测笔记，写到『第三天夜，东北方向有规律性的蓝光闪动，间隔约两分钟一次』。旁边地图上还有人用铅笔标了矿脉走向线。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-18T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-18T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-05-18T09:00:00+08:00",
+  "last_proactive": "2026-05-18T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
