@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "刚抓着树根滑下陡坡采完荧光苔藓，背囊鼓起来了，正准备去砍硬木。东丘陵晨雾还没散透，空气里有潮湿的叶子味。她在等宫磊联系。",
+      "description": "东丘陵来回跑完，荧光苔藓和硬木都交了，到手285星币，存款回到2140。背囊空了但肚子饿了，正等玛莎阿姨的午饭。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-19T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-19T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 8
+    "daily_message_count": 9
   },
-  "last_proactive": "2026-05-19T09:00:00+08:00",
+  "last_proactive": "2026-05-19T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
