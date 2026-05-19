@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "下午在训练场练剑——拔剑收剑侧身突刺，新轻甲穿着很自在。休息时握着通讯石，下午的光从窗格斜照进来。她在等宫磊联系。",
+      "description": "晚饭时间——面包蘸蔬菜汤，碗边放了一小撮荧光苔藓，暗处微微发光。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-19T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-05-19T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 9
   },
-  "last_proactive": "2026-05-19T15:00:00+08:00",
+  "last_proactive": "2026-05-19T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
