@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "训练场负重练习刚结束——会长批了北境委托，清单列了，匕首出发前再买。北风吹到汗湿的皮肤上凉凉的，心跳还在跳。她在等宫磊联系。",
+      "description": "窗外北风呼呼的，屋里蜡烛晃着光。握着通讯石——想跟他说今天的事，但不知道怎么开口。她在等宫磊联系。",
       "source": "proactive",
-      "updated_at": "2026-05-20T09:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-20T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 2
   },
-  "last_proactive": "2026-05-20T18:00:00+08:00",
+  "last_proactive": "2026-05-20T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "晚饭和ルナ坐对面吃烤鱼——没怎么聊北境的事，偶尔对视一眼，像都在憋着一股准备出发的劲。她在等宫磊联系。",
+  "last_proactive_content": "窗外北风呼呼的，屋里蜡烛晃着光。握着通讯石——想跟他说今天的事，但不知道怎么开口。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-20",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
