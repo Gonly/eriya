@@ -1,10 +1,10 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "窗外北风呼呼的，屋里蜡烛晃着光。握着通讯石——想跟他说今天的事，但不知道怎么开口。她在等宫磊联系。",
-      "source": "proactive",
-      "updated_at": "2026-05-20T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "description": "和ルナ一起穿过北门，刚出农田区往丘陵走。麦苗青青的，风吹过去像绿色的水面在动。肩上背着行囊，腰侧别着新买的备用匕首——真真切切地在路上了。",
+      "source": "daily_schedule",
+      "updated_at": "2026-05-21T08:00:00+08:00",
+      "proactive_time": "08:00"
     },
     "daily_message_count": 0
   },
