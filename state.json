@@ -4,11 +4,11 @@
       "description": "在丘陵起伏的路上走，刚在一处分岔路口看到一个半歪的路标——指向北边的木板字迹模糊，地面很久没人走这条路了。ルナ确认了方向继续往北，空气慢慢变凉了。",
       "source": "daily_schedule",
       "updated_at": "2026-05-21T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-05-21T15:00:00+08:00",
+  "last_proactive": "2026-05-21T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "窗外北风呼呼的，屋里蜡烛晃着光。握着通讯石——想跟他说今天的事，但不知道怎么开口。她在等宫磊联系。",
+  "last_proactive_content": "篝火在风里一明一暗，远处地平线还剩最后一抹橙光。今天从公会镇一路走到了北境入口——匕首买了、委托接了、路走了整整一天。现在坐在营地里，握着通讯石。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
