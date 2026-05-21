@@ -4,11 +4,11 @@
       "description": "和ルナ一起穿过北门，刚出农田区往丘陵走。麦苗青青的，风吹过去像绿色的水面在动。肩上背着行囊，腰侧别着新买的备用匕首——真真切切地在路上了。",
       "source": "daily_schedule",
       "updated_at": "2026-05-21T08:00:00+08:00",
-      "proactive_time": "08:00"
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-20T21:00:00+08:00",
+  "last_proactive": "2026-05-21T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
