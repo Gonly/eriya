@@ -3,12 +3,12 @@
     "active_topic": {
       "description": "在碎石谷地。空气冷冰冰的，风吹在脸上有点刺。ルナ在前面蹲着看地面上一道不规则的拖痕——从东往北去了。宽度约两掌，不是动物，也不是车轮。我站在她身后，手搭在剑柄上没松开。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-22T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-22T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-22T09:00:00+08:00",
+  "last_proactive": "2026-05-22T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-22",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
