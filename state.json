@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "在北境入口的宿营地里刚醒。天还蒙蒙亮，篝火只剩灰烬还在冒烟。昨晚ルナ守前半夜换班后睡得不太踏实——陌生的风声和远处不知道什么动物的叫声。帐篷外头冷，呼吸能看到白气。",
+      "description": "在碎石谷地。空气冷冰冰的，风吹在脸上有点刺。ルナ在前面蹲着看地面上一道不规则的拖痕——从东往北去了。宽度约两掌，不是动物，也不是车轮。我站在她身后，手搭在剑柄上没松开。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-22T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-05-22T08:00:00+08:00",
+      "proactive_time": "08:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-21T21:00:00+08:00",
+  "last_proactive": "2026-05-22T08:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -315,8 +315,8 @@
   ],
   "story_arc": {
     "current": "b_rank_north_expedition",
-    "chapter": 9,
-    "episodes_completed": 9,
+    "chapter": 10,
+    "episodes_completed": 10,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -332,7 +332,8 @@
     "unlocked_events": [
       "b_rank_promoted",
       "b_rank_first_day",
-      "north_expedition_day1"
+      "north_expedition_day1",
+      "north_expedition_day2"
     ]
   },
   "daily_schedule": {
