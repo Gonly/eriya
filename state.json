@@ -4,11 +4,11 @@
       "description": "今天终于找到了猎人笔记里提到的蓝光来源——不是月光，不是幻影。灰色石壁里有一条自然裂隙，走进去之后变成了人工切割的走廊。走廊尽头是一扇左右对开的石门，打不开。墙上的刻痕不是装饰——是某种机关。",
       "source": "daily_schedule",
       "updated_at": "2026-05-23T19:30:00+08:00",
-      "proactive_time": "15:00"
+      "proactive_time": "18:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-23T15:00:00+08:00",
+  "last_proactive": "2026-05-23T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 7,
+  "daily_message_count": 8,
   "daily_message_date": "2026-05-23",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
