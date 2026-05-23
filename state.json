@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-23T09:00:00+08:00",
+  "last_proactive": "2026-05-23T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "北境探索第三天。清晨在小屋醒来，和ルナ吃了简单的早餐后收拾行装向北出发——今天的目标是猎人笔记里提到的蓝光方向。针叶林在晨光里显得不那么阴森了，但越往北走空气越凉。",
+  "last_proactive_content": "刚钻进石壁裂隙就看到拐弯处的蓝白色发光苔藓，绕过它之后脚下变成了人工石板——自然裂隙通向一条有切割痕迹的古代走廊，尽头是打不开的石门。"],
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 5,
+  "daily_message_count": 6,
   "daily_message_date": "2026-05-23",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
