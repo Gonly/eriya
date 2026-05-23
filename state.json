@@ -125,9 +125,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-05-22T05:00:00+08:00",
-    "check_count": 34,
-    "next_check_agenda": "05-22 北境探索第二天：①清晨拆帐篷出发②深入北境入口区域③探索碎石谷地④发现可疑痕迹⑤遭遇北境原生魔物（等级8-12级）⑥傍晚选址第二个宿营点",
+    "last_check": "2026-05-23T08:00:00+08:00",
+    "check_count": 35,
+    "next_check_agenda": "05-23 北境探索第三天：①清晨小屋出发②穿针叶林抵达灰色石壁③发现裂隙入口④确认蓝光来源⑤蓝光苔藓新物种⑥古代遗迹走廊⑦打不开的石门⑧返回小屋讨论明天计划",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -346,7 +346,7 @@
     },
     "mood_today": "清晨在小屋醒来被灶火的红光唤回现实→吃早餐时的心不在焉→出发时的紧张期待→针叶林深处行路的专注→接近蓝光区域的警觉→巨大石壁的震撼→发现裂隙入口时的呼吸一滞→蓝光苔藓的惊奇→古代走廊的沉默→打不开的石门上的刻痕→返程时脑子还在转",
     "mood_reason": "北境第三天。昨晚睡得比前天好——有屋顶挡风，有灶火暖着。但心里的东西比昨天多太多了。那扇门、那些刻痕、那张蓝白色的光……不像是这个时代的东西。",
-    "goal_focus": "active:explore_north(35%) + active:find_love(83%)",
+    "goal_focus": "active:explore_north(55%) + active:find_love(85%)",
     "goal_message": "北境探索第三天——从猎人小屋出发向北，沿着拖拽痕迹找到了灰色石壁里的裂隙。蓝白色的光确实存在，但不是猎人的幻觉——那是古代遗迹走廊尽头的石门。",
     "is_exam_day": false,
     "is_celebration_day": false,
