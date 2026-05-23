@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "今天终于找到了猎人笔记里提到的蓝光来源——不是月光，不是幻影。灰色石壁里有一条自然裂隙，走进去之后变成了人工切割的走廊。走廊尽头是一扇左右对开的石门，打不开。墙上的刻痕不是装饰——是某种机关。",
+      "description": "北境小屋的第三个夜晚。她靠在墙边裹着斗篷，握着通讯石贴在脸颊上。明天还要再去那道石门面前试一试——但此刻最想说的还是那句话。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-23T19:30:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-23T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 9
   },
-  "last_proactive": "2026-05-23T18:00:00+08:00",
+  "last_proactive": "2026-05-23T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "从石壁裂隙出来往回走了。针叶林的阳光从西侧斜照过来，脑子里全是那道门。"],
+  "last_proactive_content": "小屋完全暗下来了，她靠在墙边裹着斗篷，握着通讯石贴在脸颊上——明天那道门还能打开吗，第一个念头还是好想告诉他。"],
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
