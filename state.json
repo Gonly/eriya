@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-05-23T05:00:00+08:00",
+  "last_proactive": "2026-05-23T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "daily_message_date": "2026-05-23",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
