@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "北境探索第四天——星辉石真的把门打开了。石室里中央石台上放着刻满古代符号的石板，墙上的壁画里先民们围着一个从地面升起的巨大发光体。她把星辉石贴在脸颊上——好想让他看看。她在等宫磊联系。",
+      "description": "北境探索最后一个夜晚——干面包底子煮了一锅清汤，两个人围着灶火慢慢喝。明天一早启程回铁壁，石板裹好了放在床板上，今天发生的一切都还在脑子里转。她在等宫磊联系。",
       "source": "daily_schedule",
       "updated_at": "2026-05-24T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-05-24T12:00:00+08:00",
+  "last_proactive": "2026-05-24T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
