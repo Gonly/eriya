@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "北境探索第四天——石门打开了。指尖还残留着那些刻痕的触感，星辉石的共鸣感从胸口一直蔓延到指尖。先民石室里发现的那块石板……还有壁画里那些人手里捧着的光。回到小屋后握着通讯石，等一个能说话的时刻。",
+      "description": "北境探索第四天——站在石门前，看着ルナ把拓印拼在一起。那些刻痕不是随便划的——是规律的弧线轮廓。星辉石还在脖子上挂着，还没试过靠上去……但这面墙有点不一样，和昨天看的感觉完全不同了。她在等宫磊联系。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-24T05:00:00+08:00",
-      "proactive_time": "19:00"
+      "updated_at": "2026-05-24T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-23T21:00:00+08:00",
+  "last_proactive": "2026-05-24T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
