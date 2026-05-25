@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回到公会城镇了。背包里的石板和那些金属片沉甸甸的。站在公会门口的时候有点恍惚——五天前从这里出发，现在带着先民石室里拿回来的东西站在这里。先去见了会长，石板暂时锁进公会保险柜了。现在坐在自己房间里，手指上还能摸到石门刻痕的触感。通讯石安静的放在桌上，等待她想起要说什么。",
+      "description": "正穿过平原林地往北门走，草丛从北境的硬草变成了软草，远处能看见农舍屋顶了。ルナ停下来喝水，我接过水壶喝了一口抬头看了看前方的路——过了农田区就是北门。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-25T16:00:00+08:00",
-      "proactive_time": "16:30"
+      "updated_at": "2026-05-25T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-24T21:00:00+08:00",
+  "last_proactive": "2026-05-25T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
