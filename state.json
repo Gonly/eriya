@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "正穿过平原林地往北门走，草丛从北境的硬草变成了软草，远处能看见农舍屋顶了。ルナ停下来喝水，我接过水壶喝了一口抬头看了看前方的路——过了农田区就是北门。",
+      "description": "石板和出土物已经锁进公会地下的保险柜了。会长听完报告之后沉默了一会儿，说会联系塞拉斯来鉴定古代文字。走出会长办公室的时候背上轻了不少——五天来一直背着的东西终于有人接手了。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-25T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-25T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-05-25T09:00:00+08:00",
+  "last_proactive": "2026-05-25T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
