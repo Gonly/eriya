@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石板和出土物已经锁进公会地下的保险柜了。会长听完报告之后沉默了一会儿，说会联系塞拉斯来鉴定古代文字。走出会长办公室的时候背上轻了不少——五天来一直背着的东西终于有人接手了。",
+      "description": "洗完热水澡吃了玛莎阿姨的炖菜，坐在房间里擦星辉石——水滴折射出碎碎的光。通讯石握在另一只手上，两个石头一手一个，都跟五天前不太一样了。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-25T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-25T18:54:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-05-25T12:00:00+08:00",
+  "last_proactive": "2026-05-25T18:54:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
