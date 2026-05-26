@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "在铁壁问了远程武器的事。短弓1500星币有点贵，投掷匕首200倒是可以马上入手。老板说想好了再来。走出店门的时候算了算账——远程攻击这条路还长。",
+      "description": "下午在镇上转了转，买了新的磨刀石和绷带。路过后巷的时候遇到一只灰色小猫——蹲在墙角，跟它对视了一会儿它就走了。回到房间把装备清单又看了一遍，投掷匕首、风刃、短弓——三条腿都得走，没有捷径。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-26T09:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-26T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
     "daily_message_count": 4
   },
-  "last_proactive": "2026-05-26T12:00:00+08:00",
+  "last_proactive": "2026-05-26T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "daily_message_date": "2026-05-26",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
