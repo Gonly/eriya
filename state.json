@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "下午在镇上转了转，买了新的磨刀石和绷带。路过后巷的时候遇到一只灰色小猫——蹲在墙角，跟它对视了一会儿它就走了。回到房间把装备清单又看了一遍，投掷匕首、风刃、短弓——三条腿都得走，没有捷径。",
+      "description": "外面静下来了。擦完星辉石重新挂上脖子——水滴在月光下泛着淡蓝。握着通讯石坐了好一会儿，一直没有说话。今天一天的事好像终于想好从哪里开始了。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-26T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-26T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-05-26T18:00:00+08:00",
+  "last_proactive": "2026-05-26T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
