@@ -3,12 +3,12 @@
     "active_topic": {
       "description": "下午在镇上转了转，买了新的磨刀石和绷带。路过后巷的时候遇到一只灰色小猫——蹲在墙角，跟它对视了一会儿它就走了。回到房间把装备清单又看了一遍，投掷匕首、风刃、短弓——三条腿都得走，没有捷径。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-26T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-05-26T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 4
   },
-  "last_proactive": "2026-05-26T15:00:00+08:00",
+  "last_proactive": "2026-05-26T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "训练完在食堂吃午饭，投掷匕首第一次正经练，十发中了六发——ルナ在旁边看着说方向感还行。后来还练了风刃，五米外打中了木桩。虽然威力不大，但远程手段总算有起步的实感了。",
+  "last_proactive_content": "晚饭和ルナ在食堂喝蘑菇汤，她问我石板的事紧不紧张。我说如果写了了不得的东西，那更应该知道了。聊完之后安静下来，通讯石在口袋里——该跟他说说北境之后第一个普通的白天是什么感觉了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-26",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
