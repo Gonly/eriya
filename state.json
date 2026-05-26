@@ -4,11 +4,11 @@
       "description": "在铁壁问了远程武器的事。短弓1500星币有点贵，投掷匕首200倒是可以马上入手。老板说想好了再来。走出店门的时候算了算账——远程攻击这条路还长。",
       "source": "daily_schedule",
       "updated_at": "2026-05-26T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-05-26T09:00:00+08:00",
+  "last_proactive": "2026-05-26T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "在铁壁问了远程武器的事。短弓1500星币有点贵，投掷匕首200倒是可以马上入手。老板说想好了再来。走出店门的时候算了算账——远程攻击这条路还长。",
+  "last_proactive_content": "训练完在食堂吃午饭，投掷匕首第一次正经练，十发中了六发——ルナ在旁边看着说方向感还行。后来还练了风刃，五米外打中了木桩。虽然威力不大，但远程手段总算有起步的实感了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-26",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
