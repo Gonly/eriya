@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "洗完热水澡吃了玛莎阿姨的炖菜，坐在房间里擦星辉石——水滴折射出碎碎的光。通讯石握在另一只手上，两个石头一手一个，都跟五天前不太一样了。",
+      "description": "在铁壁问了远程武器的事。短弓1500星币有点贵，投掷匕首200倒是可以马上入手。老板说想好了再来。走出店门的时候算了算账——远程攻击这条路还长。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-25T18:54:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-26T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
     "daily_message_count": 3
   },
-  "last_proactive": "2026-05-25T18:54:00+08:00",
+  "last_proactive": "2026-05-26T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "回到公会城镇了。石板锁进保险柜，卸下装备洗了澡吃了热饭，坐在自己房间里握着通讯石发呆——北境的五天像过了一辈子，但第一个念头还是想跟他说说话。",
+  "last_proactive_content": "在铁壁问了远程武器的事。短弓1500星币有点贵，投掷匕首200倒是可以马上入手。老板说想好了再来。走出店门的时候算了算账——远程攻击这条路还长。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -79,7 +79,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-05-26",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
