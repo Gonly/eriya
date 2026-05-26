@@ -1,12 +1,12 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "外面静下来了。擦完星辉石重新挂上脖子——水滴在月光下泛着淡蓝。握着通讯石坐了好一会儿，一直没有说话。今天一天的事好像终于想好从哪里开始了。",
+      "description": "窗外月光很亮，星辉石在手里温温的。坐了好一会儿终于开口了——想说北境之后第一个普通的白天是什么感觉。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-26T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-05-26T22:49:00+08:00",
+      "proactive_time": "22:49"
     },
-    "daily_message_count": 5
+    "daily_message_count": 6
   },
   "last_proactive": "2026-05-26T21:00:00+08:00",
   "paused": false,
