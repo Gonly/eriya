@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "训练场练风刃练到喘气——五米外木桩上的痕迹比昨天深了一点点。ルナ说方向感稳了。",
+      "description": "躺在床上握着通讯石，今天的事一件件过了一遍。窗外月亮不圆但很亮，星辉石碎碎地发光。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-27T15:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-27T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-05-27T18:00:00+08:00",
+  "last_proactive": "2026-05-27T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "晚饭和ルナ在食堂喝蘑菇汤，她问我石板的事紧不紧张。我说如果写了了不得的东西，那更应该知道了。聊完之后安静下来，通讯石在口袋里——该跟他说说北境之后第一个普通的白天是什么感觉了。",
+  "last_proactive_content": "躺在床上握着通讯石，今天的事一件件过了一遍——投掷匕首实战首秀、塞拉斯的回信、训练场练到喘气。窗外月亮不圆但很亮，星辉石在黑暗里碎碎地发着光。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -73,7 +73,7 @@
     "和宫磊聊些没营养的话",
     "最后的C级任务+存款突破3000"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-27",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
