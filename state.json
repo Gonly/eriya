@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "出任务路上被树枝打了脸，带着新买的投掷匕首去南部丘陵蹲野猪群。",
+      "description": "训练场练风刃练到喘气——五米外木桩上的痕迹比昨天深了一点点。ルナ说方向感稳了。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-27T09:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-05-27T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-27T12:00:00+08:00",
+  "last_proactive": "2026-05-27T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
