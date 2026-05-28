@@ -1,10 +1,10 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "刚从东边洞穴讨伐蝙蝠回来，洗了澡坐在房间里，星辉石在黑暗中碎碎地发着光。",
+      "description": "站在东部洞穴入口，洞口不大需要侧身才能进去，洞口周围有蝙蝠粪便痕迹。火折子点燃举在左手，右手抽出短剑，准备进洞。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-28T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-05-28T08:00:00+08:00",
+      "proactive_time": "08:00"
     },
     "daily_message_count": 0
   },
