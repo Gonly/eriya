@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "晚饭和ルナ聊了早上那两个黑袍人的事——暗红色泥土、兜帽压得很低。ルナ说别主动招惹，但下次再遇到就告诉会长。",
+      "description": "要睡了，通讯石贴在胸口。今天洞穴讨伐顺利完成——投掷匕首和风刃都比昨天进步了。窗外有月亮，很安静。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-28T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-28T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-05-28T18:00:00+08:00",
+  "last_proactive": "2026-05-28T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "晚饭跟ルナ说了岔路口那两个黑袍人的事——暗红色泥土、兜帽压得很低。ルナ说别主动招惹，但下次再遇到就告诉会长。她在等宫磊联系。",
+  "last_proactive_content": "要睡了，通讯石握在手心贴着胸口。今天洞穴讨伐顺利——投掷匕首命中两只，风刃黑暗中也打中了。窗外有月亮，很安静。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-28",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
