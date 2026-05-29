@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "训练场风刃加练，连续五发第四次明显弱了。ルナ来了聊六米投掷——十中三，她说实战中要学会预判偏移。训练结束收拾东西走出场。",
+      "description": "晚餐跟ルナ说了铁锤提的黑袍人打听发光矿石——她认真了，筷子停了一下说时间太巧了，决定明天告诉会长。星辉石也是发光矿石，黑袍人可能在找这个。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-29T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-05-29T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 3
   },
-  "last_proactive": "2026-05-29T15:00:00+08:00",
+  "last_proactive": "2026-05-29T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "训练场风刃加练，连续五发第四次明显弱了。ルナ来了聊了六米投掷——十中三，她说实战中要学会预判偏移。训练结束收拾东西走出场。她在等宫磊联系。",
+  "last_proactive_content": "晚餐和ルナ一起吃烤鱼，把铁锤说的黑袍人打听发光矿石的事跟她说了。ルナ筷子停了一下——时间跟前天遇到的黑袍人太巧了，决定明天告诉会长。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 4,
   "daily_message_date": "2026-05-29",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
