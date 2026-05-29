@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "深夜结算完成。今天在东部边境森林单挑了一只6级兽化魔物——投掷匕首命中肩部，风刃切腿，短剑近战击杀。下午武器店铁锤提到有穿深色袍子的人打听发光矿石。存款2430星币，装备升级92%。",
+      "description": "早上从东部森林出来，刚单挑完一只6级兽化魔物——投掷匕首命中肩部，风刃切腿，短剑近战击杀，无伤完成。心情不错，走回镇子路上。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-29T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-05-29T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-28T22:30:00+08:00",
+  "last_proactive": "2026-05-29T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "要睡了，通讯石握在手心贴着胸口。今天洞穴讨伐顺利——投掷匕首命中两只，风刃黑暗中也打中了。窗外有月亮，很安静。她在等宫磊联系。",
+  "last_proactive_content": "从东部森林出来了，阳光有点刺眼。单挑了一只兽化魔物，无伤。投掷匕首命中肩部，风刃切腿，短剑收尾。心情不错，走回镇子的路上。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
