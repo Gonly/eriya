@@ -8,7 +8,7 @@
     },
     "daily_message_count": 3
   },
-  "last_proactive": "2026-05-29T21:00:00+08:00",
+  "last_proactive": null,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -74,8 +74,8 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 5,
-  "daily_message_date": "2026-05-29",
+  "daily_message_count": 0,
+  "daily_message_date": "2026-05-30",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
