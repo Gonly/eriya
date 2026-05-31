@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "森林里找到石甲虫群了。五只，灰白色甲壳泛着石头光泽，最大的有小腿高。刚发现我，最近那只甲壳张开了。她在等宫磊联系。",
+      "description": "石甲虫群讨伐完成了，五只全部解决，交任务拿了220星币。午休在食堂，玛莎阿姨又多给了一块烤肉。午后有风，适合出门。她在等宫磊联系。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-31T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-05-31T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-05-31T09:00:00+08:00",
+  "last_proactive": "2026-05-31T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "森林里找到石甲虫群了。五只，灰白色甲壳泛着石头光泽，最大的有小腿高。刚发现我，最近那只甲壳张开了。她在等宫磊联系。",
+  "last_proactive_content": "石甲虫群讨伐完成了，五只全部解决，交任务拿了220星币。午休在食堂，玛莎阿姨又多给了一块烤肉。午后有风，适合出门。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-05-31",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
