@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "食堂晚饭跟ルナ一起，她说明天想去东边采集任务问去不去。吃到一半想起傍晚在巷子口看到穿深色衣服的人在公会门口张望，跟之前黑袍人有点像。",
+      "description": "躺在床上握着通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，窗外月光很亮，星辉石泛淡蓝光。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-31T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-05-31T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-05-31T18:00:00+08:00",
+  "last_proactive": "2026-05-31T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "食堂晚饭跟ルナ一起，她明天想去东边采集任务问我去不去。吃到一半想起傍晚在巷子口看到穿深色衣服的人在公会门口张望，跟之前黑袍人有点像。",
+  "last_proactive_content": "躺在床上握着通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，窗外月光很亮，星辉石泛着淡蓝光。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "daily_message_date": "2026-05-31",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
