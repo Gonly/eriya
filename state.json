@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "躺在床上握着通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，窗外月光很亮，星辉石泛淡蓝光。",
+      "description": "坐在训练场木栅栏边上，跟ルナ采集任务完成后午后训练正常，投掷六米卡在五发，阳光暖暖的。",
       "source": "daily_schedule",
-      "updated_at": "2026-05-31T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-06-01T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-05-31T21:00:00+08:00",
+  "last_proactive": "2026-06-01T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "躺在床上握着通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，窗外月光很亮，星辉石泛着淡蓝光。",
+  "last_proactive_content": "坐在训练场木栅栏边上，跟ルナ采集任务完成后午后训练正常，投掷六米卡在五发，阳光暖暖的。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,8 +74,8 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 5,
-  "daily_message_date": "2026-05-31",
+  "daily_message_count": 1,
+  "daily_message_date": "2026-06-01",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -124,7 +124,6 @@
     "last_check": "2026-05-31T20:00:00+08:00",
     "check_count": 40,
     "next_check_agenda": "06-07 B级第十八天：①训练场早训②接任务（可能和ルナ一起东边采集）③城镇陌生面孔后续④塞拉斯鉴定等待第8天⑤训练场投掷6m突破尝试⑥日常",
-
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -338,8 +337,8 @@
   ],
   "story_arc": {
     "current": "b_rank_north_expedition",
-    "chapter": 16,
-    "episodes_completed": 16,
+    "chapter": 17,
+    "episodes_completed": 17,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -368,16 +367,16 @@
     ]
   },
   "daily_schedule": {
-    "date": "2026-05-31",
+    "date": "2026-06-01",
     "weather": {
-      "type": "公会城镇 · 初夏晴天，上午晴朗，午后有风",
-      "desc": "清晨天空湛蓝，阳光明亮。午后风从西边吹来，云层慢慢聚拢但没有雨意。是个适合出门的天气。",
-      "effect": "北境返程后第六天。昨晚睡得不错，醒来的时候阳光已经照进窗台。今天先去训练场练投掷，然后看看有什么任务可以接。"
+      "type": "公会城镇 · 初夏晴天，上午晴朗，午后微风",
+      "desc": "清晨天空微微泛白，阳光比昨天更早透进窗台。白天晴朗无云，午后有轻微的风从东边吹来。",
+      "effect": "北境返程后第七天。昨晚睡得不错，想起昨天巷子口那个穿深色衣服的人。今天跟ルナ约了东边采集任务。"
     },
-    "mood_today": "晴朗清晨→训练场早训→C级石甲虫群讨伐→训练场投掷+风刃+ルナ对练→城镇注意到陌生面孔→窗边通讯石",
-    "mood_reason": "今天接了C级石甲虫群讨伐任务，战斗顺利——投掷命中甲虫背部缝隙，风刃切开另一只的腿部装甲，短剑近战收尾。训练场投掷6m进步到10中5。下午ルナ来训练场一起对练，配合默契。傍晚在城镇散步时注意到有个穿深色衣服的陌生人在公会门口张望——和之前黑袍人的特征相似，但这次是在城镇里。",
+    "mood_today": "清晨醒来→和ルナ东边森林采集→午后训练场投掷+风刃→傍晚回城镇",
+    "mood_reason": "今天跟ルナ一起去了东边森林采集任务，顺利完成后午后在训练场继续练习。投掷6m稳定在五发，风刃也保持稳定。傍晚回城镇的路上想起昨天那个穿深色衣服的人——今天没再看到。",
     "goal_focus": "active:find_love(94%) + active:upgrade_equipment(95%) + active:b_rank_earn_money(80%) | staged:ancient_research(18%)",
-    "goal_message": "北境返程后第六天。今日安排：①训练场早训投掷+风刃 ②C级石甲虫群讨伐 ③训练场对练 ④城镇散步注意到陌生面孔",
+    "goal_message": "北境返程后第七天。今日安排：①和ルナ东边森林采集任务 ②午后训练场投掷+风刃 ③塞拉斯鉴定等待第6天",
     "is_exam_day": false,
     "is_celebration_day": false,
     "schedule": [
