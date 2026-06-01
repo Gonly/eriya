@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "坐在训练场木栅栏边上，跟ルナ采集任务完成后午后训练正常，投掷六米卡在五发，阳光暖暖的。",
+      "description": "和ルナ食堂吃晚饭，她约明天东边采集任务。巷子口又看到穿深色衣服的人了，公会门口张望，跟之前黑袍人有点像。明天继续留意。",
       "source": "daily_schedule",
-      "updated_at": "2026-06-01T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-01T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-01T15:00:00+08:00",
+  "last_proactive": "2026-06-01T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "坐在训练场木栅栏边上，跟ルナ采集任务完成后午后训练正常，投掷六米卡在五发，阳光暖暖的。",
+  "last_proactive_content": "和ルナ食堂吃晚饭，她约明天东边采集任务。巷子口又看到穿深色衣服的人了，公会门口张望，跟之前黑袍人有点像。明天继续留意。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-06-01",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
