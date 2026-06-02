@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "就寝前握通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，明天ルナ约了东边采集任务。",
+      "description": "",
       "source": "daily_schedule",
-      "updated_at": "2026-06-01T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "",
+      "proactive_time": ""
     },
-    "daily_message_count": 3
+    "daily_message_count": 0
   },
-  "last_proactive": "2026-06-01T21:00:00+08:00",
+  "last_proactive": null,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "就寝前握通讯石，六米投掷稳在五发了，石甲虫讨伐顺利，明天ルナ约了东边采集任务。",
+  "last_proactive_content": "",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -59,8 +59,8 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第十七天·北境返程后第六天·C级石甲虫群讨伐完成·训练场投掷6m进步到五发·城镇注意到陌生面孔·存款3050·装备升级95%",
-  "mood_date": "2026-05-31",
+  "today_mood": "B级第十九天·旧街线索推进中·森林巡逻发现黑袍人新痕迹·南部商路弃置马车·存款3405·装备升级97%",
+  "mood_date": "2026-06-02",
   "affection": 13,
   "recent_topics": [
     "星辉石详细鉴定结果（品质相当不错）",
@@ -74,8 +74,8 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 2,
-  "daily_message_date": "2026-06-01",
+  "daily_message_count": 0,
+  "daily_message_date": "2026-06-02",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -123,7 +123,7 @@
   "quality_check": {
     "last_check": "2026-05-31T20:00:00+08:00",
     "check_count": 40,
-    "next_check_agenda": "06-07 B级第十八天：①训练场早训②接任务（可能和ルナ一起东边采集）③城镇陌生面孔后续④塞拉斯鉴定等待第8天⑤训练场投掷6m突破尝试⑥日常",
+    "next_check_agenda": "06-03 B级第二十天：①塞拉斯鉴定结果跟进②旧街铺子夜间侦察可能性③训练场日常④黑袍人调查进展⑤南部商路弃置马车后续",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -189,15 +189,15 @@
         "name": "B级冒险者的积累——战斗和收入",
         "desc": "成为B级后手头并不宽裕。北境委托报酬900星币已领，需要稳定的任务收入来支撑装备升级和日常开销。",
         "target": "完成1-2个B级或高难度C级任务，存款突破2000星币并持续积累",
-        "current": "B级任务1个+C级任务4个完成。东行商路护卫+调查（400）+石甲虫群讨伐（220）。当前存款3050星币。收入稳步增长，装备升级持续推进。",
-        "progress_pct": 80,
+        "current": "B级任务1个+C级任务5个完成。当前存款3405星币。",
+        "progress_pct": 88,
         "motivation": "北境报酬已领，手上有大概2050星币，但要买投掷匕首、考虑短弓，钱是不够的。B级了不能只做D级任务糊口。",
         "estimate": 60,
         "estimated_days": 4,
         "daily_limit": 30,
         "started_at": "2026-05-27",
         "task_type": "quest",
-        "recent_progress": "2026-05-28：第二个C级讨伐任务完成——东部洞穴蝙蝠群。报酬180星币，存款2050→2230。\n2026-05-29：第三个C级任务完成——东部边境森林巡逻。单挑兽化魔物。报酬200星币，存款2230→2430。"
+        "recent_progress": "2026-06-01：东部边境森林巡逻C级200星币完成。存款3250→3405。"
       }
     ],
     "staged": [
@@ -206,10 +206,10 @@
         "name": "先民石板研究——等待塞拉斯的鉴定",
         "desc": "从北境古代遗迹带回的石板上刻有古代文字，与塞拉斯之前在东丘陵发现的属于同一体系。石板内容暂无法解读，但涉及「门」「光」「守护」等概念。已交由会长联系塞拉斯进行鉴定。",
         "target": "获得塞拉斯的鉴定结果，了解石板内容的初步含义",
-        "current": "塞拉斯的初步回信已到——确认文字与东丘陵古代语同源，内容为「仪式铭文」，涉及「门」「光」「守护」「循环」等概念。需要回王都档案库对比研究，预计一周左右出正式鉴定。今天是收到回信后第5天，还剩约2天。",
-        "progress_pct": 18,
+        "current": "塞拉斯的初步回信已到——确认文字与东丘陵古代语同源，内容为「仪式铭文」，涉及「门」「光」「守护」「循环」等概念。需要回王都档案库对比研究，预计一周左右出正式鉴定。今天是等待第6天，应该出结果了。",
+        "progress_pct": 27,
         "motivation": "北境带回的石板不可能放着不管。那些古代文字、那扇需要用星辉石开启的石门、还有石室里的壁画——这个故事的深度比我想象的要大得多。",
-        "recent_progress": "2026-05-29：等待塞拉斯正式鉴定第3天，预计还需4天。"
+        "recent_progress": "2026-06-01：旧街第三间铺子实地侦察完成。森林巡逻发现黑袍人新痕迹（脚印+营地+布条标记），情报员初步确认旧街铺子为联络点。"
       }
     ],
     "completed": [
