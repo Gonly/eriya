@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "",
+      "description": "食堂午餐·石甲虫报酬到账·午后训练场练习投掷和风刃",
       "source": "daily_schedule",
-      "updated_at": "",
-      "proactive_time": ""
+      "updated_at": "2026-06-02T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": null,
+  "last_proactive": "2026-06-02T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -74,7 +74,7 @@
     "投掷匕首实战首秀",
     "塞拉斯回信确认仪式铭文"
   ],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-06-02",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
