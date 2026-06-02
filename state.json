@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "食堂午餐·石甲虫报酬到账·午后训练场练习投掷和风刃",
+      "description": "训练场休息·ルナ送水·六米投掷稳在五发·风刃保持稳定",
       "source": "daily_schedule",
-      "updated_at": "2026-06-02T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-02T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-06-02T12:00:00+08:00",
+  "last_proactive": "2026-06-02T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "",
+  "last_proactive_content": "[15:00] 训练场休息间隙，ルナ来了递了瓶水。六米投掷稳在五发，风刃也保持得不错。下午练得挺充实。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
