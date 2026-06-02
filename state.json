@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "晚餐·ルナ主动要求一起去石柱阵·番茄浓汤配烤面包·她没问要不要去直接说要去",
+      "description": "就寝·整理今天笔记·三条线索交汇·星辉石发热·ルナ明天一起决定下一步",
       "source": "daily_schedule",
-      "updated_at": "2026-06-02T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-02T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-02T18:00:00+08:00",
+  "last_proactive": "2026-06-02T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[18:00] 和ルナ吃晚饭，番茄浓汤配烤面包。聊到石柱阵，她直接说要去——没问我同不同意。",
+  "last_proactive_content": "[21:00] 就寝前把今天的笔记全摊开——旧街铺子、南部商路、石柱阵三条线交叉了。星辉石贴在胸口微微发热。明天先把情报整理好再说。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -71,7 +71,7 @@
     "训练场六米投掷波动",
     "会长安排调查旧街铺子"
   ],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "daily_message_date": "2026-06-02",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
