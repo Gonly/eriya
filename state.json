@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "远行前最后聚餐·ルナ确认明早五点半东南门出发",
+      "description": "石柱阵远行前夜·就寝·星辉石泛光·明天东南门出发",
       "source": "daily_schedule",
-      "updated_at": "2026-06-03T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-03T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-03T18:00:00+08:00",
+  "last_proactive": "2026-06-03T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[18:00] 食堂和ルナ吃了烤鱼配蔬菜汤。她问我石柱阵里会有什么，我说不知道。她说明天早上五点半东南门见，别迟到。明天就出发了。",
+  "last_proactive_content": "[21:00] 就寝。通讯石握在手里，星辉石在黑暗中泛着淡蓝光。明天五点半东南门，ルナ同行。三天路程，不知道石柱阵里有什么在等着。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -73,7 +73,7 @@
     "本提示南部商路最近不太平",
     "训练场远行前最后练习（独练）"
   ],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-06-03",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
