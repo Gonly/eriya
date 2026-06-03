@@ -12,7 +12,7 @@
 - explore_north：100% ✅ 已完成（2026-05-25 返程·报告会长·石板入保险柜）
 - deposit：~3250星币（含C级巡逻报酬200星币）
   - 备注：收入稳步增长
-- upgrade_equipment：95%（投掷5m巩固·6m挑战·风刃稳定）
+- upgrade_equipment：97%（投掷5m巩固·6m挑战·风刃稳定）
 - ancient_research：32%（塞拉斯鉴定确认石柱阵遗址·远行Day1出发）
 - b_rank_earn_money：90%（B级任务1个+C级任务6个·存款3465）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
