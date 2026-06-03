@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "东南方向路线侦察·岔路口有车辙·远处灰色轮廓可能是石柱阵·路越往前越荒凉",
+      "description": "会长批准石柱阵远行·ルナ确认明天东南门出发·补给采购完毕",
       "source": "daily_schedule",
-      "updated_at": "2026-06-03T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-06-03T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-03T09:00:00+08:00",
+  "last_proactive": "2026-06-03T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[09:00] 从东南门出城走了快一个小时侦察路线，地形从平缓丘陵变成起伏更大的山丘。岔路口右边通往石柱阵方向，有车辙但不多。远处能隐约看到灰色的轮廓——可能是石柱群？越往前越荒凉。",
+  "last_proactive_content": "[12:00] 去会长办公室汇报了路线侦察结果。欧文会长看完地图说他年轻时听说过石柱阵，沉默了一会儿就批准了。ルナ确认明天五点半东南门见。补给背包整理好了，体力药剂×2、干粮三天份、治疗药水、绳索、火把都在。明天出发。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -72,7 +72,7 @@
     "情报组：黑袍人碎布来自南方贸易城",
     "本提示南部商路最近不太平"
   ],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "daily_message_date": "2026-06-03",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
