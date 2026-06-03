@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "远行前最后准备·训练场独练+铁壁装备检查·明天东南门出发",
+      "description": "远行前最后聚餐·ルナ确认明早五点半东南门出发",
       "source": "daily_schedule",
-      "updated_at": "2026-06-03T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-03T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-06-03T15:00:00+08:00",
+  "last_proactive": "2026-06-03T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[15:00] 训练场一个人练了半小时。ルナ走后投掷六米稳在四发，风刃五米四米都稳住了。去铁壁检查装备，明天出发。",
+  "last_proactive_content": "[18:00] 食堂和ルナ吃了烤鱼配蔬菜汤。她问我石柱阵里会有什么，我说不知道。她说明天早上五点半东南门见，别迟到。明天就出发了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
