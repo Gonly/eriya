@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "会长批准石柱阵远行·ルナ确认明天东南门出发·补给采购完毕",
+      "description": "远行前最后准备·训练场独练+铁壁装备检查·明天东南门出发",
       "source": "daily_schedule",
-      "updated_at": "2026-06-03T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-03T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-03T12:00:00+08:00",
+  "last_proactive": "2026-06-03T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[12:00] 去会长办公室汇报了路线侦察结果。欧文会长看完地图说他年轻时听说过石柱阵，沉默了一会儿就批准了。ルナ确认明天五点半东南门见。补给背包整理好了，体力药剂×2、干粮三天份、治疗药水、绳索、火把都在。明天出发。",
+  "last_proactive_content": "[15:00] 训练场一个人练了半小时。ルナ走后投掷六米稳在四发，风刃五米四米都稳住了。去铁壁检查装备，明天出发。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -59,7 +59,7 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十天·石柱阵远行筹备日·旧街新锁·会长批准远行·ルナ确认同行·采购补给190星币·路线侦察东南方向",
+  "today_mood": "B级第二十天·石柱阵远行筹备日·旧街新锁·会长批准远行·ルナ确认同行·采购补给190星币·路线侦察东南方向·远行前最后训练",
   "mood_date": "2026-06-03",
   "affection": 13,
   "recent_topics": [
@@ -70,9 +70,10 @@
     "ルナ确认明天出发同行",
     "铁壁老板赠送防锈油脂",
     "情报组：黑袍人碎布来自南方贸易城",
-    "本提示南部商路最近不太平"
+    "本提示南部商路最近不太平",
+    "训练场远行前最后练习（独练）"
   ],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "daily_message_date": "2026-06-03",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
