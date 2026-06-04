@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱阵远行Day2·碎石坡路段·接近石柱阵·ルナ同行",
+      "description": "石柱阵远行Day2·山路推进·野猪痕迹绕行·ルナ同行",
       "source": "daily_schedule",
-      "updated_at": "2026-06-04T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-04T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": null,
+  "last_proactive": "2026-06-04T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-06-04",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "daily_message_date": "2026-06-04",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
