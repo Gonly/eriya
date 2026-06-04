@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱阵远行Day1·东南门出发·丘陵行军·溪边扎营·ルナ同行",
+      "description": "石柱阵远行Day2·碎石坡路段·接近石柱阵·ルナ同行",
       "source": "daily_schedule",
       "updated_at": "2026-06-04T05:00:00+08:00",
       "proactive_time": "05:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-06-03T21:00:00+08:00",
+  "last_proactive": null,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -21,7 +21,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[21:00] 就寝。通讯石握在手里，星辉石在黑暗中泛着淡蓝光。明天五点半东南门，ルナ同行。三天路程，不知道石柱阵里有什么在等着。",
+  "last_proactive_content": "",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -59,20 +59,10 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十一天·石柱阵远行Day1·东南门出发·丘陵行军·野猪痕迹·碎石坡·溪边扎营·ルナ同行",
+  "today_mood": "B级第二十一天·石柱阵远行Day2·碎石坡路段·接近石柱阵·ルナ同行",
   "mood_date": "2026-06-04",
   "affection": 13,
-  "recent_topics": [
-    "石柱阵远行Day1出发",
-    "丘陵地带行军",
-    "野猪痕迹绕行",
-    "碎石坡路段",
-    "石甲虫偶遇",
-    "溪边扎营",
-    "ルナ画地形图",
-    "烤面包晚餐",
-    "通讯石+星辉石泛光"
-  ],
+  "recent_topics": [],
   "daily_message_count": 0,
   "daily_message_date": "2026-06-04",
   "user_mood_estimate": "unknown",
