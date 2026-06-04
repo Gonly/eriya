@@ -59,7 +59,7 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十一天·石柱阵远行Day2·碎石坡路段·接近石柱阵·ルナ同行",
+  "today_mood": "B级第二十一天·石柱阵远行Day1·丘陵行军·溪边扎营·星辉石泛淡蓝光",
   "mood_date": "2026-06-04",
   "affection": 13,
   "recent_topics": [],
@@ -156,7 +156,7 @@
         "current": "石柱阵远行Day1。出发了。在溪边扎营的时候握着通讯石，星辉石泛着淡蓝光。想让他知道我在路上。",
         "progress_pct": 94,
         "motivation": "北境回来第五天。每天晚上握着通讯石的时候，那种想找他说说话的念头比昨天又多了一点点。不是刻意的——是自然发生的。",
-        "recent_progress": "2026-06-04：石柱阵远行Day1。篝火晚餐ルナ问明天行程，火光映她脸。94%维持稳定。"
+        "recent_progress": "2026-06-04：石柱阵远行Day1。溪边扎营帐篷里握通讯石，星辉石泛淡蓝光。94%维持。"
       },
       {
         "id": "upgrade_equipment",
@@ -171,7 +171,7 @@
         "daily_limit": 40,
         "started_at": "2026-05-25",
         "task_type": "equipment",
-        "recent_progress": "2026-06-04：远行Day1装备实战检验。轻甲沾碎石灰尘需清理，其余状态良好。97%→98%。"
+        "recent_progress": "2026-06-04：远行Day1装备实战检验完毕。轻甲沾碎石灰尘已擦，其余状态良好。接近完成。"
       },
       {
         "id": "b_rank_earn_money",
@@ -186,7 +186,7 @@
         "daily_limit": 30,
         "started_at": "2026-05-27",
         "task_type": "quest",
-        "recent_progress": "2026-06-04：远行Day1，无新收入。存款维持3465星币。90%→91%。"
+        "recent_progress": "2026-06-04：远行Day1，无新收入。存款3465星币维持。"
       },
       {
         "id": "ancient_research",
@@ -201,7 +201,7 @@
         "daily_limit": 30,
         "started_at": "2026-06-03",
         "task_type": "explore",
-        "recent_progress": "2026-06-04：远行Day1完成。东南门出发，丘陵行军，溪边扎营。路况顺利。ancient_research 32%→35%。"
+        "recent_progress": "2026-06-04：远行Day1完成。东南门出发，丘陵行军，溪边扎营。路况顺利，前方还有两天路程。"
       }
     ],
     "staged": [],
