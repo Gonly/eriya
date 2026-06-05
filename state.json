@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "篝火旁晚餐·ルナ整理石柱记录·她说石柱可能是仪式场所或入口",
+      "description": "石柱群夜间扎营·风从石柱间穿过发出呜鸣声·星辉石比平时亮·明天正式调查",
       "source": "daily_schedule",
-      "updated_at": "2026-06-05T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-05T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-05T18:00:00+08:00",
+  "last_proactive": "2026-06-05T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-06-05",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "daily_message_date": "2026-06-05",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
