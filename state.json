@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "走出混交林远眺石柱群·十几根灰色石柱矗立·风吹过来带石头气息",
+      "description": "篝火旁晚餐·ルナ整理石柱记录·她说石柱可能是仪式场所或入口",
       "source": "daily_schedule",
-      "updated_at": "2026-06-05T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-05T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-05T15:00:00+08:00",
+  "last_proactive": "2026-06-05T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-06-05",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-06-05",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
