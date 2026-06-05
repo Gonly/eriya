@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "林间空地午休·干粮快见底·ルナ说傍晚到石柱群",
+      "description": "走出混交林远眺石柱群·十几根灰色石柱矗立·风吹过来带石头气息",
       "source": "daily_schedule",
-      "updated_at": "2026-06-05T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-05T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-05T12:00:00+08:00",
+  "last_proactive": "2026-06-05T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-06-05",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "daily_message_date": "2026-06-05",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
