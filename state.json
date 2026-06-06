@@ -1,18 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱群正式调查日·星辉石激活装置·凹槽蓝光回应·隐藏空间入口待探索",
+      "description": "隐藏空间内部·四面墙壁文字地图壁画·北墙地形图·南墙三凹槽无反应·文字记录中",
       "source": "daily_schedule",
-      "updated_at": "2026-06-06T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-06-06T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-06T09:00:00+08:00",
+  "last_proactive": "2026-06-06T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
+  "daily_message_date": "2026-06-06",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -21,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": null,
+  "last_proactive_content": "坐在隐藏空间阶梯底部吃最后几块肉干，把墙壁上的文字和图案都画在纸上，北面地图特别重要。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
