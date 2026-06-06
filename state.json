@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "篝火旁整理发现·石台裂缝变长·ルナ问先民为什么留下这些·石柱群在暮色里像沉默守卫",
+      "description": "帐篷内通讯石时刻·风声从石柱间穿过·今天比昨天更想跟他说话·南墙凹槽还需要别的东西来激活",
       "source": "daily_schedule",
-      "updated_at": "2026-06-06T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-06T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-06T18:00:00+08:00",
+  "last_proactive": "2026-06-06T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "篝火旁和ルナ整理今天发现，石台裂缝变长了一点。她说这些石柱到底是谁留下的。石柱群在暮色里变成深色剪影，像沉默的守卫。资料得带回去给塞拉斯。",
+  "last_proactive_content": "帐篷里安静，风从石柱间穿过的呜鸣声变了调——知道它们是什么之后，听起来不一样了。今天比昨天更想跟他说话。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
