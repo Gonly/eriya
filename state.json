@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "装备全部检查完——轻甲四天远行没一点损坏，匕首套牢靠，水袋灌满。背包里只剩资料、水袋、火折子和几块碎面包。明天天亮就走，后天傍晚能到公会。",
+  "last_proactive_content": "天完全黑了，石柱群变成巨大黑影。风声变了——不再是之前的呜鸣，是低沉的嗡嗡声，像机器在运转。知道它们是什么之后，听起来完全不一样了。明天就走。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-07",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "daily_message_date": "2026-06-07",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
