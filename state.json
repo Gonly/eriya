@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱阵远行Day4·最后的午餐·风从西北方向吹来·开始整理资料准备返程",
+      "description": "石柱阵远行Day4·装备检查完毕·明天天亮返程·轻甲完好匕首齐全",
       "source": "daily_schedule",
-      "updated_at": "2026-06-07T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-07T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-07T12:00:00+08:00",
+  "last_proactive": "2026-06-07T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "风从西北方向吹来，比早上凉了不少。和ルナ分了最后的肉干，一人一半。吃完开始整理所有资料——十二张纸，从石柱位置图到外来者痕迹记录。回去先找塞拉斯，再找会长。",
+  "last_proactive_content": "装备全部检查完——轻甲四天远行没一点损坏，匕首套牢靠，水袋灌满。背包里只剩资料、水袋、火折子和几块碎面包。明天天亮就走，后天傍晚能到公会。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-07",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "daily_message_date": "2026-06-07",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
