@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱阵远行Day5·返程·驿站旅馆入住·脱甲休息",
+      "description": "石柱阵远行Day5·返程·驿站夜晚·到家了",
       "source": "daily_schedule",
-      "updated_at": "2026-06-08T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-08T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-06-08T15:00:00+08:00",
+  "last_proactive": "2026-06-08T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "驿站旅馆开了双人间，40星币。四天来第一次脱下轻甲，皮肤上一圈浅浅的压痕。坐在床边，突然觉得好累——不是身体累，是心累。",
+  "last_proactive_content": "天黑了，驿站小镇路灯亮了——暖黄的光洒下来。站在窗户前看下面的街道，人少了，但还有店铺亮着灯。四天远行结束了。明天就到家。想你了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
