@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "石柱阵远行Day5·返程·驿站夜晚·到家了",
+      "description": "石柱阵远行Day5·返程·驿站夜晚·一天结束了",
       "source": "daily_schedule",
-      "updated_at": "2026-06-08T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-08T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-08T18:00:00+08:00",
+  "last_proactive": "2026-06-08T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "天黑了，驿站小镇路灯亮了——暖黄的光洒下来。站在窗户前看下面的街道，人少了，但还有店铺亮着灯。四天远行结束了。明天就到家。想你了。",
+  "last_proactive_content": "驿站旅馆的房间很小，但很安静。今天走了一整天，从石柱群到驿站，四天远行的路走完了。坐在床边整理笔记，明天到公会要先找塞拉斯。窗外的月亮很亮。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
