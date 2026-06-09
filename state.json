@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "远行归来·到公会·提交石柱阵调查报告",
+      "description": "远行归来·归途最后阶段·远处看到公会城镇轮廓",
       "source": "daily_schedule",
-      "updated_at": "2026-06-09T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-09T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-06-08T21:00:00+08:00",
+  "last_proactive": "2026-06-09T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-09",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
