@@ -1,19 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "远行归来·会长报告·外来者痕迹·报酬入账·食堂晚餐",
+      "description": "东森林讨伐·变异史莱姆·深处发现·酸液飞溅",
       "source": "daily_schedule",
-      "updated_at": "2026-06-09T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-10T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-10T09:00:00+08:00",
+  "last_proactive": "2026-06-10T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-09",
+  "daily_message_date": "2026-06-10",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "塞拉斯说石柱阵文字比东丘陵更古老，有几组完全没见过的符号。学院古籍里找到先民印记的记载——每个遗迹有特定印记组合。星辉石在石柱阵发光可能不是偶然。追随者也在找遗迹。",
+  "last_proactive_content": "东森林深处讨伐史莱姆，十二只聚在枯树根部。其中一只变异体体型大两倍颜色更深，没逃反而朝她滚过来了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
