@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十七天·恢复日常·训练·讨伐任务·等塞拉斯",
+  "today_mood": "B级第二十七天·恢复日常·训练·讨伐史莱姆·等塞拉斯·追随者线索",
   "mood_date": "2026-06-10",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 6,
+  "daily_message_count": 7,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -161,7 +161,7 @@
         "daily_limit": 50,
         "started_at": "2026-06-06",
         "task_type": "social",
-        "recent_progress": "2026-06-10：报告已提交+报酬入账。等塞拉斯文字解读结果（预计明天）。75%。"
+        "recent_progress": "2026-06-10：等塞拉斯文字解读中。预计明天出结果。75%。"
       },
       {
         "id": "investigate_black_robes",
@@ -176,7 +176,7 @@
         "estimated_days": 7,
         "daily_limit": 25,
         "task_type": "explore",
-        "recent_progress": "2026-06-10：讨伐任务中听到传闻——有人在收购发光石头。和星辉石特征相似。35%。"
+        "recent_progress": "2026-06-10：旅人传闻收购发光石头+塞拉斯提到追随者组织+会长安排外围调查。35%。"
       },
       {
         "id": "fire_magic_training",
@@ -184,14 +184,14 @@
         "desc": "火魔法正在提升中，但离Lv.2还差得远。石柱阵南墙的风魔法反应给了启示——魔法不只是攻击工具，可能和先民遗迹有更深的联系。需要系统训练。",
         "target": "火魔法从当前水平提升至Lv.2基础掌握",
         "current": "训练第一天。清晨在训练场练习火焰凝聚，手感比之前稳了。",
-        "progress_pct": 40,
+        "progress_pct": 45,
         "started_at": "2026-06-10",
         "motivation": "远行中发现魔法和遗迹的联系，训练不只是变强——可能也是理解先民的方式。",
         "estimate": 80,
         "estimated_days": 4,
         "daily_limit": 40,
         "task_type": "training",
-        "recent_progress": "2026-06-10：训练Day1。清晨训练场火焰凝聚练习，手感稳定。40%。"
+        "recent_progress": "2026-06-10：训练Day1。火焰形状控制进步——球形稳定，锥形可用，线形仍难。石柱阵南墙凹槽灵感。45%。"
       }
     ],
     "staged": [],
