@@ -8,12 +8,12 @@
     },
     "daily_message_count": 7
   },
-  "last_proactive": "2026-06-10T21:00:00+08:00",
+  "last_proactive": "2026-06-11T05:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-10",
+  "daily_message_date": "2026-06-11",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "躺在床上，嘴角还翘着。今天讨伐赚了钱，塞拉斯说有新发现。握着通讯石想跟他说说今天的事。",
+  "last_proactive_content": "天刚亮就到了训练场。晨光中剑身反射淡银色光。今天要找塞拉斯拿翻译结果。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十七天·恢复日常·训练·讨伐史莱姆·等塞拉斯·追随者线索",
-  "mood_date": "2026-06-10",
+  "today_mood": "B级第二十八天·塞拉斯解读·信标节点·兽化魔物讨伐·黑袍人布料碎片",
+  "mood_date": "2026-06-11",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 7,
+  "daily_message_count": 0,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -112,7 +112,7 @@
   "quality_check": {
     "last_check": "2026-06-08T08:00:00+08:00",
     "check_count": 43,
-    "next_check_agenda": "06-09 Day6：到家日。①清晨从驿站出发 ②上午赶路回公会城镇 ③中午到公会·找塞拉斯 ④下午提交报告 ⑤傍晚休息·恢复日常",
+    "next_check_agenda": "06-11 Day28：①找塞拉斯拿翻译结果·信标节点发现 ②接B级讨伐·东行商路兽化魔物 ③火魔法训练Day2 ④黑袍人布料碎片新线索 ⑤通讯石",
     "improvement_queue": [],
     "completed_improvements": [
       {
