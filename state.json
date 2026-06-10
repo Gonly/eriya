@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "东森林讨伐·变异史莱姆·深处发现·酸液飞溅",
+      "description": "旅人传闻·发光石头·会长报告·追随者调查",
       "source": "daily_schedule",
-      "updated_at": "2026-06-10T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-10T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-10T12:00:00+08:00",
+  "last_proactive": "2026-06-10T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "东森林深处讨伐史莱姆，十二只聚在枯树根部。其中一只变异体体型大两倍颜色更深，没逃反而朝她滚过来了。",
+  "last_proactive_content": "旅人说有人在收购发光石头，回来跟会长说了。和星辉石描述相似，会长说会安排人留意。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
