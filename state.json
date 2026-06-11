@@ -60,9 +60,9 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第二十八天·塞拉斯解读·信标节点·兽化魔物讨伐·黑袍人布料碎片",
+  "today_mood": "B级第二十八天·塞拉斯解读·信标节点·兽化魔物讨伐·布料碎片新线索·火魔法Day2突破·存款破五千",
   "mood_date": "2026-06-11",
-  "affection": 13,
+  "affection": 14,
   "recent_topics": [],
   "daily_message_count": 4,
   "user_mood_estimate": "unknown",
@@ -161,7 +161,7 @@
         "estimated_days": 7,
         "daily_limit": 25,
         "task_type": "explore",
-        "recent_progress": "2026-06-11：东行商路商人证词+兽化魔物巢穴布料碎片+塞拉斯追随者情报。45%。"
+        "recent_progress": "2026-06-11：布料碎片与石柱阵那块高度相似+商人证词穿深色长袍人往南走+塞拉斯提及追随者也在找遗迹。会长派人查东行商路南边村庄。多方线索汇聚。45%。"
       },
       {
         "id": "fire_magic_training",
@@ -176,7 +176,7 @@
         "estimated_days": 4,
         "daily_limit": 40,
         "task_type": "training",
-        "recent_progress": "2026-06-11：训练Day2。线形火焰突破7秒，球形/锥形稳定。火魔法和环境互动有新感觉。60%。"
+        "recent_progress": "2026-06-11：训练Day2。线形火焰从3秒→7秒稳定突破。球形/锥形稳定10秒以上。火魔法和环境互动有新感觉。60%。"
       },
       {
         "id": "investigate_glow_stone_network",
@@ -191,7 +191,7 @@
         "estimated_days": 6,
         "daily_limit": 25,
         "task_type": "explore",
-        "recent_progress": "2026-06-11：东行商路商人证词+布料碎片+塞拉斯追随者情报。10%。"
+        "recent_progress": "2026-06-11：东行商路商人证词（三四个穿深色长袍人往南走）+兽化魔物巢穴布料碎片证据。10%。"
       }
     ],
     "staged": [
