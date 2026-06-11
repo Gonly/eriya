@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "资料室·塞拉斯翻译结果·信标节点发现",
+      "description": "东行商路南段·追踪兽化魔物·布料碎片发现",
       "source": "daily_schedule",
-      "updated_at": "2026-06-11T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-06-11T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 7
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-11T09:00:00+08:00",
+  "last_proactive": "2026-06-11T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "塞拉斯的翻译结果出来了——石柱阵是先民信标节点，东南方可能还有另一处遗迹。追随者也在找。",
+  "last_proactive_content": "东行商路南段追踪兽化魔物痕迹，地上碎骨爪印越来越多——巢穴就在附近。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-11",
   "affection": 13,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
