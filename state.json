@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "东行商路南段·过桥后进入密林追踪脚印·至少三四个人往西南走",
+      "description": "食堂午餐·ルナ听完猎人小屋的事说下次叫上她·不是客气是真的",
       "source": "daily_schedule",
-      "updated_at": "2026-06-12T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-06-12T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 4
   },
-  "last_proactive": "2026-06-12T09:00:00+08:00",
+  "last_proactive": "2026-06-12T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "今天去了南边的猎人小屋——那些穿深色长袍的人刚走不久。找到一张地图，上面标了一个圈，和塞拉斯说的东南方信标节点方向一样。他们在找遗迹……火魔法有进步——线形火焰撑到十一秒了！",
+  "last_proactive_content": "食堂午餐，ルナ听完猎人小屋的事皱眉说你一个人去太危险了，下次叫上我。不是客气——是真的。嘴角翘了翘。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-12",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
