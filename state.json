@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "靶场投掷练习·风魔法裹匕首投掷稳定性大幅提升·十发中九",
+      "description": "食堂晚餐·ルナ认真说下次去南边要一起·你一个人我不放心",
       "source": "daily_schedule",
-      "updated_at": "2026-06-12T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-12T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-06-12T15:00:00+08:00",
+  "last_proactive": "2026-06-12T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "靶场投掷练习，风魔法裹匕首后轨迹稳了很多，十发中九。意外发现风魔法和投掷武器很搭。",
+  "last_proactive_content": "食堂晚餐，ルナ认真说下次去南边要一起。低头喝汤嘴角翘了翘。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-12",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
