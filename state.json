@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "清晨·醒来·昨天猎人小屋发现翻来覆去·今天两件事：找塞拉斯确认符号+和ルナ碰面确定南行计划",
+      "description": "午间·食堂·ルナ认真画路线图·明天一早南行追踪黑袍人·南行计划确定",
       "source": "daily_schedule",
-      "updated_at": "2026-06-13T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-13T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": null,
+  "last_proactive": "2026-06-13T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": null,
+  "last_proactive_content": "[12:00] 食堂午餐。ルナ坐对面认真画路线图，明天一早出发往南走。事情在推进，有她在没那么怕。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-13",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
