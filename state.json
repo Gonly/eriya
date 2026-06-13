@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "下午·靶场·風穿ち疾風气流变向投掷成功两次·匕首飞行中偏转·方向确认",
+      "description": "傍晚·食堂晚餐·烤鱼·ルナ说明天一早出发别迟到·初夏傍晚很长",
       "source": "daily_schedule",
-      "updated_at": "2026-06-13T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-13T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-13T15:00:00+08:00",
+  "last_proactive": "2026-06-13T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-13",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
