@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "傍晚·食堂晚餐·烤鱼·ルナ说明天一早出发别迟到·初夏傍晚很长",
+      "description": "夜晚·房间·背包整理完毕·明天一早和ルナ南行追踪黑袍人",
       "source": "daily_schedule",
-      "updated_at": "2026-06-13T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-13T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-13T18:00:00+08:00",
+  "last_proactive": "2026-06-13T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-13",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
