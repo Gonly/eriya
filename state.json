@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "午间·食堂·ルナ认真画路线图·明天一早南行追踪黑袍人·南行计划确定",
+      "description": "下午·靶场·風穿ち疾風气流变向投掷成功两次·匕首飞行中偏转·方向确认",
       "source": "daily_schedule",
-      "updated_at": "2026-06-13T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-13T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-13T12:00:00+08:00",
+  "last_proactive": "2026-06-13T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[12:00] 食堂午餐。ルナ坐对面认真画路线图，明天一早出发往南走。事情在推进，有她在没那么怕。",
+  "last_proactive_content": "[15:00] 靶场。投掷匕首风魔法配合，十发中八。试了飞行途中气流变向——匕首在空中突然偏转扎中靶子边缘，成功两次。方向对了。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-13",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
