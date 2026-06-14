@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "中午·猎人小屋抵达·新脚印+新符号·四人东南方向",
+      "description": "下午·返程出发·猎人小屋新脚印符号已记录·回去找塞拉斯",
       "source": "daily_schedule",
-      "updated_at": "2026-06-14T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-14T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
     "daily_message_count": 2
   },
-  "last_proactive": "2026-06-14T12:00:00+08:00",
+  "last_proactive": "2026-06-14T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[12:00] 猎人小屋到了。推开门灰尘比上次多，地上有新鲜脚印——四个人，方向东南方。墙上角落多了一行炭笔字。ルナ在门口放哨，我在抄符号。",
+  "last_proactive_content": "[15:00] 猎人小屋的事记完了，和ルナ开始往回走。她走在旁边没说话，阳光从树冠缝隙洒在碎石路上。风从南边吹过来，带着那个方向的味道——信标节点的方向。回去第一件事找塞拉斯看新抄的符号。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-14",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 6,
+  "daily_message_count": 7,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
