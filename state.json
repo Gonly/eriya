@@ -1,19 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "傍晚·回到公会城镇·今天收获比预想多·明天找塞拉斯解读新符号",
+      "description": "上午·塞拉斯研究室·解读猎人小屋新符号·信标节点方向",
       "source": "daily_schedule",
-      "updated_at": "2026-06-14T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-15T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-06-14T21:00:00+08:00",
+  "last_proactive": "2026-06-15T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-14",
+  "daily_message_date": "2026-06-15",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[18:00] 回到公会城镇，ルナ在东门处分开，她说明天见。走进公会大厅放下背包，今天走了不少路——新脚印、新符号，收获比预想多。回去第一件事找塞拉斯看新抄的内容。",
+  "last_proactive_content": "[09:00] 塞拉斯研究室，昨天从猎人小屋抄回来的炭笔符号摊在桌上。他皱着眉一行一行看，偶尔用笔在旁边画什么。等他解读。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-14",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 5,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
