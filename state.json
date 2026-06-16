@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "谷内扎营·生火做晚饭·车辙消失·车队停过或转向隐秘路·ルナ整理符号痕迹",
+      "description": "回声谷夜晚·石柱刻痕白天发光现在暗了·车队痕迹在谷内消失·明天往深处搜",
       "source": "daily_schedule",
-      "updated_at": "2026-06-16T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-16T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 6
+    "daily_message_count": 7
   },
-  "last_proactive": "2026-06-16T18:00:00+08:00",
+  "last_proactive": "2026-06-16T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[18:00] 回声谷内扎营。生火做晚饭，车辙在谷里消失了——车队要么在这里停过，要么拐进了更隐蔽的路。ルナ在整理今天的符号痕迹。明天要更仔细地搜。",
+  "last_proactive_content": "[21:00] 夜里的回声谷很安静，石柱白天发光的刻痕现在全暗了。车队痕迹在谷里断了，明天要往深处搜。今天走了不少路，回声谷比预想中大很多。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
