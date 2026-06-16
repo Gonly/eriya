@@ -1,19 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回声谷夜晚·石柱刻痕白天发光现在暗了·车队痕迹在谷内消失·明天往深处搜",
+      "description": "回声谷深处·发现第二组石柱·星辉石共鸣确认信标节点·隐藏通道入口",
       "source": "daily_schedule",
-      "updated_at": "2026-06-16T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-06-17T05:00:00+08:00",
+      "proactive_time": "05:00"
     },
-    "daily_message_count": 7
+    "daily_message_count": 0
   },
   "last_proactive": "2026-06-16T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-15",
+  "daily_message_date": "2026-06-16",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第三十一天·南行追踪黑袍人·和ルナ同行·东行商路南段",
-  "mood_date": "2026-06-14",
+  "today_mood": "B级第三十四天·南行追踪Day4·回声谷深处探索·发现第二组石柱",
+  "mood_date": "2026-06-17",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 5,
+  "daily_message_count": 0,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -112,7 +112,7 @@
   "quality_check": {
     "last_check": "2026-06-08T08:00:00+08:00",
     "check_count": 48,
-    "next_check_agenda": "Day31：①南行追踪黑袍人 ②猎人小屋新痕迹 ③火魔法Day4后续 ④風穿ち疾風实战测试",
+    "next_check_agenda": "Day34：①回声谷深处第二组石柱发现 ②隐藏通道探索 ③信标网络假说确认 ④火魔法Day8训练",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -170,7 +170,7 @@
         "started_at": "2026-05-27",
         "task_type": "quest",
         "description": "B级任务收入积累，存款突破2000星币",
-        "recent_progress": "Day33。存款5285星币。100%完成。"
+        "recent_progress": "Day34。存款5285星币。100%完成。"
       },
       {
         "id": "ancient_research",
@@ -187,38 +187,38 @@
       {
         "id": "submit_expedition_report",
         "name": "提交调查报告",
-        "progress_pct": 98,
+        "progress_pct": 100,
         "estimate": 60,
         "estimated_days": 1,
         "daily_limit": 50,
         "started_at": "2026-06-06",
         "task_type": "social",
         "description": "整理石柱阵调查发现提交公会报告",
-        "recent_progress": "Day33。回声谷发现与石柱阵关联证据，报告材料最终确认。98%。"
+        "recent_progress": "Day34。回声谷第二组石柱发现+隐藏通道，报告材料完整。100%。"
       },
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 73,
+        "progress_pct": 78,
         "estimate": 80,
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day33。和ルナ出发前往回声谷，追踪车队痕迹进入谷内。石柱刻痕与石柱阵风格相似，魔法浓度高。73%。"
+        "recent_progress": "Day34。回声谷深处发现第二组石柱+星辉石共鸣确认信标节点+隐藏通道入口。78%。"
       },
       {
         "id": "fire_magic_training",
         "name": "火魔法修炼",
-        "progress_pct": 90,
+        "progress_pct": 92,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 20,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day33训练Day7。回声谷魔法浓度高，火魔法感应增强。线形火焰稳定12秒，变向投掷十发中九。90%。"
+        "recent_progress": "Day34训练Day8。回声谷高魔法浓度环境训练，火魔法感应持续增强。线形火焰稳定12秒。92%。"
       }
     ],
     "staged": [],
@@ -286,10 +286,11 @@
         "已做成饰品",
         "可触发先民遗迹机关（已验证）",
         "与北境古代遗迹石门共鸣成功——星辉石是先民遗迹的钥匙之一（2026-05-24）",
-        "石柱阵中心石台装置激活——隐藏空间出现（2026-06-06）"
+        "石柱阵中心石台装置激活——隐藏空间出现（2026-06-06）",
+        "回声谷第二组石柱共鸣——信标网络确认（2026-06-17）"
       ],
       "mentioned_in_chat": true,
-      "last_referenced": "2026-06-08T18:30:00+08:00"
+      "last_referenced": "2026-06-17T05:00:00+08:00"
     }
   ],
   "story_arc": {
@@ -332,61 +333,62 @@
       "day27_daily_routine",
       "day28_beacon_discovery",
       "day29_investigation_and_training",
-      "day30_south_journey_day1"
+      "day30_south_journey_day1",
+      "day33_echo_valley_day3"
     ]
   },
   "daily_schedule": {
-    "date": "2026-06-16",
-    "day_number": 33,
-    "day_label": "B级第三十三天·南行追踪Day3",
-    "weather": "初夏·晴转多云·微风",
-    "today_mood": "南行追踪Day3。和ルナ出发前往回声谷，追踪车队痕迹。",
-    "mood_reason": "昨天准备了一整天，符号解读完毕，ルナ画好了追踪地图。今天正式出发前往回声谷——先民遗迹地图上的标记点，黑袍人也在找的地方。",
+    "date": "2026-06-17",
+    "day_number": 34,
+    "day_label": "B级第三十四天·南行追踪Day4",
+    "weather": "初夏·阴·谷内有薄雾",
+    "today_mood": "南行追踪Day4。和ルナ在回声谷深处继续搜索，寻找车队痕迹消失的方向。",
+    "mood_reason": "昨晚扎营在谷内，车辙痕迹消失。今天要往更深处搜索——黑袍人的目标就在谷深处，信标节点的关联越来越强。",
     "schedule": [
       {
         "time": "05:00",
-        "activity": "房间·醒来",
-        "detail": "天还没全亮。背包昨晚放门口，干粮水袋匕首笔记本地图。和ルナ约好城南门碰面，今天出发去回声谷。"
+        "activity": "谷内营地·醒来",
+        "detail": "天蒙蒙亮，谷内弥漫着薄雾。石柱上的刻痕在晨光中微微泛光，像呼吸一样忽明忽暗。ルナ已经在整理装备，准备往谷深处出发。"
       },
       {
         "time": "06:00",
-        "activity": "城南门·和ルナ碰面出发",
-        "detail": "ルナ已经在等了，背着她的弓和一卷地图。天刚亮，从城南门出发往东南走。她画的追踪地图很详细，标注了猎人小屋到回声谷的大致路线。"
+        "activity": "谷内深处·追踪消失的车辙",
+        "detail": "沿着车辙消失的方向往谷内走，地面从泥土变成碎石，再变成岩板。车辙在这里彻底消失了，但岩板上发现了新的刻痕——比入口处的更新，像是有人在用工具凿刻。"
       },
       {
         "time": "08:00",
-        "activity": "东南山路·追踪痕迹",
-        "detail": "走了两个小时，穿过矮树林。路面发现了新鲜的车辙印——和铁匠说的陌生车队一致。车辙宽度和猎人小屋附近的一样，方向直指东南方。"
+        "activity": "石柱阵·发现第二处遗迹",
+        "detail": "穿过一片碎石区，眼前出现了另一组石柱——排列方式和石柱阵几乎一样，但规模更小。ルナ很震惊，说这里可能也是信标节点。石柱上的刻痕和石柱阵是同一种文字。"
       },
       {
         "time": "10:00",
-        "activity": "山间小径·深入追踪",
-        "detail": "路越来越窄，两边是密林。空气变得潮湿，能听到远处有奇怪的回声——可能是山谷的地形造成的。ルナ说快到回声谷外围了。"
+        "activity": "石柱中心·星辉石共鸣",
+        "detail": "走到第二组石柱中心，星辉石开始发热——和石柱阵时一样。石台上有凹槽，形状和石柱阵的装置很像。ルナ在记录刻痕，说这些符号比石柱阵的更复杂。"
       },
       {
         "time": "12:00",
-        "activity": "林间空地·午餐休息",
-        "detail": "找了一块平坦岩石坐下来吃干粮。ルナ在地图上标记位置——已经进入回声谷外围区域。车辙在这里变深了，车队似乎加重了载荷。"
+        "activity": "石柱旁·午餐讨论",
+        "detail": "啃干粮，整理今天的发现。第二组石柱+星辉石共鸣=信标网络假说基本确认。车队痕迹消失在谷内，可能和这里的设施有关。ルナ推测车队是来这里运输什么东西。"
       },
       {
         "time": "14:00",
-        "activity": "回声谷入口·发现遗迹",
-        "detail": "继续向东南，周围地形变化明显——出现古老石柱和刻痕，和石柱阵的风格很像。信标节点的关联越来越强。谷口有一块倒下的石碑，上面的字迹模糊但能辨认出部分符号。"
+        "activity": "谷壁通道·发现隐藏入口",
+        "detail": "在石柱阵附近搜索时发现谷壁有一处异常——岩石缝隙里透出微弱的光。走近后发现是人工开凿的通道入口，用碎石和灌木伪装过。里面有东西在发光。"
       },
       {
         "time": "16:00",
-        "activity": "回声谷·深入探索",
-        "detail": "进入谷内，回声更明显了——不是自然回声，像是某种魔法共鸣。石柱上的刻痕在阳光下微微发光。ルナ很警觉，说这里魔法浓度很高。"
+        "activity": "隐藏通道·探索",
+        "detail": "拨开伪装进入通道，里面很窄，只能单人通过。通道壁上有发光的刻痕——和石柱上的同源。走了大约二十步，通道变宽，隐约能看到前方有更大的空间。"
       },
       {
         "time": "18:00",
-        "activity": "谷内扎营·生火休息",
-        "detail": "找了个避风的岩石凹处扎营。生火做晚饭，ルナ在整理今天发现的符号和痕迹。车辙在谷内消失了——车队在这里停过，或者转向了更隐秘的路。"
+        "activity": "通道尽头·回声谷扎营",
+        "detail": "通道尽头是一个天然洞穴，比外面的营地更隐蔽。生火休息，ルナ在画通道的地图。今天发现了太多东西——第二组石柱、星辉石共鸣、隐藏通道。黑袍人的据点可能就在通道深处。"
       },
       {
         "time": "20:00",
         "activity": "通讯石·夜晚",
-        "detail": "握着通讯石。回声谷比想象中大，石柱上的符号和石柱阵有关联。车队痕迹在谷内消失，明天要更仔细地搜索。黑袍人的目标可能就在谷深处。"
+        "detail": "握着通讯石。回声谷深处发现了第二组石柱和隐藏通道——黑袍人的目标越来越清晰了。信标网络不只是石柱阵，这里也是一个节点。明天要继续深入通道。"
       }
     ]
   }
