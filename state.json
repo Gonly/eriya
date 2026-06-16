@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "夜晚·塞拉斯研究室·新符号初步解读·守护者关键词·东南方节点",
+      "description": "东南山路·追踪车辙印·与黑袍人车队一致·方向东南方",
       "source": "daily_schedule",
-      "updated_at": "2026-06-15T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-06-16T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-15T21:00:00+08:00",
+  "last_proactive": "2026-06-16T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
