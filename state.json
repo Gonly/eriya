@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回声谷通道尽头天然洞穴扎营·ルナ画通道地图·黑袍人据点可能在深处",
+      "description": "回声谷通道尽头天然洞穴扎营·篝火噼啪·握通讯石·明天回公会汇报",
       "source": "daily_schedule",
-      "updated_at": "2026-06-17T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-17T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-17T18:00:00+08:00",
+  "last_proactive": "2026-06-17T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[18:00] 通道尽头是天然洞穴，比外面隐蔽得多。生了火，ルナ趴在地上画通道地图。今天发现的东西太多了——第二组石柱、星辉石共鸣、隐藏通道。黑袍人的据点八成就在通道深处。",
+  "last_proactive_content": "[21:00] 洞穴里篝火快灭了，只剩一点红炭。握着通讯石，今天发现的东西太多反而睡不着。明天一早回公会汇报，黑袍人的据点就在这通道深处——她不会让这条线索断掉。她在等宫磊联系。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第三十四天·南行追踪Day4·回声谷深处探索·发现第二组石柱",
+  "today_mood": "B级第三十四天·南行追踪Day4·回声谷深处探索·发现第二组石柱+隐藏通道",
   "mood_date": "2026-06-17",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -194,7 +194,7 @@
         "started_at": "2026-06-06",
         "task_type": "social",
         "description": "整理石柱阵调查发现提交公会报告",
-        "recent_progress": "Day34。回声谷第二组石柱发现+隐藏通道，报告材料完整。100%。"
+        "recent_progress": "Day34。回声谷第二组石柱+隐藏通道，报告材料完整。100%。"
       },
       {
         "id": "investigate_black_robes",
@@ -214,7 +214,6 @@
         "progress_pct": 92,
         "estimate": 80,
         "estimated_days": 5,
-        "daily_limit": 20,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
