@@ -3,17 +3,17 @@
     "active_topic": {
       "description": "回声谷通道尽头天然洞穴扎营·篝火噼啪·握通讯石·明天回公会汇报",
       "source": "daily_schedule",
-      "updated_at": "2026-06-17T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-06-18T05:00:00+08:00",
+      "proactive_time": "05:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 0
   },
   "last_proactive": "2026-06-17T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-17",
+  "daily_message_date": "2026-06-18",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[21:00] 洞穴里篝火快灭了，只剩一点红炭。握着通讯石，今天发现的东西太多反而睡不着。明天一早回公会汇报，黑袍人的据点就在这通道深处——她不会让这条线索断掉。她在等宫磊联系。",
+  "last_proactive_content": "",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第三十四天·南行追踪Day4·回声谷深处探索·发现第二组石柱+隐藏通道",
-  "mood_date": "2026-06-17",
+  "today_mood": "B级第三十五天·南行追踪Day5·回声谷返程·公会汇报",
+  "mood_date": "2026-06-18",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 5,
+  "daily_message_count": 0,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -112,7 +112,7 @@
   "quality_check": {
     "last_check": "2026-06-08T08:00:00+08:00",
     "check_count": 48,
-    "next_check_agenda": "Day34：①回声谷深处第二组石柱发现 ②隐藏通道探索 ③信标网络假说确认 ④火魔法Day8训练",
+    "next_check_agenda": "Day35：①回声谷返程 ②公会汇报发现 ③火魔法Day9训练 ④黑袍人调查下一步",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -170,7 +170,7 @@
         "started_at": "2026-05-27",
         "task_type": "quest",
         "description": "B级任务收入积累，存款突破2000星币",
-        "recent_progress": "Day34。存款5285星币。100%完成。"
+        "recent_progress": "Day35。存款5285星币。100%完成。"
       },
       {
         "id": "ancient_research",
@@ -194,7 +194,7 @@
         "started_at": "2026-06-06",
         "task_type": "social",
         "description": "整理石柱阵调查发现提交公会报告",
-        "recent_progress": "Day34。回声谷第二组石柱+隐藏通道，报告材料完整。100%。"
+        "recent_progress": "Day35。回声谷第二组石柱+隐藏通道，报告材料完整。100%。"
       },
       {
         "id": "investigate_black_robes",
@@ -214,6 +214,7 @@
         "progress_pct": 92,
         "estimate": 80,
         "estimated_days": 5,
+        "daily_limit": 15,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
@@ -294,8 +295,8 @@
   ],
   "story_arc": {
     "current": "b_rank_daily_and_investigation",
-    "chapter": 24,
-    "episodes_completed": 30,
+    "chapter": 25,
+    "episodes_completed": 31,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -333,61 +334,67 @@
       "day28_beacon_discovery",
       "day29_investigation_and_training",
       "day30_south_journey_day1",
-      "day33_echo_valley_day3"
+      "day33_echo_valley_day3",
+      "day34_echo_valley_day4"
     ]
   },
   "daily_schedule": {
-    "date": "2026-06-17",
-    "day_number": 34,
-    "day_label": "B级第三十四天·南行追踪Day4",
-    "weather": "初夏·阴·谷内有薄雾",
-    "today_mood": "南行追踪Day4。和ルナ在回声谷深处继续搜索，寻找车队痕迹消失的方向。",
-    "mood_reason": "昨晚扎营在谷内，车辙痕迹消失。今天要往更深处搜索——黑袍人的目标就在谷深处，信标节点的关联越来越强。",
+    "date": "2026-06-18",
+    "day_number": 35,
+    "day_label": "B级第三十五天·南行追踪Day5",
+    "weather": "初夏·晴·午后炎热",
+    "today_mood": "南行追踪Day5。从回声谷深处返程，带着第二组石柱和隐藏通道的发现回公会汇报。",
+    "mood_reason": "昨天在回声谷深处发现了太多东西——第二组石柱、信标网络确认、隐藏通道入口。报告已经整理好了，今天要赶回公会把这些发现交给塞拉斯。ルナ一路上都在念叨通道壁上的发光刻痕。",
     "schedule": [
       {
         "time": "05:00",
-        "activity": "谷内营地·醒来",
-        "detail": "天蒙蒙亮，谷内弥漫着薄雾。石柱上的刻痕在晨光中微微泛光，像呼吸一样忽明忽暗。ルナ已经在整理装备，准备往谷深处出发。"
+        "activity": "洞穴营地·醒来",
+        "detail": "天还没亮透，洞穴里只剩篝火的余烬。通道壁上的发光刻痕在黑暗中特别清晰，像一条指引方向的光带。ルナ已经醒了，在整理昨天画的通道地图。"
       },
       {
         "time": "06:00",
-        "activity": "谷内深处·追踪消失的车辙",
-        "detail": "沿着车辙消失的方向往谷内走，地面从泥土变成碎石，再变成岩板。车辙在这里彻底消失了，但岩板上发现了新的刻痕——比入口处的更新，像是有人在用工具凿刻。"
+        "activity": "通道内·原路返回",
+        "detail": "收拾好营地，沿着通道往回走。发光刻痕在晨光中渐渐变淡，但通道的方向感很明确。二十步左右就看到了出口的光。"
+      },
+      {
+        "time": "07:00",
+        "activity": "回声谷·离开",
+        "detail": "走出通道，回声谷在晨光中安静得像另一个世界。石柱上的刻痕在阳光下变成了浅灰色，不仔细看根本发现不了。ルナ回头看了一眼通道入口，说这里迟早要再来的。"
       },
       {
         "time": "08:00",
-        "activity": "石柱阵·发现第二处遗迹",
-        "detail": "穿过一片碎石区，眼前出现了另一组石柱——排列方式和石柱阵几乎一样，但规模更小。ルナ很震惊，说这里可能也是信标节点。石柱上的刻痕和石柱阵是同一种文字。"
+        "activity": "南行路上·出发",
+        "detail": "沿着来时的路往南走，车辙痕迹在回声谷外围还能看到一些。阳光渐渐变强，路上没什么人。ルナ一边走一边翻看笔记，嘴里念叨着「信标网络…节点…」"
       },
       {
         "time": "10:00",
-        "activity": "石柱中心·星辉石共鸣",
-        "detail": "走到第二组石柱中心，星辉石开始发热——和石柱阵时一样。石台上有凹槽，形状和石柱阵的装置很像。ルナ在记录刻痕，说这些符号比石柱阵的更复杂。"
+        "activity": "路边树荫·休息",
+        "detail": "找了一棵大树乘凉，啃干粮喝水。路上遇到一队商队，赶着驮兽往北走——往回声谷方向。ルナ多看了两眼，没说什么。"
       },
       {
         "time": "12:00",
-        "activity": "石柱旁·午餐讨论",
-        "detail": "啃干粮，整理今天的发现。第二组石柱+星辉石共鸣=信标网络假说基本确认。车队痕迹消失在谷内，可能和这里的设施有关。ルナ推测车队是来这里运输什么东西。"
+        "activity": "南行路上·午后",
+        "detail": "太阳晒得厉害，地面热得能烫脚。ルナ把笔记收好，说回去第一件事就是找塞拉斯解读那些刻痕——如果信标网络是真的，那先民留下的东西远比他们想象的复杂。"
       },
       {
         "time": "14:00",
-        "activity": "谷壁通道·发现隐藏入口",
-        "detail": "在石柱阵附近搜索时发现谷壁有一处异常——岩石缝隙里透出微弱的光。走近后发现是人工开凿的通道入口，用碎石和灌木伪装过。里面有东西在发光。"
+        "activity": "丘陵地带·接近公会管辖范围",
+        "detail": "地形开始起伏，远处能看到公会管辖范围的界碑。空气里有一股熟悉的草药味——公会药剂师种的药田就在前面。快到家了。"
       },
       {
         "time": "16:00",
-        "activity": "隐藏通道·探索",
-        "detail": "拨开伪装进入通道，里面很窄，只能单人通过。通道壁上有发光的刻痕——和石柱上的同源。走了大约二十步，通道变宽，隐约能看到前方有更大的空间。"
+        "activity": "公会城镇·抵达",
+        "detail": "走进城镇的时候太阳还很高。街上有冒险者在闲逛，酒馆门口有人在招揽生意。ルナ直接往公会总部的方向走，说先把报告交了再说别的。"
       },
       {
         "time": "18:00",
-        "activity": "通道尽头·回声谷扎营",
-        "detail": "通道尽头是一个天然洞穴，比外面的营地更隐蔽。生火休息，ルナ在画通道的地图。今天发现了太多东西——第二组石柱、星辉石共鸣、隐藏通道。黑袍人的据点可能就在通道深处。"
+        "activity": "公会总部·汇报",
+        "detail": "在公会总部的会议室，把回声谷的发现详细汇报给塞拉斯——第二组石柱、星辉石共鸣、信标网络、隐藏通道。塞拉斯听完沉默了很久，说这些东西需要进一步研究。"
       },
       {
         "time": "20:00",
         "activity": "通讯石·夜晚",
-        "detail": "握着通讯石。回声谷深处发现了第二组石柱和隐藏通道——黑袍人的目标越来越清晰了。信标网络不只是石柱阵，这里也是一个节点。明天要继续深入通道。"
+        "detail": "回到房间，握着通讯石。回声谷的探索告一段落，但黑袍人的调查才刚进入新阶段。信标网络的发现可能改变整个调查方向。"
       }
     ]
   }
