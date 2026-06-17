@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回声谷石柱旁·信标网络假说确认·ルナ推测车队运输目的·谷内薄雾",
+      "description": "回声谷谷壁·隐藏通道入口发现·岩石缝隙透出微弱光芒·人工伪装痕迹",
       "source": "daily_schedule",
-      "updated_at": "2026-06-17T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-17T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-17T12:00:00+08:00",
+  "last_proactive": "2026-06-17T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[12:00] 啃着干粮整理上午的发现——第二组石柱加星辉石共鸣，信标网络假说基本坐实了。ルナ在推算车队来这里运什么。",
+  "last_proactive_content": "[15:00] 在石柱阵附近搜索时发现谷壁岩石缝隙里透出微弱的光——走近后是人工开凿的通道入口，用碎石和灌木伪装过。里面隐约有什么在发光。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-17",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 3,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
