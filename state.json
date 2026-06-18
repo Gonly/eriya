@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "南行返程·午后烈日·ルナ收笔记念叨信标网络·地面烫脚快到公会了",
+      "description": "南行返程·丘陵地带·药田气味飘来·快到公会管辖范围",
       "source": "daily_schedule",
-      "updated_at": "2026-06-18T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-18T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2
+    "daily_message_count": 3
   },
-  "last_proactive": "2026-06-18T12:00:00+08:00",
+  "last_proactive": "2026-06-18T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[12:00] 太阳晒得厉害，地面热得烫脚，走了两小时快到公会管辖范围了。ルナ收好笔记说回去第一件事找塞拉斯解读刻痕——如果信标网络是真的，先民留下的东西远比想象中复杂。",
+  "last_proactive_content": "[15:00] 地形开始起伏，远处看到公会管辖范围的界碑。空气里飘来熟悉的草药味——公会药剂师种的药田就在前面。ルナ没再念叨笔记，看了会儿远处的城镇轮廓发呆。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-18",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
