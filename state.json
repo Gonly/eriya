@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "南行返程·丘陵地带·药田气味飘来·快到公会管辖范围",
+      "description": "公会总部·向塞拉斯汇报回声谷全部发现·第二组石柱+信标网络+隐藏通道",
       "source": "daily_schedule",
-      "updated_at": "2026-06-18T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-18T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 3
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-06-18T15:00:00+08:00",
+  "last_proactive": "2026-06-18T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[15:00] 地形开始起伏，远处看到公会管辖范围的界碑。空气里飘来熟悉的草药味——公会药剂师种的药田就在前面。ルナ没再念叨笔记，看了会儿远处的城镇轮廓发呆。",
+  "last_proactive_content": "[18:00] 公会会议室把回声谷的发现全倒给塞拉斯了——第二组石柱、星辉石共鸣、信标网络、隐藏通道。他说需要时间研究。回到房间握着通讯石，调查好像翻到新的一页了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
