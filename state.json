@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "回声谷通道尽头天然洞穴扎营·篝火噼啪·握通讯石·明天回公会汇报",
+      "description": "南行返程·车辙渐远·ルナ翻笔记念叨信标网络·快到公会管辖范围",
       "source": "daily_schedule",
-      "updated_at": "2026-06-18T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-18T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-06-17T21:00:00+08:00",
+  "last_proactive": "2026-06-18T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "",
+  "last_proactive_content": "[09:00] 往南走车辙痕迹还清晰，阳光变强路上没什么人。ルナ一直翻笔记念叨信标网络节点。快到公会管辖范围了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-18",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
