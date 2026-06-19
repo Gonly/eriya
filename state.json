@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "等待塞拉斯研究结果·火魔法训练恢复·公会日常",
+      "description": "火魔法训练恢复·等待塞拉斯研究结果·信标网络更多节点",
       "source": "daily_schedule",
-      "updated_at": "2026-06-19T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-19T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": null,
+  "last_proactive": "2026-06-19T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
