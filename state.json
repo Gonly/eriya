@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "风魔法投掷配合训练·塞拉斯信标网络新线索",
+      "description": "塞拉斯信标网络假说·更多节点数据",
       "source": "daily_schedule",
-      "updated_at": "2026-06-19T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-19T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
     "daily_message_count": 2
   },
-  "last_proactive": "2026-06-19T15:00:00+08:00",
+  "last_proactive": "2026-06-19T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-19",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
