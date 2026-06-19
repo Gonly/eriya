@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "火魔法训练恢复·等待塞拉斯研究结果·东南方车队痕迹新线索",
+      "description": "风魔法投掷配合训练·塞拉斯信标网络新线索",
       "source": "daily_schedule",
-      "updated_at": "2026-06-19T12:00:00+08:00",
-      "proactive_time": "12:00"
+      "updated_at": "2026-06-19T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-19T12:00:00+08:00",
+  "last_proactive": "2026-06-19T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-19",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
