@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "塞拉斯信标网络假说·更多节点数据",
+      "description": "返程次日雨夜·通讯石·调查换了一种方式继续",
       "source": "daily_schedule",
-      "updated_at": "2026-06-19T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-19T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
     "daily_message_count": 2
   },
-  "last_proactive": "2026-06-19T18:00:00+08:00",
+  "last_proactive": "2026-06-19T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-19",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
