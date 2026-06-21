@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "返程第四天·雨天·塞拉斯研究有进展",
+      "description": "返程第四天·雨天·塞拉斯解读信标网络为地图",
       "source": "daily_schedule",
-      "updated_at": "2026-06-21T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-21T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-21T05:00:00+08:00",
+  "last_proactive": "2026-06-21T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-21",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
