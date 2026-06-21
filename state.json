@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "返程第四天·雨天·室内火魔法训练维持15秒",
+      "description": "返程第四天·雨天·公告板A级委托单",
       "source": "daily_schedule",
-      "updated_at": "2026-06-21T15:00:00+08:00",
-      "proactive_time": "15:00"
+      "updated_at": "2026-06-21T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-21T15:00:00+08:00",
+  "last_proactive": "2026-06-21T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-21",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
