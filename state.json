@@ -1,19 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第三十九天·中雨·夜晚等消息",
+      "description": "B级第四十天·中雨·等调查组消息",
       "source": "daily_schedule",
-      "updated_at": "2026-06-22T21:00:00+08:00",
-      "proactive_time": "21:00"
+      "updated_at": "2026-06-23T05:00:00+08:00",
+      "proactive_time": "05:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 0
   },
   "last_proactive": "2026-06-22T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "consecutive_no_reply": 0,
-  "daily_message_date": "2026-06-22",
+  "daily_message_date": "2026-06-23",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第三十九天·返程第五天·中雨·A级委托出发日",
-  "mood_date": "2026-06-22",
+  "today_mood": "B级第四十天·返程第六天·中雨·等调查组消息",
+  "mood_date": "2026-06-23",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 5,
+  "daily_message_count": 0,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -112,7 +112,7 @@
   "quality_check": {
     "last_check": "2026-06-21T20:00:00+08:00",
     "check_count": 56,
-    "next_check_agenda": "Day39：①A级委托东行商路南段调查队出发 ②火魔法训练Day12 ③黑袍人追踪扩展",
+    "next_check_agenda": "Day40：①调查组出发第二天等消息 ②火魔法训练Day13 ③雨天室内活动",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -170,7 +170,7 @@
         "started_at": "2026-05-27",
         "task_type": "quest",
         "description": "B级任务收入积累，存款突破2000星币",
-        "recent_progress": "Day39。存款5285星币。100%完成。"
+        "recent_progress": "Day40。存款5285星币。100%完成。"
       },
       {
         "id": "ancient_research",
@@ -199,26 +199,26 @@
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 84,
+        "progress_pct": 85,
         "estimate": 80,
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day38塞拉斯解读出信标网络是地图·A级委托发布。Day39调查队出发，等待反馈。84%。"
+        "recent_progress": "Day39调查队出发。Day40等待中，调查组第二天。85%。"
       },
       {
         "id": "fire_magic_training",
         "name": "火魔法修炼",
-        "progress_pct": 93,
+        "progress_pct": 94,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 15,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day38线形火焰15秒。Day39突破16秒！最后两秒手微抖但比昨天稳。93%。"
+        "recent_progress": "Day39突破16秒。Day40目标巩固16秒+冲击17秒。94%。"
       }
     ],
     "staged": [],
@@ -295,8 +295,8 @@
   ],
   "story_arc": {
     "current": "b_rank_daily_and_investigation",
-    "chapter": 29,
-    "episodes_completed": 34,
+    "chapter": 30,
+    "episodes_completed": 35,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -343,57 +343,57 @@
     ]
   },
   "daily_schedule": {
-    "date": "2026-06-22",
-    "day_number": 39,
-    "day_label": "B级第三十九天·返程第五天",
-    "weather": "初夏·中雨·湿凉（21-22°C，降雨15.4mm，湿度93%）",
-    "today_mood": "返程第五天，又下雨了，比昨天大一点。A级委托今天应该有人出发，去大厅看看情况。火魔法继续练，目标16秒。",
-    "mood_reason": "昨天塞拉斯解读出了信标网络的地图，A级委托贴出来了。今天中雨，外面湿漉漉的。调查队今天大概会出发，去公会大厅看看有没有什么消息。下午继续练火魔法，线形火焰15秒了，再往上提一点。安静的一天，等消息。",
+    "date": "2026-06-23",
+    "day_number": 40,
+    "day_label": "B级第四十天·返程第六天",
+    "weather": "初夏·中雨转小雨·湿凉（21-23°C，降雨减弱，湿度88%）",
+    "today_mood": "返程第六天，雨还在下但比昨天小了。调查组第二天了，等消息。火魔法继续练，目标巩固16秒。",
+    "mood_reason": "调查组出发第二天，雨天室内为主。昨天的16秒突破需要巩固，今天争取稳定17秒。公会里应该没什么新消息，调查周期3-5天。安静等待的一天。",
     "schedule": [
       {
         "time": "05:00",
-        "activity": "房间·中雨醒来",
-        "detail": "又下雨了，这次比昨天大，哗哗的。枕头边的星辉石在昏暗里亮着。昨晚睡得还行，身体基本恢复了。窗外灰蒙蒙一片，空气凉凉的。"
+        "activity": "房间·雨声醒来",
+        "detail": "雨比昨天小了，从哗哗变成沙沙的。星辉石在枕边安静发着光。调查组第二天了，不知道走到哪里了。"
       },
       {
         "time": "07:00",
         "activity": "公会食堂·早餐",
-        "detail": "中雨天食堂更冷清了。吃了个面包配热汤。公告板那边围了几个人，走近看——A级委托旁边贴了张新纸条：「调查组今日出发，成员：马库斯、两名A级冒险者。」"
+        "detail": "食堂人不多，吃了碗热粥。公告板没新动静，调查组的事还是昨天那几行字。几个老冒险者在角落低声聊，话题还是那个A级委托。"
       },
       {
-        "time": "08:30",
-        "activity": "公会大厅·调查组出发",
-        "detail": "大厅门口站着三个人在检查装备。马库斯背着他那把阔剑，旁边两个面孔生疏但眼神很利。会长站在台阶上叮嘱什么。我远远看着，没凑过去。马库斯好像感觉到视线，转头看了我一眼，微微点头。"
+        "time": "09:00",
+        "activity": "塞拉斯研究室",
+        "detail": "去找塞拉斯，想看看有没有从调查组那边传回什么消息。他说通信石信号太远了联络不上，但调查组带了紧急联络符文，有情况会第一时间传回。让我别急。"
       },
       {
-        "time": "10:00",
-        "activity": "塞拉斯研究室·跟进",
-        "detail": "去找塞拉斯，想看看有没有新线索。他正在整理一张更大的地图，把信标网络的三个地点都标了上去。「东行商路南段那个是最近的，」他说，「但另外两个……一个在北境深处，一个在西边荒原。」他用笔在东行商路那个地点画了个圈。"
+        "time": "11:00",
+        "activity": "训练场·火魔法",
+        "detail": "今天试了个不一样的——连续释放两段线形火焰，中间不停顿。第一段稳住了16秒，第二段手没抖但缩短到14秒。整体控制力在提升。"
       },
       {
         "time": "12:00",
         "activity": "公会食堂·午餐",
-        "detail": "雨还在下。吃了碗面。ルナ没来，大概在自己训练。食堂里三三两两的冒险者在低声聊天，话题都绕着那个A级委托。有人说东行商路南段以前闹过匪，也有人说那边有古老遗迹。"
+        "detail": "雨停了一阵。ルナ端着餐盘坐过来，问我今天练了什么。她最近在练冰系的基础结冰术，说火系和冰系原理完全相反但有相通之处。"
       },
       {
         "time": "14:00",
-        "activity": "室内训练场·火魔法",
-        "detail": "雨天训练场又是空的。练了半小时火魔法，重点还是线形火焰的稳定性。今天试了一个新方法——先闭眼感受魔力流动，再睁眼引导火焰。坚持到了16秒！最后两秒手还是会抖，但比昨天稳了。"
+        "activity": "公会走廊·公告板",
+        "detail": "又去看了一遍公告板，还是没有新消息。会长路过时看了我一眼，说了句"等着就好"。他语气很平，像是在说一件再普通不过的事。"
       },
       {
         "time": "16:00",
-        "activity": "房间·写笔记",
-        "detail": "回来写笔记。把塞拉斯今天说的三个地点记下来，和之前的符号对照。北境深处和西边荒原……信标网络覆盖的范围比我想的大。窗外的雨变小了，但天还是灰的。"
+        "activity": "房间·写笔记整理",
+        "detail": "回来整理这几天的笔记。信标网络三个地点、石柱阵的符号、回声谷的隐藏通道……线索越来越多，但拼图还没完整。等调查组带回来东行商路南段的第一手资料。"
       },
       {
         "time": "18:00",
-        "activity": "公会走廊·公告板",
-        "detail": "去食堂路上又看了一遍公告板。A级委托旁边多了几行字：「调查周期预计3-5天，期间禁止私自前往东行商路南段。」看来会长是认真的。"
+        "activity": "公会食堂·晚餐",
+        "detail": "晚饭后雨又开始下了。食堂里几个B级冒险者在讨论接下来接什么任务，有人说等调查结果出来再决定。毕竟会长封了东行商路南段。"
       },
       {
         "time": "20:00",
         "activity": "房间·夜晚",
-        "detail": "雨停了一阵又下了。坐在窗边握着通讯石，星辉石的光在黑暗里很安静。调查组出发了，接下来就是等消息。今天练到了16秒，小小的进步。"
+        "detail": "雨声沙沙的。坐在窗边，通讯石握在手里。今天没什么大事，但这种安静的等待也有它自己的节奏。调查组还在路上。"
       }
     ]
   }
