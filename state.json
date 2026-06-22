@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第三十九天·中雨·调查组出发日",
+      "description": "B级第三十九天·中雨·夜晚等消息",
       "source": "daily_schedule",
-      "updated_at": "2026-06-22T18:00:00+08:00",
-      "proactive_time": "18:00"
+      "updated_at": "2026-06-22T21:00:00+08:00",
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-06-22T18:00:00+08:00",
+  "last_proactive": "2026-06-22T21:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "公告板A级委托旁边多了几行字：调查周期预计3-5天，期间禁止私自前往东行商路南段。会长是认真的。",
+  "last_proactive_content": "雨又下了，不大，但稳。坐在窗边握着通讯石，星辉石的光在黑暗里很安静。今天的事都记下来了，明天等调查队的消息。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-22",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
