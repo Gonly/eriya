@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第三十九天·中雨·A级委托出发日",
+      "description": "B级第三十九天·中雨·调查组出发·马库斯带队",
       "source": "daily_schedule",
-      "updated_at": "2026-06-22T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-06-22T09:00:00+08:00",
+      "proactive_time": "09:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-22T05:00:00+08:00",
+  "last_proactive": "2026-06-22T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "昨晚的雨停了，但今天又下起来了。中雨，比昨天大。星辉石在枕头边亮了一整夜，像替我守着什么。A级委托今天应该会有人出发吧。",
+  "last_proactive_content": "中雨下着，大厅门口站了三个人在检查装备。马库斯背着阔剑，旁边两个生面孔眼神很利。会长在台阶上叮嘱，我远远看着没凑过去。马库斯回头看了我一眼，微微点了下头。调查组出发了。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-22",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
