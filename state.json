@@ -1,14 +1,14 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第四十天·中雨·塞拉斯研究室确认调查组消息",
+      "description": "B级第四十天·中雨·火魔法双段释放16+14秒",
       "source": "daily_schedule",
-      "updated_at": "2026-06-23T09:00:00+08:00",
-      "proactive_time": "09:00"
+      "updated_at": "2026-06-23T12:00:00+08:00",
+      "proactive_time": "12:00"
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-23T09:00:00+08:00",
+  "last_proactive": "2026-06-23T12:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "雨又下了，不大，但稳。坐在窗边握着通讯石，星辉石的光在黑暗里很安静。今天的事都记下来了，明天等调查队的消息。",
+  "last_proactive_content": "食堂里ルナ端着餐盘坐过来，今天练了双段线形火焰——第一段16秒稳住了，第二段14秒手没抖。她说火系和冰系原理相反但有相通之处。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-23",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
