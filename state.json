@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-06-24T12:00:00+08:00",
+  "last_proactive": "2026-06-24T15:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-24",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 5,
+  "daily_message_count": 6,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
