@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-06-25T15:00:00+08:00",
+  "last_proactive": "2026-06-25T18:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[15:00] 公会走廊公告板旁围了几个人，声音压得很低。转身后隐约听到'东南方向'几个字，心跳漏了一拍。",
+  "last_proactive_content": "[18:00] 食堂晚饭，转阴后空气干爽了些，手心不再潮潮的。有人说明天调查组可能就回来了，筷子在碗沿敲了两下。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-25",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 10,
+  "daily_message_count": 11,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
