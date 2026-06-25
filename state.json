@@ -6,9 +6,9 @@
       "updated_at": "2026-06-25T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-06-24T21:00:00+08:00",
+  "last_proactive": "2026-06-25T09:00:00+08:00",
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[21:00] 雨声变得很轻，像远处有人在翻书。通讯石贴在手心，凉凉的，没有温度变化。调查组第三天了，窗外的夜色黑得很安静。",
+  "last_proactive_content": "[09:00] 塞拉斯研究室里挂了张信标网络拓扑图，红线把六个节点串起来。他拿放大镜比对各节点方位，说布局像是有意识地选了每个制高点，像六只眼睛蹲在山顶上。紧急联络符文安静地躺在桌角。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
