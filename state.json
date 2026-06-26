@@ -206,7 +206,7 @@
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day43调查组第五天，今日归还，等待最后一块拼图。86%。"
+        "recent_progress": "Day43调查组第五天，紧急联络符文仍未响，等待最后一块拼图。86%。"
       },
       {
         "id": "fire_magic_training",
@@ -218,7 +218,7 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day43双段16秒稳住，第三段尝试6秒。95%。"
+        "recent_progress": "Day43双段16秒稳住，第三段尝试6秒但未成型。95%。"
       }
     ],
     "staged": [],
