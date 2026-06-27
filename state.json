@@ -1,19 +1,19 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第四十四天·返程第十天·多云·调查组超期一天",
+      "description": "B级第四十五天·返程第十一天·晴转阴·调查组超期两天",
       "source": "daily_schedule",
-      "updated_at": "2026-06-27T05:00:00+08:00",
+      "updated_at": "2026-06-28T05:00:00+08:00",
       "proactive_time": "05:00"
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-06-27T21:00:00+08:00",
+  "last_proactive": "2026-06-28T05:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
-  "daily_message_date": "2026-06-27",
+  "daily_message_date": "2026-06-28",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[21:00] 房间里没开灯，月光从窗帘缝里漏进来。紧急联络符文在桌上一动不动，通讯石贴在掌心，凉意从指尖慢慢渗进来。调查组第六天了。",
+  "last_proactive_content": "",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -60,11 +60,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第四十四天·返程第十天·多云·调查组超期一天",
-  "mood_date": "2026-06-27",
+  "today_mood": "B级第四十五天·返程第十一天·晴转阴·调查组超期两天",
+  "mood_date": "2026-06-28",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 9,
+  "daily_message_count": 0,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -110,9 +110,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-06-27T05:00:00+08:00",
-    "check_count": 58,
-    "next_check_agenda": "Day44：①调查组超期一天 ②火魔法第三段突破10秒 ③新B级委托线索重合",
+    "last_check": "2026-06-28T05:00:00+08:00",
+    "check_count": 59,
+    "next_check_agenda": "Day45：①调查组超期两天第七天 ②火魔法第三段突破10秒 ③新B级委托线索方向确认",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -199,14 +199,14 @@
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 88,
+        "progress_pct": 89,
         "estimate": 80,
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day44调查组超期一天，新B级委托东南方向与线索重合。88%。"
+        "recent_progress": "Day45调查组超期两天第七天，三线指向东南。89%。"
       },
       {
         "id": "fire_magic_training",
@@ -218,7 +218,7 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day44双段巩固，第三段争取突破10秒。95%。"
+        "recent_progress": "Day45第三段争取突破10秒。95%。"
       }
     ],
     "staged": [],
@@ -295,8 +295,8 @@
   ],
   "story_arc": {
     "current": "b_rank_daily_and_investigation",
-    "chapter": 30,
-    "episodes_completed": 35,
+    "chapter": 31,
+    "episodes_completed": 36,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -339,61 +339,57 @@
       "day35_return_and_report",
       "day37_rest_day",
       "day38_rainy_silas_result",
-      "day39_quest_team_depart"
+      "day39_quest_team_depart",
+      "day44_investigation_overdue_one_day"
     ]
   },
   "daily_schedule": {
-    "date": "2026-06-27",
-    "day_number": 44,
-    "day_label": "B级第四十四天·返程第十天",
-    "weather": "初夏·多云·微凉（21-27°C，东北风1-3级，湿度78%）",
-    "today_mood": "返程第十天，调查组超期一天——第六天了，紧急联络符文安静了一整天。紧张中带着不安，但不能乱了节奏。",
-    "mood_reason": "调查组超期一天，3-5天周期已过。紧急联络符文持续安静，情况不明。火魔法继续巩固第三段。新B级委托出现，东南方向与我们线索完全重合。",
+    "date": "2026-06-28",
+    "day_number": 45,
+    "day_label": "B级第四十五天·返程第十一天",
+    "weather": "初夏·晴转阴·闷热（23-30°C，东南风1-3级，湿度90%）",
+    "today_mood": "调查组第七天了，超期两天。紧急联络符文安静了一整个白天又一个晚上。不安在扩大，但公会里没人敢大声说。火魔法继续磨第三段。",
+    "mood_reason": "调查组第七天，超出3-5天周期两天。紧急联络符文持续沉默。新B级委托方向已确认。火魔法第三段争取突破10秒。周日，公会人少。",
     "schedule": [
       {
         "time": "05:00",
-        "activity": "房间·多云醒来",
-        "detail": "天灰蒙蒙的，没有雨也没有太阳。调查组第六天——超期了。紧急联络符文安静了一整天，反而更让人不安。"
+        "activity": "房间·闷热醒来",
+        "detail": "窗外有点亮但不是晴天那种亮，灰蒙蒙的。空气闷，像要下雨又不下。调查组第七天——超期两天了。紧急联络符文还是没动。"
       },
       {
         "time": "07:00",
         "activity": "公会食堂·早餐",
-        "detail": "公告板前围了四五个人，动态栏还是空的。有人小声说'超期一天了'，没人接话。"
+        "detail": "周日，食堂人比平时少。公告板前只有两个人站着看，动态栏空的。没人说话，气氛比昨天更沉。"
       },
       {
         "time": "09:00",
         "activity": "塞拉斯研究室",
-        "detail": "塞拉斯今天没钉图纸，坐在桌前等。说紧急联络符文超期一天没响，要么他们找到了东西不想暴露位置，要么——他没说完。"
+        "detail": "塞拉斯在翻一本厚书，看到艾莉亚进来叹了口气。说紧急联络符文七天没响了。他开始查旧档案里有没有类似的先例。"
       },
       {
         "time": "11:00",
         "activity": "训练场·火魔法",
-        "detail": "双段继续巩固，第三段今天争取突破10秒。不能因为担心调查组就乱了节奏。"
+        "detail": "闷热的天气练火魔法，掌心的热度和空气的热度混在一起。双段稳了，第三段今天冲了一次，8秒，还差两秒。"
       },
       {
         "time": "12:00",
         "activity": "公会食堂·午餐",
-        "detail": "ルナ带了一张手绘地图过来，说是从旧委托记录里描的。东南方向，标注了三个可能的据点位置。"
+        "detail": "周日午餐人少，ルナ端着碗坐过来。说她今天早上去看了公告板，新委托还在挂着没人接。两个人都没怎么说话。"
       },
       {
-        "time": "14:00",
-        "activity": "公会走廊·公告板",
-        "detail": "动态栏有动静了——不是调查组的消息，是一张新的B级委托单。东南方向，调查异常魔力波动源头。方向完全重合。"
-      },
-      {
-        "time": "16:00",
-        "activity": "房间·整理线索",
-        "detail": "把旧委托记录、手绘地图、信标网络拓扑图摊在一起。三条线索指向同一个方向。十年了，终于有人要去确认。"
+        "time": "15:00",
+        "activity": "房间·整理信标笔记",
+        "detail": "把信标网络拓扑图重新画了一遍，六个节点、三条指向东南的线。和旧委托记录放在一起看，十年了。纸页边缘泛黄。"
       },
       {
         "time": "18:00",
         "activity": "公会食堂·晚餐",
-        "detail": "食堂里有人在讨论新委托。ルナ说她也想接，但要等调查组回来再说。筷子在碗沿敲了两下。"
+        "detail": "傍晚天阴下来，食堂里有人在低声讨论调查组的事。ルナ筷子戳着碗说'第七天了'，没人接话。窗外的天暗得很快。"
       },
       {
         "time": "20:00",
         "activity": "房间·夜晚",
-        "detail": "窗外安静。紧急联络符文还是没响。通讯石握在手里，凉凉的。超期一天了，但她在等。"
+        "detail": "闷热散了一些，有风从窗缝钻进来。紧急联络符文在桌上。通讯石贴在掌心，凉凉的。第七天了，她还在等。"
       }
     ]
   }
