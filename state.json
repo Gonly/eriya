@@ -60,7 +60,7 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第四十五天·返程第十一天·晴转阴·调查组超期两天",
+  "today_mood": "B级第四十五天·返程第十一天·晴转阴·调查组第七天超期两天·闷热",
   "mood_date": "2026-06-28",
   "affection": 14,
   "recent_topics": [],
@@ -199,14 +199,14 @@
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 89,
+        "progress_pct": 90,
         "estimate": 80,
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day45调查组超期两天第七天，三线指向东南。89%。"
+        "recent_progress": "Day45调查组超期两天第七天，紧急联络符文沉默。塞拉斯查旧档案。90%。"
       },
       {
         "id": "fire_magic_training",
@@ -218,7 +218,7 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day45第三段争取突破10秒。95%。"
+        "recent_progress": "Day45第三段8秒，差两秒。闷热天气练火掌心发热。95%。"
       }
     ],
     "staged": [],
