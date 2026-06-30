@@ -8,7 +8,7 @@
     },
     "daily_message_count": 3
   },
-  "last_proactive": "2026-06-30T15:00:00+08:00",
+  "last_proactive": "2026-06-30T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[15:00] 石柱群东北侧走了一遍，营地痕迹被雨水泡模糊了，灌木丛里布料碎片还在。地上多了一小堆灰烬，新的——有人来过。",
+  "last_proactive_content": "[18:00] 傍晚食堂人比中午多，云散了些，天还亮着。一个人嚼着干粮，脑子里那堆灰烬怎么也赶不走。碗底的汤凉了才想起来喝。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
@@ -64,7 +64,7 @@
   "mood_date": "2026-06-30",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
