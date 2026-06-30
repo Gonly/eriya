@@ -6,9 +6,9 @@
       "updated_at": "2026-06-30T05:00:00+08:00",
       "proactive_time": ""
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-06-30T09:00:00+08:00",
+  "last_proactive": "2026-06-30T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -22,7 +22,7 @@
     "enabled": true,
     "rule": "【发送主动消息前必做】发送前先读取memory/proactive-messages.md，回顾今天所有已发消息的内容和话题。如果今天已经聊过某个话题或事件，要么切换新话题，要么换个角度切入（不重复同样的细节/感受/结局）。主动消息的目的是拓展新对话，不是延续或补充已聊过的内容。"
   },
-  "last_proactive_content": "[09:00] 塞拉斯研究室。他今天没翻档案，坐在椅子上闭着眼。听到敲门才睁眼，沉默一会儿说，先例都查完了，没有超过七天没有回应的。说完就不再说了。空气里墨水味很淡。",
+  "last_proactive_content": "[12:00] 食堂里阳光亮堂堂的，照在桌面上暖暖的。ルナ端着碗坐过来，说下午要去森林那边转转。两人有一搭没一搭聊着不相关的事，碗里的汤冒着热气，勺子碰到碗沿叮一声。",
   "chat_rules": {
     "important": "【聊天内容必须与每日时间表一致！这是最高优先级规则！】",
     "world_separation": {
