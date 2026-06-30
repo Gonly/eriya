@@ -206,19 +206,19 @@
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day47。调查组第九天超期四天，紧急联络符文沉默超一周。雨后计划复查石柱群东北侧营地。91%持平。"
+        "recent_progress": "Day47。调查组第九天超期四天，紧急联络符文沉默超一周。营地发现新灰烬，有人来过。91%持平。"
       },
       {
         "id": "fire_magic_training",
         "name": "火魔法修炼",
-        "progress_pct": 95,
+        "progress_pct": 96,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 15,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day47。雨停后湿度下降，计划趁好天气冲击第三段10秒。95%持平。"
+        "recent_progress": "Day47。雨停湿度降，火魔法第三段冲到8秒，离10秒目标又近一步。96%。"
       }
     ],
     "staged": [],
