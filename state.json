@@ -199,14 +199,14 @@
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 92,
+        "progress_pct": 93,
         "estimate": 80,
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day48。调查组第十天超期五天。符文石凌晨突然亮了——八天沉默后的第一声，只响了半句就断了。营地新灰烬旁发现新鲜脚印。92%。"
+        "recent_progress": "Day48。符文石凌晨亮了传出一个字，八天沉默后第一声。营地灰烬旁发现新脚印，鞋底纹路清楚。塞拉斯继续分析那一个字。93%。"
       },
       {
         "id": "fire_magic_training",
