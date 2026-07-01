@@ -904,11 +904,16 @@ async function loadAll(){
     if (sd.is_celebration_day) f1.push('🎉 庆祝日');
     if (f1.length) h += '<div style="margin-bottom:10px">'+f1.join(' ')+'</div>';
     if (sd.weather) {
-      if (sd.weather.type) h += '<div style="margin-bottom:8px"><strong>天气：</strong>'+sd.weather.type+'</div>';
-      if (sd.weather.desc) h += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px">'+sd.weather.desc+'</div>';
+      if (typeof sd.weather === 'object') {
+        if (sd.weather.type) h += '<div style="margin-bottom:8px"><strong>天气：</strong>'+sd.weather.type+'</div>';
+        if (sd.weather.desc) h += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px">'+sd.weather.desc+'</div>';
+      } else {
+        h += '<div style="margin-bottom:8px"><strong>天气：</strong>'+sd.weather+'</div>';
+      }
     }
-    if (sd.mood_today) {
-      h += '<div style="margin-bottom:6px"><strong>心情：</strong>'+sd.mood_today+'</div>';
+    var moodText = sd.mood_today || sd.today_mood;
+    if (moodText) {
+      h += '<div style="margin-bottom:6px"><strong>心情：</strong>'+moodText+'</div>';
       if (sd.mood_reason) h += '<div style="color:#666;font-size:0.82rem;margin-bottom:8px;font-style:italic">'+sd.mood_reason+'</div>';
     }
     if (sd.goal_message) h += '<blockquote style="border-left:3px solid #ccc;padding-left:10px;color:#555;font-size:0.84rem;margin:10px 0">'+sd.goal_message+'</blockquote>';
