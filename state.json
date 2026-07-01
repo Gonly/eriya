@@ -8,8 +8,8 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-01T18:00:00+08:00",
-  "last_proactive_content": "[15:00] 训练场练火魔法，晴天干燥，第三段冲到八秒半。火焰尾巴比昨天稳了，收招时没散。又近了半秒。",
+  "last_proactive": "2026-07-01T21:00:00+08:00",
+  "last_proactive_content": "[21:00] 房间窗半开着，夜风干燥带着草味吹进来。紧急联络符文石躺在桌上没再亮，绿光散了。数窗外的星星，数到第十颗停了——第十天。",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-01",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
