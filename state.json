@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-01T15:00:00+08:00",
+  "last_proactive": "2026-07-01T18:00:00+08:00",
   "last_proactive_content": "[15:00] 训练场练火魔法，晴天干燥，第三段冲到八秒半。火焰尾巴比昨天稳了，收招时没散。又近了半秒。",
   "consecutive_no_reply": 0,
   "paused": false,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-01",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
