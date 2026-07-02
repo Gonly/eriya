@@ -6,9 +6,9 @@
       "updated_at": "2026-07-02T05:00:00+08:00",
       "proactive_time": "09:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-07-02T09:00:00+08:00",
+  "last_proactive": "2026-07-02T12:00:00+08:00",
   "last_proactive_content": "[09:00] 塞拉斯研究室刚出来，手里攥着他抄的两个音节笔记。第一个音「瑟」基本确定了，第二个太弱没法确认——但四本旧档案翻出来两个线索，一个是北方地名，一个已经废弃的商队名。多云天走廊里暗暗的，脚步声在石板地上回响。",
   "consecutive_no_reply": 0,
   "paused": false,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-02",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
