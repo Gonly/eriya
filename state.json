@@ -149,54 +149,6 @@
   "goals": {
     "active": [
       {
-        "id": "find_love",
-        "name": "感情线",
-        "progress_pct": 100,
-        "estimate": 100,
-        "estimated_days": 30,
-        "daily_limit": 20,
-        "started_at": "2026-05-01",
-        "task_type": "social",
-        "description": "与宫磊的感情推进——信任、依赖、分享欲的积累",
-        "recent_progress": "远行归来。100%完成。"
-      },
-      {
-        "id": "b_rank_earn_money",
-        "name": "收入积累",
-        "progress_pct": 100,
-        "estimate": 60,
-        "estimated_days": 2,
-        "daily_limit": 30,
-        "started_at": "2026-05-27",
-        "task_type": "quest",
-        "description": "B级任务收入积累，存款突破2000星币",
-        "recent_progress": "Day40。存款5285星币。100%完成。"
-      },
-      {
-        "id": "ancient_research",
-        "name": "石柱阵调查",
-        "progress_pct": 100,
-        "estimate": 140,
-        "estimated_days": 5,
-        "daily_limit": 30,
-        "started_at": "2026-06-03",
-        "task_type": "explore",
-        "description": "石柱阵遗址先民遗迹调查",
-        "recent_progress": "远行归来日。现场调查全部完成，塞拉斯开始解读文字。100%。"
-      },
-      {
-        "id": "submit_expedition_report",
-        "name": "提交调查报告",
-        "progress_pct": 100,
-        "estimate": 60,
-        "estimated_days": 1,
-        "daily_limit": 50,
-        "started_at": "2026-06-06",
-        "task_type": "social",
-        "description": "整理石柱阵调查发现提交公会报告",
-        "recent_progress": "Day36。回声谷第二组石柱+隐藏通道，报告材料完整。100%。"
-      },
-      {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
         "progress_pct": 94,
@@ -219,6 +171,18 @@
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
         "recent_progress": "Day50。雨天湿度82%，第三段7秒散了，火焰被雨滴砸灭。96%持平。"
+      },
+      {
+        "id": "glowing_stone_network",
+        "name": "发光石头收购网络",
+        "progress_pct": 26,
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-07-01",
+        "task_type": "investigate",
+        "description": "追踪发光石头的收购网络和流通渠道",
+        "recent_progress": "Day50。瑟尔商团确认，三百年前矿石贸易商队。线索指向古代商路。26%。"
       }
     ],
     "staged": [],
