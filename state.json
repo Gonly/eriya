@@ -6,9 +6,9 @@
       "updated_at": "2026-07-03T05:00:00+08:00",
       "proactive_time": "09:00"
     },
-    "daily_message_count": 4
+    "daily_message_count": 5
   },
-  "last_proactive": "2026-07-03T14:00:00+08:00",
+  "last_proactive": "2026-07-03T18:00:00+08:00",
   "last_proactive_content": "[14:00] 训练场棚子下面甩了甩手臂，火魔法第三段七秒就散了。湿度太高，雨滴把火焰砸灭的瞬间，空气里全是水汽味。",
   "consecutive_no_reply": 0,
   "paused": false,
