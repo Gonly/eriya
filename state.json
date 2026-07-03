@@ -4,12 +4,12 @@
       "description": "B级第五十天·返程第十六天·小雨转阵雨·瑟尔商团确认与摔跤",
       "source": "daily_schedule",
       "updated_at": "2026-07-03T05:00:00+08:00",
-      "proactive_time": "09:00"
+      "proactive_time": "21:00"
     },
-    "daily_message_count": 5
+    "daily_message_count": 6
   },
-  "last_proactive": "2026-07-03T18:00:00+08:00",
-  "last_proactive_content": "[14:00] 训练场棚子下面甩了甩手臂，火魔法第三段七秒就散了。湿度太高，雨滴把火焰砸灭的瞬间，空气里全是水汽味。",
+  "last_proactive": "2026-07-03T21:00:00+08:00",
+  "last_proactive_content": "[21:00] 雨声比白天轻了，窗半开着。符文石搁在桌上没再亮，腿还有点疼，走路一瘸一拐的。三百年前的名字还在脑子里转。",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-03",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
