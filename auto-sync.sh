@@ -22,11 +22,15 @@ for f in "$SRC"/*.md; do
   fi
 done
 
-# 2. Copy state.json to viewer root
+# 2. Copy state.json to viewer root (with JSON validation)
 if [ -f "$STATE" ]; then
   if [ ! -f "state.json" ] || [ "$STATE" -nt "state.json" ]; then
-    cp "$STATE" "state.json"
-    needed=true
+    if python3 -c "import json; json.load(open('$STATE'))" 2>/dev/null; then
+      cp "$STATE" "state.json"
+      needed=true
+    else
+      echo "WARNING: state.json is invalid JSON, skipping copy" >&2
+    fi
   fi
 fi
 
