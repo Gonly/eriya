@@ -6,10 +6,10 @@
       "updated_at": "2026-07-04T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": null,
-  "last_proactive_content": null,
+  "last_proactive": "2026-07-04T09:00:00+08:00",
+  "last_proactive_content": "[08:30] 塞拉斯研究室，把路线图摊开给他看。放大镜下一字一字地读，纸边都快碎了。三百年前的标记，雨停了窗外有鸟叫。"
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-04",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
