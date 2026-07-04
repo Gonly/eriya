@@ -6,10 +6,10 @@
       "updated_at": "2026-07-04T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-07-04T09:00:00+08:00",
-  "last_proactive_content": "[08:30] 塞拉斯研究室，把路线图摊开给他看。放大镜下一字一字地读，纸边都快碎了。三百年前的标记，雨停了窗外有鸟叫。"
+  "last_proactive": "2026-07-04T12:00:00+08:00",
+  "last_proactive_content": "[12:00] 公会食堂吃午饭，把路线图和旧铜牌的事讲给ルナ听。她筷子敲着碗沿说，三百年前商队就在这歇过脚，那现在有人去营地……本叔路过听到「调查组」三个字停了一下，说第十三天了。没人接话。"
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-04",
   "affection": 14,
   "recent_topics": [],
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
