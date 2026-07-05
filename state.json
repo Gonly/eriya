@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-05T18:00:00+08:00",
+  "last_proactive": "2026-07-05T21:00:00+08:00",
   "last_proactive_content": "[12:00] 训练场，多云间晴空气干燥，掌心火焰稳得像心跳。第三段一口气冲了九秒半——差半秒就破十了。收招时火焰在指尖跳了五下才灭，手臂有点酸，但心情好得像刚烤完火。",
   "consecutive_no_reply": 0,
   "paused": false,
@@ -64,7 +64,7 @@
   "mood_date": "2026-07-05",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
