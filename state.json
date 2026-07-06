@@ -64,9 +64,9 @@
   "mood_date": "2026-07-06",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 1,
-  "last_proactive": "2026-07-06T09:00:00+08:00",
-  "last_proactive_content": "[08:30] 塞拉斯研究室，两份地图叠在一起。地窖入口可能在北侧第三根和第四根石柱之间，但要等天晴实地确认。雨声滴滴答答，调查组第十五天。",
+  "daily_message_count": 2,
+  "last_proactive": "2026-07-06T12:00:00+08:00",
+  "last_proactive_content": "[12:00] 房间里，笔记本摊开在桌上，最新一页画满了箭头和圈圈。瑟尔商团、地窖、石柱群、发光石头、黑市碎片——每条线索都指向同一个方向。雨声滴滴答答的。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
