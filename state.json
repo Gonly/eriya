@@ -8,8 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-05T21:00:00+08:00",
-  "last_proactive_content": "[21:00] 窗开着，夜风带着潮湿的青草味。符文石在桌上，绿光又亮了一些，稳稳的像呼吸。三百年前商团在营地地下埋了东西，就在石柱群正下方。通讯石握在手里，凉凉的。拼图几乎完整了，就差最后一块——地窖里到底有什么。",
+  "last_proactive": "2026-07-06T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,9 +63,8 @@
   "mood_date": "2026-07-06",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 3,
-  "last_proactive": "2026-07-06T15:00:00+08:00",
-  "last_proactive_content": "[15:00] 训练场檐下，掌心火焰聚了又散、散了又聚。湿度太高，最长撑了三秒。收手的时候火焰在指尖抖了一下就灭了，像被雨浇熄的蜡烛。算了，今天不适合练这个。",
+  "daily_message_count": 5,
+  "last_proactive_content": "[21:00] 雨停了，窗外蛙声一片。符文石绿光照亮半张脸，通讯石握在手里凉凉的。调查组失联第十五天，黑市碎片、深色斗篷三人组往北走——线索缠成一团。摸了摸星辉石，冰凉的触感让人清醒了一点。明天天晴的话，该去石柱群看看了。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
