@@ -6,7 +6,7 @@
       "updated_at": "2026-07-06T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
   "last_proactive": "2026-07-05T21:00:00+08:00",
   "last_proactive_content": "[21:00] 窗开着，夜风带着潮湿的青草味。符文石在桌上，绿光又亮了一些，稳稳的像呼吸。三百年前商团在营地地下埋了东西，就在石柱群正下方。通讯石握在手里，凉凉的。拼图几乎完整了，就差最后一块——地窖里到底有什么。",
@@ -64,7 +64,9 @@
   "mood_date": "2026-07-06",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
+  "last_proactive": "2026-07-06T09:00:00+08:00",
+  "last_proactive_content": "[08:30] 塞拉斯研究室，两份地图叠在一起。地窖入口可能在北侧第三根和第四根石柱之间，但要等天晴实地确认。雨声滴滴答答，调查组第十五天。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
