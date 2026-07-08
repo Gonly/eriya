@@ -111,7 +111,7 @@
   },
   "quality_check": {
     "last_check": "2026-07-08T05:00:00+08:00",
-    "check_count": 73,
+    "check_count": 74,
     "next_check_agenda": "Day55：①调查组失联第十七天·地窖深入调查②晴天适合探索③本叔带队再探圆形房间④墙上字迹与脚印方向矛盾待解⑤火魔法可恢复训练",
     "improvement_queue": [],
     "completed_improvements": [
@@ -151,14 +151,14 @@
       {
         "id": "investigate_black_robes",
         "name": "黑袍人调查",
-        "progress_pct": 99,
+        "progress_pct": 100,
         "estimate": 80,
         "estimated_days": 3,
         "daily_limit": 15,
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day54。地窖大突破——符文石开启石门，圆形房间发现水晶容器（发光石头与符文石同源），墙上刻字确认调查组第七天到访后撤离。撤离原因仍不明。99%持平。"
+        "recent_progress": "Day55。地窖笔记本大发现——调查组撤离方向北（与之前情报矛盾），未知符文能量类型，水晶容器为网络节点。本叔上报王都魔法研究会，地窖封存待命。"
       },
       {
         "id": "fire_magic_training",
@@ -170,19 +170,19 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day54。晴天本可恢复训练，但全天精力投入地窖探索未实际练习。98%持平。今天晴天，务必恢复训练。"
+        "recent_progress": "Day55。恢复训练半小时，手感生疏，第一发火球歪了，第二发才中。风魔法配合也不顺畅，需要重新找节奏。98%持平。"
       },
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 41,
+        "progress_pct": 46,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day54。地窖圆形房间水晶容器内有发光石头，与符文石同源，确认黑袍人收购网络与地窖直接关联。41%。"
+        "recent_progress": "Day55。笔记本确认水晶容器是发光石头网络的节点，真正源头在北面。调查组追踪未知能量往北走。网络规模比想象大。46%。"
       }
     ],
     "staged": [],
