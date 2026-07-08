@@ -63,8 +63,9 @@
   "mood_date": "2026-07-08",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 1,
-  "last_proactive_content": "艾琳按动西面墙石砖发现暗格，里面是调查组笔记本，翻开第一页写着第七天",
+  "daily_message_count": 6,
+  "last_proactive": "2026-07-08T15:00:00+08:00",
+  "last_proactive_content": "火魔法练完在树荫下坐着，艾琳整理符文拓印，脑子里转着调查组笔记本写着撤离方向北和之前说的往南走完全相反",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
