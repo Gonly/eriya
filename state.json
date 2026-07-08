@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-08T09:00:00+08:00",
+  "last_proactive": "2026-07-08T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,9 +63,8 @@
   "mood_date": "2026-07-08",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 6,
-  "last_proactive": "2026-07-08T15:00:00+08:00",
-  "last_proactive_content": "火魔法练完在树荫下坐着，艾琳整理符文拓印，脑子里转着调查组笔记本写着撤离方向北和之前说的往南走完全相反",
+  "daily_message_count": 7,
+  "last_proactive_content": "躺在床上握着符文石，绿光在指尖跳了两下才散。窗外蛙声一片，脑子里转着笔记本上「撤离方向：北」这几个字。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
