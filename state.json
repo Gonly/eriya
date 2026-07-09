@@ -3,12 +3,12 @@
     "active_topic": {
       "description": "B级第五十六天·返程第二十二天·晴·调查组失联第十八天·北方商队消息",
       "source": "daily_schedule",
-      "updated_at": "2026-07-09T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-07-09T18:00:00+08:00",
+      "proactive_time": "18:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 4
   },
-  "last_proactive": "2026-07-09T15:00:00+08:00",
+  "last_proactive": "2026-07-09T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-07-09",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 4,
   "last_proactive_content": "",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -110,8 +110,8 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-07-09T05:00:00+08:00",
-    "check_count": 75,
+    "last_check": "2026-07-09T18:00:00+08:00",
+    "check_count": 76,
     "next_check_agenda": "Day56：①调查组失联第十八天②北方商队带来消息③火魔法恢复训练④等待王都回应⑤发光石头网络推进",
     "improvement_queue": [],
     "completed_improvements": [
