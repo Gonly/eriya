@@ -110,8 +110,8 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-07-09T18:00:00+08:00",
-    "check_count": 76,
+    "last_check": "2026-07-09T22:30:00+08:00",
+    "check_count": 77,
     "next_check_agenda": "Day56：①调查组失联第十八天②北方商队带来消息③火魔法恢复训练④等待王都回应⑤发光石头网络推进",
     "improvement_queue": [],
     "completed_improvements": [
@@ -158,7 +158,7 @@
         "started_at": "2026-05-28",
         "task_type": "investigate",
         "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day56。北方商队到达带来消息——商队负责人确认三周前在北境荒野边缘见过一群穿深色斗篷的人往北走。与调查组撤离方向吻合。本叔已将信息补充进上报材料。"
+        "recent_progress": "Day56结算。商队情报与调查组完全吻合——灰岩岭深色斗篷人群+发光碎片。100%完成。"
       },
       {
         "id": "fire_magic_training",
@@ -170,7 +170,7 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day56。恢复训练半小时，手感比昨天好一点，第三段8秒稳定了。风魔法配合偶尔断一拍，但整体在找回节奏。98%持平。"
+        "recent_progress": "Day56结算。恢复训练第三段8秒稳定，手感回升中。98%持平。"
       },
       {
         "id": "glowing_stone_network",
@@ -182,7 +182,7 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day56。商队证实发光石头在北方有流通，他们见过类似的发光矿石碎片。水晶容器→北方源头→商队路线，网络拼图又多了两块。48%。"
+        "recent_progress": "Day56结算。北方商队证实灰岩岭有发光碎片，深色斗篷人群往北移动，与调查组线索吻合。网络拼图清晰化。48%。"
       }
     ],
     "staged": [],
