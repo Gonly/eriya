@@ -151,26 +151,26 @@
       {
         "id": "fire_magic_training",
         "name": "火魔法修炼",
-        "progress_pct": 98,
+        "progress_pct": 99,
         "estimate": 80,
         "estimated_days": 3,
         "daily_limit": 15,
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day57结算。恢复训练第三段8秒→9秒稳定突破，手感回升中。98%→99%。"
+        "recent_progress": "Day57结算。第三段9秒稳定突破，收招火焰跳两下灭，手感完全找回。98%→99%。"
       },
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 50,
+        "progress_pct": 52,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day57结算。王都研究员确认发光石头为古代信标网络遗物，用途从路标变通讯设施。信标功能验证成功。50%。"
+        "recent_progress": "Day57结算。艾琳确认信标网络为古代通讯系统，星辉石验证信标功能成功，石柱底部控制符文被故意磨掉。50%→52%。"
       }
     ],
     "staged": [],
