@@ -6,9 +6,9 @@
       "updated_at": "2026-07-10T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-07-10T09:00:00+08:00",
+  "last_proactive": "2026-07-10T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,8 +63,8 @@
   "mood_date": "2026-07-10",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 1,
-  "last_proactive_content": "[09:00] 公会门口停了一辆轻便马车，下来一个戴细框眼镜的黑短发女人。本叔介绍是王都魔法研究院的艾琳研究员。她推了推眼镜，开口第一句就是「我带了对照表」。心跳加速。",
+  "daily_message_count": 2,
+  "last_proactive_content": "[12:00] 公会食堂午餐，艾琳边啃面包边在笔记本上画信标网络分布草图。信标石碎片可能是充能失败剥落的，那些人往北走是在找网络源头。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
