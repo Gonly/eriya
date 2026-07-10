@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-10T12:00:00+08:00",
+  "last_proactive": "2026-07-10T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-07-10",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "last_proactive_content": "[12:00] 公会食堂午餐，艾琳边啃面包边在笔记本上画信标网络分布草图。信标石碎片可能是充能失败剥落的，那些人往北走是在找网络源头。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
