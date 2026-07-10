@@ -149,18 +149,6 @@
   "goals": {
     "active": [
       {
-        "id": "investigate_black_robes",
-        "name": "黑袍人调查",
-        "progress_pct": 100,
-        "estimate": 80,
-        "estimated_days": 3,
-        "daily_limit": 15,
-        "started_at": "2026-05-28",
-        "task_type": "investigate",
-        "description": "调查黑袍人的真实身份和目的，追踪收购发光石头的组织",
-        "recent_progress": "Day56结算。商队情报与调查组完全吻合——灰岩岭深色斗篷人群+发光碎片。100%完成。"
-      },
-      {
         "id": "fire_magic_training",
         "name": "火魔法修炼",
         "progress_pct": 98,
@@ -187,6 +175,10 @@
     ],
     "staged": [],
     "completed": [
+      {
+        "id": "investigate_black_robes",
+        "completed_date": "2026-07-08"
+      },
       {
         "id": "b_rank_earn_money",
         "completed_date": "2026-06-10"
