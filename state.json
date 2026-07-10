@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-07-09T18:00:00+08:00",
+  "last_proactive": "2026-07-10T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,8 +63,8 @@
   "mood_date": "2026-07-10",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 0,
-  "last_proactive_content": "",
+  "daily_message_count": 1,
+  "last_proactive_content": "[09:00] 公会门口停了一辆轻便马车，下来一个戴细框眼镜的黑短发女人。本叔介绍是王都魔法研究院的艾琳研究员。她推了推眼镜，开口第一句就是「我带了对照表」。心跳加速。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
