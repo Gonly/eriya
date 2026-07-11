@@ -158,19 +158,19 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day57结算。第三段9秒稳定突破，收招火焰跳两下灭，手感完全找回。98%→99%。"
+        "recent_progress": "Day58结算。第三段9秒稳定持平，收招火焰跳两下灭。99%持平。"
       },
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 54,
+        "progress_pct": 56,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day58进行中。清晨石柱群发现新脚印和发光碎片——有人在信标验证后当晚就来过。脚印指向北方，靴底纹路特殊。52%→54%。"
+        "recent_progress": "Day58结算。石柱群发现夜访者脚印+发光碎片+深色纤维，追踪200步至老橡树。夜访者不敢深入石柱群。54%→56%。"
       }
     ],
     "staged": [],
