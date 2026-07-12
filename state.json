@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-12T12:00:00+08:00",
+  "last_proactive": "2026-07-12T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-07-12",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "last_proactive_content": "[08:00] 公会食堂早餐，端着碗找到艾琳说挖掘痕迹的事，她放下筷子皱眉——磨掉的符文下面也许藏着控制核心。吃完她背着包出发回王都，临走回头说了句等我回来。雨丝飘起来的时候，食堂已经空了一半。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
