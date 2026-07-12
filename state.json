@@ -1,7 +1,7 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第五十九天·返程第二十五天·阴转小雨·调查组失联第二十一天·石柱群挖掘痕迹",
+      "description": "B级第五十九天·返程第二十五天·阴转小雨·调查组失联第二十一天·石柱群挖掘痕迹发现",
       "source": "daily_schedule",
       "updated_at": "2026-07-12T05:00:00+08:00",
       "proactive_time": "05:00"
@@ -163,14 +163,14 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 58,
+        "progress_pct": 60,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day59结算。石柱群东南角发现挖掘痕迹，夜访者不仅观察还想挖东西。艾琳带样本回王都分析。56%→58%。"
+        "recent_progress": "Day59结算。挖掘痕迹发现——泥土被翻动过但很浅，夜访者在找控制核心但没找到。艾琳带样本回王都。58%→60%。"
       }
     ],
     "staged": [],
