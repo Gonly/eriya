@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-12T18:00:00+08:00",
+  "last_proactive": "2026-07-12T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,8 +63,8 @@
   "mood_date": "2026-07-12",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 4,
-  "last_proactive_content": "[18:00] 食堂里比往常空，雨声隔着窗户闷闷地响。ル努坐对面戳着鱼，吃了一半突然问艾琳什么时候回来。我说四五天吧，她点点头没再说话。本叔经过时拍了拍桌沿：'巡逻照常，你们别单独去石柱群了。'我应了一声，筷子停在碗边。",
+  "daily_message_count": 5,
+  "last_proactive_content": "[21:00] 窗外雨声淅淅沥沥，比昨天安静多了。坐在窗边，星辉石的淡蓝光映在手心。今天发现的挖掘痕迹让事情更复杂了——夜访者不只是来看看，他们在找什么。雨滴打在窗上，一滴一滴，像在数什么。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
