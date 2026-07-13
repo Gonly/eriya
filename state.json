@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": null,
+  "last_proactive": "2026-07-13T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -59,12 +59,12 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第六十天·返程第二十六天·小雨转阴·调查组失联第二十二天·火魔法突破100%·老库遭遇",
+  "today_mood": "B级第六十天·返程第二十六天·小雨转阴·调查组失联第二十二天·火魔法100%完成·老库遭遇",
   "mood_date": "2026-07-13",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 0,
-  "last_proactive_content": null,
+  "daily_message_count": 5,
+  "last_proactive_content": "[21:00] 回到房间，金属碎片在桌上排成一排，指尖划过粗糙的边缘。火魔法终于百分之百了，老库的靴印也对上了，一天两件大事。窗外雨停了泥土味飘进来，星辉石在胸口微微发热。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
@@ -110,9 +110,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-07-13T05:00:00+08:00",
+    "last_check": "2026-07-13T22:30:00+08:00",
     "check_count": 81,
-    "next_check_agenda": "Day60：①调查组失联第二十二天②艾琳在王都分析样本③老库遭遇分析④火魔法突破100%⑤发光石头网络追踪",
+    "next_check_agenda": "Day61：①调查组失联第二十三天②艾琳王都样本分析③老库下落追踪④火魔法100%后新目标⑤信标零件目的分析",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -158,7 +158,7 @@
         "started_at": "2026-06-10",
         "task_type": "training",
         "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day60结算。第三段突破至10秒，收招干脆利落，99%→100%完成。"
+        "recent_progress": "Day60结算。第三段突破至10秒，收招干脆，99%→100%完成。火魔法修炼达成！"
       },
       {
         "id": "glowing_stone_network",
@@ -170,7 +170,7 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day60结算。遭遇老库——三年前在这一带活动的古董商，专门收购遗迹出土物品。靴子纹路与脚印匹配。他在收集信标网络零件。60%→62%。"
+        "recent_progress": "Day60结算。遭遇老库——三年前在这一带活动的古董商，专门收购遗迹出土物品。靴子纹路与夜访者脚印匹配。他在收集信标网络零件。60%→62%。"
       }
     ],
     "staged": [],
