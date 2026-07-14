@@ -149,28 +149,40 @@
   "goals": {
     "active": [
       {
-        "id": "fire_magic_training",
-        "name": "火魔法修炼",
-        "progress_pct": 100,
-        "estimate": 80,
-        "estimated_days": 0,
-        "daily_limit": 15,
-        "started_at": "2026-06-10",
-        "task_type": "training",
-        "description": "火魔法从基础到实战应用的系统修炼",
-        "recent_progress": "Day62结算。火魔法100%完成，维持状态。"
-      },
-      {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 67,
+        "progress_pct": 70,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day62结算。金属碎片「共鸣」符号确认信标网络核心功能。老库半年前定制金属零件——系统性收集信标部件。问题升级：老库可能想激活整个信标网络。64%→67%。"
+        "recent_progress": "Day63结算。共鸣符号确认·老库系统性收集信标零件·星辉石共鸣反应。67%→70%。"
+      },
+      {
+        "id": "old_ku_beacon_plan",
+        "name": "老库信标计划调查",
+        "progress_pct": 10,
+        "estimate": 80,
+        "estimated_days": 10,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "investigate",
+        "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
+        "recent_progress": "Day63结算。确认老库半年前系统性定制金属零件，可能想激活信标网络。初步调查10%。"
+      },
+      {
+        "id": "star_stone_resonance",
+        "name": "星辉石共鸣研究",
+        "progress_pct": 5,
+        "estimate": 80,
+        "estimated_days": 10,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "investigate",
+        "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
+        "recent_progress": "Day63结算。星辉石在信标附近发热，显示共鸣反应。初步研究5%。"
       }
     ],
     "staged": [],
@@ -222,6 +234,19 @@
       {
         "id": "b_rank_assessment",
         "completed_date": "2026-05-15"
+      },
+      {
+        "id": "fire_magic_training",
+        "name": "火魔法修炼",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 0,
+        "daily_limit": 15,
+        "started_at": "2026-06-10",
+        "task_type": "training",
+        "description": "火魔法从基础到实战应用的系统修炼",
+        "recent_progress": "Day62结算。火魔法100%完成，维持状态。",
+        "completed_date": "2026-07-14"
       }
     ]
   },
@@ -365,5 +390,6 @@
         "mood": "期待与不安"
       }
     ]
-  }
+  },
+  "day_number": 63
 }
