@@ -1,9 +1,9 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第六十一天·返程第二十七天·晨雾转晴·调查组失联第二十三天·金属碎片符号发现·老库追踪",
+      "description": "B级第六十二天·返程第二十八天·晴·调查组失联第二十四天·退休金属匠失踪·空白委托单",
       "source": "daily_schedule",
-      "updated_at": "2026-07-14T05:00:00+08:00",
+      "updated_at": "2026-07-15T05:00:00+08:00",
       "proactive_time": "05:00"
     },
     "daily_message_count": 1
@@ -13,7 +13,7 @@
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
-  "daily_message_date": "2026-07-14",
+  "daily_message_date": "2026-07-15",
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -59,11 +59,11 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "B级第六十一天·返程第二十七天·晨雾转晴·调查组失联第二十三天·金属碎片符号发现·老库追踪",
-  "mood_date": "2026-07-14",
+  "today_mood": "B级第六十二天·返程第二十八天·晴·调查组失联第二十四天·退休金属匠失踪·空白委托单",
+  "mood_date": "2026-07-15",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 8,
+  "daily_message_count": 0,
   "last_proactive_content": "[21:00] 回到房间，星辉石在胸口微微发热。窗外夜风凉凉的，手指无意识地摩挲着碎片边缘——今天的事太多了，脑子有点胀。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -110,9 +110,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-07-14T05:00:00+08:00",
-    "check_count": 82,
-    "next_check_agenda": "Day62：①调查组失联第二十四天②艾琳回归倒计时(Day63-64)③老库追踪进展④金属碎片符号后续⑤火魔法新目标探索",
+    "last_check": "2026-07-15T05:00:00+08:00",
+    "check_count": 83,
+    "next_check_agenda": "Day63：①调查组失联第二十五天②艾琳回归倒计时(Day63-64)③老库追踪——空白委托单线索④退休金属匠失踪疑点⑤星辉石共鸣反应后续",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -151,38 +151,38 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 70,
+        "progress_pct": 73,
         "estimate": 80,
-        "estimated_days": 15,
+        "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day63结算。共鸣符号确认·老库系统性收集信标零件·星辉石共鸣反应。67%→70%。"
+        "recent_progress": "Day62结算。空白委托单发现·退休金属匠失踪·老库清理痕迹疑点。70%→73%。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 10,
+        "progress_pct": 15,
         "estimate": 80,
-        "estimated_days": 10,
+        "estimated_days": 8,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day63结算。确认老库半年前系统性定制金属零件，可能想激活信标网络。初步调查10%。"
+        "recent_progress": "Day62结算。空白委托单·委托人信息被抹·老库系统性收集零件+清理痕迹。10%→15%。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 5,
+        "progress_pct": 8,
         "estimate": 80,
-        "estimated_days": 10,
+        "estimated_days": 8,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day63结算。星辉石在信标附近发热，显示共鸣反应。初步研究5%。"
+        "recent_progress": "Day62结算。星辉石夜间再次发热·碎片「共鸣」符号在月光下显现。5%→8%。"
       }
     ],
     "staged": [],
@@ -274,16 +274,17 @@
         "石柱群新脚印发现——有人在信标验证后当晚夜访石柱群（2026-07-11）",
         "石柱群挖掘痕迹——夜访者不仅观察还想挖掘（2026-07-12）",
         "石柱群金属碎片——挖掘痕迹下发现暗灰色金属，信标网络零件？（2026-07-13）",
-        "金属碎片符号——古文字「共鸣」符号，与信标网络核心功能一致（2026-07-14）"
+        "金属碎片符号——古文字「共鸣」符号，与信标网络核心功能一致（2026-07-14）",
+        "星辉石夜间再次发热——碎片「共鸣」符号在月光下隐约显现（2026-07-15）"
       ],
       "mentioned_in_chat": true,
-      "last_referenced": "2026-07-14T05:00:00+08:00"
+      "last_referenced": "2026-07-15T05:00:00+08:00"
     }
   ],
   "story_arc": {
     "current": "b_rank_daily_and_investigation",
-    "chapter": 44,
-    "episodes_completed": 49,
+    "chapter": 45,
+    "episodes_completed": 50,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -346,50 +347,51 @@
       "day58_beacon_site_night_visitor",
       "day59_excavation_traces_discovered",
       "day60_old_ku_encounter",
-      "day61_metal_fragment_symbol_discovered"
+      "day61_metal_fragment_symbol_discovered",
+      "day62_retired_metalworker_missing"
     ]
   },
   "daily_schedule": {
-    "date": "2026-07-14",
-    "day_number": 61,
-    "weather": "晨雾转晴（19-29°C，微风，湿度75%→50%）",
+    "date": "2026-07-15",
+    "day_number": 62,
+    "weather": "晴（20-30°C，微风，湿度低）",
     "schedule": [
       {
         "time": "05:00",
-        "activity": "公会走廊·晨雾中回来，把昨晚的金属碎片摆在桌上仔细看。雾气从窗户缝里钻进来，手指尖摸到碎片边缘一个凹凸——像刻了什么。",
-        "mood": "安静好奇"
+        "activity": "公会走廊·清晨阳光从窗户斜照进来，星辉石经过一夜恢复正常温度，但比以前更亮了一点。指尖还留着昨晚摩挲碎片边缘的触感。",
+        "mood": "安静思索"
       },
       {
         "time": "07:00",
-        "activity": "石柱群·雾散后回来看昨天的挖掘痕迹。北侧柱基有新鲜刮痕——有人在信标验证后又来过。金属碎片在手心，暗灰色和柱基颜色一样。",
-        "mood": "专注观察"
+        "activity": "公会公告栏·查看信标网络相关的委托记录。在角落翻到一份半年前的旧委托单，标注「零件回收」，委托人一栏空白——有人故意抹掉了名字。日期正好是老库找退休金属匠的时间。",
+        "mood": "警觉"
       },
       {
         "time": "09:00",
-        "activity": "公会图书馆·找塞拉斯帮忙看金属碎片上的符号。他翻出一本古文字对照表——是一个古文字「共鸣」。和信标网络的核心功能一致。",
-        "mood": "恍然大悟"
+        "activity": "铁匠街·去找昨天打听到的退休金属匠。铺子门紧闭，门板上贴了张纸条：「外出，归期未定」。问隔壁卖铁钉的老头，说金属匠三天前就走了，走得很急。",
+        "mood": "意外"
       },
       {
         "time": "12:00",
-        "activity": "公会食堂·午餐。ルナ凑过来问昨天金属碎片有没有新发现。告诉她「共鸣」符号的事，ルナ歪头说「所以信标就是用来共鸣的？」窗外雾散了，阳光很亮。",
-        "mood": "轻松交流"
+        "activity": "公会食堂·午餐。ルナ端着碗坐过来，问昨天那个「共鸣」的事。把空白委托单和金属匠失踪的事告诉她，她筷子停在碗边，低声说「不会是……被灭口了吧？」窗外阳光很亮，但脊背有点凉。",
+        "mood": "不安"
       },
       {
         "time": "15:00",
-        "activity": "老工匠街·打听到这一带有位退休金属匠，专门做古代遗迹出土物品的复制品。据说老库半年前找过他，定制了一批金属零件。",
-        "mood": "意外发现"
+        "activity": "公会图书馆·找塞拉斯分析空白委托单。他翻出旧档案比对纸张和墨水——委托单用的是一种已经停产的墨水，至少有半年以上。委托人信息不是被抹掉，是本来就留空。",
+        "mood": "恍然"
       },
       {
         "time": "18:00",
-        "activity": "公会酒馆·整理今天的发现。金属碎片上的「共鸣」符号意味着信标网络的核心是共鸣——老库收集的零件可能就是用来激活整个网络的钥匙。问题更大了。",
+        "activity": "公会酒馆·整理今天的发现。空白委托单、失踪的金属匠、半年前的时间线——老库不仅在收集零件，还在清理痕迹。他比想象中更谨慎。",
         "mood": "沉思"
       },
       {
         "time": "21:00",
-        "activity": "回到房间·星辉石在胸口微微发热。信标能共鸣，星辉石也能共鸣——它们之间有什么联系？老库到底想做什么？窗外夜风凉凉的，明天继续追。",
+        "activity": "回到房间·星辉石又开始微微发热。把金属碎片和空白委托单并排放在桌上，碎片上的「共鸣」符号在月光下隐约显现。老库的网越收越紧，而她正站在网的边缘。",
         "mood": "期待与不安"
       }
     ]
   },
-  "day_number": 63
+  "day_number": 64
 }
