@@ -63,8 +63,9 @@
   "mood_date": "2026-07-14",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 7,
-  "last_proactive_content": "[15:00] 老工匠街·退休金属匠铺子，门板半开着。打听下来老库半年前找过他，定制了一批金属零件。",
+  "daily_message_count": 8,
+  "last_proactive": "2026-07-14T21:00:00+08:00",
+  "last_proactive_content": "[21:00] 回到房间，星辉石在胸口微微发热。窗外夜风凉凉的，手指无意识地摩挲着碎片边缘——今天的事太多了，脑子有点胀。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
