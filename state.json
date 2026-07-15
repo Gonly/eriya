@@ -8,7 +8,7 @@
     },
     "daily_message_count": 1
   },
-  "last_proactive": "2026-07-14T21:00:00+08:00",
+  "last_proactive": "2026-07-15T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,7 +63,7 @@
   "mood_date": "2026-07-15",
   "affection": 15,
   "recent_topics": [],
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "last_proactive_content": "[21:00] 回到房间，星辉石在胸口微微发热。窗外夜风凉凉的，手指无意识地摩挲着碎片边缘——今天的事太多了，脑子有点胀。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
