@@ -6,9 +6,9 @@
       "updated_at": "2026-07-16T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": "2026-07-15T21:00:00+08:00",
+  "last_proactive": "2026-07-16T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
