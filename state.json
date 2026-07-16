@@ -6,9 +6,9 @@
       "updated_at": "2026-07-16T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 1
+    "daily_message_count": 2
   },
-  "last_proactive": "2026-07-16T09:00:00+08:00",
+  "last_proactive": "2026-07-16T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,8 +63,8 @@
   "mood_date": "2026-07-16",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 0,
-  "last_proactive_content": "[21:00] 回到房间把星辉石和金属碎片并排放在桌上。碎片上的「共鸣」符号在月光下隐约浮现，而老库的网正在收紧。",
+  "daily_message_count": 1,
+  "last_proactive_content": "[12:00] 公会食堂里艾琳边吃边说，王都旧档案里有份信标网络修复计划——需要共鸣器，全王能做的工匠只有两个，一个已经失踪了。手里筷子停在半空，所有线索突然串成了一条线。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
