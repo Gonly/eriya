@@ -6,9 +6,9 @@
       "updated_at": "2026-07-17T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0
+    "daily_message_count": 1
   },
-  "last_proactive": null,
+  "last_proactive": "2026-07-17T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,8 +63,8 @@
   "mood_date": "2026-07-17",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 0,
-  "last_proactive_content": null,
+  "daily_message_count": 1,
+  "last_proactive_content": "城南旧匠人区，一间挂着旧风铃的作坊前。门缝的灰尘被蹭掉了——有人比我们先到了一步。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
