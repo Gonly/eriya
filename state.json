@@ -63,8 +63,9 @@
   "mood_date": "2026-07-17",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 1,
-  "last_proactive_content": "城南旧匠人区，一间挂着旧风铃的作坊前。门缝的灰尘被蹭掉了——有人比我们先到了一步。",
+  "daily_message_count": 2,
+  "last_proactive": "2026-07-17T12:00:00+08:00",
+  "last_proactive_content": "退休金属匠工坊里，工具箱翻倒一地，工作台有个砸碎的圆形装置——和之前碎片的纹路一模一样。艾琳从台面下抽出一张纸条，上面写着「往北走，会有人接应」。震惊。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
