@@ -8,7 +8,7 @@
     },
     "daily_message_count": 3
   },
-  "last_proactive": "2026-07-17T18:00:00+08:00",
+  "last_proactive": "2026-07-17T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -63,9 +63,9 @@
   "mood_date": "2026-07-17",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 3,
-  "last_proactive": "2026-07-17T18:00:00+08:00",
-  "last_proactive_content": "公会酒馆角落翻开笔记整理今天的线索。共鸣器被砸、纸条、北上——所有都指向调查组失联的方向。正写着本叔端着热茶过来，说你们两个小姑娘注意安全。接过茶杯时手指有点发抖。",
+  "daily_message_count": 4,
+  "last_proactive": "2026-07-17T21:00:00+08:00",
+  "last_proactive_content": "星辉石贴在胸口，温度已经退了——和昨晚不同，今晚没有发热。是在等待某种平衡吗？还是有什么在暗中窥视？想起老库昨天盯着档案室的样子，久久无法入睡。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
