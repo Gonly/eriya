@@ -8,7 +8,7 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-07-18T05:00:00+08:00",
+  "last_proactive": "2026-07-18T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
@@ -64,9 +64,9 @@
   "mood_date": "2026-07-18",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 1,
-  "last_proactive": "2026-07-18T12:00:00+08:00",
-  "last_proactive_content": "酒馆包间里老库坐在对面，说想亲自去北境确认些事。艾琳的眼神一直跟着他。ルナ端着甜点进来，说是本叔让送的。老库今天太反常了。",
+  "daily_message_count": 2,
+  "last_proactive": "2026-07-18T15:00:00+08:00",
+  "last_proactive_content": "塞拉斯研究室·他翻出一本破旧的登记簿，指着地图上的废弃补给站说调查组和金属匠走的可能是同一条路。两个人同一天离开，只差三小时——这不可能是巧合。老库今天突然要去北境，时间点太巧了。盯着地图发呆，手心有点凉。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
