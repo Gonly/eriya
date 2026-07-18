@@ -8,13 +8,13 @@
     },
     "daily_message_count": 0
   },
-  "last_proactive": "2026-07-18T21:00:00+08:00",
+  "last_proactive": "2026-07-18T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-18",
-  "daily_message_count": 3,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -64,8 +64,6 @@
   "mood_date": "2026-07-18",
   "affection": 16,
   "recent_topics": [],
-  "daily_message_count": 2,
-  "last_proactive": "2026-07-18T15:00:00+08:00",
   "last_proactive_content": "塞拉斯研究室·他翻出一本破旧的登记簿，指着地图上的废弃补给站说调查组和金属匠走的可能是同一条路。两个人同一天离开，只差三小时——这不可能是巧合。老库今天突然要去北境，时间点太巧了。盯着地图发呆，手心有点凉。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
@@ -424,5 +422,5 @@
       }
     ]
   },
-  "day_number": 66
+  "day_number": 67
 }
