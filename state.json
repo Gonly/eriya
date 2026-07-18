@@ -14,7 +14,7 @@
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-18",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,8 +65,8 @@
   "affection": 16,
   "recent_topics": [],
   "daily_message_count": 1,
-  "last_proactive": "2026-07-18T09:00:00+08:00",
-  "last_proactive_content": "北门守卫处翻出城记录，调查组和金属匠同一天北上只差三小时。门口一阵骚动，一个旧旅装老人被拦下嚷嚷什么，心跳漏了一拍。",
+  "last_proactive": "2026-07-18T12:00:00+08:00",
+  "last_proactive_content": "酒馆包间里老库坐在对面，说想亲自去北境确认些事。艾琳的眼神一直跟着他。ルナ端着甜点进来，说是本叔让送的。老库今天太反常了。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
