@@ -163,31 +163,31 @@
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 38,
+        "progress_pct": 46,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day66结算。老库昨晨突然宣布北上，时间点可疑。38%维持。"
+        "recent_progress": "Day67结算。老库确认北上后失联，塌方处有旧旅装老人被困。重大进展。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 28,
+        "progress_pct": 43,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day66结算。星辉石连续第五晚异常发热后今晨又亮得异常——异常信号加剧。28%维持。"
+        "recent_progress": "Day67结算。塞拉斯确认星辉石与金属碎片为同一系统部件。重大突破。"
       },
       {
         "id": "resonance_device_investigation",
         "name": "共鸣器下落追查",
-        "progress_pct": 12,
+        "progress_pct": 17,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
@@ -199,7 +199,7 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 10,
+        "progress_pct": 15,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 10,
@@ -425,5 +425,5 @@
       }
     ]
   },
-  "day_number": 67
+  "day_number": 68
 }
