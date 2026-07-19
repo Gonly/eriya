@@ -16,9 +16,11 @@
 - submit_expedition_report：100% ✅ 已完成（回声谷第二组石柱+隐藏通道证据完整）
 - investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
 - fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
-- glowing_stone_network：73%（Day65·空白委托单→退休金属匠失踪→老库清理痕迹→共鸣器碎片·64%→73%）
-- old_ku_beacon_plan：15%（Day65·共鸣器半成品被砸→纸条「往北走」→监视升级·10%→15%）
-- star_stone_resonance：8%（Day65·连续第五晚发热→共振频率加速→符号显现·5%→8%）
+- glowing_stone_network：88%（Day67·共鸣器碎片收集·空白委托单→退休金属匠失踪→老库失联·73%→88%）
+- old_ku_beacon_plan：38%（Day67·老库出城失联·可能被困北境塌方·共鸣器碎片收集·15%→38%）
+- star_stone_resonance：28%（Day67·塞拉斯确认星辉石与信标同系统·共鸣符号同频跳动·8%→28%）
+- resonance_device_investigation：12%（Day65·共鸣器半成品被砸·纸条线索·往北走）
+- investigation_team_search：10%（Day65·已上报王都·A级委托发布）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 
