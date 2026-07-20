@@ -158,7 +158,7 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day67结算。88%维持。塞拉斯确认星辉石与信标同一系统，线索指向北境。"
+        "recent_progress": "Day69结算。88%维持。线索指向北境第七信标。"
       },
       {
         "id": "old_ku_beacon_plan",
@@ -170,19 +170,19 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day67结算。塌方处目击老库身影，艾琳带队搜救中。46%维持。"
+        "recent_progress": "Day69结算。46%维持。老库确认生还但高烧，仍在念叨信标和北境。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 43,
+        "progress_pct": 58,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day67结算。塞拉斯确认星辉石与金属碎片为同一系统部件，共鸣实验待进行。"
+        "recent_progress": "Day69结算。星辉石与金属碎片共鸣实验成功，确认星辉石为信标网络部件。58%大幅提升。"
       },
       {
         "id": "resonance_device_investigation",
@@ -194,7 +194,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "共鸣器是信标网络修复的核心零件。退休金属匠是全王都唯一能制作的工匠——他失踪不是巧合，必须找到他",
-        "recent_progress": "Day67结算。工坊被袭后金属匠失踪，与老库北上路线一致。共鸣器半成品被砸。"
+        "recent_progress": "Day69结算。17%维持。退休金属匠失踪与老库北上路线一致。"
       },
       {
         "id": "investigation_team_search",
@@ -206,7 +206,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day67结算。北城门记录发现调查组第7天到访·与金属匠北上路线一致。15%维持。"
+        "recent_progress": "Day69结算。15%维持。调查组失联第31天。"
       }
     ],
     "staged": [],
@@ -388,8 +388,8 @@
     ]
   },
   "daily_schedule": {
-    "date": "2026-07-20",
-    "day_number": 68,
+    "date": "2026-07-21",
+    "day_number": 70,
     "weather": "阴（22-28°C，阴天，无风，闷热）",
     "schedule": [
       {
@@ -429,5 +429,5 @@
       }
     ]
   },
-  "day_number": 69
+  "day_number": 70
 }
