@@ -158,31 +158,31 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day70结算。88%维持。今日无新进展。"
+        "recent_progress": "Day71结算。88%维持。暂无新线索。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 54,
+        "progress_pct": 56,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day70结算。+8%。老库确认生还，高烧中仍念叨信标和北境。"
+        "recent_progress": "Day71结算。+2%。老库高烧第2天，仍未退热。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 66,
+        "progress_pct": 65,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day70结算。-2%。共鸣实验完成，理论分析阶段。"
+        "recent_progress": "Day71结算。-1%。理论分析阶段，进展放缓。"
       },
       {
         "id": "resonance_device_investigation",
@@ -194,7 +194,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "共鸣器是信标网络修复的核心零件。退休金属匠是全王都唯一能制作的工匠——他失踪不是巧合，必须找到他",
-        "recent_progress": "Day70结算。17%维持。退休金属匠失踪第5天。"
+        "recent_progress": "Day71结算。17%维持。金属匠失踪第6天。"
       },
       {
         "id": "investigation_team_search",
@@ -206,7 +206,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day70结算。15%维持。调查组失联第32天。"
+        "recent_progress": "Day71结算。15%维持。调查组失联第33天。"
       }
     ],
     "staged": [],
@@ -428,5 +428,5 @@
       }
     ]
   },
-  "day_number": 70
+  "day_number": 71
 }
