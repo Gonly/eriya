@@ -6,16 +6,16 @@
       "updated_at": "2026-07-20T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-07-20T15:00:00+08:00"
+    "daily_message_count": 4,
+    "last_proactive": "2026-07-20T18:00:00+08:00"
   },
-  "last_proactive": "2026-07-20T15:00:00+08:00",
+  "last_proactive": "2026-07-20T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-20",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-07-20",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[11:30] 公会酒馆等北境消息，老库高烧不退嘴里还念叨着信标和北境。心里有点不安。星辉石在胸口比往常都亮，像在回应什么。",
+  "last_proactive_content": "[18:00] 从研究室出来往酒馆走，阴天风变大。后巷墙角压着一张对折的纸——展开是张草图，山顶标着红叉，写着「北境·第七信标·等待钥匙」。纸张很旧，字迹却很新。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
