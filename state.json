@@ -6,16 +6,16 @@
       "updated_at": "2026-07-21T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-07-21T05:00:00+08:00"
+    "daily_message_count": 1,
+    "last_proactive": "2026-07-21T09:00:00+08:00"
   },
-  "last_proactive": "2026-07-21T05:00:00+08:00",
+  "last_proactive": "2026-07-21T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-21",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-07-21",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[21:00] 宿舍里把草图和金属碎片并排放着，红叉和「共鸣」符号位置完全吻合。星辉石在胸口安静地亮着，窗外的风把窗帘吹得哗哗响，像很远的地方有人在敲门。",
+  "last_proactive_content": "[09:00] 酒馆角落坐着回想老库的话——「那个姑娘有没有追上来」，可她自己也不确定是不是在说自己。窗外天色阴沉，雷声滚得很远，手里的通讯石微微发热。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
