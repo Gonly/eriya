@@ -9,13 +9,13 @@
     "daily_message_count": 3,
     "last_proactive": "2026-07-21T15:00:00+08:00"
   },
-  "last_proactive": "2026-07-21T12:00:00+08:00",
+  "last_proactive": "2026-07-21T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-21",
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-07-21",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[15:00] 酒馆角落坐着发呆，刚才老头醉酒嚷嚷的话一直在脑子里转——「第七信标那地方去不得，三天没出来过一个」。星辉石在胸口突然微微发热，不是一阵一阵，是持续着温热，像是在确认什么。窗外天色暗沉，雨快来了。",
+  "last_proactive_content": "[17:30] 公会酒馆后巷·又走到这里。墙角砖缝里夹着一截深灰色布料，材质跟老库那件旧旅装很像，布料很新。抬头看昨天那扇窗，窗框上多了泥印，像有人爬上去又下来。脑子里突然想：老库说的「那个姑娘」……会不会不是指我？巷子尽头传来脚步声，赶紧躲到垃圾堆后面屏住呼吸。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
