@@ -16,11 +16,11 @@
 - submit_expedition_report：100% ✅ 已完成（回声谷第二组石柱+隐藏通道证据完整）
 - investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
 - fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
-- glowing_stone_network：88%（Day69·共鸣器碎片收集·空白委托单→退休金属匠失踪→老库确认生还·88%）
-- old_ku_beacon_plan：46%（Day69·老库确认生还·高烧意识模糊·念叨信标·塌方处救出·38%→46%）
-- star_stone_resonance：58%（Day69·星辉石与金属碎片并排激活信标网络符文投影·确认星辉石是网络一部分·28%→58%）
-- resonance_device_investigation：17%（Day69·北门老人留下「北境·第七信标·等待钥匙」草图·共鸣器半成品被砸·12%→17%）
-- investigation_team_search：15%（Day69·老库救出·调查组第24天无消息·已上报王都·A级委托发布·10%→15%）
+- glowing_stone_network：88%（Day71·共鸣器碎片收集·空白委托单→退休金属匠失踪→老库确认生还·88%）
+- old_ku_beacon_plan：62%（Day71·老库退烧苏醒·说出关键信息「第七信标在等我」·46%→62%）
+- star_stone_resonance：68%（Day71·星辉石骤冷异常·信标网络全貌揭示·十二座信标·第七信标最北端·58%→68%）
+- resonance_device_investigation：17%（Day71·共鸣器半成品被砸·纸条线索「往北走」·第七信标情报·17%）
+- investigation_team_search：15%（Day71·老库救出·调查组第33天无消息·已上报王都·A级委托发布·15%）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 
