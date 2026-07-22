@@ -6,16 +6,16 @@
       "updated_at": "2026-07-22T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-07-21T18:00:00+08:00"
+    "daily_message_count": 1,
+    "last_proactive": "2026-07-22T09:00:00+08:00"
   },
-  "last_proactive": "2026-07-21T18:00:00+08:00",
+  "last_proactive": "2026-07-22T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-22",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-07-22",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[17:30] 公会酒馆后巷·又走到这里。墙角砖缝里夹着一截深灰色布料，材质跟老库那件旧旅装很像，布料很新。抬头看昨天那扇窗，窗框上多了泥印，像有人爬上去又下来。脑子里突然想：老库说的「那个姑娘」……会不会不是指我？巷子尽头传来脚步声，赶紧躲到垃圾堆后面屏住呼吸。",
+  "last_proactive_content": "[09:00] 往塞拉斯研究室走的路上，晨雾散了大半，阳光从云缝里透下来。脑子里全是艾琳说的那些话——退休金属匠、被人藏起来、有人让他把东西交给我。星辉石贴在胸口，温温的，不再是昨晚那种冰凉。走得有点快，差点撞上迎面来的马车，车夫骂了一句「小姑娘看着点路」，才回过神低下头。\n\n心情是困惑中带着一点期待。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
