@@ -158,7 +158,7 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day74待结算。昨天有人在酒馆前台打听戴蓝色石头的女孩，追踪者已确认存在。90%。"
+        "recent_progress": "Day74结算。90%维持，等待新线索。"
       },
       {
         "id": "old_ku_beacon_plan",
@@ -170,7 +170,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day74待结算。老库身份待解，暂无新线索。59%。"
+        "recent_progress": "Day74结算。59%维持，老库身份待解。"
       },
       {
         "id": "star_stone_resonance",
@@ -182,7 +182,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day74待结算。共鸣器与星辉石靠近时荧光跳动，共鸣反应确认。68%。"
+        "recent_progress": "Day74结算。68%维持，共鸣器到手待测。"
       },
       {
         "id": "resonance_device_investigation",
@@ -194,7 +194,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "共鸣器是信标网络修复的核心零件。退休金属匠是全王都唯一能制作的工匠——他失踪不是巧合，必须找到他",
-        "recent_progress": "Day74待结算。共鸣器已到手，待正式测试。65%。"
+        "recent_progress": "Day74结算。65%维持，待正式测试。"
       },
       {
         "id": "investigation_team_search",
@@ -206,7 +206,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day74待结算。失联第38天，塞拉斯在追查。20%。"
+        "recent_progress": "Day74结算。20%维持，失联第38天。"
       },
       {
         "id": "anonymous_tracer_investigation",
@@ -218,7 +218,7 @@
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day74待结算。后巷二楼窗户待深入追踪，匿名者身份不明。5%。"
+        "recent_progress": "Day74结算。后巷二楼窗户待深入，匿名者身份不明。"
       }
     ],
     "staged": [],
@@ -453,5 +453,5 @@
       }
     ]
   },
-  "day_number": 74
+  "day_number": 75
 }
