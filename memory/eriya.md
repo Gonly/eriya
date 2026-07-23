@@ -17,10 +17,10 @@
 - investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
 - fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
 - glowing_stone_network：88%（Day71·共鸣器碎片收集·空白委托单→退休金属匠失踪→老库确认生还·88%）
-- old_ku_beacon_plan：65%（Day72·老库苏醒情报整合·沃尔夫交付共鸣器·有人在暗中协助·62%→65%）
-- star_stone_resonance：72%（Day72·星辉石回温·共鸣器靠近时荧光跳动·共鸣研究重大突破·68%→72%）
-- resonance_device_investigation：60%（Day72·共鸣器到手·沃尔夫三年前制作被扣押·神秘人出示星辉石照片·17%→60%）
-- investigation_team_search：22%（Day72·地道蓝光目击·有人追踪星辉石持有者·调查组第34天无消息·15%→22%）
+- old_ku_beacon_plan：59%（Day72·老库苏醒·第七信标情报·匿名威胁·59%→59%维持）
+- star_stone_resonance：68%（Day72·共鸣器入手·星辉石共振确认·68%↑）
+- resonance_device_investigation：65%（Day72·共鸣器到手·沃尔夫交付·神秘姑娘暗中牵线·60%→65%）
+- investigation_team_search：20%（Day72·调查组第37天无消息·塞拉斯持续追查·22%→20%）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 
