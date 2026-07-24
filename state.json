@@ -9,13 +9,13 @@
     "daily_message_count": 3,
     "last_proactive": "2026-07-24T15:00:00+08:00"
   },
-  "last_proactive": "2026-07-24T12:00:00+08:00",
+  "last_proactive": "2026-07-24T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-24",
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
