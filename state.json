@@ -158,7 +158,7 @@
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day75追踪者现身示警·戒指符文曝光·90%"
+        "recent_progress": "Day76结算。90%维持，追踪者警告待查。"
       },
       {
         "id": "old_ku_beacon_plan",
@@ -170,7 +170,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day75共鸣器激活成功·追踪者身份成谜·59%"
+        "recent_progress": "Day76结算。59%维持，共鸣器分析停滞。"
       },
       {
         "id": "star_stone_resonance",
@@ -182,7 +182,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day75星辉石亮度提升三成·共鸣激活确认·68%"
+        "recent_progress": "Day76结算。68%维持，共鸣待激活。"
       },
       {
         "id": "resonance_device_investigation",
@@ -194,7 +194,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "共鸣器是信标网络修复的核心零件。退休金属匠是全王都唯一能制作的工匠——他失踪不是巧合，必须找到他",
-        "recent_progress": "Day75追踪者拦路示警·共鸣器频率数据分析中·65%"
+        "recent_progress": "Day76结算。65%维持，金属匠失踪待查。"
       },
       {
         "id": "investigation_team_search",
@@ -206,19 +206,19 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day75发回信号确认存活·失联第39天·25%"
+        "recent_progress": "Day76结算。25%维持，信号待确认。"
       },
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 5,
+        "progress_pct": 15,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day75追踪者主动现身示警·戒指符文曝光·15%"
+        "recent_progress": "Day76结算。15%维持，追踪者身份成谜。"
       }
     ],
     "staged": [],
@@ -460,5 +460,5 @@
     ],
     "today_mood": "共鸣器激活后续发展超乎想象——调查组还活着，追踪者主动现身示警。她到底是谁？"
   },
-  "day_number": 76
+  "day_number": 77
 }
