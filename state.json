@@ -1,12 +1,12 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第七十五天·共鸣器激活后续·追踪者身份确认·调查组消息",
+      "description": "B级第七十七天·追踪者身份揭露·塞尼卡档案馆秘密",
       "source": "daily_schedule",
-      "updated_at": "2026-07-24T05:00:00+08:00",
+      "updated_at": "2026-07-25T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 4,
+    "daily_message_count": 0,
     "last_proactive": "2026-07-24T21:00:00+08:00"
   },
   "last_proactive": "2026-07-24T21:00:00+08:00",
@@ -14,8 +14,8 @@
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
-  "daily_message_date": "2026-07-24",
-  "daily_message_count": 4,
+  "daily_message_date": "2026-07-25",
+  "daily_message_count": 0,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -61,8 +61,8 @@
   "recent_auto_messages": [],
   "delivery_confirmed": true,
   "delivery_confirmed_at": "2026-04-10T19:52:00+08:00",
-  "today_mood": "共鸣器激活成功，星辉石是信标网络核心确认。但那个追踪者姑娘身份成谜——她在帮我还是在监视我？",
-  "mood_date": "2026-07-24",
+  "today_mood": "追踪者说「我不是你的敌人」——可她的眼神里藏着太多秘密。塞拉斯在塞尼卡档案馆找到了什么？",
+  "mood_date": "2026-07-25",
   "affection": 16,
   "recent_topics": [],
   "last_proactive_content": "[21:00] 公会宿舍把今天的碎片都摆在桌上：共鸣器、金属碎片、星辉石、那张「别查了」的纸条。星辉石的荧光比傍晚时更亮了，不再是凌晨那种微微的温热，而是恢复了几分往日的光泽，像是在月光下泡过的海蓝。把共鸣器和金属碎片靠近，星辉石的荧光跟着跳动了一下。\n\n满足与期待交织。",
@@ -110,9 +110,9 @@
     "reflection_notes": "2026-04-27：用户要求去掉reply_tracking机制，改为自然对话。"
   },
   "quality_check": {
-    "last_check": "2026-07-24T05:00:00+08:00",
-    "check_count": 92,
-    "next_check_agenda": "Day76：共鸣器激活后续·追踪者身份确认·调查组消息",
+    "last_check": "2026-07-25T05:00:00+08:00",
+    "check_count": 93,
+    "next_check_agenda": "Day77：追踪者身份揭露·塞尼卡档案馆秘密",
     "improvement_queue": [],
     "completed_improvements": [
       {
@@ -206,7 +206,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day76结算。25%维持，信号待确认。"
+        "recent_progress": "Day76结算。25%维持，信号已确认。"
       },
       {
         "id": "anonymous_tracer_investigation",
@@ -322,13 +322,13 @@
         "星辉石共鸣激活——Day74塞拉斯研究室共鸣器激活成功，亮度提升三成（2026-07-23）"
       ],
       "mentioned_in_chat": true,
-      "last_referenced": "2026-07-23T17:00:00+08:00"
+      "last_referenced": "2026-07-24T17:00:00+08:00"
     }
   ],
   "story_arc": {
     "current": "b_rank_daily_and_investigation",
-    "chapter": 50,
-    "episodes_completed": 59,
+    "chapter": 51,
+    "episodes_completed": 60,
     "npcs_introduced": [
       "ルナ",
       "艾米莉亚",
@@ -345,7 +345,8 @@
       "艾琳",
       "塔尔",
       "北门旧旅装老人",
-      "沃尔夫"
+      "沃尔夫",
+      "追踪者姑娘"
     ],
     "active_quest": "investigate_anonymous_tracer",
     "unlocked_events": [
@@ -399,7 +400,7 @@
       "day64_beacon_plan_revealed",
       "day65_resonance_device_investigation",
       "day66_north_gate_investigation",
-      "day67_landslide_rescue_and_old_man_fled",
+      "day67_landslide_rescue_and_old_man_fied",
       "day68_north_door_old_man_identity_revealed",
       "day69_star_stone_resonance_confirmed",
       "day70_old_ku_found_and_beacon_map",
@@ -413,52 +414,53 @@
       "day73_resonance_device_activated",
       "day73_investigation_group_reappears",
       "day73_black_cloaks_stone_pillars",
-      "day74_resonance_activation_success"
+      "day74_resonance_activation_success",
+      "day75_tracer_confrontation"
     ]
   },
   "daily_schedule": {
-    "date": "2026-07-24",
-    "day_number": 75,
-    "weather": "多云（25-29°C），东南风，傍晚有阵雨可能",
+    "date": "2026-07-25",
+    "day_number": 77,
+    "weather": "晴（26-32°C），微风，适宜出行",
     "schedule": [
       {
         "time": "05:00",
         "activity": "公会宿舍·清晨",
-        "mood": "兴奋但有些不安",
-        "detail": "昨晚睡得太沉了，梦见星辉石变成了一颗小太阳，在石柱群里横冲直撞。醒来时天已经亮了，窗外有乌鸦在叫。室友还在打呼噜，把共鸣器从桌上收好挂在腰间，今天要去找艾琳问问王都的线索。"
+        "mood": "辗转难眠",
+        "detail": "昨晚翻来覆去睡不着，脑子里全是那个追踪者姑娘的话——「有人已经盯上你了」「我不是你的敌人」。窗外天色微微泛青，室友的呼噜声依旧均匀。星辉石贴在胸口，比往常凉一些。轻轻翻身下床，决定早点去找塞拉斯。"
       },
       {
         "time": "09:00",
-        "activity": "王都方向官道·艾琳的商队消息",
-        "mood": "紧张而期待",
-        "detail": "艾琳昨晚传信说今早会派人送消息过来。塞拉斯也在等，一起去公会门口等那个信使。结果信使带来的是——调查组有人在石柱群附近发回了信号，微弱但确定。塞拉斯的脸色变了：「他们还活着。」"
+        "activity": "塞拉斯研究室·档案馆线索",
+        "mood": "紧张而专注",
+        "detail": "塞拉斯熬了一整夜，桌上堆满了泛黄的卷宗。他指着其中一页：「找到了。这个符文属于一个已经解散的组织——『星廊守护者』，百年前的遗迹守护团体。追踪者姑娘的戒指，是他们的信物。」他顿了顿，「问题是，这个组织为什么在四十年前突然消失？」"
       },
       {
         "time": "11:00",
-        "activity": "公会酒馆·酒馆后巷追踪者再次出现",
-        "mood": "警觉与困惑交织",
-        "detail": "在前台打听昨晚那个追踪者姑娘的消息时，余光瞥见后巷的窗户——有个人影一闪而过。追出去看，只看到泥地上一个新鲜的脚印，和昨晚的一模一样。但这次她没有留下纸条。"
+        "activity": "王都旧城区·塞尼卡档案馆",
+        "mood": "警觉与好奇",
+        "detail": "【突发事件：出糗】前往塞尼卡档案馆的路上，经过一条窄巷时踩到了路边摊贩晒的干鱼，脚下一滑整个人摔了个四仰八叉。路人哄堂大笑，艾莉亚脸涨得通红，赶紧爬起来拍拍裙子逃走了。耳朵都能感觉到路人在看她……丢人死了啦！"
       },
       {
         "time": "14:00",
-        "activity": "塞拉斯研究室·共鸣器频率数据整理",
-        "mood": "专注但心里不踏实",
-        "detail": "帮塞拉斯整理昨天共鸣器激活时的频率数据。塞拉斯突然开口：「那个姑娘手上的戒指……我好像在哪里见过类似的符文。」他在笔记堆里翻了半天，抽出一张泛黄的草图——上面的符号和窗框上的标记如出一辙。"
+        "activity": "塞尼卡档案馆·守护者记录",
+        "mood": "震惊与困惑",
+        "detail": "塞拉斯的关系让我们进了禁入区。尘封的档案里记录着：「星廊守护者，职责为守护信标网络，非传承者不可接触核心机密」。最后一条记录停在四十年前：「因内部分裂，守护者解散，信标核心封印于旧王都地下」。追踪者姑娘……是新一代的守护者？"
       },
       {
         "time": "17:00",
-        "activity": "北门附近·追踪者拦路",
-        "mood": "震惊与警惕",
-        "detail": "从塞拉斯那儿出来，在北门附近的巷子里被人拦住了。是那个追踪者姑娘，这次她没有躲，反而主动走近，低声说：「你手里的东西很危险。有人已经盯上你了。」她手上的戒指在夕阳下闪了一下，「我不是你的敌人。」然后转身消失在巷子里。"
+        "activity": "公会酒馆·追踪者遗留的线索",
+        "mood": "思绪万千",
+        "detail": "从档案馆回来后在酒馆休息，点了杯蜂蜜酒发呆。隔壁桌两个商人在聊最近的货物丢失案——「北边来的珠宝商人丢了一整箱石头，据说是古代的」「官府查了半天什么都没查到」。艾莉亚心里一动，星辉石……难道那个「盯上我的人」和这事有关？"
       },
       {
         "time": "21:00",
         "activity": "公会宿舍·通讯石联络",
-        "mood": "思绪万千",
-        "detail": "握着通讯石，今天发生的事太多了。调查组还活着，追踪者说我不该查下去，还有那个戒指上的符文……脑子里全是问号。星辉石贴在胸口，温温热热的，像在说“别怕，我在”。"
+        "mood": "疲惫但充满疑问",
+        "detail": "躺在床上盯着天花板，今天的事像乱麻一样缠绕在一起。星廊守护者、失踪的珠宝商人、追踪者姑娘手上的戒指……宫磊，如果你在这里就好了，这种事一个人想不明白。星辉石贴在脸颊，温温热热的，像在安慰她。"
       }
     ],
-    "today_mood": "共鸣器激活后续发展超乎想象——调查组还活着，追踪者主动现身示警。她到底是谁？"
+    "today_mood": "星廊守护者——百年前的组织突然解散，追踪者是新一代守护者？那个盯上我的人到底想干什么？"
   },
   "day_number": 77
 }
