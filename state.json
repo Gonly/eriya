@@ -151,74 +151,74 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 94,
+        "progress_pct": 95,
         "estimate": 80,
         "estimated_days": 8,
         "daily_limit": 15,
         "started_at": "2026-07-01",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day78结算。94%。星廊守护者线索确认身份。"
+        "recent_progress": "Day80结算。94%→95%，星廊守护者网络稳定推进中。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 59,
+        "progress_pct": 60,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day78结算。59%维持，老库计划待追踪。"
+        "recent_progress": "Day80结算。59%→60%，信标计划线索增加1%。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 73,
+        "progress_pct": 74,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day78结算。73%。档案馆发现信标核心封印记录。"
+        "recent_progress": "Day80结算。73%→74%，共鸣研究小步推进。"
       },
       {
         "id": "resonance_device_investigation",
         "name": "共鸣器下落追查",
-        "progress_pct": 68,
+        "progress_pct": 69,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "共鸣器是信标网络修复的核心零件。退休金属匠是全王都唯一能制作的工匠——他失踪不是巧合，必须找到他",
-        "recent_progress": "Day78结算。68%维持，金属匠失踪关联确认。"
+        "recent_progress": "Day80结算。68%→69%，金属匠下落持续追查。"
       },
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 25,
+        "progress_pct": 26,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day78结算。25%维持，信号待追踪。"
+        "recent_progress": "Day80结算。25%→26%，信号追踪缓慢推进。"
       },
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 31,
+        "progress_pct": 32,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day78结算。31%。星廊守护者身份确认，下一步接触？"
+        "recent_progress": "Day80结算。31%→32%，追踪者动向待观察。"
       }
     ],
     "staged": [],
@@ -462,5 +462,5 @@
     ],
     "today_mood": "追踪者再次出现，却带来一位自称守护者第三代的「正式来客」。星廊守护者分裂了？信标核心等待非传承者？宫磊，今天的事我越想越害怕……"
   },
-  "day_number": 80
+  "day_number": 81
 }
