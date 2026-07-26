@@ -9,13 +9,13 @@
     "daily_message_count": 1,
     "last_proactive": "2026-07-26T09:00:00+08:00"
   },
-  "last_proactive": "2026-07-26T09:00:00+08:00",
+  "last_proactive": "2026-07-26T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-26",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -462,6 +462,5 @@
     ],
     "today_mood": "追踪者再次出现，却带来一位自称守护者第三代的「正式来客」。星廊守护者分裂了？信标核心等待非传承者？宫磊，今天的事我越想越害怕……"
   },
-
   "day_number": 80
 }
