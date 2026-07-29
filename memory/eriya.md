@@ -16,12 +16,12 @@
 - submit_expedition_report：100% ✅ 已完成（回声谷第二组石柱+隐藏通道证据完整）
 - investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
 - fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
-- glowing_stone_network：95%（Day78结算·星廊守护者线索确认身份·94%）
-- old_ku_beacon_plan：60%（Day78结算·老库计划待追踪·59%维持）
-- star_stone_resonance：74%（Day78结算·档案馆发现信标核心封印记录·73%）
+- glowing_stone_network：100%（Day84结算。100%✅ 收购网络完成。
+- old_ku_beacon_plan：72%（Day84结算。72%↑ 信标核心激活条件已明。
+- star_stone_resonance：94%（Day84结算。94%→91%，共鸣核心机制已明。
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
 - investigation_team_search：26%（Day78结算·信号待追踪·25%维持）
-- anonymous_tracer_investigation：32%（Day78结算·星廊守护者身份确认·下一步接触？·31%）
+- anonymous_tracer_investigation：68%（Day84结算。68%↑ 三十年前七工匠内幕。
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 

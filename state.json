@@ -151,26 +151,26 @@
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 68,
+        "progress_pct": 72,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day83结算。信标核心激活条件已明，老库仍昏迷中。"
+        "recent_progress": "Day84结算。共鸣片为信标核心专用，老库仍昏迷中。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 91,
+        "progress_pct": 94,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "探索星辉石与信标网络的共鸣联系——它们之间有什么关联？",
-        "recent_progress": "Day83结算。91%→91%，共鸣核心机制已明，持续研究中。"
+        "recent_progress": "Day84结算。共鸣片激活机制已明，持续研究中。"
       },
       {
         "id": "investigation_team_search",
@@ -187,38 +187,64 @@
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 60,
+        "progress_pct": 68,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day83结算。纸条笔迹确认左撇子，今日前往退休金属匠处问询。"
+        "recent_progress": "Day84结算。哈罗德透露三十年前七工匠内幕，线索推进。"
       },
       {
         "id": "guardians_intel",
         "name": "星廊守护者分裂派情报",
         "description": "调查星廊守护者分裂派的目的和行动计划，纸条警告是否与分裂派有关",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day83结算。星的身份已确认（温和派），分裂派活动持续监控中。"
+        "progress_pct": 14,
+        "recent_progress": "Day84结算。星为温和派确认，分裂派活动持续监控中。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "纸条警告来源追查",
         "description": "追查「别去北门」纸条的来源——是星还是另有其人",
         "task_type": "investigate",
-        "progress_pct": 3,
-        "recent_progress": "Day83结算。笔迹鉴定为左撇子，需进一步调查。"
+        "progress_pct": 10,
+        "recent_progress": "Day84结算。左撇子笔迹确认，与星关联待验证。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠问询",
         "description": "退休金属匠突然失踪又突然回来，他到底知道些什么？与信标零件回收、与纸条笔迹有何关联？",
         "task_type": "investigate",
+        "progress_pct": 45,
+        "recent_progress": "Day84结算。哈罗德主动现身交付关键线索。"
+      },
+      {
+        "id": "seven_craftsmen_history",
+        "name": "七工匠历史追查",
+        "description": "调查三十年前七工匠的来历、分工与信标网络建造计划",
+        "task_type": "investigate",
         "progress_pct": 5,
-        "recent_progress": "Day83新增。今日前往问询。"
+        "recent_progress": "Day84新增。七工匠历史待查。",
+        "created_date": "2026-07-29",
+        "related_npcs": [
+          "哈罗德",
+          "塞拉斯"
+        ]
+      },
+      {
+        "id": "beacon_core_activation",
+        "name": "信标核心激活条件",
+        "description": "确认信标核心的具体激活方式与所需条件",
+        "task_type": "investigate",
+        "progress_pct": 3,
+        "recent_progress": "Day84新增。共鸣片到位，激活条件待研究。",
+        "created_date": "2026-07-29",
+        "related_npcs": [
+          "塞拉斯",
+          "哈罗德"
+        ]
       }
     ],
     "staged": [],
@@ -496,5 +522,5 @@
       }
     ]
   },
-  "day_number": 84
+  "day_number": 85
 }
