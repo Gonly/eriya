@@ -9,13 +9,13 @@
     "daily_message_count": 0,
     "last_proactive": "2026-07-29T01:00:00.000Z"
   },
-  "last_proactive": "2026-07-29T10:00:00.000Z",
+  "last_proactive": "2026-07-29T21:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-07-29",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-07-29",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[21:00] 窗外的星空清澈得不像话，和昨晚的浓雾形成鲜明对比。她躺在床上握着通讯石，蓝光映在脸上。这两天知道的事情比之前一个月加起来还多——分裂派的目的、星的身份、枕下纸条的警告。越想越累，但不会倒下。不会让他们拿这颗石头当钥匙的，绝对不会。",
+  "last_proactive_content": "[21:00] 公会宿舍，窗帘拉得严严实实，躲在被子里握着通讯石。身体很累但心里意外平静——今天知道的事越多，反而越踏实了。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
