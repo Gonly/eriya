@@ -17,11 +17,11 @@
 - investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
 - fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
 - glowing_stone_network：100%（Day84结算。100%✅ 收购网络完成。
-- old_ku_beacon_plan：72%（Day84结算。72%↑ 信标核心激活条件已明。
-- star_stone_resonance：96%（Day84结算。94%→91%，共鸣核心机制已明。
+- old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
+- star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
 - investigation_team_search：26%（Day78结算·信号待追踪·25%维持）
-- anonymous_tracer_investigation：70%（Day84结算。68%↑ 三十年前七工匠内幕。
+- anonymous_tracer_investigation：80%（Day87结算。追踪符文揭露，80%维持。）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 
