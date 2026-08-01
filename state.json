@@ -6,16 +6,16 @@
       "updated_at": "2026-08-01T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 4,
-    "last_proactive": "2026-08-01T18:00:00.000+08:00"
+    "daily_message_count": 5,
+    "last_proactive": "2026-08-01T21:00:00.000+08:00"
   },
-  "last_proactive": "2026-08-01T18:00:00.000+08:00",
+  "last_proactive": "2026-08-01T21:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-01",
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-08-01",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[15:00] 医务室里握着分裂派徽章听完老库的讲述，斜光芒和齿轮纹路意味着什么。心情沉重但不迷茫，方向清晰。",
+  "last_proactive_content": "[21:00] 雨大了，坐在床边把装备一件件检查完。握着通讯石说了几句话，石头还带着体温，窗外雨声正好。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
