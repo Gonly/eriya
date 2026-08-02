@@ -6,16 +6,16 @@
       "updated_at": "2026-08-02T18:00:00+08:00",
       "proactive_time": "18:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-08-02T18:00:00.000+08:00"
+    "daily_message_count": 4,
+    "last_proactive": "2026-08-02T21:00:00.000+08:00"
   },
-  "last_proactive": "2026-08-02T18:00:00.000+08:00",
+  "last_proactive": "2026-08-02T21:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-02",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-08-02",
   "affection": 16,
   "recent_topics": [],
-  "last_proactive_content": "[21:00] 雨大了，坐在床边把装备一件件检查完。握着通讯石说了几句话，石头还带着体温，窗外雨声正好。",
+  "last_proactive_content": "[21:00] 暗道窄得只能侧身挤，肩膀蹭着粗糙石壁。星辉石光微弱，刚好照清脚下，分裂派的脚步声远了但还不敢出气。胸口的石头还留着刚才通讯的温度。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
