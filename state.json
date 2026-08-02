@@ -148,48 +148,36 @@
   "goals": {
     "active": [
       {
-        "id": "old_ku_beacon_plan",
-        "name": "老库信标计划调查",
-        "progress_pct": 95,
-        "estimate": 80,
-        "estimated_days": 6,
-        "daily_limit": 15,
-        "started_at": "2026-07-14",
-        "task_type": "investigate",
-        "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
-        "recent_progress": "Day89结算。老库苏醒揭露分裂派机械夺网计划，+5%至95%。"
-      },
-      {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 40,
+        "progress_pct": 45,
         "estimate": 80,
         "estimated_days": 6,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第29天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day89结算。失联32天归来，发现完整信标核心储量，+14%至40%。"
+        "recent_progress": "Day91结算。调查组全员安全撤离地下大厅，新信标核心储量确认，+5%至45%。"
       },
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 80,
+        "progress_pct": 85,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day89结算。追踪符文揭露·暗红石头定位确认，80%维持。"
+        "recent_progress": "Day91结算。分裂派激活装置定位确认，与追踪符文网络关联，+5%至85%。"
       },
       {
         "id": "guardians_intel",
         "name": "星廊守护者分裂派情报",
         "description": "调查星廊守护者分裂派的目的和行动计划，纸条警告是否与分裂派有关",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day89结算。分裂派斜光芒齿轮纹确认，革新派身份明确，+17%至55%。"
+        "progress_pct": 60,
+        "recent_progress": "Day91结算。分裂派地下据点确认，机械激活装置背后组织意图明确，+5%至60%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -197,7 +185,7 @@
         "description": "追查「别去北门」纸条的来源——是星还是另有其人",
         "task_type": "investigate",
         "progress_pct": 10,
-        "recent_progress": "Day89结算。左撇子笔迹确认，钟塔之约后续分裂派信件，暗红石头追踪符文确认，10%维持。"
+        "recent_progress": "Day91结算。纸条事件后续暂无进展，10%维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
@@ -205,15 +193,15 @@
         "description": "退休金属匠突然失踪又突然回来，他到底知道些什么？与信标零件回收、与纸条笔迹有何关联？",
         "task_type": "investigate",
         "progress_pct": 60,
-        "recent_progress": "Day89结算。哈罗德交付共鸣片关键线索，+10%至60%。"
+        "recent_progress": "Day91结算。金属匠线索与激活装置关联待查，60%维持。"
       },
       {
         "id": "seven_craftsmen_history",
         "name": "七工匠历史追查",
         "description": "调查三十年前七工匠的来历、分工与信标网络建造计划",
         "task_type": "investigate",
-        "progress_pct": 45,
-        "recent_progress": "Day89结算。七工匠完整名单获取，第三工匠叛逃关联确认，+9%至45%。",
+        "progress_pct": 48,
+        "recent_progress": "Day91结算。分裂派机械装置暗示工匠技术参与，+3%至48%。",
         "related_npcs": [
           "哈罗德",
           "塞拉斯"
@@ -224,8 +212,8 @@
         "name": "信标核心激活条件",
         "description": "确认信标核心的具体激活方式与所需条件",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day89结算。分裂派机械激活信标计划揭露，激活机制进一步明确，+8%至55%。",
+        "progress_pct": 60,
+        "recent_progress": "Day91结算。地下大厅激活装置确认，激活机制进一步揭露，+5%至60%。",
         "related_npcs": [
           "塞拉斯",
           "哈罗德"
@@ -237,7 +225,7 @@
         "description": "老库刚在第七信标坍塌处被救出，高烧后退烧苏醒。他醒来说了什么？下一步要做什么？需要尽快跟进。",
         "task_type": "investigate",
         "progress_pct": 15,
-        "recent_progress": "Day89结算。老库苏醒，身份待确认动向，15%维持。",
+        "recent_progress": "Day91结算。老库动向暂无新消息，15%维持。",
         "created_date": "2026-07-31"
       },
       {
@@ -245,8 +233,8 @@
         "name": "暗红石头的真实用途",
         "description": "分裂派给的暗红追踪符文石头，具体如何使用/激活需要研究。这是分裂派示好的'诚意'，但用途未明。",
         "task_type": "investigate",
-        "progress_pct": 25,
-        "recent_progress": "Day89结算。追踪符文屏蔽·但分裂派是否察觉未知，25%维持。",
+        "progress_pct": 30,
+        "recent_progress": "Day91结算。分裂派装置针对星辉石网络，暗红石头用途新线索，+5%至30%。",
         "created_date": "2026-07-31"
       },
       {
@@ -254,8 +242,26 @@
         "name": "地下信标核心争夺",
         "description": "调查组发现地下信标核心，能量足以支撑信标网络运行百年。分裂派已经捷足先登，今天出发与塞拉斯、调查组一同前往争夺。",
         "task_type": "investigate",
-        "progress_pct": 10,
-        "recent_progress": "Day90出发。地下通道出糗事件触发——塞拉斯踩中符文机关，众人困在密室。",
+        "progress_pct": 25,
+        "recent_progress": "Day91结算。地下大厅激活装置发现，全队安全撤离，+15%至25%。",
+        "created_date": "2026-08-02"
+      },
+      {
+        "id": "selas_trap_investigation",
+        "name": "塞拉斯符文机关调查",
+        "description": "调查石柱群地窖符文机关的触发机制和分裂派设置痕迹",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day91结算。塞拉斯触发符文机关，全队受困，5%起步。",
+        "created_date": "2026-08-02"
+      },
+      {
+        "id": "starstone_resonance_ability",
+        "name": "星辉石共鸣能力验证",
+        "description": "确认星辉石对古代符文的共鸣解除能力，探索更多应用可能",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day91结算。地窖首次成功解除古代封印，共鸣能力初显，5%起步。",
         "created_date": "2026-08-02"
       }
     ],
@@ -375,6 +381,19 @@
         "progress_pct": 100,
         "description": "昨晚子夜钟塔之约，分裂派没有现身。艾莉亚在塔顶等到天亮，发现对方留了一封信和一个奇怪的徽章。",
         "completed_date": "2026-08-01"
+      },
+      {
+        "id": "old_ku_beacon_plan",
+        "name": "老库信标计划调查",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 6,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "investigate",
+        "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
+        "recent_progress": "Day91结算。地下大厅发现分裂派机械激活装置，信标网络威胁确认，+5%至100%完成。",
+        "completed_date": "2026-08-02"
       }
     ]
   },
@@ -615,5 +634,5 @@
       }
     ]
   },
-  "day_number": 91
+  "day_number": 92
 }
