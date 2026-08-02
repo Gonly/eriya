@@ -6,10 +6,10 @@
       "updated_at": "2026-08-02T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-08-01T21:00:00.000+08:00"
+    "daily_message_count": 1,
+    "last_proactive": "2026-08-02T09:00:00.000+08:00"
   },
-  "last_proactive": "2026-08-01T21:00:00.000+08:00",
+  "last_proactive": "2026-08-02T09:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
