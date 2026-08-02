@@ -9,13 +9,13 @@
     "daily_message_count": 1,
     "last_proactive": "2026-08-02T09:00:00.000+08:00"
   },
-  "last_proactive": "2026-08-02T09:00:00.000+08:00",
+  "last_proactive": "2026-08-02T12:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-02",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -214,7 +214,10 @@
         "task_type": "investigate",
         "progress_pct": 45,
         "recent_progress": "Day89结算。七工匠完整名单获取，第三工匠叛逃关联确认，+9%至45%。",
-        "related_npcs": ["哈罗德", "塞拉斯"]
+        "related_npcs": [
+          "哈罗德",
+          "塞拉斯"
+        ]
       },
       {
         "id": "beacon_core_activation",
@@ -223,7 +226,10 @@
         "task_type": "investigate",
         "progress_pct": 55,
         "recent_progress": "Day89结算。分裂派机械激活信标计划揭露，激活机制进一步明确，+8%至55%。",
-        "related_npcs": ["塞拉斯", "哈罗德"]
+        "related_npcs": [
+          "塞拉斯",
+          "哈罗德"
+        ]
       },
       {
         "id": "old_ku_next_move",
@@ -381,7 +387,10 @@
       "found_location": "矿洞",
       "status": "佩戴中",
       "appearance": "淡蓝色荧光（光芒比昨夜更亮，脉冲感与心跳同频）",
-      "potential_uses": ["魔力储存", "与古代遗迹石门共鸣（已验证）"],
+      "potential_uses": [
+        "魔力储存",
+        "与古代遗迹石门共鸣（已验证）"
+      ],
       "story_hooks": [
         "已做成饰品",
         "可触发先民遗迹机关（已验证）",
