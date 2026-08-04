@@ -176,8 +176,8 @@
         "name": "星廊守护者分裂派情报",
         "description": "调查星廊守护者分裂派的目的和行动计划，纸条警告是否与分裂派有关",
         "task_type": "investigate",
-        "progress_pct": 65,
-        "recent_progress": "Day96：老库苏醒后获得关键情报，分裂派机械激活石真实用途确认——+3%。"
+        "progress_pct": 68,
+        "recent_progress": "Day96结算。老库苏醒后分裂派情报确认，+3%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -200,24 +200,24 @@
         "name": "七工匠历史追查",
         "description": "调查三十年前七工匠的来历、分工与信标网络建造计划",
         "task_type": "investigate",
-        "progress_pct": 52,
-        "recent_progress": "Day96：昨日档案馆发现七钥匙激活序列记录，+4%。"
+        "progress_pct": 56,
+        "recent_progress": "Day96结算。档案馆七钥匙激活序列记录，+4%。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
         "description": "确认信标核心的具体激活方式与所需条件",
         "task_type": "investigate",
-        "progress_pct": 63,
-        "recent_progress": "Day96：老库透露存在「后门程序」——正确激活顺序可不损坏星辉石，+3%。"
+        "progress_pct": 66,
+        "recent_progress": "Day96结算。老库透露后门程序可保护星辉石，+3%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
         "description": "老库刚在第七信标坍塌处被救出，高烧后退烧苏醒。他醒来说了什么？下一步要做什么？需要尽快跟进。",
         "task_type": "investigate",
-        "progress_pct": 22,
-        "recent_progress": "Day96：老库已苏醒并提供关键情报，+5%。"
+        "progress_pct": 27,
+        "recent_progress": "Day96结算。老库已苏醒并提供关键情报，+5%。"
       },
       {
         "id": "dark_red_stone_purpose",
@@ -232,8 +232,8 @@
         "name": "地下信标核心争夺",
         "description": "调查组发现地下信标核心，能量足以支撑信标网络运行百年。分裂派已经捷足先登，昨天出发与塞拉斯、调查组一同前往争夺。",
         "task_type": "investigate",
-        "progress_pct": 30,
-        "recent_progress": "Day96：全队安全撤离，分裂派威胁确认。+3%。"
+        "progress_pct": 33,
+        "recent_progress": "Day96结算。全队安全撤离，分裂派威胁确认，+3%。"
       },
       {
         "id": "selas_trap_investigation",
@@ -621,5 +621,5 @@
       }
     ]
   },
-  "day_number": 96
+  "day_number": 97
 }
