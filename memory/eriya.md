@@ -20,10 +20,10 @@
 - old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
 - star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
-- guardians_intel：71%（Day97结算维持）（Day96结算）
+- guardians_intel：79%（Day97结算）（Day97结算维持）（Day96结算）
 - anonymous_note_trace：10%（Day97结算维持）（Day94结算。纸条来源暂无跟进，10%维持。）
 - retired_metalworker_interrogation：60%（Day97结算维持）（Day94结算。金属匠线索待激活装置分析，60%维持。）
-- seven_craftsmen_history：58%（Day97结算维持）（Day96结算）
+- seven_craftsmen_history：66%（Day97结算）（Day97结算维持）（Day96结算）
 - beacon_core_activation：66%（Day97结算维持）（Day96结算）
 - old_ku_next_move：32%（Day97结算维持）（Day96结算）
 - dark_red_stone_purpose：32%（Day97结算维持）（Day94结算。暗红石头用途待分裂派情报整合，+2%至32%。）

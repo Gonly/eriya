@@ -176,8 +176,8 @@
         "name": "星廊守护者分裂派情报",
         "description": "调查星廊守护者分裂派的目的和行动计划，纸条警告是否与分裂派有关",
         "task_type": "investigate",
-        "progress_pct": 71,
-        "recent_progress": "Day97结算。无新进展，71%维持。"
+        "progress_pct": 79,
+        "recent_progress": "Day97结算。分裂派核心证据到手，+8%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -200,8 +200,8 @@
         "name": "七工匠历史追查",
         "description": "调查三十年前七工匠的来历、分工与信标网络建造计划",
         "task_type": "investigate",
-        "progress_pct": 58,
-        "recent_progress": "Day97结算。祖父笔记线索持续生效，58%维持。"
+        "progress_pct": 66,
+        "recent_progress": "Day97结算。石姓线索出现，+8%。"
       },
       {
         "id": "beacon_core_activation",
@@ -252,12 +252,13 @@
         "recent_progress": "Day97结算。共鸣能力验证待进行，10%维持。"
       },
       {
-        "id": "sword_recovery",
-        "name": "短剑寻回计划",
-        "description": "精钢短剑丢失在城东旧货市场巷子里。剑跟了艾莉亚好几个月，有感情了。分裂派昨日在此布网，今日是捡回剑的最佳时机。",
+        "id": "splinter_trap_counter",
+        "name": "分裂派陷阱反追",
+        "description": "塞拉斯分析市场蹲守是陷阱。下次前往需接应。可反向利用或主动出击。",
         "task_type": "investigate",
         "progress_pct": 0,
-        "recent_progress": "Day97结算。短剑仍在丢失状态，0%维持。需尽快取回。"
+        "recent_progress": "Day97结算。新增目标，0%起步。",
+        "created_date": "2026-08-05"
       }
     ],
     "staged": [
@@ -389,6 +390,15 @@
         "description": "调查老库收集信标零件的真实目的——他想激活整个信标网络吗？",
         "recent_progress": "Day91结算。地下大厅发现分裂派机械激活装置，信标网络威胁确认，+5%至100%完成。",
         "completed_date": "2026-08-02"
+      },
+      {
+        "id": "sword_recovery",
+        "name": "短剑寻回计划",
+        "description": "精钢短剑丢失在城东旧货市场巷子里。剑跟了艾莉亚好几个月，有感情了。分裂派昨日在此布网，今日是捡回剑的最佳时机。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day97结算。短剑已取回！100%完成！",
+        "completed_date": "2026-08-05"
       }
     ]
   },
@@ -632,5 +642,5 @@
       }
     ]
   },
-  "day_number": 98
+  "day_number": 99
 }
