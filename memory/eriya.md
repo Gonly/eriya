@@ -20,18 +20,18 @@
 - old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
 - star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
-- guardians_intel：68%（Day96结算）
-- anonymous_note_trace：10%（Day94结算。纸条来源暂无跟进，10%维持。）
-- retired_metalworker_interrogation：60%（Day94结算。金属匠线索待激活装置分析，60%维持。）
-- seven_craftsmen_history：56%（Day96结算）
-- beacon_core_activation：66%（Day96结算）
-- old_ku_next_move：27%（Day96结算）
-- dark_red_stone_purpose：32%（Day94结算。暗红石头用途待分裂派情报整合，+2%至32%。）
-- underground_beacon_claim：33%（Day96结算）
-- selas_trap_investigation：8%（Day94结算。符文机关事件后首次实质进展，+3%至8%。）
-- starstone_resonance_ability：10%（Day94结算。共鸣能力Day90首次验证成功，+5%至10%。）
-- investigation_team_search：47%（Day94结算。调查组回归后休整观察，+2%至47%。）
-- anonymous_tracer_investigation：87%（Day94结算。追踪网络收尾观察，+2%至87%。）
+- guardians_intel：71%（Day97结算维持）（Day96结算）
+- anonymous_note_trace：10%（Day97结算维持）（Day94结算。纸条来源暂无跟进，10%维持。）
+- retired_metalworker_interrogation：60%（Day97结算维持）（Day94结算。金属匠线索待激活装置分析，60%维持。）
+- seven_craftsmen_history：58%（Day97结算维持）（Day96结算）
+- beacon_core_activation：66%（Day97结算维持）（Day96结算）
+- old_ku_next_move：32%（Day97结算维持）（Day96结算）
+- dark_red_stone_purpose：32%（Day97结算维持）（Day94结算。暗红石头用途待分裂派情报整合，+2%至32%。）
+- underground_beacon_claim：33%（Day97结算维持）（Day96结算）
+- selas_trap_investigation：8%（Day97结算维持）（Day94结算。符文机关事件后首次实质进展，+3%至8%。）
+- starstone_resonance_ability：10%（Day97结算维持）（Day94结算。共鸣能力Day90首次验证成功，+5%至10%。）
+- investigation_team_search：47%（Day97结算维持）（Day94结算。调查组回归后休整观察，+2%至47%。）
+- anonymous_tracer_investigation：87%（Day97结算维持）（Day94结算。追踪网络收尾观察，+2%至87%。）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
 - 通往B级的10个C级任务：✅ 完成！
 
