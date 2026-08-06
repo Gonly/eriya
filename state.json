@@ -157,7 +157,7 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第30天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day98待结算。调查组暂未归队，47%维持。"
+        "recent_progress": "Day98结算。调查组暂未归队，47%维持。"
       },
       {
         "id": "anonymous_tracer_investigation",
@@ -169,7 +169,7 @@
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day98待结算。追踪者身份待查，87%维持。"
+        "recent_progress": "Day98结算。无新进展，87%维持。"
       },
       {
         "id": "guardians_intel",
@@ -177,7 +177,7 @@
         "description": "调查星廊守护者分裂派的目的和行动计划，纸条警告是否与分裂派有关",
         "task_type": "investigate",
         "progress_pct": 79,
-        "recent_progress": "Day98待结算。分裂派核心证据分析中，79%维持。"
+        "recent_progress": "Day98结算。分裂派十五年前纵火杀石羽，阴谋范围扩大，79%维持。"
       },
       {
         "id": "anonymous_note_trace",
@@ -185,7 +185,7 @@
         "description": "追查「别去北门」纸条的来源——是星还是另有其人",
         "task_type": "investigate",
         "progress_pct": 10,
-        "recent_progress": "Day98待结算。无新进展，10%维持。"
+        "recent_progress": "Day98结算。无新进展，10%维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
@@ -193,15 +193,15 @@
         "description": "退休金属匠突然失踪又突然回来，他到底知道些什么？与信标零件回收、与纸条笔迹有何关联？",
         "task_type": "investigate",
         "progress_pct": 60,
-        "recent_progress": "Day98待结算。无新进展，60%维持。"
+        "recent_progress": "Day98结算。无新进展，60%维持。"
       },
       {
         "id": "seven_craftsmen_history",
         "name": "七工匠历史追查",
         "description": "调查三十年前七工匠的来历、分工与信标网络建造计划",
         "task_type": "investigate",
-        "progress_pct": 66,
-        "recent_progress": "Day98待结算。石姓线索浮现，档案馆追查中，66%→72%。"
+        "progress_pct": 72,
+        "recent_progress": "Day98结算。档案馆找到石家族谱！石羽为第六工匠后裔，15年前死于分裂派纵火，线索托付老库。+6%至72%。"
       },
       {
         "id": "beacon_core_activation",
@@ -209,15 +209,15 @@
         "description": "确认信标核心的具体激活方式与所需条件",
         "task_type": "investigate",
         "progress_pct": 66,
-        "recent_progress": "Day98待结算。后门程序情报持续生效，66%维持。"
+        "recent_progress": "Day98结算。后门程序情报持续生效，66%维持。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
         "description": "老库在秘密据点休养，昨天透露分裂派在找七工匠激活序列线索。需要尽快跟进他的下一步计划。",
         "task_type": "investigate",
-        "progress_pct": 32,
-        "recent_progress": "Day98待结算。老库提供石姓线索，待进一步询问，32%维持。"
+        "progress_pct": 40,
+        "recent_progress": "Day98结算。老库透露第六钥匙线索在己身，血纹封印待解。重大突破！+8%至40%。"
       },
       {
         "id": "dark_red_stone_purpose",
@@ -225,7 +225,7 @@
         "description": "分裂派给的暗红追踪符文石头，具体如何使用/激活需要研究。这是分裂派示好的'诚意'，但用途未明。",
         "task_type": "investigate",
         "progress_pct": 32,
-        "recent_progress": "Day98待结算。暗红石头用途待查，32%维持。"
+        "recent_progress": "Day98结算。暗红石头用途待查，32%维持。"
       },
       {
         "id": "underground_beacon_claim",
@@ -233,7 +233,7 @@
         "description": "调查组发现地下信标核心，能量足以支撑信标网络运行百年。分裂派已经捷足先登，Day90出发与塞拉斯、调查组一同前往争夺。",
         "task_type": "investigate",
         "progress_pct": 33,
-        "recent_progress": "Day98待结算。全队撤离后稳定，33%维持。"
+        "recent_progress": "Day98结算。全队撤离后稳定，33%维持。"
       },
       {
         "id": "selas_trap_investigation",
@@ -241,7 +241,7 @@
         "description": "调查石柱群地窖符文机关的触发机制和分裂派设置痕迹",
         "task_type": "investigate",
         "progress_pct": 8,
-        "recent_progress": "Day98待结算。符文机关待查，8%维持。"
+        "recent_progress": "Day98结算。符文机关待查，8%维持。"
       },
       {
         "id": "starstone_resonance_ability",
@@ -249,7 +249,7 @@
         "description": "确认星辉石对古代符文的共鸣解除能力，探索更多应用可能",
         "task_type": "investigate",
         "progress_pct": 10,
-        "recent_progress": "Day98待结算。共鸣能力验证待进行，10%维持。"
+        "recent_progress": "Day98结算。共鸣能力验证待进行，10%维持。"
       },
       {
         "id": "splinter_trap_counter",
@@ -257,7 +257,7 @@
         "description": "塞拉斯分析市场蹲守是陷阱。下次前往需接应。可反向利用或主动出击。",
         "task_type": "investigate",
         "progress_pct": 0,
-        "recent_progress": "Day98待结算。陷阱情报已掌握，待行动验证，0%维持。",
+        "recent_progress": "Day98结算。陷阱情报已掌握，待行动验证，0%维持。",
         "created_date": "2026-08-05"
       }
     ],
@@ -656,5 +656,5 @@
       }
     ]
   },
-  "day_number": 98
+  "day_number": 99
 }

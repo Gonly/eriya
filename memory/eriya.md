@@ -23,9 +23,9 @@
 - guardians_intel：79%（Day97结算）（Day97结算维持）（Day96结算）
 - anonymous_note_trace：10%（Day97结算维持）（Day94结算。纸条来源暂无跟进，10%维持。）
 - retired_metalworker_interrogation：60%（Day97结算维持）（Day94结算。金属匠线索待激活装置分析，60%维持。）
-- seven_craftsmen_history：66%（Day97结算）（Day97结算维持）（Day96结算）
+- seven_craftsmen_history：72%（Day98结算。档案馆找到石家族谱！石羽为第六工匠后裔，15年前死于分裂派纵火，线索托付老库。+6%。）（Day97结算维持）（Day96结算）
 - beacon_core_activation：66%（Day97结算维持）（Day96结算）
-- old_ku_next_move：32%（Day97结算维持）（Day96结算）
+- old_ku_next_move：40%（Day98结算。老库透露第六钥匙线索在己身，血纹封印待解。重大突破！+8%。）
 - dark_red_stone_purpose：32%（Day97结算维持）（Day94结算。暗红石头用途待分裂派情报整合，+2%至32%。）
 - underground_beacon_claim：33%（Day97结算维持）（Day96结算）
 - selas_trap_investigation：8%（Day97结算维持）（Day94结算。符文机关事件后首次实质进展，+3%至8%。）
