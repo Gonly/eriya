@@ -6,16 +6,16 @@
       "updated_at": "2026-08-07T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-08-06T18:00:00.000+08:00"
+    "daily_message_count": 1,
+    "last_proactive": "2026-08-07T12:00:00.000+08:00"
   },
-  "last_proactive": "2026-08-07T09:00:00.000+08:00",
+  "last_proactive": "2026-08-07T12:00:00.000+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-07",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-08-07",
   "affection": 17,
   "recent_topics": [],
-  "last_proactive_content": null,
+  "last_proactive_content": "[12:00] 从公会回据点的路上，前台小哥说有她的信鸽——调查组韩森的字迹，失联三十一天终于有音讯了。石柱群以北发现异常，暂时安全。脚步都轻快了很多。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
