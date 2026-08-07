@@ -20,19 +20,22 @@
 - old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
 - star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
-- guardians_intel：79%（Day97结算）（Day97结算维持）（Day96结算）
-- anonymous_note_trace：10%（Day97结算维持）（Day94结算。纸条来源暂无跟进，10%维持。）
-- retired_metalworker_interrogation：60%（Day97结算维持）（Day94结算。金属匠线索待激活装置分析，60%维持。）
-- seven_craftsmen_history：72%（Day98结算。档案馆找到石家族谱！石羽为第六工匠后裔，15年前死于分裂派纵火，线索托付老库。+6%。）（Day97结算维持）（Day96结算）
-- beacon_core_activation：66%（Day97结算维持）（Day96结算）
-- old_ku_next_move：40%（Day98结算。老库透露第六钥匙线索在己身，血纹封印待解。重大突破！+8%。）
-- dark_red_stone_purpose：32%（Day97结算维持）（Day94结算。暗红石头用途待分裂派情报整合，+2%至32%。）
-- underground_beacon_claim：33%（Day97结算维持）（Day96结算）
-- selas_trap_investigation：8%（Day97结算维持）（Day94结算。符文机关事件后首次实质进展，+3%至8%。）
-- starstone_resonance_ability：10%（Day97结算维持）（Day94结算。共鸣能力Day90首次验证成功，+5%至10%。）
-- investigation_team_search：47%（Day97结算维持）（Day94结算。调查组回归后休整观察，+2%至47%。）
-- anonymous_tracer_investigation：87%（Day97结算维持）（Day94结算。追踪网络收尾观察，+2%至87%。）
+- guardians_intel：82%（Day100结算。分裂派十五年前纵火杀石羽，阴谋范围扩大，+3%。）
+- anonymous_note_trace：10%（Day100结算。无新进展，10%维持。）
+- retired_metalworker_interrogation：62%（Day100结算。哈罗德交付共鸣片后无更多进展，+2%。）
+- seven_craftsmen_history：78%（Day100结算。石羽为第六工匠后裔，15年前死于分裂派纵火，线索重大突破，+6%。）
+- beacon_core_activation：70%（Day100结算。白家血脉可解血纹封印，激活条件明确，+4%。）
+- old_ku_next_move：50%（Day100结算。旧库之心=老库本人，第六钥匙血纹封印在胸口，+10%。）
+- dark_red_stone_purpose：32%（Day100结算。用途待查，32%维持。）
+- underground_beacon_claim：33%（Day100结算。全队撤离后稳定，33%维持。）
+- selas_trap_investigation：12%（Day100结算。符文机关部分触发，调查持续，+4%。）
+- starstone_resonance_ability：18%（Day100结算。Day90首次成功使用祖父遗产，共鸣能力初步验证，+8%。）
+- investigation_team_search：52%（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
+- anonymous_tracer_investigation：89%（Day100结算。无新进展，89%维持。）
+- old_storage_heart：20%（Day100结算。旧库之心=老库本人，线索明确，+15%。）
+- splinter_trap_counter：5%（Day100结算。陷阱情报已掌握，待行动验证，+5%。）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
+- white_family_bloodline：5%（Day100结算。新目标，白家信息待查。）
 - 通往B级的10个C级任务：✅ 完成！
 
 ## 已完成里程碑
@@ -95,3 +98,4 @@
 - 主动出击意识增强——6/1不只是等情报员的结果，而是自己去旧街铺子对面茶摊蹲点观察，从被动等待转向主动侦察
 - 发现外来者痕迹后的第一反应不是恐惧而是警觉——「有人在关注这个地方」
 - 离别前夜的安静比前几天都深——四天的积累在最后一晚沉淀下来
+- white_family_bloodline：5%（Day100结算。新目标，白家信息待查。）
