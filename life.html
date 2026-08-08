@@ -104,8 +104,10 @@ document.querySelectorAll('.tab').forEach(t => {
   t.addEventListener('click', () => {
     document.querySelectorAll('.tab,.panel').forEach(e => e.classList.remove('active'));
     t.classList.add('active');
-    document.getElementById('p-' + t.dataset.f).classList.add('active');
+    const panel = document.getElementById('p-' + t.dataset.f);
+    panel.classList.add('active');
     localStorage.setItem('lf', t.dataset.f);
+    if (!panel.dataset.loaded) load(t.dataset.f); // 懒加载：首次切换才拉数据
   });
 });
 
@@ -202,12 +204,16 @@ async function load(key){
     if (!r.ok) throw new Error('HTTP ' + r.status);
     el.innerHTML = render(await r.text());
     highlightStatus(el);
+    el.dataset.loaded = '1'; // 标记已加载，之后切换 tab 不再重复请求
   } catch (e) {
     el.innerHTML = '<div class="loading">加载失败：' + e.message + '</div>';
   }
 }
 function loadAll(){
-  document.querySelectorAll('.panel.active').forEach(p => load(p.id.slice(2)));
+  document.querySelectorAll('.panel').forEach(p => {
+    delete p.dataset.loaded;   // 清除已加载标记，强制全部重新拉取
+    load(p.id.slice(2));
+  });
 }
 
 /* ===== 初始化 ===== */

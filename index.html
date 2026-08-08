@@ -201,7 +201,7 @@ document.querySelectorAll('.tab').forEach(t => {
 });
 
 const C={};
-function gc(k){const d=localStorage.getItem('c_'+k);if(!d)return null;const j=JSON.parse(d);return Date.now()-j.t<300000?j.v:null}
+function gc(k){const d=localStorage.getItem('c_'+k);if(!d)return null;try{const j=JSON.parse(d);return Date.now()-j.t<300000?j.v:null}catch{return null}}
 function sc(k,v){try{localStorage.setItem('c_'+k,JSON.stringify({v,t:Date.now()}))}catch{}}
 
 // 🔧 Parse: - key：value (fullwidth or halfwidth colon, no space after colon)
