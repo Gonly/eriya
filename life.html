@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#2c2c2c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>宫磊手账 — 生活档案</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFang SC',serif;min-height:100vh;min-height:100dvh;overflow-x:hidden}
+
+/* ===== Top Bar ===== */
+.top{background:#2c2c2c;color:#ccc;padding:10px 16px;display:flex;gap:10px;align-items:center;position:sticky;top:0;z-index:100;flex-wrap:wrap;min-height:48px}
+.top h1{font-size:0.95rem;color:#e8d5a3;font-weight:normal;letter-spacing:1.5px}
+.top .mid{font-size:0.72rem;color:#888;display:block;white-space:nowrap}
+.top .back{margin-left:auto;color:#ccc;text-decoration:none;font-size:0.72rem;padding:4px 12px;border:1px solid #555;border-radius:4px;white-space:nowrap}
+.top .back:active{opacity:.7}
+@media(max-width:420px){
+  .top{padding:8px 12px;gap:6px}
+  .top h1{font-size:0.85rem}
+  .top .mid{display:none}
+}
+
+/* ===== Tabs ===== */
+.tabs{display:flex;gap:0;padding:0;background:#e8e0d0;border-bottom:1px solid #ccc;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;position:sticky;top:48px;z-index:99}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1 0 auto;padding:10px 12px;background:transparent;border:none;color:#888;font-size:0.78rem;cursor:pointer;white-space:nowrap;font-family:inherit;text-align:center;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;min-width:0}
+.tab:active{opacity:.7}
+.tab.active{color:#222;border-bottom-color:#2c2c2c;font-weight:600}
+@media(max-width:420px){
+  .tab{font-size:0.72rem;padding:8px 8px}
+}
+
+/* ===== Main ===== */
+main{max-width:960px;margin:0 auto;padding:16px;padding:clamp(12px,4vw,24px)}
+.panel{display:none}
+.panel.active{display:block}
+.loading{color:#999;padding:20px;text-align:center;font-size:0.85rem}
+
+/* ===== Markdown 渲染 ===== */
+.md h1{font-size:1.05rem;color:#2c2c2c;border-bottom:2px solid #e8d5a3;padding-bottom:6px;margin:18px 0 10px;letter-spacing:1px}
+.md h2{font-size:0.95rem;color:#2c2c2c;border-left:3px solid #c9a85e;padding-left:8px;margin:18px 0 8px}
+.md h3{font-size:0.86rem;color:#555;margin:14px 0 6px}
+.md p{margin:6px 0;font-size:0.88rem;line-height:1.7}
+.md ul{margin:6px 0;padding-left:18px;font-size:0.88rem;line-height:1.7}
+.md li{margin:3px 0}
+.md li.sub{list-style:none;margin:2px 0 2px 12px;color:#666;font-size:0.83rem;line-height:1.6}
+.md .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0}
+.md table{width:100%;border-collapse:collapse;font-size:0.83rem;background:#fff;min-width:520px}
+.md th{background:#e8e0d0;color:#333;text-align:left;padding:8px 10px;border:1px solid #d5cbb5;font-weight:600;white-space:nowrap}
+.md td{padding:8px 10px;border:1px solid #e2dac8;vertical-align:top;line-height:1.6}
+.md tr:nth-child(even) td{background:#faf7f0}
+.md blockquote{border-left:3px solid #d5cbb5;background:#f0ead9;padding:8px 12px;margin:10px 0;color:#6b5f45;font-size:0.85rem;line-height:1.6}
+.md hr{border:none;border-top:1px solid #ddd;margin:16px 0}
+.md code{background:#eee6d8;padding:1px 5px;border-radius:3px;font-size:0.8em}
+.md a{color:#8a6d1d;word-break:break-all}
+/* 状态高亮 */
+.st-bought{color:#2e7d32;font-weight:600;white-space:nowrap}
+.st-pending{color:#e65100;font-weight:600;white-space:nowrap}
+.st-idle{color:#999;white-space:nowrap}
+.st-todo{color:#1565c0;white-space:nowrap}
+
+/* ===== Refresh ===== */
+#rf{position:fixed;right:16px;bottom:16px;background:#2c2c2c;color:#e8d5a3;border:none;border-radius:50%;width:44px;height:44px;font-size:1rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);z-index:50}
+#rf:active{opacity:.8}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <h1>✦ 宫磊手账</h1>
+  <span class="mid">生活档案 · 美食 / 购物 / 游戏 / 技术笔记</span>
+  <a class="back" href="index.html">← 艾莉亚档案</a>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-f="food">🍜 美食</button>
+  <button class="tab" data-f="shopping">🛒 购物清单</button>
+  <button class="tab" data-f="games">🎮 游戏</button>
+  <button class="tab" data-f="technical">🧰 技术笔记</button>
+</div>
+
+<main>
+  <div class="panel active" id="p-food"><div class="loading">加载中...</div></div>
+  <div class="panel" id="p-shopping"><div class="loading">加载中...</div></div>
+  <div class="panel" id="p-games"><div class="loading">加载中...</div></div>
+  <div class="panel" id="p-technical"><div class="loading">加载中...</div></div>
+</main>
+
+<button id="rf" onclick="loadAll()" title="刷新">🔄</button>
+
+<script>
+const FILES = {
+  food:     'life/food.md',
+  shopping: 'life/wishlist-shopping.md',
+  games:    'life/wishlist-games.md',
+  technical:'life/technical.md'
+};
+
+/* ===== Tab 切换 ===== */
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab,.panel').forEach(e => e.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('p-' + t.dataset.f).classList.add('active');
+    localStorage.setItem('lf', t.dataset.f);
+  });
+});
+
+/* ===== 行内格式 ===== */
+function inline(s){
+  return s
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/`([^`]+)`/g,'<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g,'<em>$1</em>')
+    .replace(/_([^_]+)_/g,'<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+}
+
+/* ===== 表格 ===== */
+function splitRow(l){ return l.split('|').slice(1,-1).map(c=>c.trim()); }
+function parseTable(lines,i){
+  const hd = splitRow(lines[i]).map(inline);
+  let j = i + 1;
+  if (j < lines.length && /^\s*\|?[\s:|-]+\|?\s*$/.test(lines[j]) && lines[j].includes('-')) j++;
+  const rows = [];
+  while (j < lines.length && lines[j].trim().startsWith('|')) {
+    rows.push(splitRow(lines[j]).map(inline)); j++;
+  }
+  const html = '<div class="tbl-wrap"><table><thead><tr>'
+    + hd.map(h=>'<th>'+h+'</th>').join('')
+    + '</tr></thead><tbody>'
+    + rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')
+    + '</tbody></table></div>';
+  return {html, next:j};
+}
+
+/* ===== 列表 ===== */
+function parseList(lines,i){
+  const ol = /^\s*\d+\. /.test(lines[i]);
+  let html = ol ? '<ol>' : '<ul>', j = i;
+  const re = ol ? /^(\s*)\d+\. (.*)/ : /^(\s*)- (.*)/;
+  while (j < lines.length) {
+    const m = lines[j].match(re);
+    if (!m) break;
+    if (m[1].length >= 2) html += '<li class="sub">' + inline(m[2]) + '</li>';
+    else html += '<li>' + inline(m[2]) + '</li>';
+    j++;
+  }
+  return {html: html + (ol ? '</ol>' : '</ul>'), next:j};
+}
+
+/* ===== Markdown → HTML ===== */
+function render(md){
+  const lines = md.split('\n');
+  let html = '', i = 0;
+  while (i < lines.length) {
+    const l = lines[i], t = l.trim();
+    if (!t) { i++; continue; }
+    if (/^#{1,3} /.test(t)) {
+      const m = t.match(/^(#{1,3}) (.*)/);
+      html += '<h' + m[1].length + '>' + inline(m[2]) + '</h' + m[1].length + '>';
+      i++; continue;
+    }
+    if (/^-{3,}$/.test(t)) { html += '<hr>'; i++; continue; }
+    if (t.startsWith('|')) { const r = parseTable(lines, i); html += r.html; i = r.next; continue; }
+    if (/^\s*- /.test(l) || /^\s*\d+\. /.test(l)) { const r = parseList(lines, i); html += r.html; i = r.next; continue; }
+    if (t.startsWith('>')) {
+      let q = [], j = i;
+      while (j < lines.length && lines[j].trim().startsWith('>')) {
+        q.push(inline(lines[j].trim().replace(/^>\s?/, ''))); j++;
+      }
+      html += '<blockquote>' + q.join('<br>') + '</blockquote>';
+      i = j; continue;
+    }
+    html += '<p>' + inline(t) + '</p>';
+    i++;
+  }
+  return '<div class="md">' + html + '</div>';
+}
+
+/* ===== 状态高亮 ===== */
+function highlightStatus(el){
+  el.querySelectorAll('td').forEach(td => {
+    const s = td.textContent;
+    if (s.includes('已购买')) td.classList.add('st-bought');
+    else if (s.includes('待购买')) td.classList.add('st-pending');
+    else if (s.includes('暂不玩')) td.classList.add('st-idle');
+    else if (s.includes('未开始')) td.classList.add('st-todo');
+  });
+}
+
+/* ===== 加载 ===== */
+async function load(key){
+  const el = document.getElementById('p-' + key);
+  el.innerHTML = '<div class="loading">加载中...</div>';
+  try {
+    const r = await fetch(FILES[key] + '?' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    el.innerHTML = render(await r.text());
+    highlightStatus(el);
+  } catch (e) {
+    el.innerHTML = '<div class="loading">加载失败：' + e.message + '</div>';
+  }
+}
+function loadAll(){
+  document.querySelectorAll('.panel.active').forEach(p => load(p.id.slice(2)));
+}
+
+/* ===== 初始化 ===== */
+const saved = localStorage.getItem('lf');
+if (saved && document.querySelector('.tab[data-f="' + saved + '"]')) {
+  document.querySelectorAll('.tab,.panel').forEach(e => e.classList.remove('active'));
+  document.querySelector('.tab[data-f="' + saved + '"]').classList.add('active');
+  document.getElementById('p-' + saved).classList.add('active');
+  load(saved);
+} else {
+  load('food');
+}
+</script>
+</body>
+</html>

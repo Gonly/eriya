@@ -29,6 +29,7 @@ body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFa
 .tab{flex:1 0 auto;padding:10px 12px;background:transparent;border:none;color:#888;font-size:0.78rem;cursor:pointer;white-space:nowrap;font-family:inherit;text-align:center;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;min-width:0}
 .tab:active{opacity:.7}
 .tab.active{color:#222;border-bottom-color:#2c2c2c;font-weight:600}
+.tabs a.tab{text-decoration:none;display:flex;align-items:center;justify-content:center}
 @media(max-width:420px){
   .tab{font-size:0.72rem;padding:8px 8px}
 }
@@ -168,6 +169,7 @@ tr:nth-child(even) td{background:#fafaf5}
   <button class="tab" data-p="organizations">组织</button>
   <button class="tab" data-p="world">世界观</button>
   <button class="tab" data-p="schedule">每日日程</button>
+  <a class="tab" href="life.html">📖 手账</a>
 </div>
 
 <main>
@@ -190,6 +192,7 @@ const P = n => 'memory/'+n+'.md?'+Date.now();
 
 document.querySelectorAll('.tab').forEach(t => {
   t.addEventListener('click',()=>{
+    if(!t.dataset.p)return; // <a> 跳转链接（手账页）直接走默认行为
     document.querySelectorAll('.tab,.panel').forEach(e=>e.classList.remove('active'));
     t.classList.add('active');
     document.getElementById('p-'+t.dataset.p).classList.add('active');
