@@ -150,7 +150,7 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 57,
+        "progress_pct": 59,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 10,
@@ -162,7 +162,7 @@
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 92,
+        "progress_pct": 94,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
@@ -174,81 +174,81 @@
       {
         "id": "guardians_intel",
         "name": "星廊守护者分裂派情报",
-        "progress_pct": 88,
+        "progress_pct": 90,
         "recent_progress": "Day101。分裂派追踪白家血脉，石羽死于15年前大火，白家线索将揭开更多内幕，+3%。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "纸条警告来源追查",
-        "progress_pct": 10,
+        "progress_pct": 14,
         "recent_progress": "Day100结算。无新进展，10%维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠问询",
-        "progress_pct": 62,
+        "progress_pct": 64,
         "recent_progress": "Day100结算。哈罗德交付共鸣片后无更多进展，+2%。"
       },
       {
         "id": "seven_craftsmen_history",
         "name": "七工匠历史追查",
-        "progress_pct": 90,
+        "progress_pct": 92,
         "recent_progress": "Day101。老库揭示石羽母亲白巧娘入赘真相，白家与七工匠渊源明确，+6%。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 78,
+        "progress_pct": 80,
         "recent_progress": "Day101。确认白家血脉可解血纹封印，激活条件明确，+4%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 60,
+        "progress_pct": 62,
         "recent_progress": "Day101午后。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开。+10%。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石头的真实用途",
-        "progress_pct": 32,
+        "progress_pct": 35,
         "recent_progress": "Day100结算。用途待查，32%维持。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标核心争夺",
-        "progress_pct": 33,
+        "progress_pct": 36,
         "recent_progress": "Day100结算。全队撤离后稳定，33%维持。等待调查组进一步消息。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文机关调查",
-        "progress_pct": 16,
+        "progress_pct": 20,
         "recent_progress": "Day100结算。符文机关部分触发，调查持续，+4%。"
       },
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 42,
+        "progress_pct": 44,
         "recent_progress": "Day101晨间。星辉石异常发热把我烫醒，脉冲比平时频繁三倍。共鸣能力疑似新觉醒，+16%。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
-        "progress_pct": 5,
+        "progress_pct": 9,
         "recent_progress": "Day100结算。陷阱情报已掌握，待行动验证，+5%。",
         "created_date": "2026-08-05"
       },
       {
         "id": "old_storage_heart",
         "name": "旧库之心追查",
-        "progress_pct": 35,
+        "progress_pct": 38,
         "recent_progress": "Day100结算。旧库之心=老库本人，第六钥匙血纹封印在胸口，需要白家血脉解开。+15%。",
         "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
-        "progress_pct": 20,
+        "progress_pct": 24,
         "recent_progress": "Day101。塞拉斯查到白家户籍，巧巧两三年前出现在旧货市场，白家后裔追查重大突破，+15%。",
         "created_date": "2026-08-07"
       }
@@ -666,5 +666,5 @@
       }
     ]
   },
-  "day_number": 102
+  "day_number": 103
 }
