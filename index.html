@@ -15,7 +15,9 @@ body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFa
 .top{background:#2c2c2c;color:#ccc;padding:10px 16px;display:flex;gap:10px;align-items:center;position:sticky;top:0;z-index:100;flex-wrap:wrap;min-height:48px}
 .top h1{font-size:0.95rem;color:#e8d5a3;font-weight:normal;letter-spacing:1.5px}
 .top .mid{font-size:0.72rem;color:#888;display:block;white-space:nowrap}
-.top .sub{font-size:0.72rem;color:#666;margin-left:auto}
+.top .sub{font-size:0.72rem;color:#666}
+.top .back{margin-left:auto;color:#ccc;text-decoration:none;font-size:0.72rem;padding:4px 12px;border:1px solid #555;border-radius:4px;white-space:nowrap}
+.top .back:active{opacity:.7}
 @media(max-width:420px){
   .top{padding:8px 12px;gap:6px}
   .top h1{font-size:0.85rem}
@@ -29,7 +31,6 @@ body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFa
 .tab{flex:1 0 auto;padding:10px 12px;background:transparent;border:none;color:#888;font-size:0.78rem;cursor:pointer;white-space:nowrap;font-family:inherit;text-align:center;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;min-width:0}
 .tab:active{opacity:.7}
 .tab.active{color:#222;border-bottom-color:#2c2c2c;font-weight:600}
-.tabs a.tab{text-decoration:none;display:flex;align-items:center;justify-content:center}
 @media(max-width:420px){
   .tab{font-size:0.72rem;padding:8px 8px}
 }
@@ -158,6 +159,7 @@ tr:nth-child(even) td{background:#fafaf5}
   <h1>✦ ELDEA ARCHIVE</h1>
   <span class="mid">エルデア大陆 · 资料档案</span>
   <span class="sub">v0.13.0</span>
+  <a class="back" href="life.html">📖 手账</a>
 </div>
 
 <div class="tabs">
@@ -169,7 +171,6 @@ tr:nth-child(even) td{background:#fafaf5}
   <button class="tab" data-p="organizations">组织</button>
   <button class="tab" data-p="world">世界观</button>
   <button class="tab" data-p="schedule">每日日程</button>
-  <a class="tab" href="life.html">📖 手账</a>
 </div>
 
 <main>
