@@ -162,20 +162,20 @@
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 94,
+        "progress_pct": 97,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day101。银发女人现身，左手戒指镶星辉石同种石头。追逐失败但确认白家血脉，+3%。"
+        "recent_progress": "Day102。白巧巧身份确认，追查接近尾声。+3%。"
       },
       {
         "id": "guardians_intel",
         "name": "星廊守护者分裂派情报",
-        "progress_pct": 90,
-        "recent_progress": "Day101。分裂派追踪白家血脉，石羽死于15年前大火，白家线索将揭开更多内幕，+3%。"
+        "progress_pct": 93,
+        "recent_progress": "Day102。分裂派追踪白家血脉，石羽死于15年前大火真相。+3%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -192,20 +192,20 @@
       {
         "id": "seven_craftsmen_history",
         "name": "七工匠历史追查",
-        "progress_pct": 92,
-        "recent_progress": "Day101。老库揭示石羽母亲白巧娘入赘真相，白家与七工匠渊源明确，+6%。"
+        "progress_pct": 98,
+        "recent_progress": "Day102。白家与七工匠渊源完全明确，第七工匠祖父星辉石分割。+6%。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 80,
-        "recent_progress": "Day101。确认白家血脉可解血纹封印，激活条件明确，+4%。"
+        "progress_pct": 85,
+        "recent_progress": "Day102。白家血脉解血纹封印，激活条件完全明确。+5%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 62,
-        "recent_progress": "Day101午后。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开。+10%。"
+        "progress_pct": 72,
+        "recent_progress": "Day102。老库=第七钥匙，胸口血纹封印需白家血脉解开。+10%。"
       },
       {
         "id": "dark_red_stone_purpose",
@@ -228,8 +228,8 @@
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 44,
-        "recent_progress": "Day101晨间。星辉石异常发热把我烫醒，脉冲比平时频繁三倍。共鸣能力疑似新觉醒，+16%。"
+        "progress_pct": 60,
+        "recent_progress": "Day102结算。两块星辉石共鸣确认，与心跳同步新觉醒。+16%。"
       },
       {
         "id": "splinter_trap_counter",
@@ -248,8 +248,8 @@
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
-        "progress_pct": 24,
-        "recent_progress": "Day101。塞拉斯查到白家户籍，巧巧两三年前出现在旧货市场，白家后裔追查重大突破，+15%。",
+        "progress_pct": 39,
+        "recent_progress": "Day102。白巧巧身份确认，星辉石分割30年前历史揭开。+15%。",
         "created_date": "2026-08-07"
       }
     ],
@@ -671,5 +671,5 @@
       }
     ]
   },
-  "day_number": 102
+  "day_number": 103
 }
