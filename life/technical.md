@@ -111,11 +111,18 @@
 
 ---
 
-## 📌 待整理 / 进行中
+## 📌 日期时间踩坑
 
-- [ ] nginx 版本演进需求文档（待补充）
-- [ ] 更多 Spring Boot 踩坑记录（持续更新）
+### [2026-06-23] WSL2 datetime.now() 取到 UTC 日期导致任务 dueDate 偏移一天
+
+**问题** 健身任务 dueDate 全部偏移一天，WSL2 服务器时区为 UTC，`datetime.now()` 返回 UTC 时间。
+
+**原因** UTC 16:00~24:00 = 上海次日 0:00~8:00，用无时区 `datetime.now()` 在上海下午/晚间取到的日期比实际快一天。
+
+**教训** 所有日期相关操作必须显式指定 `Asia/Shanghai` 时区，不能用裸 `datetime.now()`。
+
+**修复** `dida_api.py` 和 `daily_briefing.py` 中统一用 `datetime.now(timezone(timedelta(hours=8)))` 或 `datetime.now().astimezone()`。
 
 ---
 
-*最后整理：2026-08-08*
+*最后整理：2026-08-10*
