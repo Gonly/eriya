@@ -150,107 +150,119 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 59,
+        "progress_pct": 64,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第31天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day102结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。待下一条消息确认具体位置。"
+        "recent_progress": "Day104结算。分裂派今日再次现身伏击，与调查组失联相关。+5%。"
       },
       {
         "id": "anonymous_tracer_investigation",
         "name": "追踪匿名者",
-        "progress_pct": 97,
+        "progress_pct": 99,
         "estimate": 80,
         "estimated_days": 7,
         "daily_limit": 10,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day102。白巧巧身份确认，追查接近尾声。+3%。"
+        "recent_progress": "Day104结算。白巧巧身份确认，追查即将收尾。+2%。"
       },
       {
         "id": "guardians_intel",
         "name": "星廊守护者分裂派情报",
-        "progress_pct": 93,
-        "recent_progress": "Day102。分裂派追踪白家血脉，石羽死于15年前大火真相。+3%。"
+        "progress_pct": 98,
+        "recent_progress": "Day104结算。分裂派追踪星辉石，伏击暴露其掌握我方行踪。+5%。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "纸条警告来源追查",
         "progress_pct": 14,
-        "recent_progress": "Day100结算。无新进展，10%维持。"
+        "recent_progress": "Day104结算。无新进展，14%维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠问询",
         "progress_pct": 64,
-        "recent_progress": "Day100结算。哈罗德交付共鸣片后无更多进展，+2%。"
-      },
-      {
-        "id": "seven_craftsmen_history",
-        "name": "七工匠历史追查",
-        "progress_pct": 98,
-        "recent_progress": "Day102。白家与七工匠渊源完全明确，第七工匠祖父星辉石分割。+6%。"
+        "recent_progress": "Day104结算。共鸣片交付后无新动向，维持64%。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
         "progress_pct": 85,
-        "recent_progress": "Day102。白家血脉解血纹封印，激活条件完全明确。+5%。"
+        "recent_progress": "Day104结算。血纹封印解法明确，白家血脉+艾莉亚血液。维持85%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
         "progress_pct": 72,
-        "recent_progress": "Day102。老库=第七钥匙，胸口血纹封印需白家血脉解开。+10%。"
+        "recent_progress": "Day104结算。血封印需艾莉亚血液，明日仪式确认。+5%。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石头的真实用途",
         "progress_pct": 35,
-        "recent_progress": "Day100结算。用途待查，32%维持。"
+        "recent_progress": "Day104结算。用途待查，维持35%。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标核心争夺",
         "progress_pct": 36,
-        "recent_progress": "Day100结算。全队撤离后稳定，33%维持。等待调查组进一步消息。"
+        "recent_progress": "Day104结算。全队撤离后稳定，维持36%。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文机关调查",
         "progress_pct": 20,
-        "recent_progress": "Day100结算。符文机关部分触发，调查持续，+4%。"
+        "recent_progress": "Day104结算。符文机关部分触发，维持20%。"
       },
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 60,
-        "recent_progress": "Day102。两块星辉石共鸣确认，与心跳同步新觉醒。+16%。"
+        "progress_pct": 76,
+        "recent_progress": "Day104结算。星辉石自动护主+残影剑法觉醒，重大突破。+16%。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
         "progress_pct": 9,
-        "recent_progress": "Day100结算。陷阱情报已掌握，待行动验证，+5%。",
+        "recent_progress": "Day104结算。分裂派陷阱情报已掌握，待行动验证。+3%。",
         "created_date": "2026-08-05"
       },
       {
         "id": "old_storage_heart",
         "name": "旧库之心追查",
-        "progress_pct": 38,
-        "recent_progress": "Day100结算。旧库之心=老库本人，第六钥匙血纹封印在胸口，需要白家血脉解开。+15%。",
+        "progress_pct": 48,
+        "recent_progress": "Day104结算。血封印=白家血脉+艾莉亚，唯一解法确认。+10%。",
         "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
-        "progress_pct": 39,
-        "recent_progress": "Day102。白巧巧身份确认，星辉石分割30年前历史揭开。+15%。",
+        "progress_pct": 54,
+        "recent_progress": "Day104结算。白巧巧白家血脉确认，分割历史30年前。+15%。",
         "created_date": "2026-08-07"
+      },
+      {
+        "id": "splinter_stone_knowledge_source",
+        "name": "分裂派星辉石情报来源追查",
+        "description": "分裂派如何得知艾莉亚持有星辉石？其情报链条的源头在哪里？需要追溯信息泄露途径。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day104结算。新目标开启，0%。",
+        "created_date": "2026-08-10"
+      },
+      {
+        "id": "anonymous_network_eradication",
+        "name": "匿名情报网残余清除",
+        "description": "白巧巧背后是否还有其他人？追踪与星廊守护者相关的信息网络，防止新的威胁。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day104结算。白巧巧线索收尾，新方向开启，0%。",
+        "created_date": "2026-08-10"
       }
     ],
     "staged": [
@@ -391,6 +403,13 @@
         "progress_pct": 100,
         "recent_progress": "Day97结算。短剑已取回！100%完成！",
         "completed_date": "2026-08-05"
+      },
+      {
+        "id": "seven_craftsmen_history",
+        "name": "七工匠历史追查",
+        "progress_pct": 100,
+        "recent_progress": "Day104结算。白家=第七工匠血脉，历史完全明确。完成！",
+        "completed_date": "2026-08-10"
       }
     ]
   },
@@ -678,5 +697,5 @@
       }
     ]
   },
-  "day_number": 104
+  "day_number": 105
 }
