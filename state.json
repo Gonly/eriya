@@ -150,32 +150,14 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 64,
+        "progress_pct": 66,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第31天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day104结算。分裂派今日再次现身伏击，与调查组失联相关。+5%。"
-      },
-      {
-        "id": "anonymous_tracer_investigation",
-        "name": "追踪匿名者",
-        "progress_pct": 99,
-        "estimate": 80,
-        "estimated_days": 7,
-        "daily_limit": 10,
-        "started_at": "2026-07-22",
-        "task_type": "investigate",
-        "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
-        "recent_progress": "Day104结算。白巧巧身份确认，追查即将收尾。+2%。"
-      },
-      {
-        "id": "guardians_intel",
-        "name": "星廊守护者分裂派情报",
-        "progress_pct": 98,
-        "recent_progress": "Day104结算。分裂派追踪星辉石，伏击暴露其掌握我方行踪。+5%。"
+        "recent_progress": "Day106结算。分裂派伏击后调查组动向待确认，+2%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -192,20 +174,20 @@
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 85,
-        "recent_progress": "Day104结算。血纹封印解法明确，白家血脉+艾莉亚血液。维持85%。"
+        "progress_pct": 88,
+        "recent_progress": "Day106结算。血封印解开，第六钥匙归位，信标核心激活在即。+3%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 72,
-        "recent_progress": "Day104结算。血封印需艾莉亚血液，明日仪式确认。+5%。"
+        "progress_pct": 85,
+        "recent_progress": "Day106结算。老库已苏醒，与白巧巧密谈中。+13%。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石头的真实用途",
-        "progress_pct": 35,
-        "recent_progress": "Day104结算。用途待查，维持35%。"
+        "progress_pct": 40,
+        "recent_progress": "Day106结算。老库可能知道暗红石头用途，+5%。"
       },
       {
         "id": "underground_beacon_claim",
@@ -222,8 +204,8 @@
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 76,
-        "recent_progress": "Day104结算。星辉石自动护主+残影剑法觉醒，重大突破。+16%。"
+        "progress_pct": 82,
+        "recent_progress": "Day106结算。星辉石仪式消耗后恢复，能力进一步觉醒。+6%。"
       },
       {
         "id": "splinter_trap_counter",
@@ -235,15 +217,15 @@
       {
         "id": "old_storage_heart",
         "name": "旧库之心追查",
-        "progress_pct": 48,
-        "recent_progress": "Day104结算。血封印=白家血脉+艾莉亚，唯一解法确认。+10%。",
+        "progress_pct": 60,
+        "recent_progress": "Day106结算。老库苏醒，旧库之心秘密待解。+12%。",
         "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
-        "progress_pct": 54,
-        "recent_progress": "Day104结算。白巧巧白家血脉确认，分割历史30年前。+15%。",
+        "progress_pct": 69,
+        "recent_progress": "Day106结算。白巧巧白家血脉+艾莉亚第七工匠血脉双重确认。+15%。",
         "created_date": "2026-08-07"
       },
       {
@@ -269,9 +251,17 @@
         "name": "血纹封印仪式准备",
         "description": "用艾莉亚的血解开老库胸口的血纹封印。今日上午在北街石碑处进行，白巧巧主持仪式。",
         "task_type": "special",
-        "progress_pct": 0,
-        "recent_progress": "Day105结算。血封印仪式完成，艾莉亚的手掌留下伤疤，老库苏醒。+20%。",
+        "progress_pct": 20,
+        "recent_progress": "Day106结算。血封印仪式完成，艾莉亚手掌留下伤疤，老库苏醒。+20%。",
         "created_date": "2026-08-11"
+      },
+      {
+        "id": "splinter_guardians_next_move",
+        "name": "分裂派下一步动向",
+        "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧身份暴露，需追踪其下一步行动计划。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day106结算。任务开启，分裂派动向待追。0%。"
       }
     ],
     "staged": [
@@ -419,6 +409,26 @@
         "progress_pct": 100,
         "recent_progress": "Day104结算。白家=第七工匠血脉，历史完全明确。完成！",
         "completed_date": "2026-08-10"
+      },
+      {
+        "id": "anonymous_tracer_investigation",
+        "name": "追踪匿名者",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 7,
+        "daily_limit": 10,
+        "started_at": "2026-07-22",
+        "task_type": "investigate",
+        "description": "有人在追踪星辉石持有者——向酒馆前台打听、给沃尔夫看星辉石照片让他交出共鸣器。这个人到底是谁？是敌是友？",
+        "recent_progress": "Day106结算。白巧巧身份完全确认，追踪匿名者任务收尾。100%。",
+        "completed_date": "2026-08-11"
+      },
+      {
+        "id": "guardians_intel",
+        "name": "星廊守护者分裂派情报",
+        "progress_pct": 100,
+        "recent_progress": "Day106结算。星廊守护者分裂派情报完全掌握。100%。",
+        "completed_date": "2026-08-11"
       }
     ]
   },
@@ -700,5 +710,5 @@
       }
     ]
   },
-  "day_number": 106
+  "day_number": 107
 }

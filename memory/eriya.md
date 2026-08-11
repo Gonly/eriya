@@ -20,22 +20,22 @@
 - old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
 - star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
 - resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
-- guardians_intel：98%（Day104结算）（Day101结算。分裂派追踪白家血脉，石羽死于15年前大火，白家线索将揭开更多内幕，+6%。）
+- guardians_intel：100%（Day104结算）（Day101结算。分裂派追踪白家血脉，石羽死于15年前大火，白家线索将揭开更多内幕，+6%。）
 - anonymous_note_trace：14%（Day104结算）（Day100结算。无新进展，10%维持。）
 - retired_metalworker_interrogation：64%（Day104结算）（Day100结算。哈罗德交付共鸣片后无更多进展，+2%。）
 - seven_craftsmen_history：100%（Day104结算）（Day101结算。老库揭示石羽母亲白巧娘入赘真相，白家与七工匠渊源明确，+6%。）
-- beacon_core_activation：85%（Day104结算）（Day101结算。确认白家血脉可解血纹封印，激活条件明确，+8%。）
-- old_ku_next_move：72%（Day104结算）（Day101结算。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开，+10%。）
-- dark_red_stone_purpose：35%（Day104结算）（Day100结算。用途待查，32%维持。）
+- beacon_core_activation：88%（Day104结算）（Day101结算。确认白家血脉可解血纹封印，激活条件明确，+8%。）
+- old_ku_next_move：85%（Day104结算）（Day101结算。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开，+10%。）
+- dark_red_stone_purpose：40%（Day104结算）（Day100结算。用途待查，32%维持。）
 - underground_beacon_claim：36%（Day104结算）（Day100结算。全队撤离后稳定，33%维持。）
 - selas_trap_investigation：20%（Day104结算）（Day100结算。符文机关部分触发，调查持续，+4%。）
-- starstone_resonance_ability：76%（Day104结算）（Day101结算。星辉石异常把我烫醒，脉冲比平时频繁三倍，共鸣能力疑似新觉醒，+24%。）
-- investigation_team_search：64%（Day104结算）（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
-- anonymous_tracer_investigation：99%（Day104结算）（Day101结算。银发女人现身，左手戒指镶星辉石同种石头，追逐失败但确认白家血脉，+3%。）
-- old_storage_heart：48%（Day104结算）（Day100结算。旧库之心=老库本人，线索明确，+15%。）
+- starstone_resonance_ability：82%（Day104结算）（Day101结算。星辉石异常把我烫醒，脉冲比平时频繁三倍，共鸣能力疑似新觉醒，+24%。）
+- investigation_team_search：66%（Day104结算）（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
+- anonymous_tracer_investigation：100%（Day104结算）（Day101结算。银发女人现身，左手戒指镶星辉石同种石头，追逐失败但确认白家血脉，+3%。）
+- old_storage_heart：60%（Day104结算）（Day100结算。旧库之心=老库本人，线索明确，+15%。）
 - splinter_trap_counter：9%（Day104结算）（Day100结算。陷阱情报已掌握，待行动验证，+5%。）
 - B级晋升考核：✅ 通过！（2026-05-15）🎉
-- white_family_search：54%（Day104结算）（Day101结算。塞拉斯查到白家户籍，巧巧两三年前出现在旧货市场，白家后裔追查重大突破，+15%。）
+- white_family_search：69%（Day104结算）（Day101结算。塞拉斯查到白家户籍，巧巧两三年前出现在旧货市场，白家后裔追查重大突破，+15%。）
 - 通往B级的10个C级任务：✅ 完成！
 
 ## 已完成里程碑
