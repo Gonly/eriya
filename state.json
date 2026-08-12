@@ -150,82 +150,82 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 66,
+        "progress_pct": 68,
         "estimate": 80,
         "estimated_days": 5,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第31天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day106结算。分裂派伏击后调查组动向待确认，+2%。"
+        "recent_progress": "Day106结算。分裂派伏击后调查组动向待确认。+2%。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "纸条警告来源追查",
         "progress_pct": 14,
-        "recent_progress": "Day104结算。无新进展，14%维持。"
+        "recent_progress": "Day106结算。无新进展，维持14%。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠问询",
         "progress_pct": 64,
-        "recent_progress": "Day104结算。共鸣片交付后无新动向，维持64%。"
+        "recent_progress": "Day106结算。共鸣片交付后无新动向，维持64%。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 91,
+        "progress_pct": 94,
         "recent_progress": "Day106结算。血封印解开，第六钥匙归位，信标核心激活在即。+3%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 88,
-        "recent_progress": "Day106结算。老库已苏醒，今日继续获取情报。+3%。"
+        "progress_pct": 93,
+        "recent_progress": "Day106结算。老库透露十五年前真相，七工匠/石羽/分裂派历史揭晓。+5%。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石头的真实用途",
-        "progress_pct": 45,
-        "recent_progress": "Day106结算。老库可能知道暗红石头用途，+5%。"
+        "progress_pct": 50,
+        "recent_progress": "Day106结算。老库或知暗红石头用途，待后续问询。+5%。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标核心争夺",
         "progress_pct": 36,
-        "recent_progress": "Day104结算。全队撤离后稳定，维持36%。"
+        "recent_progress": "Day106结算。全队撤离后稳定，维持36%。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文机关调查",
         "progress_pct": 20,
-        "recent_progress": "Day104结算。符文机关部分触发，维持20%。"
+        "recent_progress": "Day106结算。符文机关部分触发，维持20%。"
       },
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 85,
-        "recent_progress": "Day106结算。血封印仪式后星辉石能力进一步觉醒。+3%。"
+        "progress_pct": 88,
+        "recent_progress": "Day106结算。星辉石能力进一步觉醒，脉冲节奏与心跳同步。+3%。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
-        "progress_pct": 9,
-        "recent_progress": "Day104结算。分裂派陷阱情报已掌握，待行动验证。+3%。",
+        "progress_pct": 12,
+        "recent_progress": "Day106结算。分裂派陷阱情报已掌握，待行动验证。+3%。",
         "created_date": "2026-08-05"
       },
       {
         "id": "old_storage_heart",
         "name": "旧库之心追查",
-        "progress_pct": 60,
-        "recent_progress": "Day106结算。老库苏醒，旧库之心秘密待解。+12%。",
+        "progress_pct": 68,
+        "recent_progress": "Day106结算。老库提及旧库之心为信标网络核心所在。+8%。",
         "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
-        "progress_pct": 69,
-        "recent_progress": "Day106结算。白巧巧白家血脉+艾莉亚第七工匠血脉双重确认。+15%。",
+        "progress_pct": 84,
+        "recent_progress": "Day106结算。艾莉亚第七工匠血脉确认，双重血脉真相揭晓。+15%。",
         "created_date": "2026-08-07"
       },
       {
@@ -251,8 +251,8 @@
         "name": "血封印仪式后恢复",
         "description": "昨日血封印仪式消耗巨大，需要休养恢复。同时手掌伤口需要护理。",
         "task_type": "special",
-        "progress_pct": 50,
-        "recent_progress": "Day106结算。昨夜休息充足，今晨恢复过半，+30%。",
+        "progress_pct": 80,
+        "recent_progress": "Day106结算。休息恢复良好，星辉石光泽更亮。+30%。",
         "created_date": "2026-08-12"
       },
       {
@@ -260,7 +260,7 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧身份暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 5,
+        "progress_pct": 10,
         "recent_progress": "Day106结算。老库苏醒或掌握分裂派情报，+5%。",
         "created_date": "2026-08-11"
       }
@@ -723,5 +723,5 @@
       }
     ]
   },
-  "day_number": 106
+  "day_number": 107
 }
