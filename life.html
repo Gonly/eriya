@@ -29,6 +29,7 @@ body{background:#f5f0e8;color:#333;font-family:'Noto Serif SC','Georgia','PingFa
 .tab{flex:1 0 auto;padding:10px 12px;background:transparent;border:none;color:#888;font-size:0.78rem;cursor:pointer;white-space:nowrap;font-family:inherit;text-align:center;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;min-width:0}
 .tab:active{opacity:.7}
 .tab.active{color:#222;border-bottom-color:#2c2c2c;font-weight:600}
+.tabs a.tab{text-decoration:none;display:flex;align-items:center;justify-content:center}
 @media(max-width:420px){
   .tab{font-size:0.72rem;padding:8px 8px}
 }
@@ -77,6 +78,7 @@ main{max-width:960px;margin:0 auto;padding:16px;padding:clamp(12px,4vw,24px)}
 
 <div class="tabs">
   <button class="tab active" data-f="food">🍜 美食</button>
+  <a class="tab" href="recipes/spicy_luxury_ramen.html">🌶️ 豪华麻辣泡面</a>
   <button class="tab" data-f="shopping">🛒 购物清单</button>
   <button class="tab" data-f="games">🎮 游戏</button>
   <button class="tab" data-f="technical">🧰 技术笔记</button>
@@ -102,6 +104,7 @@ const FILES = {
 /* ===== Tab 切换 ===== */
 document.querySelectorAll('.tab').forEach(t => {
   t.addEventListener('click', () => {
+    if (!t.dataset.f) return; // <a> 链接 tab（如菜谱页）直接走默认跳转
     document.querySelectorAll('.tab,.panel').forEach(e => e.classList.remove('active'));
     t.classList.add('active');
     const panel = document.getElementById('p-' + t.dataset.f);

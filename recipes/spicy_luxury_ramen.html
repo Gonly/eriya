@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豪华麻辣泡面教程</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin: 40px 0 20px;
+            background: linear-gradient(90deg, #ff6b6b, #ffa500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 107, 107, 0.3);
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .hero-img {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(45deg, #ff6b6b 0%, #ffa500 50%, #ff6b6b 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 6em;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(255, 107, 107, 0.3);
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h2 .emoji {
+            font-size: 1.2em;
+        }
+        .ingredient-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .ingredient-item {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 12px 16px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.2s;
+        }
+        .ingredient-item:hover {
+            transform: translateX(5px);
+        }
+        .ingredient-item .icon {
+            font-size: 1.3em;
+        }
+        .step {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 24px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            border-left: 4px solid #ff6b6b;
+        }
+        .step-num {
+            min-width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+        .step-content h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #ffa500;
+        }
+        .step-content p {
+            color: #bbb;
+        }
+        .tip-box {
+            background: rgba(255, 165, 0, 0.15);
+            border: 1px solid rgba(255, 165, 0, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .tip-box h4 {
+            color: #ffa500;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .warning {
+            background: rgba(255, 107, 107, 0.15);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .warning h4 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+        .time-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-top: 15px;
+        }
+        .time-item {
+            text-align: center;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        .time-item .num {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ff6b6b;
+        }
+        .time-item .label {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .equipment {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .equipment-item {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 10px 16px;
+            border-radius: 20px;
+            font-size: 0.95em;
+        }
+        .spicy-level {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        .spicy-level span {
+            font-size: 1.5em;
+        }
+        .spicy-level span.empty {
+            filter: grayscale(1);
+            opacity: 0.3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 豪华麻辣泡面教程 🔥</h1>
+        <p class="subtitle">电饭锅版 · 满汉全席级泡面攻略</p>
+
+        <div class="hero-img">🍜</div>
+
+        <!-- 食材清单 -->
+        <div class="section">
+            <h2><span class="emoji">📦</span> 食材清单</h2>
+            <div class="ingredient-list">
+                <div class="ingredient-item">
+                    <span class="icon">🍜</span>
+                    <span>汤达人日式豚骨泡面 × 1包</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🥓</span>
+                    <span>午餐肉 × 3-4片</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🦐</span>
+                    <span>虾仁 × 6-8只</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🍄</span>
+                    <span>金针菇 × 1把</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🥚</span>
+                    <span>鸡蛋 × 1个（溏心蛋）</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🧈</span>
+                    <span>麻辣火锅底料 × 小块（约15g）</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🌶️</span>
+                    <span>花椒油 × 半勺</span>
+                </div>
+                <div class="ingredient-item">
+                    <span class="icon">🧅</span>
+                    <span>葱花 × 适量</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 工具准备 -->
+        <div class="section">
+            <h2><span class="emoji">🍳</span> 工具准备</h2>
+            <div class="equipment">
+                <div class="equipment-item">🍚 电饭锅</div>
+                <div class="equipment-item">🥄 筷子/勺子</div>
+                <div class="equipment-item">🔪 砧板&刀</div>
+                <div class="equipment-item">🥣 碗（装成品）</div>
+            </div>
+        </div>
+
+        <!-- 辣度标识 -->
+        <div class="section">
+            <h2><span class="emoji">🌶️</span> 辣度标识</h2>
+            <div class="spicy-level">
+                <span>🌶️</span>
+                <span>🌶️</span>
+                <span>🌶️</span>
+                <span>🌶️</span>
+                <span class="empty">🌶️</span>
+            </div>
+            <p style="color: #888; margin-top: 10px;">中重度辣度（可按个人口味调整火锅底料用量）</p>
+        </div>
+
+        <!-- 耗时预估 -->
+        <div class="section">
+            <h2><span class="emoji">⏱️</span> 耗时预估</h2>
+            <div class="time-table">
+                <div class="time-item">
+                    <div class="num">3</div>
+                    <div class="label">分钟</div>
+                </div>
+                <div class="time-item">
+                    <div class="num">10</div>
+                    <div class="label">分钟</div>
+                </div>
+                <div class="time-item">
+                    <div class="num">5</div>
+                    <div class="label">分钟</div>
+                </div>
+                <div class="time-item">
+                    <div class="num">18</div>
+                    <div class="label">分钟（总计）</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 详细步骤 -->
+        <div class="section">
+            <h2><span class="emoji">📝</span> 详细步骤</h2>
+
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                    <h3>准备工作</h3>
+                    <p>虾仁解冻洗净，金针菇切掉根部洗净，午餐肉切成厚片，葱切成葱花备用。电饭锅内胆擦干备用。</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                    <h3>煎午餐肉</h3>
+                    <p>电饭锅内胆刷一层薄油，按下煮饭键。等油温上来后，放入午餐肉片，两面各煎1-2分钟，煎至金黄酥脆。出锅备用。</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                    <h3>煮溏心蛋（水煮法）</h3>
+                    <p>另起一锅水烧开，用筷子搅出漩涡后打入鸡蛋。煮 <strong>6分30秒</strong>（喜欢更溏的可以减到6分钟），捞出放入凉水中浸泡1分钟，剥壳备用。</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">4</div>
+                <div class="step-content">
+                    <h3>煮面（电饭锅版）</h3>
+                    <p>电饭锅加入约500ml清水，按下煮饭键。水开后放入面饼，煮 <strong>2-3分钟</strong>至面条散开，捞出沥干。</p>
+                    <div class="tip-box">
+                        <h4>💡 小技巧</h4>
+                        <p>如果想要更劲道的面条，可以少煮1分钟，后面还会和汤一起焖。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">5</div>
+                <div class="step-content">
+                    <h3>熬制麻辣汤底</h3>
+                    <p>电饭锅重新加水（约400ml），水开后放入 <strong>麻辣火锅底料15g</strong>，搅拌至完全融化。然后放入金针菇煮2分钟。</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">6</div>
+                <div class="step-content">
+                    <h3>依次放入配料</h3>
+                    <p>按照煮熟时间从长到短依次放入：<br>
+                    ① 虾仁（煮2分钟）→<br>
+                    ② 面条（煮1分钟，用筷子搅散）→<br>
+                    ③ 花椒油半勺 →<br>
+                    ④ 倒入调料包，搅拌均匀 →<br>
+                    ⑤ 关火焖30秒</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">7</div>
+                <div class="step-content">
+                    <h3>装碗摆盘</h3>
+                    <p>将面条汤盛入大碗，依次摆上：煎好的午餐肉、虾仁、金针菇，溏心蛋对半切开放在面上，撒上葱花即可享用！</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 小贴士 -->
+        <div class="section">
+            <h2><span class="emoji">💡</span> 神仙小贴士</h2>
+            <div class="tip-box">
+                <h4>🔥 升级版Tips</h4>
+                <p>• <strong>火锅底料</strong>：建议用麻辣牛油底料，一小块就够，可以先少放尝尝辣度<br>
+                • <strong>花椒油</strong>：最后放效果更香，不要煮太久<br>
+                • <strong>溏心蛋</strong>：时间很关键，6分30秒是最佳溏心状态<br>
+                • <strong>面条</strong>：七分熟就捞出，余下的会让汤更清<br>
+                • <strong>芝士</strong>：可以加一片在面上焖30秒，牵丝绝了<br>
+                • <strong>榨菜</strong>：切碎放一点进去，解腻提鲜</p>
+            </div>
+        </div>
+
+        <!-- 注意事项 -->
+        <div class="warning">
+            <h4>⚠️ 注意事项</h4>
+            <p>• 火锅底料本身很咸，调料包可以只放一半或三分之一<br>
+            • 电饭锅火力较小，煎蛋和煎午餐肉需要耐心等待，不要急<br>
+            • 虾仁不要煮太久，否则会变老，2分钟足够<br>
+            • 花椒油最后关火后再放，保留麻香味</p>
+        </div>
+
+        <!-- 成品展示 -->
+        <div class="section">
+            <h2><span class="emoji">✨</span> 成品效果</h2>
+            <p style="font-size: 1.1em; text-align: center; padding: 30px; color: #ffa500;">
+                🍜 麻辣鲜香 · 虾仁Q弹 · 午餐肉酥脆 · 溏心蛋流金 ✨
+            </p>
+            <p style="text-align: center; color: #888;">这一碗下去，保证你忘记所有烦恼！</p>
+        </div>
+
+        <footer>
+            <p>🍜 豪华麻辣泡面教程 | 电饭锅版</p>
+            <p>祝你用餐愉快！</p>
+        </footer>
+    </div>
+</body>
+</html>
