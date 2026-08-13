@@ -1,13 +1,13 @@
 {
   "topic_sync": {
     "active_topic": {
-      "description": "B级第一百零七天·星辉石共鸣深化·分裂派监视确认",
+      "description": "B级第一百零八天·调查组线索出现·第一钥匙位置确认",
       "source": "daily_schedule",
-      "updated_at": "2026-08-13T05:00:00+08:00",
-      "proactive_time": "05:00"
+      "updated_at": "2026-08-13T15:00:00+08:00",
+      "proactive_time": "15:00"
     },
-    "daily_message_count": 2,
-    "last_proactive": "2026-08-13T12:00:00+08:00"
+    "daily_message_count": 3,
+    "last_proactive": "2026-08-13T15:00:00+08:00"
   },
   "last_proactive": "2026-08-13T12:00:00+08:00",
   "consecutive_no_reply": 0,
