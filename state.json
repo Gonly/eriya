@@ -150,90 +150,90 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 70,
+        "progress_pct": 78,
         "estimate": 80,
         "estimated_days": 4,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第32天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day107结算。旧库之心情报整合，调查组动向待确认。+2%。"
+        "recent_progress": "Day108结算。公会总部遇调查组幸存者，石柱群隐藏空间确认。+8%。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "纸条警告来源追查",
         "progress_pct": 14,
-        "recent_progress": "Day107结算。无新进展，维持14%。"
+        "recent_progress": "Day108结算。无新进展，维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠问询",
         "progress_pct": 64,
-        "recent_progress": "Day107结算。共鸣片交付后无新动向，维持64%。"
+        "recent_progress": "Day108结算。共鸣片交付后无新动向，维持。"
       },
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 95,
-        "recent_progress": "Day107结算。旧库之心位置确认，激活序列推进至95%。+1%。"
+        "progress_pct": 96,
+        "recent_progress": "Day108结算。旧库之心位置确认，激活序列推进。+1%。"
       },
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 95,
-        "recent_progress": "Day107结算。老库透露旧库之心情报，五钥匙散落各地确认。+2%。"
+        "progress_pct": 96,
+        "recent_progress": "Day108结算。老库透露五钥匙情报，与调查组线索吻合。+1%。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石头的真实用途",
         "progress_pct": 50,
-        "recent_progress": "Day107结算。老库或知暗红石头用途，待后续问询。+5%。"
+        "recent_progress": "Day108结算。老库或知暗红石头用途，待后续问询。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标核心争夺",
         "progress_pct": 36,
-        "recent_progress": "Day107结算。全队撤离后稳定，维持36%。"
+        "recent_progress": "Day108结算。全队撤离后稳定，维持。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文机关调查",
-        "progress_pct": 20,
-        "recent_progress": "Day107结算。符文机关部分触发，维持20%。"
+        "progress_pct": 23,
+        "recent_progress": "Day108结算。符文机关部分触发，维持。+3%。"
       },
       {
         "id": "starstone_resonance_ability",
         "name": "星辉石共鸣能力验证",
-        "progress_pct": 90,
-        "recent_progress": "Day107结算。星辉石与心跳同步深化，可感知周围魔力波动。+2%。"
+        "progress_pct": 95,
+        "recent_progress": "Day108结算。星辉石感知觉醒，可探测魔力波动与信标位置。+5%。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
-        "progress_pct": 18,
-        "recent_progress": "Day107结算。分裂派监视确认，同一兜帽人影再次出现。+6%。",
+        "progress_pct": 24,
+        "recent_progress": "Day108结算。分裂派跟踪确认，同一人持续监视。+6%。",
         "created_date": "2026-08-05"
       },
       {
         "id": "old_storage_heart",
         "name": "旧库之心追查",
-        "progress_pct": 75,
-        "recent_progress": "Day107结算。老库透露旧库之心为信标网络枢纽，五钥匙散落各地。+7%。",
+        "progress_pct": 80,
+        "recent_progress": "Day108结算。石柱群确认第一钥匙位置，旧库之心枢纽地位确立。+5%。",
         "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
         "name": "白家后裔追查",
         "progress_pct": 84,
-        "recent_progress": "Day107结算。艾莉亚第七工匠血脉确认，维持84%。"
+        "recent_progress": "Day108结算。艾莉亚第七工匠血脉确认，维持。"
       },
       {
         "id": "splinter_stone_knowledge_source",
         "name": "分裂派星辉石情报来源追查",
         "description": "分裂派如何得知艾莉亚持有星辉石？其情报链条的源头在哪里？需要追溯信息泄露途径。",
         "task_type": "investigate",
-        "progress_pct": 0,
-        "recent_progress": "Day107结算。监视者身份待查，0%。",
+        "progress_pct": 5,
+        "recent_progress": "Day108结算。监视者身份待查，+5%。",
         "created_date": "2026-08-10"
       },
       {
@@ -241,8 +241,8 @@
         "name": "匿名情报网残余清除",
         "description": "白巧巧背后是否还有其他人？追踪与星廊守护者相关的信息网络，防止新的威胁。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day107结算。分裂派监视网与白巧巧旧网或有关联，+5%。",
+        "progress_pct": 10,
+        "recent_progress": "Day108结算。分裂派监视网与白巧巧旧网关联，+5%。",
         "created_date": "2026-08-10"
       },
       {
@@ -251,7 +251,7 @@
         "description": "昨日血封印仪式消耗巨大，需要休养恢复。同时手掌伤口需要护理。",
         "task_type": "special",
         "progress_pct": 95,
-        "recent_progress": "Day107结算。休息恢复良好，几乎完全康复。+15%。",
+        "recent_progress": "Day108结算。休息恢复良好，几乎完全康复。",
         "created_date": "2026-08-12"
       },
       {
@@ -259,8 +259,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧身份暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 18,
-        "recent_progress": "Day107结算。分裂派监视确认，开始主动跟踪。+8%。",
+        "progress_pct": 26,
+        "recent_progress": "Day108结算。分裂派眼线确认，开始主动跟踪。+8%。",
         "created_date": "2026-08-11"
       },
       {
@@ -268,8 +268,8 @@
         "name": "五把钥匙下落追查",
         "description": "七把钥匙中已有两把归位（第六钥匙在老库身上，第七钥匙星辉石在艾莉亚手中）。剩余五把散落各地，需要追查。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day107结算。老库提供五钥匙散落线索，新目标开启。",
+        "progress_pct": 30,
+        "recent_progress": "Day108结算。老库给出五钥匙地图，第一钥匙在石柱群下方。+25%。",
         "created_date": "2026-08-13"
       }
     ],
@@ -737,5 +737,5 @@
       }
     ]
   },
-  "day_number": 108
+  "day_number": 110
 }
