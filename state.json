@@ -6,16 +6,16 @@
       "updated_at": "2026-08-13T05:00:00+08:00",
       "proactive_time": "05:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-08-12T18:00:00+08:00"
+    "daily_message_count": 1,
+    "last_proactive": "2026-08-13T09:00:00+08:00"
   },
-  "last_proactive": "2026-08-12T18:00:00+08:00",
+  "last_proactive": "2026-08-13T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-13",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -65,7 +65,7 @@
   "mood_date": "2026-08-13",
   "affection": 19,
   "recent_topics": [],
-  "last_proactive_content": "[15:00] 王都东街被人撞了一下，脚下一滑踩进喷泉，靴子裤腿全湿了，路人围观，ルナ笑到喘不上气。丢人丢大了。",
+  "last_proactive_content": "[09:00] 刚从白巧巧旧宅出来，老库说课得提前结束。街上薄雾散了大半，心跳却比刚才快——星辉石警告过她，有人在看。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
