@@ -6,16 +6,16 @@
       "updated_at": "2026-08-14T15:00:00+08:00",
       "proactive_time": "15:00"
     },
-    "daily_message_count": 1,
-    "last_proactive": "2026-08-14T09:00:00+08:00"
+    "daily_message_count": 2,
+    "last_proactive": "2026-08-14T12:00:00+08:00"
   },
-  "last_proactive": "2026-08-14T09:00:00+08:00",
+  "last_proactive": "2026-08-14T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-14",
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -61,7 +61,7 @@
   "mood_date": "2026-08-14",
   "affection": 19,
   "recent_topics": [],
-  "last_proactive_content": "[18:00] 秘密据点里整理装备，匕首重新磨过，共鸣片和地图放进防水袋最里层。窗外闷雷滚过，天边闪电把ルナ的侧脸照得忽明忽暗。出发前最安静的时刻，反而心跳得最响。",
+  "last_proactive_content": "[12:00] 石柱群正午暴雨，星辉石突然共鸣爆发蓝光，光柱冲出倒塌石柱缝隙。分裂派的弩箭擦着肩膀飞过，冲进缝隙的一刻心跳快要停下来。",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
