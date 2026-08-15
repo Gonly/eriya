@@ -9,13 +9,13 @@
     "daily_message_count": 0,
     "last_proactive": "2026-08-15T09:00:00+08:00"
   },
-  "last_proactive": "2026-08-15T12:00:00+08:00",
+  "last_proactive": "2026-08-15T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-15",
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -61,7 +61,8 @@
   "mood_date": "2026-08-15",
   "affection": 19,
   "recent_topics": [],
-  "last_proactive_content": "[21:00] 雨还在下，据点里火光摇曳。第一钥匙和星辉石并排放在桌上，银光和蓝光交织。今天冒险成功了，但分裂派不会善罢甘休。疲惫压在肩上，却睡意全无。星辉石的脉冲比往常平稳，像是完成了什么大事后的满足。",
+  "last_proactive_content": "[15:00] 西区废弃钟楼，两把钥匙和星辉石并排放着，光芒交织出的图案里竟然藏着地图——北方和海底。收获很大，得赶紧去公会找个安全的地方存起来。心情满足又有点紧迫，分裂派不会善罢甘休。",
+  "last_proactive_content_time": "15:00",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
