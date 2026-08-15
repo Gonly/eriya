@@ -171,8 +171,8 @@
       {
         "id": "beacon_core_activation",
         "name": "信标核心激活条件",
-        "progress_pct": 98,
-        "recent_progress": "Day110结算。第一钥匙到手，激活序列加速推进。+2%。"
+        "progress_pct": 99,
+        "recent_progress": "Day112结算。两钥匙在手，激活序列接近完成。+1%。"
       },
       {
         "id": "old_ku_next_move",
@@ -201,16 +201,9 @@
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
-        "progress_pct": 30,
-        "recent_progress": "Day110结算。成功甩开分裂派追兵，警觉性提升。+6%。",
+        "progress_pct": 36,
+        "recent_progress": "Day112结算。成功突破分裂派封锁，逃脱。+6%。",
         "created_date": "2026-08-05"
-      },
-      {
-        "id": "old_storage_heart",
-        "name": "旧库之心追查",
-        "progress_pct": 85,
-        "recent_progress": "Day110结算。第二钥匙位置确认（旧库之心）。+5%。",
-        "created_date": "2026-08-07"
       },
       {
         "id": "white_family_search",
@@ -241,8 +234,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧身份暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 34,
-        "recent_progress": "Day110结算。分裂派伏击石柱群，放走一马后会再来。+8%。",
+        "progress_pct": 42,
+        "recent_progress": "Day112结算。与分裂派正面冲突，警惕性提升。+8%。",
         "created_date": "2026-08-11"
       },
       {
@@ -250,18 +243,9 @@
         "name": "五把钥匙下落追查",
         "description": "七把钥匙中已有两把归位（第六钥匙在老库身上，第七钥匙星辉石在艾莉亚手中）。剩余五把散落各地，需要追查。",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day110结算。第一钥匙到手，四把钥匙位置已锁定（老库地图）。+25%。",
+        "progress_pct": 80,
+        "recent_progress": "Day112结算。两钥匙共鸣揭示五钥匙分布图，重大突破。+25%。",
         "created_date": "2026-08-13"
-      },
-      {
-        "id": "second_key_old_storage",
-        "name": "旧库之心第二钥匙争夺",
-        "description": "第二把钥匙位于旧库之心枢纽，分裂派也在追寻。需尽快前往获取。",
-        "task_type": "investigate",
-        "progress_pct": 0,
-        "recent_progress": "Day111结算。第二钥匙在旧库之心，待行动。",
-        "created_date": "2026-08-14"
       },
       {
         "id": "splinter_leader_key_trace",
@@ -273,12 +257,21 @@
         "created_date": "2026-08-14"
       },
       {
-        "id": "first_key_safe_storage",
-        "name": "第一钥匙安全存放",
-        "description": "第一钥匙已到手，需要找一个安全的存放地点，不能带回据点暴露位置。",
-        "task_type": "special",
+        "id": "third_key_quest",
+        "name": "第三钥匙追寻",
+        "description": "根据共鸣图，追查剩余三把钥匙的下落，优先获取第三钥匙",
+        "task_type": "investigate",
         "progress_pct": 0,
-        "recent_progress": "Day111结算。钥匙待安全转移。",
+        "recent_progress": "",
+        "created_date": "2026-08-15"
+      },
+      {
+        "id": "splinter_leader_confrontation",
+        "name": "分裂派首领对峙",
+        "description": "分裂派首领持有第五钥匙，需要制定计划夺取或确认其用途",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "",
         "created_date": "2026-08-15"
       }
     ],
@@ -483,6 +476,34 @@
         "recent_progress": "Day110结算。完全康复，体力精力充沛。+5%。",
         "created_date": "2026-08-12",
         "completed_date": "2026-08-14"
+      },
+      {
+        "id": "second_key_old_storage",
+        "name": "旧库之心第二钥匙争夺",
+        "description": "第二把钥匙位于旧库之心枢纽，分裂派也在追寻。需尽快前往获取。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day112结算。第二钥匙到手，旧库之心突破。+100%。",
+        "created_date": "2026-08-14",
+        "completed_date": "2026-08-15"
+      },
+      {
+        "id": "old_storage_heart",
+        "name": "旧库之心追查",
+        "progress_pct": 100,
+        "recent_progress": "Day112结算。旧库之心突破，第二钥匙获取。+15%。",
+        "created_date": "2026-08-07",
+        "completed_date": "2026-08-15"
+      },
+      {
+        "id": "first_key_safe_storage",
+        "name": "第一钥匙安全存放",
+        "description": "第一钥匙已到手，需要找一个安全的存放地点，不能带回据点暴露位置。",
+        "task_type": "special",
+        "progress_pct": 100,
+        "recent_progress": "Day112结算。两把钥匙已安全存放公会总部。+100%。",
+        "created_date": "2026-08-15",
+        "completed_date": "2026-08-15"
       }
     ]
   },
@@ -812,5 +833,5 @@
       }
     ]
   },
-  "day_number": 112
+  "day_number": 113
 }
