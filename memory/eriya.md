@@ -25,12 +25,12 @@
 - retired_metalworker_interrogation：64%（Day104结算）（Day100结算。哈罗德交付共鸣片后无更多进展，+2%。）
 - seven_craftsmen_history：100%（Day104结算）（Day101结算。老库揭示石羽母亲白巧娘入赘真相，白家与七工匠渊源明确，+6%。）
 - beacon_core_activation：99%（Day112结算。两钥匙在手，激活序列接近完成。+1%。）
-- old_ku_next_move：85%（Day104结算）（Day101结算。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开，+10%。）
+- old_ku_next_move：98（Day104结算）（Day101结算。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开，+10%。）
 - dark_red_stone_purpose：40%（Day104结算）（Day100结算。用途待查，32%维持。）
 - underground_beacon_claim：36%（Day104结算）（Day100结算。全队撤离后稳定，33%维持。）
 - selas_trap_investigation：20%（Day104结算）（Day100结算。符文机关部分触发，调查持续，+4%。）
 - starstone_resonance_ability：82%（Day104结算）（Day101结算。星辉石异常把我烫醒，脉冲比平时频繁三倍，共鸣能力疑似新觉醒，+24%。）
-- investigation_team_search：66%（Day104结算）（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
+- investigation_team_search：80（Day104结算）（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
 - anonymous_tracer_investigation：100%（Day104结算）（Day101结算。银发女人现身，左手戒指镶星辉石同种石头，追逐失败但确认白家血脉，+3%。）
 - old_storage_heart：100%（Day112结算。第二钥匙到手，旧库之心突破。+15%。）✅
 - splinter_trap_counter：36%（Day112结算。成功突破分裂派封锁，逃脱。+6%。）
