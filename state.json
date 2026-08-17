@@ -148,14 +148,14 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 80,
+        "progress_pct": 81,
         "estimate": 80,
         "estimated_days": 4,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第32天。上次通讯说在石柱群下方发现能量异常，撤离方向北。塞拉斯在追查他们的下落",
-        "recent_progress": "Day113结算。老库安全确认，+2%。"
+        "recent_progress": "Day114结算。分裂派动向占主要精力，调查组暂时搁置，+1%。"
       },
       {
         "id": "anonymous_note_trace",
@@ -172,8 +172,8 @@
       {
         "id": "old_ku_next_move",
         "name": "老库苏醒后的动向",
-        "progress_pct": 98,
-        "recent_progress": "Day113结算。老库确认安全，提供灯塔线索，+2%。"
+        "progress_pct": 99,
+        "recent_progress": "Day114结算。老库灯塔线索被证实，+1%。"
       },
       {
         "id": "dark_red_stone_purpose",
@@ -196,8 +196,8 @@
       {
         "id": "splinter_trap_counter",
         "name": "分裂派陷阱反追",
-        "progress_pct": 36,
-        "recent_progress": "Day112结算。成功突破分裂派封锁，逃脱。+6%。",
+        "progress_pct": 39,
+        "recent_progress": "Day114结算。成功绕开分裂派监视进入灯塔外围，+3%。",
         "created_date": "2026-08-05"
       },
       {
@@ -229,8 +229,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧身份暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 52,
-        "recent_progress": "Day113结算。分裂派监视老库被发现，需加快行动，+2%。",
+        "progress_pct": 60,
+        "recent_progress": "Day114结算。分裂派试图唤醒灯塔守护者，局势升级，+8%。",
         "created_date": "2026-08-11"
       },
       {
@@ -238,8 +238,8 @@
         "name": "五把钥匙下落追查",
         "description": "七把钥匙中已有两把归位（第六钥匙在老库身上，第七钥匙星辉石在艾莉亚手中）。剩余五把散落各地，需要追查。",
         "task_type": "investigate",
-        "progress_pct": 85,
-        "recent_progress": "Day113结算。确认第三钥匙在东境海港老灯塔，+5%。",
+        "progress_pct": 90,
+        "recent_progress": "Day114结算。星辉石共鸣确认第三钥匙在灯塔内，+5%。",
         "created_date": "2026-08-13"
       },
       {
@@ -247,8 +247,8 @@
         "name": "分裂派首领手中第五钥匙追查",
         "description": "第五把钥匙在分裂派首领手中。需调查其行踪与据点。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day113结算。开始调查分裂派首领据点位置。+5%。",
+        "progress_pct": 8,
+        "recent_progress": "Day114结算。开始调查分裂派首领与灯塔行动关联，+3%。",
         "created_date": "2026-08-14"
       },
       {
@@ -256,8 +256,8 @@
         "name": "第三钥匙追寻",
         "description": "根据共鸣图显示，第三钥匙位于东境海港。需收集情报、规划路线，准备前往东境海港的准备工作。",
         "task_type": "investigate",
-        "progress_pct": 20,
-        "recent_progress": "Day113结算。老库提供灯塔地下室情报，+10%。",
+        "progress_pct": 35,
+        "recent_progress": "Day114结算。成功潜入灯塔外围，确认钥匙位置，+15%。",
         "created_date": "2026-08-15"
       },
       {
@@ -274,16 +274,16 @@
         "name": "灯塔地下室入口追查",
         "description": "老库提供线索：第三钥匙在东境海港老灯塔地下室，星辉石可打开入口。需确认入口具体位置并获取进入权。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day113结算。启动新目标，老库情报待进一步确认。"
+        "progress_pct": 15,
+        "recent_progress": "Day114结算。后窗入口确认，分裂派守卫位置已标记，+10%。"
       },
       {
         "id": "sea_shark_gang_approach",
         "name": "海鲨帮接触策略",
         "description": "东境海港一半被海鲨帮控制，另一半是商会。与分裂派秘密据点位置重叠。需找到可信任的中间人，避免冲突。",
         "task_type": "investigate",
-        "progress_pct": 3,
-        "recent_progress": "Day113结算。启动新目标，海鲨帮情报待收集。"
+        "progress_pct": 5,
+        "recent_progress": "Day114结算。海港地形已观察，海鲨帮暂未接触，+2%。"
       }
     ],
     "staged": [
@@ -869,5 +869,5 @@
       }
     ]
   },
-  "day_number": 114
+  "day_number": 115
 }
