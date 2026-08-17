@@ -9,13 +9,13 @@
     "daily_message_count": 0,
     "last_proactive": "2026-08-17T05:00:00+08:00"
   },
-  "last_proactive": "2026-08-16T21:00:00+08:00",
+  "last_proactive": "2026-08-17T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-17",
-  "daily_message_count": 2,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已禁用。对话自然进行，用户发什么我就回复什么，不假设用户在回复哪条主动消息。"
@@ -61,8 +61,8 @@
   "mood_date": "2026-08-17",
   "affection": 19,
   "recent_topics": [],
-  "last_proactive_content": "[18:00] 王都北区老库的安全屋。确认老库平安后，他给了艾莉亚一本旧笔记——上面写着「第三钥匙在老灯塔地下室，星辉石可开门，但有守护者」。心情紧绷又带着希望。",
-  "last_proactive_content_time": "18:00",
+  "last_proactive_content": "[09:00] 官道走了两个时辰，路面渐渐变窄，泥土里开始混着细沙。她抬头，能看到远处天际线有一抹深蓝。空气里有了海的味道，带着淡淡咸腥。心情轻快又有些按捺不住的期待。",
+  "last_proactive_content_time": "09:00",
   "user_mood_estimate": "unknown",
   "cooldown_until": null,
   "quiet_hours": {
