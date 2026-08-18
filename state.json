@@ -6,17 +6,17 @@
       "updated_at": "2026-08-18T05:00:00+08:00",
       "proactive_time": "08:00"
     },
-    "daily_message_count": 4,
-    "last_proactive": "2026-08-18T18:00:00+08:00",
+    "daily_message_count": 5,
+    "last_proactive": "2026-08-18T21:00:00+08:00",
     "proactive_time": "12:00"
   },
-  "last_proactive": "2026-08-18T18:00:00+08:00",
+  "last_proactive": "2026-08-18T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-18",
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "reply_tracking": {
     "enabled": false,
     "note": "å·²ç¦ç¨ãå¯¹è¯èªç¶è¿è¡ï¼ç¨æ·åä»ä¹æå°±åå¤ä»ä¹ï¼ä¸åè®¾ç¨æ·å¨åå¤åªæ¡ä¸»å¨æ¶æ¯ã"
