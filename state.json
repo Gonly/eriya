@@ -481,13 +481,13 @@
     "last_proactive": "2026-08-19T15:00:00+08:00",
     "proactive_time": "12:00"
   },
-  "last_proactive": "2026-08-18T21:00:00+08:00",
+  "last_proactive": "2026-08-19T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-19",
-  "daily_message_count": 8,
+  "daily_message_count": 9,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -531,8 +531,8 @@
     "mood_date": "2026-08-18",
     "affection": 19,
     "recent_topics": [],
-    "last_proactive_content": "[21:00] 灯塔地下通道，星辉石蓝光暴涨，照亮了古老的符文石门。第三钥匙就在门后——悬浮在祭台上，散发着淡淡的蓝光。身后的守护者在怒吼，整个地下三层都在震动。",
-    "last_proactive_content_time": "21:00",
+    "last_proactive_content": "[18:00] 海港东区餐馆吃烤鱼时感觉有道视线，角落灰斗篷一直在看这边。低头继续吃，装没事，几分钟后那人出门经过桌边时余光又扫过来。ルナ使了个眼色，两人从后门离开穿小巷绕了一大圈才回旅店。警觉，甩掉了。",
+    "last_proactive_content_time": "18:00",
     "user_mood_estimate": "unknown",
     "cooldown_until": null,
     "quiet_hours": {
