@@ -1,5 +1,5 @@
 {
-  "day_number": 116,
+  "day_number": 117,
   "daily_schedule": {
     "date": "2026-08-19",
     "day_number": 116,
@@ -49,65 +49,65 @@
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 82,
+        "progress_pct": 84,
         "estimate": 80,
         "estimated_days": 4,
         "daily_limit": 10,
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第32天。上次通信说在石柱群下方发现异常声响，撤离方向待定。",
-        "recent_progress": "Day115结束。调查组仍无消息，+1%。"
+        "recent_progress": "Day116结算。调查组仍无消息，+2%。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "匿名警告信追踪",
         "progress_pct": 14,
-        "recent_progress": "Day108结束。无新进展，维持。"
+        "recent_progress": "Day116结算。无新进展，维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠审讯",
         "progress_pct": 64,
-        "recent_progress": "Day108结束。共推档案已递交，等待新动向。"
+        "recent_progress": "Day116结算。共推档案已递交，等待新动向，维持。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石芯的实用途",
         "progress_pct": 50,
-        "recent_progress": "Day108结束。老库知晓暗红石芯用途，待续审讯。"
+        "recent_progress": "Day116结算。老库知晓暗红石芯用途，待续审讯，维持。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标声称",
         "progress_pct": 36,
-        "recent_progress": "Day108结束。完全停滞，维持。"
+        "recent_progress": "Day116结算。完全停滞，维持。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文陷阱",
         "progress_pct": 23,
-        "recent_progress": "Day108结束。符文陷阱尚未触发，维持。+3%。"
+        "recent_progress": "Day116结算。符文陷阱尚未触发，维持。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派路障反制",
         "progress_pct": 39,
-        "recent_progress": "Day115结束。潜入灯塔外围成功，+3%。",
+        "recent_progress": "Day116结算。潜入灯塔外围成功，维持。",
         "created_date": "2026-08-05"
       },
       {
         "id": "white_family_search",
         "name": "白家旧居追踪",
-        "progress_pct": 84,
-        "recent_progress": "Day108结束。艾莉亚确认第三工匠后裔，维持。"
+        "progress_pct": 86,
+        "recent_progress": "Day116结算。艾莉亚确认第三工匠后裔，+2%。"
       },
       {
         "id": "splinter_stone_knowledge_source",
         "name": "分裂派星辉石情报源追踪",
         "description": "分裂派如何得知星辉石存在？其情报链条的源头在哪？需要追踪信源渠道。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day108结束。监视网待查，+5%。",
+        "progress_pct": 10,
+        "recent_progress": "Day116结算。分裂派监视网与白巧巧旧居关联，+5%。",
         "created_date": "2026-08-10"
       },
       {
@@ -115,8 +115,8 @@
         "name": "匿名情报网清除",
         "description": "白巧巧背后是否有其他人？追踪与白巧巧相关的信报网络，防止新的威胁。",
         "task_type": "investigate",
-        "progress_pct": 10,
-        "recent_progress": "Day108结束。分裂派监视网与白巧巧旧居关联，+5%。",
+        "progress_pct": 15,
+        "recent_progress": "Day116结算。分裂派监视网与白巧巧旧居关联，+5%。",
         "created_date": "2026-08-10"
       },
       {
@@ -124,18 +124,9 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧旧居暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 65,
-        "recent_progress": "Day116结束。分裂派灯塔计划失败，守护者完全觉醒，他们损失惨重。下一步动向待观察。+5%。",
+        "progress_pct": 75,
+        "recent_progress": "Day116结算。分裂派灯塔计划失败，守护者完全觉醒，损失惨重。下一步动向待观察，+10%。",
         "created_date": "2026-08-11"
-      },
-      {
-        "id": "five_keys_location",
-        "name": "五钥匙下落追踪",
-        "description": "三把钥匙已确认（第一钥匙在石柱群，第二钥匙在旧库，第三钥匙星辉石在艾莉亚手中）。剩余两把钥匙各在不同地点，需要追踪。",
-        "task_type": "investigate",
-        "progress_pct": 97,
-        "recent_progress": "Day115结束。星辉石共振确认第三钥匙在灯塔内，+5%。",
-        "created_date": "2026-08-13"
       },
       {
         "id": "splinter_leader_key_trace",
@@ -143,7 +134,7 @@
         "description": "第五把钥匙在分裂派首领手中。需要调查其行踪与策略。",
         "task_type": "investigate",
         "progress_pct": 8,
-        "recent_progress": "Day115结束。开始调查分裂派首领与灯塔行动关联，+3%。",
+        "recent_progress": "Day116结算。分裂派首领第五钥匙追踪，维持。",
         "created_date": "2026-08-14"
       },
       {
@@ -161,8 +152,8 @@
         "name": "分裂派首领对峙",
         "description": "分裂派首领持有第五把钥匙，需要确定时机与策略来获取或确认其用途。",
         "task_type": "investigate",
-        "progress_pct": 0,
-        "recent_progress": "Day115结束。尚未进展，维持。",
+        "progress_pct": 10,
+        "recent_progress": "Day116结算。被分裂派或赏金猎人盯上，+10%。",
         "created_date": "2026-08-15"
       },
       {
@@ -179,8 +170,8 @@
         "name": "海鲨帮接触策略",
         "description": "东境海港一半是塞拉斯介绍的商道。另一方面是海鲨帮地盘。需要寻找可信信人的中间人，避免冲突。",
         "task_type": "investigate",
-        "progress_pct": 8,
-        "recent_progress": "Day115结束。海港地形已勘察，海鲨帮尚未接触，+3%。"
+        "progress_pct": 13,
+        "recent_progress": "Day116结算。海港地形已勘察，海鲨帮尚未接触，+5%。"
       },
       {
         "id": "lighthouse_guardian_awakening",
@@ -197,9 +188,33 @@
         "name": "第四钥匙·南方山脉",
         "description": "第四把钥匙位于南方山脉。需要休整后出发前往。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day116结束。决定后天出发前往南方山脉，+5%。",
+        "progress_pct": 15,
+        "recent_progress": "Day116结算。决定后天出发前往南方山脉，+10%。",
         "created_date": "2026-08-19"
+      },
+      {
+        "id": "lighthouse_seal_study",
+        "name": "灯塔封印研究",
+        "description": "灯塔被蓝光封印后无法进入，需找到方法研究或进入封印区域",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day116新增。灯塔被蓝光封印，暂时无法进入。"
+      },
+      {
+        "id": "mysterious_watcher_trace",
+        "name": "神秘追踪者追查",
+        "description": "晚餐时被灰斗篷神秘人盯上，需查明身份和目的",
+        "task_type": "investigate",
+        "progress_pct": 8,
+        "recent_progress": "Day116新增。傍晚餐馆被灰斗篷神秘人盯上，目的不明。"
+      },
+      {
+        "id": "guardian_pact_inquiry",
+        "name": "守护者契约调查",
+        "description": "守护者完全觉醒后，调查其与第七工匠的契约内容及现状",
+        "task_type": "investigate",
+        "progress_pct": 10,
+        "recent_progress": "Day116新增。守护者完全觉醒，需了解契约内容。"
       }
     ],
     "staged": [
@@ -467,6 +482,16 @@
         "progress_pct": 100,
         "recent_progress": "Day115结束。进入灯塔地下室，+20%。",
         "completed_date": "2026-08-18"
+      },
+      {
+        "id": "five_keys_location",
+        "name": "五钥匙下落追踪",
+        "description": "三把钥匙已确认（第一钥匙在石柱群，第二钥匙在旧库，第三钥匙星辉石在艾莉亚手中）。剩余两把钥匙各在不同地点，需要追踪。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day116结算。五钥匙全部定位，任务完成。",
+        "created_date": "2026-08-13",
+        "completed_date": "2026-08-19"
       }
     ]
   },
