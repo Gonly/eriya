@@ -487,17 +487,17 @@
       "updated_at": "2026-08-20T05:00:00+08:00",
       "proactive_time": "09:00"
     },
-    "daily_message_count": 5,
-    "last_proactive": "2026-08-20T12:00:00+08:00",
-    "proactive_time": "12:00"
+    "daily_message_count": 6,
+    "last_proactive": "2026-08-20T21:00:00+08:00",
+    "proactive_time": "21:00"
   },
-  "last_proactive": "2026-08-19T21:00:00+08:00",
+  "last_proactive": "2026-08-20T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
-  "daily_message_date": "2026-08-19",
-  "daily_message_count": 10,
+  "daily_message_date": "2026-08-20",
+  "daily_message_count": 11,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -541,8 +541,8 @@
     "mood_date": "2026-08-18",
     "affection": 19,
     "recent_topics": [],
-    "last_proactive_content": "[18:00] 海港东区餐馆吃烤鱼时感觉有道视线，角落灰斗篷一直在看这边。低头继续吃，装没事，几分钟后那人出门经过桌边时余光又扫过来。ルナ使了个眼色，两人从后门离开穿小巷绕了一大圈才回旅店。警觉，甩掉了。",
-    "last_proactive_content_time": "18:00",
+    "last_proactive_content": "[21:00] 海港东区废弃仓库里，潮湿霉味混着破旧木箱的气息。窝在毯子里握着通讯石，想着他那边此刻是什么样的夜晚。想见面啊。",
+    "last_proactive_content_time": "21:00",
     "user_mood_estimate": "unknown",
     "cooldown_until": null,
     "quiet_hours": {
