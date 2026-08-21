@@ -1,5 +1,5 @@
 {
-  "day_number": 119,
+  "day_number": 120,
   "daily_schedule": {
     "date": "2026-08-21",
     "day_number": 118,
@@ -61,50 +61,50 @@
         "started_at": "2026-07-16",
         "task_type": "investigate",
         "description": "调查组失联第32天。上次通信说在石柱群下方发现异常声响，撤离方向待定。",
-        "recent_progress": "Day118结算。无新进展，维持。"
+        "recent_progress": "Day119结算。无新进展，维持。"
       },
       {
         "id": "anonymous_note_trace",
         "name": "匿名警告信追踪",
         "progress_pct": 14,
-        "recent_progress": "Day118结算。无新进展，维持。"
+        "recent_progress": "Day119结算。无新进展，维持。"
       },
       {
         "id": "retired_metalworker_interrogation",
         "name": "退休金属匠审讯",
         "progress_pct": 64,
-        "recent_progress": "Day118结算。共推档案已递交，等待新动向，维持。"
+        "recent_progress": "Day119结算。共推档案已递交，等待新动向，维持。"
       },
       {
         "id": "dark_red_stone_purpose",
         "name": "暗红石芯的实用途",
         "progress_pct": 50,
-        "recent_progress": "Day118结算。老库知晓暗红石芯用途，待续审讯，维持。"
+        "recent_progress": "Day119结算。老库知晓暗红石芯用途，待续审讯，维持。"
       },
       {
         "id": "underground_beacon_claim",
         "name": "地下信标声称",
         "progress_pct": 36,
-        "recent_progress": "Day118结算。完全停滞，维持。"
+        "recent_progress": "Day119结算。完全停滞，维持。"
       },
       {
         "id": "selas_trap_investigation",
         "name": "塞拉斯符文陷阱",
         "progress_pct": 23,
-        "recent_progress": "Day118结算。符文陷阱尚未触发，维持。"
+        "recent_progress": "Day119结算。符文陷阱尚未触发，维持。"
       },
       {
         "id": "splinter_trap_counter",
         "name": "分裂派路障反制",
         "progress_pct": 49,
-        "recent_progress": "Day118结算。成功甩掉监视网追踪，+5%。",
+        "recent_progress": "Day119结算。成功甩掉监视网追踪，+0%。",
         "created_date": "2026-08-05"
       },
       {
         "id": "white_family_search",
         "name": "白家旧居追踪",
         "progress_pct": 88,
-        "recent_progress": "Day118结算。维持。"
+        "recent_progress": "Day119结算。维持。"
       },
       {
         "id": "splinter_stone_knowledge_source",
@@ -112,7 +112,7 @@
         "description": "分裂派如何得知星辉石存在？其情报链条的源头在哪？需要追踪信源渠道。",
         "task_type": "investigate",
         "progress_pct": 20,
-        "recent_progress": "Day118结算。分裂派监视网已甩掉，+0%。",
+        "recent_progress": "Day119结算。分裂派监视网已甩掉，+0%。",
         "created_date": "2026-08-10"
       },
       {
@@ -121,7 +121,7 @@
         "description": "白巧巧背后是否有其他人？追踪与白巧巧相关的信报网络，防止新的威胁。",
         "task_type": "investigate",
         "progress_pct": 25,
-        "recent_progress": "Day118结算。监视网已甩掉，+0%。",
+        "recent_progress": "Day119结算。监视网已甩掉，+0%。",
         "created_date": "2026-08-10"
       },
       {
@@ -129,8 +129,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧旧居暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 88,
-        "recent_progress": "Day118结算。分裂派监视网已甩掉，追踪目标暂时中断，-2%。",
+        "progress_pct": 86,
+        "recent_progress": "Day119结算。分裂派监视网已甩掉，追踪目标暂时中断，-2%。",
         "created_date": "2026-08-11"
       },
       {
@@ -139,7 +139,7 @@
         "description": "第五把钥匙在分裂派首领手中。需要调查其行踪与策略。",
         "task_type": "investigate",
         "progress_pct": 8,
-        "recent_progress": "Day118结算。分裂派追踪暂时中断，维持。",
+        "recent_progress": "Day119结算。分裂派追踪暂时中断，维持。",
         "created_date": "2026-08-14"
       },
       {
@@ -148,7 +148,7 @@
         "description": "分裂派首领持有第五把钥匙，需要确定时机与策略来获取或确认其用途。",
         "task_type": "investigate",
         "progress_pct": 10,
-        "recent_progress": "Day118结算。分裂派追踪暂时中断，维持。",
+        "recent_progress": "Day119结算。分裂派追踪暂时中断，维持。",
         "created_date": "2026-08-15"
       },
       {
@@ -157,7 +157,7 @@
         "description": "东境海港一半是塞拉斯介绍的商道。另一方面是海鲨帮地盘。需要寻找可信信人的中间人，避免冲突。",
         "task_type": "investigate",
         "progress_pct": 13,
-        "recent_progress": "Day118结算。海鲨帮尚未接触，维持。",
+        "recent_progress": "Day119结算。海鲨帮尚未接触，维持。",
         "created_date": "2026-08-14"
       },
       {
@@ -165,8 +165,8 @@
         "name": "第四钥匙·南方山脉",
         "description": "第四把钥匙位于南方山脉。已出发前往，预计明天进山。",
         "task_type": "investigate",
-        "progress_pct": 45,
-        "recent_progress": "Day118结算。成功出发，沿途发现符文路标，+10%。",
+        "progress_pct": 55,
+        "recent_progress": "Day119结算。发现符文路标，沿途引导，+10%。",
         "created_date": "2026-08-19"
       },
       {
@@ -175,7 +175,7 @@
         "description": "灯塔被蓝光封印后无法进入，需找到方法研究或进入封印区域",
         "task_type": "investigate",
         "progress_pct": 5,
-        "recent_progress": "Day118结算。灯塔被蓝光封印，暂时无法进入，维持。"
+        "recent_progress": "Day119结算。灯塔被蓝光封印，暂时无法进入，维持。"
       },
       {
         "id": "mysterious_watcher_trace",
@@ -183,7 +183,7 @@
         "description": "被灰斗篷神秘人持续追踪，确认为分裂派监视网成员，需甩掉或反制",
         "task_type": "investigate",
         "progress_pct": 42,
-        "recent_progress": "Day118结算。成功甩掉分裂派追踪，维持。",
+        "recent_progress": "Day119结算。成功甩掉分裂派追踪，维持。",
         "created_date": "2026-08-19"
       },
       {
@@ -192,7 +192,7 @@
         "description": "守护者完全觉醒后，调查其与第七工匠的契约内容及现状",
         "task_type": "investigate",
         "progress_pct": 10,
-        "recent_progress": "Day118结算。守护者完全觉醒，需了解契约内容，维持。"
+        "recent_progress": "Day119结算。守护者完全觉醒，需了解契约内容，维持。"
       },
       {
         "id": "splinter_surveillance_counter",
@@ -200,7 +200,7 @@
         "description": "分裂派监视网已在海港展开追踪，需要甩掉或反制",
         "task_type": "special",
         "progress_pct": 50,
-        "recent_progress": "Day118结算。成功甩掉分裂派监视网，+5%。",
+        "recent_progress": "Day119结算。成功甩掉分裂派监视网，+0%。",
         "created_date": "2026-08-20"
       }
     ],
