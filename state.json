@@ -1,5 +1,5 @@
 {
-  "day_number": 120,
+  "day_number": 121,
   "daily_schedule": {
     "date": "2026-08-22",
     "day_number": 119,
@@ -158,8 +158,8 @@
         "name": "第四钥匙·南方山脉",
         "description": "第四把钥匙位于南方山脉。今天正式进山，发现古代登山者遗物，明天上午应该能到达标注区域。",
         "task_type": "investigate",
-        "progress_pct": 70,
-        "recent_progress": "Day119结算。成功进山，发现古代符文路标和登山者遗物，+15%。"
+        "progress_pct": 85,
+        "recent_progress": "Day120结算。发现古代符文路标和登山者遗物，确认与符文共振，+15%。"
       },
       {
         "id": "lighthouse_seal_study",
