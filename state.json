@@ -474,17 +474,17 @@
       "updated_at": "2026-08-22T05:00:00+08:00",
       "proactive_time": "21:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-08-22T15:00:00+08:00",
+    "daily_message_count": 4,
+    "last_proactive": "2026-08-22T18:00:00+08:00",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-08-22T15:00:00+08:00",
+  "last_proactive": "2026-08-22T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-22",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -528,8 +528,8 @@
     "mood_date": "2026-08-22",
     "affection": 19,
     "recent_topics": [],
-    "last_proactive_content": "[15:00] 山道边岩石缝里发现一个金属盒子，打开后是古代登山者留下的纸条和矿石样本，星辉石在胸口微微发热。好奇又兴奋。",
-    "last_proactive_content_time": "15:00",
+    "last_proactive_content": "[18:00] 找到一个半隐蔽的岩洞作营地，洞口被老树挡着。走了一天终于歇下来，疲惫又安心。",
+    "last_proactive_content_time": "18:00",
     "user_mood_estimate": "unknown",
     "cooldown_until": null,
     "quiet_hours": {
