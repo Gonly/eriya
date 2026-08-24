@@ -111,6 +111,34 @@
 
 ---
 
+## 📌 Activiti 工作流
+
+### [2026-08-24] conditionExpression 多条件判断写法
+
+**问题** 如何在 Activiti 的 condition expression 中同时判断两个条件成立。
+
+**解决方案** 使用 UEL/SPEL 表达式语法：
+
+```xml
+<sequenceFlow sourceRef="exclusiveGw" targetRef="approveTask">
+  <conditionExpression xsi:type="tFormalExpression">
+    ${amount >= 1000 and status == 'APPROVED'}
+  </conditionExpression>
+</sequenceFlow>
+```
+
+**常用逻辑运算符：**
+
+| 逻辑关系 | 写法 |
+|---------|------|
+| 逻辑与 | `${条件1 && 条件2}` 或 `${条件1 and 条件2}` |
+| 逻辑或 | `${条件1 || 条件2}` 或 `${条件1 or 条件2}` |
+| 逻辑非 | `${!条件}` 或 `${not 条件}` |
+
+**注意：** 变量需存在于表达式上下文中，否则报找不到属性错误。
+
+---
+
 ## 📌 日期时间踩坑
 
 ### [2026-06-23] WSL2 datetime.now() 取到 UTC 日期导致任务 dueDate 偏移一天
