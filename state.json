@@ -523,17 +523,17 @@
       "updated_at": "2026-08-25T05:00:00+08:00",
       "proactive_time": "21:00"
     },
-    "daily_message_count": 5,
-    "last_proactive": "2026-08-25T15:00:00+08:00",
+    "daily_message_count": 6,
+    "last_proactive": "2026-08-25T18:02:50.700401+08:00",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-08-25T15:00:00+08:00",
+  "last_proactive": "2026-08-25T18:02:50.700412+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-24",
-  "daily_message_count": 5,
+  "daily_message_count": 6,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
