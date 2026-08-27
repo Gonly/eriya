@@ -530,8 +530,8 @@
       "updated_at": "2026-08-27T10:41:00+08:00",
       "proactive_time": "21:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": null,
+    "daily_message_count": 1,
+    "last_proactive": "2026-08-27T21:00:00+08:00",
     "proactive_time": "21:00"
   },
   "last_proactive": "2026-08-27T18:33:00+08:00",
