@@ -1,5 +1,5 @@
 {
-  "day_number": 128,
+  "day_number": 129,
   "daily_schedule": {
     "date": "2026-08-28",
     "day_number": 128,
@@ -221,8 +221,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。艾莉亚开始研究：先民的信标网络是否有跨世界通讯的能力？古代文献中是否记载过类似案例？她想找到让通讯石传画面、甚至实现某种形式接触的方法。五把钥匙全部归位后，也许就是答案揭晓的时候。",
         "task_type": "investigate",
-        "progress_pct": 20,
-        "recent_progress": "Day128结算。明日出发前往王都，后天拜访莉薇娅女士，+0%至20%。"
+        "progress_pct": 25,
+        "recent_progress": "Day128结算。后天拜访莉薇娅，+5%至25%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -237,16 +237,16 @@
         "name": "幼龙照护与登记",
         "description": "银鳞风龙幼龙被艾莉亚救下后赖上她。今天在北风中适应风向飞行，虽然一开始被吹歪但很快就稳住了，进步神速。需要继续慢慢训练。",
         "task_type": "special",
-        "progress_pct": 65,
-        "recent_progress": "Day128结算。今日北风中适应风向飞行，进步神速，+5%至65%。"
+        "progress_pct": 70,
+        "recent_progress": "Day128结算。北风适应训练成功，进步神速，+5%至70%。"
       },
       {
         "id": "wangdu_visit_preparation",
         "name": "王都之行准备",
         "description": "明天出发前往王都，后天傍晚抵达，第三天上午拜访莉薇娅女士。需要确保星辉石、共鸣器等关键物品带齐，路线规划妥当。",
         "task_type": "special",
-        "progress_pct": 70,
-        "recent_progress": "Day128结算。行装检查完毕，共鸣器差点忘带但及时发现，+10%至70%。"
+        "progress_pct": 80,
+        "recent_progress": "Day128结算。明日出发，共鸣器确认带好，+10%至80%。"
       }
     ],
     "staged": [
@@ -549,7 +549,6 @@
   "paused_reason": null,
   "daily_message_date": "2026-08-28",
   "daily_message_count": 5,
-  "last_proactive": "2026-08-28T21:00:00+08:00",
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
