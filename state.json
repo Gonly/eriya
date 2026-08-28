@@ -548,8 +548,8 @@
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-08-28",
-  "daily_message_count": 3,
-  "last_proactive": "2026-08-28T15:00:00+08:00",
+  "daily_message_count": 4,
+  "last_proactive": "2026-08-28T18:00:00+08:00",
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
