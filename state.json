@@ -1,5 +1,5 @@
 {
-  "day_number": 129,
+  "day_number": 130,
   "daily_schedule": {
     "date": "2026-08-29",
     "day_number": 129,
@@ -214,8 +214,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。艾莉亚开始研究：先民的信标网络是否有跨世界通讯的能力？古代文献中是否记载过类似案例？她想找到让通讯石传画面、甚至实现某种形式接触的方法。五把钥匙全部归位后，也许就是答案揭晓的时候。",
         "task_type": "investigate",
-        "progress_pct": 27,
-        "recent_progress": "Day129结算。王都之行第一天完成，途中与宫磊通话，+2%至27%。"
+        "progress_pct": 29,
+        "recent_progress": "Day129结算。王都之行第一天完成，途中与宫磊通话，+2%至29%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -230,16 +230,26 @@
         "name": "幼龙照护与登记",
         "description": "银鳞风龙幼龙被艾莉亚救下后赖上她。今天在旅途中，小家伙因为想吃烙饼掉进了水壶里，全身湿透但吃到了肉脯很开心。",
         "task_type": "special",
-        "progress_pct": 72,
-        "recent_progress": "Day129结算。途中闹剧，水壶事件，+2%至72%。"
+        "progress_pct": 74,
+        "recent_progress": "Day129结算。途中闹剧，水壶事件，+2%至74%。"
       },
       {
-        "id": "wangdu_visit_preparation",
-        "name": "王都之行",
-        "description": "Day129出发前往王都，傍晚抵达翡翠镇过夜。明天傍晚抵达王都，第三天上午拜访莉薇娅女士。",
-        "task_type": "special",
-        "progress_pct": 90,
-        "recent_progress": "Day129结算。第一天行程顺利完成，+10%至90%。"
+        "id": "livia_meeting_exchange",
+        "name": "莉薇娅会面与情报交换",
+        "description": "抵达王都后拜访莉薇娅，就暗红石芯用途与共鸣器情报进行交换。",
+        "task_type": "investigate",
+        "progress_pct": 10,
+        "recent_progress": "",
+        "created_date": "2026-08-29"
+      },
+      {
+        "id": "capital_investigation_network",
+        "name": "王都调查网络建立",
+        "description": "在王都建立调查信息网络，寻找分裂派与海鲨帮的关联线索。",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "",
+        "created_date": "2026-08-29"
       }
     ],
     "staged": [
@@ -521,6 +531,15 @@
         "progress_pct": 100,
         "recent_progress": "Day122结算。符文阵激活，地下石室获得第四把钥匙！+15%至100%完成！",
         "completed_date": "2026-08-23"
+      },
+      {
+        "id": "wangdu_visit_preparation",
+        "name": "王都之行",
+        "description": "Day129出发前往王都，傍晚抵达翡翠镇过夜。明天傍晚抵达王都，第三天上午拜访莉薇娅女士。",
+        "task_type": "special",
+        "progress_pct": 100,
+        "recent_progress": "Day129结算。第一天行程顺利完成，+10%至100%。",
+        "completed_date": "2026-08-29"
       }
     ]
   },
