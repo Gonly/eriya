@@ -1,5 +1,5 @@
 {
-  "day_number": 132,
+  "day_number": 133,
   "daily_schedule": {
     "date": "2026-09-01",
     "day_number": 132,
@@ -166,8 +166,8 @@
         "name": "神秘追踪者追查",
         "description": "被灰斗篷神秘人持续追踪，确认为分裂派监视网成员，需甩掉或反制",
         "task_type": "investigate",
-        "progress_pct": 48,
-        "recent_progress": "Day132结算。灰袍追踪者在街道被目击，今日警觉提升，+5%至48%。"
+        "progress_pct": 53,
+        "recent_progress": "Day132结算。灰袍追踪者在街道被目击，今日警觉提升，+5%至53%。"
       },
       {
         "id": "guardian_pact_inquiry",
@@ -214,8 +214,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。艾莉亚开始研究：先民的信标网络是否有跨世界通讯的能力？古代文献中是否记载过类似案例？她想找到让通讯石传画面、甚至实现某种形式接触的方法。五把钥匙全部归位后，也许就是答案揭晓的时候。",
         "task_type": "investigate",
-        "progress_pct": 51,
-        "recent_progress": "Day132结算。共振之桥启动条件确认：五钥+石芯+共鸣器+核心阵列，+8%至51%。"
+        "progress_pct": 58,
+        "recent_progress": "Day132结算。共振之桥启动条件确认，五钥+石芯+共鸣器+核心阵列，+7%至58%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -238,8 +238,8 @@
         "name": "莉薇娅会面与情报交换",
         "description": "拜访莉薇娅，获得石芯用途信息《先民符文残卷·第七卷》，石芯为信标网络核心组件。",
         "task_type": "investigate",
-        "progress_pct": 72,
-        "recent_progress": "Day132结算。会面圆满成功，获得重要线索，+0%至72%。"
+        "progress_pct": 75,
+        "recent_progress": "Day132结算。莉薇娅补充信收到，共振之桥情报确认，+3%至75%。"
       },
       {
         "id": "capital_investigation_network",
@@ -254,8 +254,8 @@
         "name": "共振之桥研究",
         "description": "在图书馆发现第七工匠曾尝试建造「共振之桥」来连接两个世界。通讯石只是未完成的作品。需要进一步研究如何完成这座桥。",
         "task_type": "investigate",
-        "progress_pct": 31,
-        "recent_progress": "Day132结算。共振之桥启动条件确认：五钥同置于核心阵列，以石芯为引，以共鸣器为媒，+8%至31%。"
+        "progress_pct": 38,
+        "recent_progress": "Day132结算。核心阵列位置确认：位于王都地下，+7%至38%。"
       },
       {
         "id": "seventh_craftsman_trace",
@@ -270,16 +270,16 @@
         "name": "五钥共振机制研究",
         "description": "共振之桥需要五把钥匙作为核心组件。需研究五钥如何配合石芯与共鸣器启动共振之桥。",
         "task_type": "investigate",
-        "progress_pct": 8,
-        "recent_progress": "Day132结算。五钥共振机制研究：需五钥同置于核心阵列，+5%至8%。"
+        "progress_pct": 15,
+        "recent_progress": "Day132结算。五钥共振机制研究：五钥同置于核心阵列，+7%至15%。"
       },
       {
         "id": "core_array_location",
         "name": "核心阵列位置确认",
         "description": "共振之桥启动需要找到核心阵列的位置。古籍记载核心阵列位于先民都城遗址，即今王都地下。",
         "task_type": "investigate",
-        "progress_pct": 15,
-        "recent_progress": "Day132结算。新目标：古籍记载核心阵列位于王都地下，需进一步确认具体位置，+0%至15%。",
+        "progress_pct": 23,
+        "recent_progress": "Day132结算。核心阵列位置确认：古籍记载位于王都地下，+8%至23%。",
         "created_date": "2026-09-01"
       },
       {
@@ -287,8 +287,8 @@
         "name": "灰斗篷追踪者反制",
         "description": "早晨在街道上发现灰斗篷追踪者，疑似分裂派监视网成员。需想办法甩掉或反制。",
         "task_type": "special",
-        "progress_pct": 10,
-        "recent_progress": "Day132结算。灰袍追踪者在街道被目击，警觉提升，需想办法应对，+0%至10%。",
+        "progress_pct": 18,
+        "recent_progress": "Day132结算。灰袍追踪者在街道被目击，警觉提升，需想办法应对，+8%至18%。",
         "created_date": "2026-09-01"
       }
     ],
