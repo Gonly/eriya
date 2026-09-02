@@ -1,5 +1,5 @@
 {
-  "day_number": 133,
+  "day_number": 134,
   "daily_schedule": {
     "date": "2026-09-02",
     "day_number": 133,
@@ -126,8 +126,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧旧居暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 85,
-        "recent_progress": "Day133结算。分裂派监视网在王都活动，+0%至85%。"
+        "progress_pct": 87,
+        "recent_progress": "Day134结算。分裂派监视目标明确：阻止艾莉亚找到入口，+2%至87%。"
       },
       {
         "id": "splinter_leader_key_trace",
@@ -166,8 +166,8 @@
         "name": "神秘追踪者追查",
         "description": "被灰斗篷神秘人持续追踪，确认为分裂派监视网成员，需甩掉或反制",
         "task_type": "investigate",
-        "progress_pct": 53,
-        "recent_progress": "Day133结算。灰袍追踪者在街道被目击，今日警觉提升，+0%至53%。"
+        "progress_pct": 55,
+        "recent_progress": "Day134结算。今日两次目击灰袍追踪者，警觉提升，+2%至55%。"
       },
       {
         "id": "guardian_pact_inquiry",
@@ -182,8 +182,8 @@
         "name": "分裂派监视网反制",
         "description": "分裂派监视网已在王都展开追踪，需要甩掉或反制",
         "task_type": "special",
-        "progress_pct": 51,
-        "recent_progress": "Day133结算。分裂派监视网在王都活动，+0%至51%。"
+        "progress_pct": 53,
+        "recent_progress": "Day134结算。确认分裂派监视并在试图阻止她找到核心阵列入口，+2%至53%。"
       },
       {
         "id": "fifth_key_trace",
@@ -214,8 +214,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。艾莉亚开始研究：先民的信标网络是否有跨世界通讯的能力？古代文献中是否记载过类似案例？她想找到让通讯石传画面、甚至实现某种形式接触的方法。五把钥匙全部归位后，也许就是答案揭晓的时候。",
         "task_type": "investigate",
-        "progress_pct": 58,
-        "recent_progress": "Day133结算。共振之桥启动条件确认，五钥+石芯+共鸣器+核心阵列，+0%至58%。"
+        "progress_pct": 60,
+        "recent_progress": "Day134结算。共振之桥启动条件确认：五钥+石芯+共鸣器+核心阵列，+2%至60%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -230,16 +230,16 @@
         "name": "幼龙照护与登记",
         "description": "银鳞风龙幼龙被艾莉亚救下后赖上她。今天在图书馆安静地陪她看书，很乖。",
         "task_type": "special",
-        "progress_pct": 82,
-        "recent_progress": "Day133结算。幼龙照护中，今日在旅馆窗台发呆想肉吃，+0%至82%。"
+        "progress_pct": 84,
+        "recent_progress": "Day134结算。小家伙中午偷吃肉被抓现行，可怜巴巴，+2%至84%。"
       },
       {
         "id": "livia_meeting_exchange",
         "name": "莉薇娅会面与情报交换",
         "description": "拜访莉薇娅，获得石芯用途信息《先民符文残卷·第七卷》，石芯为信标网络核心组件。",
         "task_type": "investigate",
-        "progress_pct": 75,
-        "recent_progress": "Day133结算。莉薇娅提供核心阵列位置线索：皇家花园东北角，+5%至75%。"
+        "progress_pct": 78,
+        "recent_progress": "Day134结算。补充先民都城遗址考古图，确认入口位置，+3%至78%。"
       },
       {
         "id": "capital_investigation_network",
@@ -278,8 +278,8 @@
         "name": "核心阵列位置确认",
         "description": "共振之桥启动需要找到核心阵列的位置。古籍记载核心阵列位于先民都城遗址，即今王都地下。莉薇娅提供线索：入口在皇家花园东北角。",
         "task_type": "investigate",
-        "progress_pct": 31,
-        "recent_progress": "Day133结算。核心阵列位置确认：古籍记载位于王都地下皇家花园东北角，+8%至31%。",
+        "progress_pct": 41,
+        "recent_progress": "Day134结算。莉薇娅提供考古图确认核心阵列位于皇家花园东北角，符文封印入口标注，+10%至41%。",
         "created_date": "2026-09-01"
       },
       {
@@ -287,8 +287,8 @@
         "name": "灰斗篷追踪者反制",
         "description": "早晨在街道上发现灰斗篷追踪者，疑似分裂派监视网成员。需想办法甩掉或反制。今天再次目击其在街道监视，并偷听到其与同伙的对话。",
         "task_type": "special",
-        "progress_pct": 26,
-        "recent_progress": "Day133结算。灰袍追踪者再次被目击，偷听到分裂派正在监视她并试图阻止她找到入口，+8%至26%。",
+        "progress_pct": 34,
+        "recent_progress": "Day134结算。再次目击灰袍追踪者，偷听到分裂派对话\"不能让她找到入口\"，+8%至34%。",
         "created_date": "2026-09-01"
       },
       {
@@ -296,8 +296,8 @@
         "name": "皇家花园入口探查",
         "description": "莉薇娅提供的线索：核心阵列入口位于皇家花园东北角，被符文封印保护。明天计划前往探查。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day133结算。获得皇家花园入口位置线索，明天计划探查，+5%至5%。",
+        "progress_pct": 15,
+        "recent_progress": "Day134结算。莉薇娅提供考古图标注皇家花园东北角符文封印入口，+10%至15%。",
         "created_date": "2026-09-02"
       }
     ],
