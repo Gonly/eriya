@@ -1,5 +1,5 @@
 {
-  "day_number": 136,
+  "day_number": 137,
   "daily_schedule": {
     "date": "2026-09-05",
     "day_number": 136,
@@ -126,8 +126,8 @@
         "name": "分裂派下一步动向",
         "description": "分裂派已知星辉石在艾莉亚手中，且白巧巧旧居暴露，需追踪其下一步行动计划。",
         "task_type": "investigate",
-        "progress_pct": 91,
-        "recent_progress": "Day136结算。分裂派监视艾莉亚并发出邀请：明日日落前携星辉石赴花园东北角，+2%至91%。"
+        "progress_pct": 93,
+        "recent_progress": "Day136结算。分裂派邀请明日日落前携星辉石赴花园东北角，+2%至93%。"
       },
       {
         "id": "splinter_leader_key_trace",
@@ -182,8 +182,8 @@
         "name": "分裂派监视网反制",
         "description": "分裂派监视网已在王都展开追踪，需要甩掉或反制",
         "task_type": "special",
-        "progress_pct": 55,
-        "recent_progress": "Day136结算。两个灰斗篷再次监视并传话，+2%至55%。"
+        "progress_pct": 57,
+        "recent_progress": "Day136结算。两个灰斗篷监视并传话，+2%至57%。"
       },
       {
         "id": "fifth_key_trace",
@@ -305,8 +305,8 @@
         "name": "符文封印状态监测",
         "description": "符文封印昨晚有异常反应——蓝光闪烁、奇怪声响。今日探查发现封印部分被破坏，核心结构仍在运转，需警惕分裂派下一步行动。",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day136结算。守护者传递封印裂缝画面，裂缝正在扩大，+5%至55%。",
+        "progress_pct": 60,
+        "recent_progress": "Day136结算。守护者传递封印裂缝画面，裂缝确认扩大，+5%至60%。",
         "created_date": "2026-09-03"
       },
       {
@@ -324,7 +324,7 @@
         "description": "灰斗篷送来蓝色石头样本，声称是引导频率。需要验证真假——如果是真的，就能先于分裂派进入核心阵列。",
         "task_type": "special",
         "progress_pct": 40,
-        "recent_progress": "Day136结算。莉薇娅确认石头为真但只有三分之二波形，分裂派留了一手，+30%至40%。",
+        "recent_progress": "Day136结算。莉薇娅确认蓝色石头为真但仅含三分之二波形，分裂派留了一手，+30%至40%。",
         "created_date": "2026-09-04"
       },
       {
@@ -332,8 +332,8 @@
         "name": "封印裂缝危机",
         "description": "守护者传递画面：封印中心出现裂缝，正在以超出预期的速度扩大。封印可能提前崩溃，必须在裂缝扩大前进入核心阵列。",
         "task_type": "special",
-        "progress_pct": 25,
-        "recent_progress": "Day136结算。守护者传递封印裂缝画面，+15%至25%。",
+        "progress_pct": 40,
+        "recent_progress": "Day136结算。守护者传递封印裂缝画面，裂缝正在加速扩大，+15%至40%。",
         "created_date": "2026-09-05"
       }
     ],
