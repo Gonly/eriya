@@ -99,3 +99,6 @@
 - 发现外来者痕迹后的第一反应不是恐惧而是警觉——「有人在关注这个地方」
 - 离别前夜的安静比前几天都深——四天的积累在最后一晚沉淀下来
 - white_family_bloodline：5%（Day100结算。新目标，白家信息待查。）
+
+- core_array_exploration：0%（Day137结算。新目标：核心阵列内部探索。）
+- splinter_betrayal_watch：0%（Day137结算。新目标：分裂派动向监视。）
