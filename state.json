@@ -1,5 +1,5 @@
 {
-  "day_number": 138,
+  "day_number": 139,
   "daily_schedule": {
     "date": "2026-09-07",
     "day_number": 138,
@@ -136,14 +136,6 @@
         "recent_progress": "Day138结算。分裂派追踪中断，+0%至26%。"
       },
       {
-        "id": "splinter_guardians_next_move",
-        "name": "分裂派下一步动向",
-        "description": "分裂派已进入核心阵列，合作暂时达成。下一步动向未知。",
-        "task_type": "investigate",
-        "progress_pct": 99,
-        "recent_progress": "Day138结算。分裂派合作进入核心阵列，共振之桥部分启动，+0%至99%。"
-      },
-      {
         "id": "splinter_leader_key_trace",
         "name": "分裂派首领第五钥匙追踪",
         "description": "第五把钥匙已放入石柱，灰斗篷暂时合作。下一步动向待观察。",
@@ -228,8 +220,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。共振之桥已部分启动，入口若隐若现。需要研究如何稳定入口。",
         "task_type": "investigate",
-        "progress_pct": 72,
-        "recent_progress": "Day138结算。共振之桥部分启动，入口出现，+7%至72%。"
+        "progress_pct": 78,
+        "recent_progress": "Day138结算。共振之桥过载时入口显现，接近跨世界接触，+6%至78%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -244,8 +236,8 @@
         "name": "幼龙照护与登记",
         "description": "银鳞风龙幼龙被艾莉亚救下后赖上她。今天在核心阵列里紧紧跟着，崩溃时缩在她怀里发抖。",
         "task_type": "special",
-        "progress_pct": 92,
-        "recent_progress": "Day138结算。小家伙在核心阵列里紧紧跟着，+2%至92%。"
+        "progress_pct": 94,
+        "recent_progress": "Day138结算。小家伙在核心阵列里紧紧跟着，+2%至94%。"
       },
       {
         "id": "livia_meeting_exchange",
@@ -268,8 +260,8 @@
         "name": "共振之桥研究",
         "description": "在图书馆发现第七工匠曾尝试建造「共振之桥」来连接两个世界。通讯石只是未完成的作品。需要进一步研究如何完成这座桥。",
         "task_type": "investigate",
-        "progress_pct": 65,
-        "recent_progress": "Day138结算。共振之桥部分启动，入口出现，+20%至65%。"
+        "progress_pct": 75,
+        "recent_progress": "Day138结算。共振之桥部分启动但过载，需修复，+10%至75%。"
       },
       {
         "id": "seventh_craftsman_trace",
@@ -284,17 +276,8 @@
         "name": "五钥共振机制研究",
         "description": "共振之桥需要五把钥匙作为核心组件。需研究五钥如何配合石芯与共鸣器启动共振之桥。",
         "task_type": "investigate",
-        "progress_pct": 40,
-        "recent_progress": "Day138结算。五钥放入共振之桥，部分启动，+20%至40%。"
-      },
-      {
-        "id": "core_array_location",
-        "name": "核心阵列位置确认",
-        "description": "共振之桥启动需要找到核心阵列的位置。古籍记载核心阵列位于先民都城遗址，即今王都地下。莉薇娅提供线索：入口在皇家花园东北角。",
-        "task_type": "investigate",
-        "progress_pct": 95,
-        "recent_progress": "Day138结算。核心阵列进入成功，+5%至95%。",
-        "created_date": "2026-09-01"
+        "progress_pct": 50,
+        "recent_progress": "Day138结算。五钥放入共振之桥，波形不匹配，+10%至50%。"
       },
       {
         "id": "gray_cloak_tracker_counter",
@@ -355,8 +338,8 @@
         "name": "核心阵列进入",
         "description": "成功进入核心阵列。共振之桥部分启动，入口出现但不稳定。",
         "task_type": "special",
-        "progress_pct": 75,
-        "recent_progress": "Day138结算。共振之桥部分启动，入口出现，+20%至75%。",
+        "progress_pct": 85,
+        "recent_progress": "Day138结算。核心阵列进入成功，+10%至85%。",
         "created_date": "2026-09-06"
       },
       {
@@ -364,8 +347,8 @@
         "name": "共振之桥过载危机",
         "description": "第五把钥匙放入后桥体过载，差点崩溃。艾莉亚用风魔法稳定了波形，但入口仍然不稳定。",
         "task_type": "special",
-        "progress_pct": 35,
-        "recent_progress": "Day138结算。共振之桥过载后修复，入口稳定中，+35%至35%。",
+        "progress_pct": 45,
+        "recent_progress": "Day138结算。共振之桥过载后修复，入口稳定中，+10%至45%。",
         "created_date": "2026-09-07"
       },
       {
@@ -373,9 +356,39 @@
         "name": "风魔法同步技术",
         "description": "艾莉亚在核心阵列中使用风魔法稳定共振之桥的波形。这是风穿ち・疾風的进阶用法，需要继续练习。",
         "task_type": "training",
-        "progress_pct": 25,
-        "recent_progress": "Day138结算。风魔法稳定波形成功，+25%至25%。",
+        "progress_pct": 40,
+        "recent_progress": "Day138结算。风魔法稳定波形成功，+15%至40%。",
         "created_date": "2026-09-07"
+      },
+      {
+        "id": "bridge_stabilization_plan",
+        "name": "共振之桥稳定化计划",
+        "description": "共振之桥因波形不匹配而过载，需制定修复计划并与分裂派协调。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day138结算。共振之桥过载后需要稳定化，波形校准待完成，0%。",
+        "created_date": "2026-09-07",
+        "detail": ""
+      },
+      {
+        "id": "world_portal_exploration",
+        "name": "跨世界入口探索",
+        "description": "过载时入口短暂显现，需要找到稳定触发入口的方法。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day138结算。入口在过载时显现，需要研究稳定开启条件，0%。",
+        "created_date": "2026-09-07",
+        "detail": ""
+      },
+      {
+        "id": "dragon_resonance_bond",
+        "name": "幼龙共振羁绊",
+        "description": "小家伙在核心阵列中表现出对共振之桥的反应，需要深化共鸣研究。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day138结算。小家伙对共振之桥有强烈反应，羁绊深化中，0%。",
+        "created_date": "2026-09-07",
+        "detail": ""
       }
     ],
     "staged": [
@@ -705,6 +718,25 @@
         "progress_pct": 100,
         "recent_progress": "Day138结算。封印崩溃，进入核心阵列，+25%至100%完成！",
         "created_date": "2026-09-05",
+        "completed_date": "2026-09-07"
+      },
+      {
+        "id": "splinter_guardians_next_move",
+        "name": "分裂派下一步动向",
+        "description": "分裂派已进入核心阵列，合作暂时达成。下一步动向未知。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day138结算。共振之桥过载修复，分裂派下一步明确，+1%至100%完成！",
+        "completed_date": "2026-09-07"
+      },
+      {
+        "id": "core_array_location",
+        "name": "核心阵列位置确认",
+        "description": "共振之桥启动需要找到核心阵列的位置。古籍记载核心阵列位于先民都城遗址，即今王都地下。莉薇娅提供线索：入口在皇家花园东北角。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day138结算。核心阵列位置确认，进入成功，+5%至100%完成！",
+        "created_date": "2026-09-01",
         "completed_date": "2026-09-07"
       }
     ]
