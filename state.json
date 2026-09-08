@@ -1,5 +1,5 @@
 {
-  "day_number": 139,
+  "day_number": 140,
   "daily_schedule": {
     "date": "2026-09-08",
     "day_number": 139,
@@ -220,8 +220,8 @@
         "name": "寻找跨世界接触的方法",
         "description": "通讯石只能传声音不见面，这是目前的限制。共振之桥已部分启动，入口已出现但不稳定。需要研究如何稳定入口达到100%同步。",
         "task_type": "investigate",
-        "progress_pct": 82,
-        "recent_progress": "Day139结算。入口短暂出现，同步率99.97%，差0.03%，+4%至82%。"
+        "progress_pct": 88,
+        "recent_progress": "Day139结算。入口短暂出现，同步率99.97%，差0.03%，+6%至88%。"
       },
       {
         "id": "priman_rune_researcher",
@@ -260,8 +260,8 @@
         "name": "共振之桥研究",
         "description": "在图书馆发现第七工匠曾尝试建造「共振之桥」来连接两个世界。通讯石只是未完成的作品。入口已出现但需达到100%同步率。",
         "task_type": "investigate",
-        "progress_pct": 82,
-        "recent_progress": "Day139结算。入口短暂出现，同步率99.97%，差0.03%，+7%至82%。"
+        "progress_pct": 89,
+        "recent_progress": "Day139结算。入口确认（拳头大小），同步率99.97%，差0.03%，+7%至89%。"
       },
       {
         "id": "seventh_craftsman_trace",
@@ -289,26 +289,6 @@
         "created_date": "2026-09-01"
       },
       {
-        "id": "royal_garden_entrance",
-        "name": "皇家花园入口探查",
-        "description": "莉薇娅提供的线索：核心阵列入口位于皇家花园东北角，被符文封印保护。成功进入。",
-        "task_type": "investigate",
-        "progress_pct": 100,
-        "recent_progress": "Day139结算。核心阵列进入成功，+0%至100%完成！",
-        "created_date": "2026-09-02",
-        "completed_date": "2026-09-07"
-      },
-      {
-        "id": "rune_seal_status",
-        "name": "符文封印状态监测",
-        "description": "符文封印昨日感应星辉石后加速崩溃，已触发引导频率进入核心阵列。",
-        "task_type": "investigate",
-        "progress_pct": 100,
-        "recent_progress": "Day139结算。封印崩溃，进入核心阵列，+0%至100%完成！",
-        "created_date": "2026-09-03",
-        "completed_date": "2026-09-07"
-      },
-      {
         "id": "splinter_key_acquisition",
         "name": "分裂派钥匙获取策略",
         "description": "分裂派手里有第五把钥匙，已经放入共振之桥。合作关系暂时稳定。",
@@ -319,32 +299,12 @@
         "completed_date": "2026-09-07"
       },
       {
-        "id": "guide_frequency_verification",
-        "name": "引导频率样本验证",
-        "description": "灰斗篷送来蓝色石头样本，已验证为真并成功激活引导频率。",
-        "task_type": "special",
-        "progress_pct": 100,
-        "recent_progress": "Day139结算。引导频率激活成功，入口打开，+0%至100%完成！",
-        "created_date": "2026-09-04",
-        "completed_date": "2026-09-07"
-      },
-      {
-        "id": "seal_crack_crisis",
-        "name": "封印裂缝危机",
-        "description": "守护者传递画面：封印中心出现裂缝，封印已崩溃，入口已打开。",
-        "task_type": "special",
-        "progress_pct": 100,
-        "recent_progress": "Day139结算。封印崩溃，进入核心阵列，+0%至100%完成！",
-        "created_date": "2026-09-05",
-        "completed_date": "2026-09-07"
-      },
-      {
         "id": "core_array_entry",
         "name": "核心阵列进入",
         "description": "成功进入核心阵列。共振之桥部分启动，入口出现但不稳定。",
         "task_type": "special",
-        "progress_pct": 85,
-        "recent_progress": "Day139结算。核心阵列进入成功，+0%至85%。",
+        "progress_pct": 88,
+        "recent_progress": "Day139结算。入口确认，与共振之桥联动，+3%至88%。",
         "created_date": "2026-09-06",
         "completed_date": "2026-09-07"
       },
@@ -353,8 +313,8 @@
         "name": "共振之桥过载危机",
         "description": "第五把钥匙放入后桥体过载，差点崩溃。艾莉亚用风魔法稳定了波形，但入口仍然不稳定。今天入口短暂出现，同步率99.97%。",
         "task_type": "special",
-        "progress_pct": 55,
-        "recent_progress": "Day139结算。共振之桥入口短暂出现，同步率99.97%，+10%至55%。",
+        "progress_pct": 60,
+        "recent_progress": "Day139结算。共振之桥脉冲预警，入口条件确认，+5%至60%。",
         "created_date": "2026-09-07"
       },
       {
@@ -362,8 +322,8 @@
         "name": "风魔法同步技术",
         "description": "艾莉亚在核心阵列中使用风魔法稳定共振之桥的波形。今天特训达到99.97%，还差0.03%。需要继续练习。",
         "task_type": "training",
-        "progress_pct": 55,
-        "recent_progress": "Day139结算。风魔法同步特训达到99.97%，差0.03%，+15%至55%。",
+        "progress_pct": 63,
+        "recent_progress": "Day139结算。风魔法特训达99.97%后崩溃，灰斗篷揭示0.03%频率偏差，+8%至63%。",
         "created_date": "2026-09-07"
       },
       {
@@ -371,8 +331,8 @@
         "name": "共振之桥稳定化计划",
         "description": "共振之桥因波形不匹配而过载，需制定修复计划并与分裂派协调。入口已出现但同步率差0.03%。",
         "task_type": "investigate",
-        "progress_pct": 25,
-        "recent_progress": "Day139结算。共振之桥稳定化进行中，入口出现，同步率99.97%，+25%至25%。",
+        "progress_pct": 35,
+        "recent_progress": "Day139结算。入口出现条件明确：风魔法同步率需达100%，+10%至35%。",
         "created_date": "2026-09-07",
         "detail": ""
       },
@@ -381,8 +341,8 @@
         "name": "跨世界入口探索",
         "description": "入口短暂出现，同步率达到99.97%，差0.03%无法稳定。需要继续研究稳定开启条件。",
         "task_type": "investigate",
-        "progress_pct": 15,
-        "recent_progress": "Day139结算。入口短暂出现，同步率99.97%，差0.03%，+15%至15%。",
+        "progress_pct": 25,
+        "recent_progress": "Day139结算。入口确认，拳头大小悬浮裂隙，另一侧温度可感，+10%至25%。",
         "created_date": "2026-09-07",
         "detail": ""
       },
@@ -391,10 +351,28 @@
         "name": "幼龙共振羁绊",
         "description": "小家伙在核心阵列中对共振之桥和入口有强烈反应，需要深化共鸣研究。",
         "task_type": "investigate",
-        "progress_pct": 5,
-        "recent_progress": "Day139结算。小家伙对入口有强烈反应，羁绊深化中，+5%至5%。",
+        "progress_pct": 10,
+        "recent_progress": "Day139结算。小家伙对入口反应强烈，羁绊深化，+5%至10%。",
         "created_date": "2026-09-07",
         "detail": ""
+      },
+      {
+        "id": "portal_sync_attempt",
+        "name": "入口同步突破",
+        "description": "突破0.03%频率偏差，达成100%同步率，开启稳定入口",
+        "task_type": "training",
+        "progress_pct": 0,
+        "recent_progress": "Day139结算。灰斗篷揭示关键参数，等待明日特训。",
+        "created_date": "2026-09-08"
+      },
+      {
+        "id": "star_stone_recovery",
+        "name": "星辉石完全干燥与检查",
+        "description": "星辉石落水后需要全面检查，确认内部结构无损",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day139结算。星辉石落水后已捞回，需干燥和功能检查。",
+        "created_date": "2026-09-08"
       }
     ],
     "staged": [
@@ -744,6 +722,46 @@
         "recent_progress": "Day138结算。核心阵列位置确认，进入成功，+5%至100%完成！",
         "created_date": "2026-09-01",
         "completed_date": "2026-09-07"
+      },
+      {
+        "id": "royal_garden_entrance",
+        "name": "皇家花园入口探查",
+        "description": "莉薇娅提供的线索：核心阵列入口位于皇家花园东北角，被符文封印保护。成功进入。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day139结算。核心阵列进入成功，+0%至100%完成！",
+        "created_date": "2026-09-02",
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "rune_seal_status",
+        "name": "符文封印状态监测",
+        "description": "符文封印昨日感应星辉石后加速崩溃，已触发引导频率进入核心阵列。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day139结算。封印崩溃，进入核心阵列，+0%至100%完成！",
+        "created_date": "2026-09-03",
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "guide_frequency_verification",
+        "name": "引导频率样本验证",
+        "description": "灰斗篷送来蓝色石头样本，已验证为真并成功激活引导频率。",
+        "task_type": "special",
+        "progress_pct": 100,
+        "recent_progress": "Day139结算。引导频率激活成功，入口打开，+0%至100%完成！",
+        "created_date": "2026-09-04",
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "seal_crack_crisis",
+        "name": "封印裂缝危机",
+        "description": "守护者传递画面：封印中心出现裂缝，封印已崩溃，入口已打开。",
+        "task_type": "special",
+        "progress_pct": 100,
+        "recent_progress": "Day139结算。封印崩溃，进入核心阵列，+0%至100%完成！",
+        "created_date": "2026-09-05",
+        "completed_date": "2026-09-08"
       }
     ]
   },
