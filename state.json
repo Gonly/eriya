@@ -912,5 +912,10 @@
   "affection": 25,
   "bond_level": 3,
   "today_mood": "Day141核心阵列第四天·共鸣节点发现·裂隙更稳定·有人在尝试进入",
-  "mood_date": "2026-09-10"
+  "mood_date": "2026-09-10",
+  "story_arc": {
+    "npcs_introduced": [
+      "灰斗篷"
+    ]
+  }
 }
