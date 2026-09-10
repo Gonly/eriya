@@ -8,35 +8,49 @@
 - 技能：基础剑术Lv.2 / 风魔法Lv.1 / 紧急闪避Lv.1 / 火魔法Lv.1(提升完成·第三段10秒突破·收招干脆·Day60·100%完成)
 
 ## 目标进度
-- find_love：100% ✅ 已完成（2026-06-08 远行结束·最想说的话是「我回来了」）
-- explore_north：100% ✅ 已完成（2026-05-25 返程·报告会长·石板入保险柜）
-- upgrade_equipment：100% ✅ 已完成（2026-06-06 三天远行实战检验通过·装备全面升级完成）
-- ancient_research：100% ✅ 已完成（6/9 现场调查完成·塞拉斯开始解读文字·报告提交）
-- b_rank_earn_money：100% ✅ 已完成（6/10 存款4855星币·C级讨伐+变异核入账）
-- submit_expedition_report：100% ✅ 已完成（回声谷第二组石柱+隐藏通道证据完整）
-- investigate_black_robes：100% ✅ 已完成（2026-07-08·地窖笔记本大发现完成·调查组撤离方向北·上报王都·地窖封存）
-- fire_magic_training：100% ✅ 已完成（Day60·第三段突破至10秒·收招干脆·99%→100%完成！）
-- glowing_stone_network：100%（Day84结算。100%✅ 收购网络完成。）
-- old_ku_beacon_plan：85%（Day87结算。老库苏醒·祖父SK-07第七工匠身份确认，+13%至85%。）
-- star_stone_resonance：100%（Day87结算。祖父SK-07身份确认，星辉石媒介解明，100%完成。）
-- resonance_device_investigation：69%（Day78结算·金属匠失踪关联确认·68%）
-- guardians_intel：100%（Day104结算）（Day101结算。分裂派追踪白家血脉，石羽死于15年前大火，白家线索将揭开更多内幕，+6%。）
-- anonymous_note_trace：15%（Day129结算（Day104结算）（Day100结算。无新进展，10%维持。）
-- retired_metalworker_interrogation：65%（Day129结算（Day104结算）（Day100结算。哈罗德交付共鸣片后无更多进展，+2%。）
-- seven_craftsmen_history：100%（Day104结算）（Day101结算。老库揭示石羽母亲白巧娘入赘真相，白家与七工匠渊源明确，+6%。）
-- beacon_core_activation：99%（Day112结算。两钥匙在手，激活序列接近完成。+1%。）
-- old_ku_next_move：98（Day104结算）（Day101结算。旧库之心=老库本人，第六钥匙血纹封印胸口，需要白家血脉解开，+10%。）
-- dark_red_stone_purpose：51%（Day129结算（Day104结算）（Day100结算。用途待查，32%维持。）
-- underground_beacon_claim：37%（Day129结算（Day104结算）（Day100结算。全队撤离后稳定，33%维持。）
-- selas_trap_investigation：24%（Day129结算（Day104结算）（Day100结算。符文机关部分触发，调查持续，+4%。）
-- starstone_resonance_ability：82%（Day104结算）（Day101结算。星辉石异常把我烫醒，脉冲比平时频繁三倍，共鸣能力疑似新觉醒，+24%。）
-- investigation_team_search：80（Day104结算）（Day100结算。调查组Day31信鸽确认，石柱群以北发现异常，安全无恙。+5%。）
-- anonymous_tracer_investigation：100%（Day104结算）（Day101结算。银发女人现身，左手戒指镶星辉石同种石头，追逐失败但确认白家血脉，+3%。）
-- old_storage_heart：100%（Day112结算。第二钥匙到手，旧库之心突破。+15%。）✅
-- splinter_trap_counter：50%（Day129结算（Day112结算。成功突破分裂派封锁，逃脱。+6%。）
-- B级晋升考核：✅ 通过！（2026-05-15）🎉
-- white_family_search：89%（Day129结算（Day104结算）（Day101结算。塞拉斯查到白家户籍，巧巧两三年前出现在旧货市场，白家后裔追查重大突破，+15%。）
-- 通往B级的10个C级任务：✅ 完成！
+
+- investigation_team_search：89%（Day140结算。调查组仍在赴王都途中，+0%至89%。）
+- anonymous_note_trace：15%（Day140结算。无新线索，维持15%。）
+- retired_metalworker_interrogation：65%（Day140结算。共推档案已递交，+0%至65%。）
+- dark_red_stone_purpose：61%（Day140结算。石芯用途确认：信标网络核心组件，配套共鸣器使用，+0%至61%。）
+- underground_beacon_claim：37%（Day140结算。地下信标声称，+0%至37%。）
+- selas_rune_trap_investigation：24%（Day140结算。符文陷阱未触发，+0%至24%。）
+- splinter_trap_counter：50%（Day140结算。分裂派合作进入核心阵列，+0%至50%。）
+- white_family_search：89%（Day140结算。89%维持，无新进展。）
+- splinter_stone_knowledge_source：21%（Day140结算。分裂派追踪中断，+0%至21%。）
+- anonymous_network_eradication：26%（Day140结算。分裂派追踪中断，+0%至26%。）
+- splinter_leader_key_trace：30%（Day140结算。第五钥匙放入共振之桥，+0%至30%。）
+- splinter_leader_confrontation：30%（Day140结算。第五钥匙放入共振之桥，+0%至30%。）
+- sea_shark_gang_approach：14%（Day140结算。海鲨帮尚未接触，+0%至14%。）
+- lighthouse_seal_study：9%（Day140结算。灯塔封印研究暂无更新，+0%至9%。）
+- mysterious_watcher_trace：60%（Day140结算。分裂派进入核心阵列，+0%至60%。）
+- guardian_pact_inquiry：23%（Day141结算。守护者传递封印裂缝画面，+5%至23%。）
+- splinter_surveillance_counter：68%（Day141结算。分裂派在核心阵列内合作，+3%至68%。）
+- fifth_key_trace：43%（Day141结算。共振媒介碎片分析，+3%至43%。）
+- guardian_pact_content_inquiry：11%（Day140结算。守护者契约内容待查，+0%至11%。）
+- fourth_key_storage_security：6%（Day140结算。第四钥匙保管策略待定，+0%至6%。）
+- cross_world_contact：99%（Day141结算。共鸣节点稳定裂隙，看到宫磊身影，+1%至99%。）
+- priman_rune_researcher：72%（Day140结算。莉薇娅提供紧急符文，+0%至72%。）
+- baby_dragon_care：99%（Day141结算。小家伙成为裂隙稳定关键，+2%至99%。）
+- livia_meeting_exchange：78%（Day140结算。莉薇娅提供紧急符文联络，+0%至78%。）
+- capital_investigation_network：11%（Day140结算。早餐摊情报收集成功，+0%至11%。）
+- resonance_bridge_research：98%（Day141结算。共鸣节点可稳定裂隙，+2%至98%。）
+- seventh_craftsman_trace：5%（Day140结算。第七工匠线索发现，+0%至5%。）
+- five_keys_resonance_mechanism：50%（Day140结算。五钥放入共振之桥，测量阵揭示0.03%差距，+0%至50%。）
+- gray_cloak_tracker_counter：55%（Day140结算。分裂派在核心阵列内合作，+0%至55%。）
+- splinter_key_acquisition：70%（Day140结算。第五钥匙放入共振之桥，+0%至70%。）
+- core_array_entry：91%（Day141结算。共鸣节点发现，裂隙稳定性提升，+3%至91%。）
+- resonance_bridge_overload：70%（Day141结算。共鸣节点稳定裂隙，神秘观察者试图进入，+5%至70%。）
+- wind_magic_sync_technique：88%（Day141结算。共鸣节点辅助下再次稳定裂隙，+3%至88%。）
+- bridge_stabilization_plan：72%（Day141结算。共鸣节点稳定裂隙，神秘力量试图进入，+7%至72%。）
+- world_portal_exploration：75%（Day141结算。共鸣节点让裂隙更稳定，看到宫磊身影，+10%至75%。）
+- dragon_resonance_bond：49%（Day141结算。小家伙带路找到共鸣节点，成为裂隙稳定关键，+7%至49%。）
+- portal_sync_attempt：76%（Day141结算。共鸣节点让裂隙稳定更久，看到宫磊身影，+8%至76%。）
+- star_stone_recovery：90%（Day141结算。共鸣节点恢复效果显著，+5%至90%。）
+- unknown_observer_investigation：25%（Day141结算。发现共振媒介碎片，有人在尝试强行进入裂隙，+10%至25%。）
+- unknown_key_trace：20%（Day141结算。共振媒介碎片分析中，+0%至20%。）
+- resonance_node_stabilization：0%（Day141结算。共鸣节点刚发现，优化方案待定，0%。）
+- resonance_medium_source_trace：5%（Day141结算。共振媒介碎片分析中，追查来源，5%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
