@@ -23,18 +23,18 @@
 - splinter_leader_confrontation：30%（Day140结算。第五钥匙放入共振之桥，+0%至30%。）
 - sea_shark_gang_approach：14%（Day140结算。海鲨帮尚未接触，+0%至14%。）
 - lighthouse_seal_study：9%（Day140结算。灯塔封印研究暂无更新，+0%至9%。）
-- mysterious_watcher_trace：60%（Day140结算。分裂派进入核心阵列，+0%至60%。）
+- mysterious_watcher_trace：61%（Day142结算）
 - guardian_pact_inquiry：23%（Day141结算。守护者传递封印裂缝画面，+5%至23%。）
 - splinter_surveillance_counter：68%（Day141结算。分裂派在核心阵列内合作，+3%至68%。）
 - fifth_key_trace：43%（Day141结算。共振媒介碎片分析，+3%至43%。）
 - guardian_pact_content_inquiry：11%（Day140结算。守护者契约内容待查，+0%至11%。）
 - fourth_key_storage_security：6%（Day140结算。第四钥匙保管策略待定，+0%至6%。）
-- cross_world_contact：99%（Day141结算。共鸣节点稳定裂隙，看到宫磊身影，+1%至99%。）
+- cross_world_contact：99%（Day142结算）
 - priman_rune_researcher：72%（Day140结算。莉薇娅提供紧急符文，+0%至72%。）
-- baby_dragon_care：99%（Day141结算。小家伙成为裂隙稳定关键，+2%至99%。）
+- baby_dragon_care：99%（Day142结算）
 - livia_meeting_exchange：78%（Day140结算。莉薇娅提供紧急符文联络，+0%至78%。）
 - capital_investigation_network：11%（Day140结算。早餐摊情报收集成功，+0%至11%。）
-- resonance_bridge_research：98%（Day141结算。共鸣节点可稳定裂隙，+2%至98%。）
+- resonance_bridge_research：99%（Day142结算）
 - seventh_craftsman_trace：5%（Day140结算。第七工匠线索发现，+0%至5%。）
 - five_keys_resonance_mechanism：50%（Day140结算。五钥放入共振之桥，测量阵揭示0.03%差距，+0%至50%。）
 - gray_cloak_tracker_counter：55%（Day140结算。分裂派在核心阵列内合作，+0%至55%。）
@@ -43,14 +43,14 @@
 - resonance_bridge_overload：70%（Day141结算。共鸣节点稳定裂隙，神秘观察者试图进入，+5%至70%。）
 - wind_magic_sync_technique：88%（Day141结算。共鸣节点辅助下再次稳定裂隙，+3%至88%。）
 - bridge_stabilization_plan：72%（Day141结算。共鸣节点稳定裂隙，神秘力量试图进入，+7%至72%。）
-- world_portal_exploration：75%（Day141结算。共鸣节点让裂隙更稳定，看到宫磊身影，+10%至75%。）
+- world_portal_exploration：76%（Day142结算）
 - dragon_resonance_bond：49%（Day141结算。小家伙带路找到共鸣节点，成为裂隙稳定关键，+7%至49%。）
-- portal_sync_attempt：76%（Day141结算。共鸣节点让裂隙稳定更久，看到宫磊身影，+8%至76%。）
+- portal_sync_attempt：77%（Day142结算）
 - star_stone_recovery：90%（Day141结算。共鸣节点恢复效果显著，+5%至90%。）
-- unknown_observer_investigation：25%（Day141结算。发现共振媒介碎片，有人在尝试强行进入裂隙，+10%至25%。）
+- unknown_observer_investigation：28%（Day142结算）
 - unknown_key_trace：20%（Day141结算。共振媒介碎片分析中，+0%至20%。）
-- resonance_node_stabilization：0%（Day141结算。共鸣节点刚发现，优化方案待定，0%。）
-- resonance_medium_source_trace：5%（Day141结算。共振媒介碎片分析中，追查来源，5%。）
+- resonance_node_stabilization：8%（Day142结算）
+- resonance_medium_source_trace：12%（Day142结算）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
