@@ -809,7 +809,7 @@
     "last_proactive": "2026-09-12T18:00:00+08:00",
     "proactive_time": "20:00"
   },
-  "last_proactive": "2026-09-12T12:00:00+08:00",
+  "last_proactive": "2026-09-12T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
