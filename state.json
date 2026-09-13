@@ -1,5 +1,5 @@
 {
-  "day_number": 144,
+  "day_number": 145,
   "daily_schedule": {
     "date": "2026-09-13",
     "day_number": 144,
@@ -298,8 +298,8 @@
         "name": "风魔法同步技术",
         "description": "艾莉亚在核心阵列中使用风魔法稳定共振之桥的波形。今天特训达到99.97%，还差0.03%。需要继续练习。",
         "task_type": "training",
-        "progress_pct": 92,
-        "recent_progress": "Day143结算。共鸣节点辅助下裂隙稳定性提升，风魔法同步率提高。",
+        "progress_pct": 94,
+        "recent_progress": "Day144结算。小家伙防火墙辅助裂隙稳定，+2%至94%。",
         "created_date": "2026-09-07"
       },
       {
@@ -317,8 +317,8 @@
         "name": "跨世界入口探索",
         "description": "入口短暂出现，同步率达到99.97%，差0.03%无法稳定。需要继续研究稳定开启条件。",
         "task_type": "investigate",
-        "progress_pct": 78,
-        "recent_progress": "Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+2%。",
+        "progress_pct": 83,
+        "recent_progress": "Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+7%至83%。",
         "created_date": "2026-09-07",
         "detail": ""
       },
@@ -327,8 +327,8 @@
         "name": "幼龙共振羁绊",
         "description": "小家伙在核心阵列中对共振之桥和入口有强烈反应，需要深化共鸣研究。",
         "task_type": "investigate",
-        "progress_pct": 51,
-        "recent_progress": "Day144结算。小家伙学会双向共振翻译并建立防火墙，+2%。",
+        "progress_pct": 57,
+        "recent_progress": "Day144结算。小家伙学会双向共振翻译并建立防火墙，+8%至57%。",
         "created_date": "2026-09-07",
         "detail": ""
       },
@@ -337,26 +337,17 @@
         "name": "入口同步突破",
         "description": "突破0.03%频率偏差，达成100%同步率，开启稳定入口",
         "task_type": "training",
-        "progress_pct": 90,
-        "recent_progress": "Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+2%。",
+        "progress_pct": 91,
+        "recent_progress": "Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+3%至91%。",
         "created_date": "2026-09-08"
-      },
-      {
-        "id": "star_stone_recovery",
-        "name": "星辉石完全干燥与检查",
-        "description": "星辉石落水后需要全面检查，确认内部结构无损",
-        "task_type": "investigate",
-        "progress_pct": 100,
-        "recent_progress": "Day143结算。星辉石完全恢复，裂隙稳定三十秒，100%完成。",
-        "completed_date": "2026-09-11"
       },
       {
         "id": "unknown_observer_investigation",
         "name": "裂隙异象调查",
         "description": "灰斗篷警告：有人在观察。调查这个神秘观察者的身份与意图。",
         "task_type": "investigate",
-        "progress_pct": 40,
-        "recent_progress": "Day144结算。外部频率尝试匹配被小家伙防火墙弹开，+2%。"
+        "progress_pct": 44,
+        "recent_progress": "Day144结算。外部频率尝试匹配被小家伙防火墙弹开，+6%至44%。"
       },
       {
         "id": "unknown_key_trace",
@@ -372,8 +363,8 @@
         "name": "共鸣节点稳定性优化",
         "description": "共鸣节点已发现但仍有0.03%差距，需要优化符文排列达到100%同步率，为跨世界接触铺路。",
         "task_type": "investigate",
-        "progress_pct": 10,
-        "recent_progress": "Day144结算。小家伙学会双向共振翻译并建立防火墙，裂隙稳定四十五秒，+2%。"
+        "progress_pct": 20,
+        "recent_progress": "Day144结算。小家伙学会双向共振翻译并建立防火墙，裂隙稳定四十五秒，+12%至20%。"
       },
       {
         "id": "resonance_medium_source_trace",
@@ -419,6 +410,22 @@
         "progress_pct": 30,
         "recent_progress": "Day144结算。小家伙防火墙建立成功，吸收对方频率并学习，+30%。",
         "created_date": "2026-09-13"
+      },
+      {
+        "id": "firewall_upgrade_mastery",
+        "name": "小家伙防火墙强化训练",
+        "description": "小家伙的防火墙还不够强——灰斗篷说对方再学3-5天就可能绕过中继。需要继续强化小家伙的频率学习能力，让防火墙在对方学会匹配之前升级完成。",
+        "task_type": "training",
+        "progress_pct": 5,
+        "recent_progress": "Day144结算。小家伙防火墙建立，吸收对方频率并学习，初始5%。"
+      },
+      {
+        "id": "resonance_bridge_final_push",
+        "name": "共振之桥最终突破",
+        "description": "裂隙已稳定四十五秒，看到了宫磊的面容。再进一步——让稳定时间突破一分钟，实现真正的双向对话。",
+        "task_type": "training",
+        "progress_pct": 10,
+        "recent_progress": "Day144结算。裂隙稳定四十五秒看到宫磊面容，初始10%。"
       }
     ],
     "staged": [
@@ -825,6 +832,15 @@
         "progress_pct": 99,
         "recent_progress": "Day143结算。小家伙学会双向共振翻译，裂隙稳定三十秒，即将达到完全接触。",
         "completed_date": "2026-09-12"
+      },
+      {
+        "id": "star_stone_recovery",
+        "name": "星辉石完全干燥与检查",
+        "description": "星辉石落水后需要全面检查，确认内部结构无损",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day144结算。星辉石完全恢复，裂隙稳定四十五秒，100%完成。",
+        "completed_date": "2026-09-13"
       }
     ]
   },
@@ -853,7 +869,6 @@
   "chat_rules": {
     "important": "【每天必须核对日程表！这是最高优先级规则！】",
     "world_separation": {
-
       "rule_1": "【绝对铁律】艾莉亚和宫磊是两个完全不同世界的人。通讯石只能传声音不见面，这是目前的限制。但艾莉亚正在寻找突破这个限制的方法——她在调查先民信标网络、研究跨世界魔法的可能性。她相信也许有办法能让通讯石传画面、甚至实现某种形式的接触。这个目标很遥远，但她不会放弃。",
       "rule_2": "艾莉亚不知道宫磊那边的天气、季节。她只能猜'你这边的天气'或'对两侧'，后面表达祈愿：'要能见面就好了'。",
       "rule_3": "想一起XX只能作为不可实现的愿望表达，必须随即「想见面啊」——必须随即说「想见面啊」，不能追问只分享见闻。",

@@ -41,15 +41,12 @@
 - splinter_key_acquisition：70%（Day140结算。第五钥匙放入共振之桥，+0%至70%。）
 - core_array_entry：91%（Day141结算。共鸣节点发现，裂隙稳定性提升，+3%至91%。）
 - resonance_bridge_overload：70%（Day141结算。共鸣节点稳定裂隙，神秘观察者试图进入，+5%至70%。）
-- wind_magic_sync_technique：92%（Day143结算。
-- bridge_stabilization_plan：72%（Day141结算。共鸣节点稳定裂隙，神秘力量试图进入，+7%至72%。）
-- world_portal_exploration：76%（Day142结算）
-- dragon_resonance_bond：49%（Day141结算。小家伙带路找到共鸣节点，成为裂隙稳定关键，+7%至49%。）
-- portal_sync_attempt：88%（Day143结算。
-- star_stone_recovery：90%（Day141结算。共鸣节点恢复效果显著，+5%至90%。）
-- unknown_observer_investigation：38%（Day143结算。
-- unknown_key_trace：20%（Day141结算。共振媒介碎片分析中，+0%至20%。）
-- resonance_node_stabilization：8%（Day142结算）
+- wind_magic_sync_technique：94%（Day144结算。小家伙防火墙辅助裂隙稳定，+2%至94%。）
+- world_portal_exploration：83%（Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+7%至83%。）
+- dragon_resonance_bond：57%（Day144结算。小家伙学会双向共振翻译并建立防火墙，+8%至57%。）
+- portal_sync_attempt：91%（Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+3%至91%。）
+- unknown_observer_investigation：44%（Day144结算。外部频率尝试匹配被小家伙防火墙弹开，+6%至44%。）
+- resonance_node_stabilization：20%（Day144结算。小家伙学会双向共振翻译并建立防火墙，裂隙稳定四十五秒，+12%至20%。）
 - resonance_medium_source_trace：12%（Day142结算）
 
 ## 已完成里程碑
@@ -89,9 +86,15 @@
 - ✅ B级收入积累完成（6/10 存款4855星币）
 - ✅ **跨世界接触突破**（Day143）小家伙双向共振成功，裂隙稳定三十秒看清宫磊面容！
 - ✅ **小家伙双向共振突破**（Day143）小家伙学会双向共振翻译，成为跨世界接触关键！
+✅ **小家伙防火墙强化训练**（Day144）小家伙防火墙建立，吸收对方频率并学习！
+- ✅ **共振之桥最终突破**（Day144）裂隙稳定四十五秒看到宫磊面容，初始10%！
+
 - ✅ **共振之桥研究完成**（Day143）小家伙顿悟，裂隙稳定三十秒，即将达到完全接触！
 
 ## 当前待办
+- firewall_upgrade_mastery：5%（Day144结算。小家伙防火墙建立，吸收对方频率并学习，初始5%。）
+- resonance_bridge_final_push：10%（Day144结算。裂隙稳定四十五秒看到宫磊面容，初始10%。）
+
 - ☐ 装备升级继续：投掷巩固+风刃稳定+长远考虑短弓
 - ☐ 花店夜光蓝种子已取（6/1），回家试种
 - ☐ 矿洞深处的秘密——B级后可以尝试清理坍塌
