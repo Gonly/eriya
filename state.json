@@ -1,5 +1,5 @@
 {
-  "day_number": 146,
+  "day_number": 147,
   "daily_schedule": {
     "date": "2026-09-15",
     "day_number": 146,
@@ -70,8 +70,8 @@
         "name": "共振稳定化掌握",
         "description": "灰斗篷说需要100%稳定同步率才能实现双向共存。小家伙需要继续磨练，将稳定时间从60秒提升到可持续。",
         "task_type": "training",
-        "progress_pct": 80,
-        "recent_progress": "Day146结算。小家伙学会调谐能力，裂隙稳定时间接近90秒，+10%至80%。",
+        "progress_pct": 85,
+        "recent_progress": "Day146结算。小家伙调谐能力提升裂隙稳定性，稳定时间接近90秒，+5%至85%。",
         "created_date": "2026-09-12"
       },
       {
@@ -79,8 +79,8 @@
         "name": "调谐者能力训练",
         "description": "小家伙解锁了第三种频率能力：调谐。可以主动调整不同频率使其同步，这是打开真正跨世界通道的关键。",
         "task_type": "training",
-        "progress_pct": 30,
-        "recent_progress": "Day146结算。小家伙首次尝试调谐，成功打开频率本源窗口3秒，看到星空，+30%。",
+        "progress_pct": 55,
+        "recent_progress": "Day146结算。小家伙调谐能力首次成功，打开频率本源窗口3秒，看到星空，+25%至55%。",
         "created_date": "2026-09-15"
       },
       {
@@ -88,27 +88,34 @@
         "name": "外部频率对策",
         "description": "外部频率突然消失，灰斗篷认为可能是对方在准备更大的动作。需要保持警惕。",
         "task_type": "investigate",
-        "progress_pct": 80,
-        "recent_progress": "Day146结算。外部频率消失，测量阵完全平静，但灰斗篷认为可能是诱饵，+0%至80%。",
+        "progress_pct": 85,
+        "recent_progress": "Day146结算。外部频率突然消失，测量阵完全平静，+5%至85%。",
         "created_date": "2026-09-12"
-      },
-      {
-        "id": "world_portal_exploration",
-        "name": "跨世界入口探索",
-        "description": "小家伙的调谐能力可以打开通往任何地方的通道，包括频率本源。如果能稳定打开，可能会找到真正的跨世界入口。",
-        "task_type": "investigate",
-        "progress_pct": 95,
-        "recent_progress": "Day146结算。小家伙调谐能力首次成功，看到星空和未知轮廓，+3%至95%。",
-        "created_date": "2026-09-07"
       },
       {
         "id": "dragon_resonance_bond",
         "name": "幼龙共振羁绊",
         "description": "小家伙在核心阵列中对共振之桥和入口有强烈反应，需要深化共鸣研究。",
         "task_type": "investigate",
-        "progress_pct": 83,
-        "recent_progress": "Day146结算。小家伙解锁调谐能力，和艾莉亚的羁绊更深，+5%至83%。",
+        "progress_pct": 88,
+        "recent_progress": "Day146结算。小家伙解锁调谐，和艾莉亚一起看到星空，羁绊更深，+5%至88%。",
         "created_date": "2026-09-07"
+      },
+      {
+        "id": "frequency_origin_exploration",
+        "name": "频率本源深处探索",
+        "description": "跟随小家伙进入频率本源，探索那片星空和未知轮廓的真相",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day146结算。刚发现频率本源，等待探索。"
+      },
+      {
+        "id": "stable_crossworld_connection",
+        "name": "跨世界稳定连接",
+        "description": "在频率本源中建立稳定的两地连接，实现与宫磊的持续沟通",
+        "task_type": "training",
+        "progress_pct": 0,
+        "recent_progress": "Day146结算。频率本源已现，需要稳定连接方法。"
       }
     ],
     "staged": [
@@ -148,6 +155,16 @@
       {
         "id": "dragon_firewall_establishment",
         "completed_date": "2026-09-14"
+      },
+      {
+        "id": "world_portal_exploration",
+        "name": "跨世界入口探索",
+        "description": "小家伙的调谐能力可以打开通往任何地方的通道，包括频率本源。如果能稳定打开，可能会找到真正的跨世界入口。",
+        "task_type": "investigate",
+        "progress_pct": 100,
+        "recent_progress": "Day146结算。小家伙调谐打开频率本源，看到星空和未知轮廓，+5%至100%——目标完成！",
+        "created_date": "2026-09-07",
+        "completed_date": "2026-09-15"
       }
     ]
   },

@@ -42,14 +42,14 @@
 - core_array_entry：91%（Day141结算。共鸣节点发现，裂隙稳定性提升，+3%至91%。）
 - resonance_bridge_overload：70%（Day141结算。共鸣节点稳定裂隙，神秘观察者试图进入，+5%至70%。）
 - wind_magic_sync_technique：94%（Day144结算。小家伙防火墙辅助裂隙稳定，+2%至94%。）
-- world_portal_exploration：92%（Day145结算。可清晰看到宫磊面部，跨世界接触更进一步，+9%至92%。）
-- dragon_resonance_bond：78%（Day145结算。分享想牵手看夜景的心愿，羁绊加深，+21%至78%。）
+- world_portal_exploration：100%（Day146结算。小家伙调谐打开频率本源，看到星空和未知轮廓，+5%至100%——目标完成！）
+- dragon_resonance_bond：88%（Day146结算。小家伙解锁调谐，和艾莉亚一起看到星空，羁绊更深，+5%至88%。）
 - portal_sync_attempt：91%（Day144结算。小家伙防火墙建立，裂隙稳定四十五秒看到宫磊面容，+3%至91%。）
 - unknown_observer_investigation：44%（Day144结算。外部频率尝试匹配被小家伙防火墙弹开，+6%至44%。）
 - resonance_node_stabilization：20%（Day144结算。小家伙学会双向共振翻译并建立防火墙，裂隙稳定四十五秒，+12%至20%。）
 - firewall_upgrade_mastery：55%（Day145结算。小家伙防火墙超过外部频率极限，抗压测试通过，+10%至55%。）
-- resonance_stabilization_mastery：70%（Day145结算。裂隙稳定时间一分钟，+5%至70%。）
-- external_frequency_counter：80%（Day145结算。小家伙学会频率镜影，可反弹对方攻击，+10%至80%。）
+- resonance_stabilization_mastery：85%（Day146结算。小家伙调谐能力提升裂隙稳定性，稳定时间接近90秒，+5%至85%。）
+- external_frequency_counter：85%（Day146结算。外部频率突然消失，测量阵完全平静，+5%至85%。）
 - dragon_firewall_establishment：90%（Day145结算。小家伙防火墙进化完成，超过外部频率极限，+10%至90%。）
 - resonance_medium_source_trace：12%（Day142结算）
 
