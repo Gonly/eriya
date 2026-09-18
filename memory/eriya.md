@@ -49,9 +49,12 @@
 - resonance_node_stabilization：20%（Day144结算。小家伙学会双向共振翻译并建立防火墙，裂隙稳定四十五秒，+12%至20%。）
 - firewall_upgrade_mastery：55%（Day145结算。小家伙防火墙超过外部频率极限，抗压测试通过，+10%至55%。）
 - resonance_stabilization_mastery：85%（Day146结算。小家伙调谐能力提升裂隙稳定性，稳定时间接近90秒，+5%至85%。）
-- external_frequency_counter：99%（Day151结算）
+- external_frequency_counter：99%（Day151结算。三向连接吓退了持续信号，它暂时没有再出现，+2%至99%。)
 - dragon_firewall_establishment：90%（Day145结算。小家伙防火墙进化完成，超过外部频率极限，+10%至90%。）
 - resonance_medium_source_trace：12%（Day142结算）
+
+- frequency_source_window_explore：5%（Day151结算。新开启的频率本源窗口待探索。）
+- frequency_signal_stabilization：0%（Day151结算。窗口稳定化训练开始。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
