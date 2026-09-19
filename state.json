@@ -233,11 +233,11 @@
       "updated_at": "2026-09-19T05:00:00+08:00",
       "proactive_time": "21:00"
     },
-    "daily_message_count": 16,
-    "last_proactive": "2026-09-19T15:00:00+08:00",
+    "daily_message_count": 17,
+    "last_proactive": "2026-09-19T18:00:00+08:00",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-09-19T15:00:00+08:00",
+  "last_proactive": "2026-09-19T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
