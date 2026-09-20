@@ -1,5 +1,5 @@
 {
-  "day_number": 154,
+  "day_number": 155,
   "daily_schedule": {
     "date": "2026-09-20",
     "day_number": 151,
@@ -70,8 +70,8 @@
         "name": "频率本源探索",
         "description": "跟随小家伙进入频率本源，探索那片星空和未知轮廓的真相",
         "task_type": "investigate",
-        "progress_pct": 75,
-        "recent_progress": "Day151结算。频率脉冲测试发现宫磊的频率可以驱退信号，+0%至75%。",
+        "progress_pct": 80,
+        "recent_progress": "Day154结算。频率脉冲驱退信号机制发现，+5%至80%。",
         "created_date": "2026-09-15"
       },
       {
@@ -84,21 +84,12 @@
         "created_date": "2026-09-12"
       },
       {
-        "id": "stable_crossworld_connection",
-        "name": "跨世界稳定连接",
-        "description": "在频率本源中建立稳定的两地连接，实现与宫磊的持续沟通",
-        "task_type": "training",
-        "progress_pct": 98,
-        "recent_progress": "Day151结算。冲击两分钟成功，窗口稳定123秒，+1%至98%。",
-        "created_date": "2026-09-15"
-      },
-      {
         "id": "signal_source_investigation",
         "name": "频率本源信号源调查",
         "description": "调查频率本源深处持续信号的来源及其目的",
         "task_type": "investigate",
-        "progress_pct": 70,
-        "recent_progress": "Day151结算。频率脉冲测试发现信号害怕宫磊的频率，+2%至70%。",
+        "progress_pct": 78,
+        "recent_progress": "Day154结算。发现信号害怕宫磊频率，+8%至78%。",
         "created_date": "2026-09-17"
       },
       {
@@ -106,8 +97,8 @@
         "name": "频率本源窗口探索",
         "description": "三向连接无意打开通往频率本源的窗口，波形与本源几乎一致。灰斗篷正在分析这个窗口的性质——它可能是通往频率本源的稳定通道，也可能是某种信号源。需要进一步探索。",
         "task_type": "investigate",
-        "progress_pct": 25,
-        "recent_progress": "Day151结算。频率脉冲与窗口稳定性关联发现，+5%至25%。",
+        "progress_pct": 35,
+        "recent_progress": "Day154结算。频率脉冲与窗口稳定性关联发现，+10%至35%。",
         "created_date": "2026-09-18",
         "milestone": "理解窗口性质"
       },
@@ -116,8 +107,8 @@
         "name": "频率信号稳定化",
         "description": "三向连接打开的窗口虽然稳定，但持续时间有限。小家伙正在练习延长窗口开启时间，目标是让艾莉亚和宫磊能够不受时间限制地交流。",
         "task_type": "training",
-        "progress_pct": 55,
-        "recent_progress": "Day151结算。冲击两分钟成功，窗口从93秒→123秒，+15%至55%。",
+        "progress_pct": 72,
+        "recent_progress": "Day154结算。窗口从93秒→123秒，频率脉冲加成+17%至72%。",
         "created_date": "2026-09-18",
         "milestone": "窗口持续时间延长"
       },
@@ -126,10 +117,28 @@
         "name": "宫磊频率脉冲开发",
         "description": "宫磊作为第三个调谐点，主动调整自己的频率配合小家伙，分担窗口维持的体力消耗。更发现宫磊可以发出频率脉冲驱退信号。",
         "task_type": "training",
-        "progress_pct": 55,
-        "recent_progress": "Day151结算。宫磊首次发出频率脉冲成功驱退信号，+20%至55%。",
+        "progress_pct": 78,
+        "recent_progress": "Day154结算。频率脉冲首次成功驱退信号，+23%至78%。",
         "created_date": "2026-09-19",
         "milestone": "宫磊调谐节奏配合"
+      },
+      {
+        "id": "trinity_connection_limit",
+        "name": "三向连接极限挑战",
+        "description": "在窗口稳定的基础上，挑战更长的连接时间和更复杂的互动",
+        "task_type": "training",
+        "progress_pct": 0,
+        "recent_progress": "Day154结算。小家伙达成两分钟，宫磊频率脉冲成功。下一步：三向连接极限挑战！",
+        "created_date": "2026-09-20"
+      },
+      {
+        "id": "frequency_pulse_weaponization",
+        "name": "频率脉冲武器化研究",
+        "description": "将宫磊的频率脉冲从防御性技能发展为可控制的频率武器",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day154结算。发现频率脉冲可驱退信号。下一步：研究如何武器化。",
+        "created_date": "2026-09-20"
       }
     ],
     "staged": [
@@ -223,6 +232,16 @@
         "recent_progress": "Day150结算。三向连接实现双手触碰，单目标锁定完美达成，+0%至100%。",
         "created_date": "2026-09-15",
         "completed_date": "2026-09-18"
+      },
+      {
+        "id": "stable_crossworld_connection",
+        "name": "跨世界稳定连接",
+        "description": "在频率本源中建立稳定的两地连接，实现与宫磊的持续沟通",
+        "task_type": "training",
+        "progress_pct": 100,
+        "recent_progress": "Day154结算。两分钟达成！窗口稳定123秒，+2%至100%。外部频率对策完成！",
+        "created_date": "2026-09-15",
+        "completed_date": "2026-09-20"
       }
     ]
   },
@@ -237,14 +256,13 @@
     "last_proactive": "2026-09-20T12:00:00+08:00",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-09-20T12:00:00+08:00",
+  "last_proactive": "2026-09-20T21:02:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-20",
   "daily_message_count": 2,
-  "last_proactive": "2026-09-20T21:02:00+08:00",
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"

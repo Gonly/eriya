@@ -53,8 +53,8 @@
 - dragon_firewall_establishment：90%（Day145结算。小家伙防火墙进化完成，超过外部频率极限，+10%至90%。）
 - resonance_medium_source_trace：12%（Day142结算）
 
-- frequency_source_window_explore：20%（Day152结算）（Day151结算。新开启的频率本源窗口待探索。）
-- frequency_signal_stabilization：40%（Day152结算）（Day151结算。窗口稳定化训练开始。）
+- frequency_source_window_explore：35%
+- frequency_signal_stabilization：72%
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
