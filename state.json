@@ -254,8 +254,8 @@
       "proactive_time": "21:00"
     },
     "daily_message_count": 6,
-    "last_proactive": "2026-09-21T18:00:00+08:00",
-    "last_proactive_content": "共鸣节点洞穴外靠在星辉石旁，闭着眼感受它比平时更暖的余温。今天成功把信号赶走了，想就这样多待一会儿。",
+    "last_proactive": "2026-09-21T21:00:00+08:00",
+    "last_proactive_content": "抱着小家伙坐在共鸣节点外面，星辉石的光轻轻照在身上。183秒，三分钟，信号被赶到了测量范围之外。心里暖暖的，想就这样多待一会儿。",
     "proactive_time": "21:00"
   },
   "last_proactive": "2026-09-21T15:00:00+08:00",
@@ -264,7 +264,7 @@
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-21",
-  "daily_message_count": 5,
+  "daily_message_count": 6,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
