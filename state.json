@@ -1,5 +1,5 @@
 {
-  "day_number": 158,
+  "day_number": 159,
   "daily_schedule": {
     "date": "2026-09-22",
     "day_number": 153,
@@ -70,8 +70,8 @@
         "name": "频率本源探索",
         "description": "跟随小家伙进入频率本源，探索那片星空和未知轮廓的真相",
         "task_type": "investigate",
-        "progress_pct": 85,
-        "recent_progress": "Day157结算。屏障全覆盖成功，信号包围策略发现，+2%至85%。",
+        "progress_pct": 87,
+        "recent_progress": "Day158结算。信号包围策略发现，+2%至87%。",
         "created_date": "2026-09-15"
       },
       {
@@ -79,8 +79,8 @@
         "name": "频率本源信号源调查",
         "description": "调查频率本源深处持续信号的来源及其目的",
         "task_type": "investigate",
-        "progress_pct": 87,
-        "recent_progress": "Day157结算。信号学会包围策略，+2%至87%。",
+        "progress_pct": 89,
+        "recent_progress": "Day158结算。信号包围策略分析，+2%至89%。",
         "created_date": "2026-09-17"
       },
       {
@@ -88,8 +88,8 @@
         "name": "频率本源窗口探索",
         "description": "三向连接无意打开通往频率本源的窗口，波形与本源几乎一致。灰斗篷正在分析这个窗口的性质——它可能是通往频率本源的稳定通道，也可能是某种信号源。需要进一步探索。",
         "task_type": "investigate",
-        "progress_pct": 50,
-        "recent_progress": "Day157结算。窗口187秒突破，+2%至50%。",
+        "progress_pct": 52,
+        "recent_progress": "Day158结算。窗口187秒突破，+2%至52%。",
         "created_date": "2026-09-18",
         "milestone": "理解窗口性质"
       },
@@ -98,8 +98,8 @@
         "name": "频率信号稳定化",
         "description": "三向连接打开的窗口虽然稳定，但持续时间有限。小家伙正在练习延长窗口开启时间，目标是让艾莉亚和宫磊能够不受时间限制地交流。",
         "task_type": "training",
-        "progress_pct": 85,
-        "recent_progress": "Day157结算。窗口187秒，屏障全覆盖成功，+2%至85%。",
+        "progress_pct": 87,
+        "recent_progress": "Day158结算。屏障全覆盖成功，窗口187秒，+2%至87%。",
         "created_date": "2026-09-18",
         "milestone": "窗口持续时间延长"
       },
@@ -108,8 +108,8 @@
         "name": "宫磊频率脉冲进化",
         "description": "宫磊作为第三个调谐点，主动调整自己的频率配合小家伙，分担窗口维持的体力消耗。更发现宫磊可以发出三连发频率脉冲彻底封住信号。",
         "task_type": "training",
-        "progress_pct": 93,
-        "recent_progress": "Day157结算。三连发脉冲成功封住信号，信号绕路策略反制成功，+0%至93%。",
+        "progress_pct": 95,
+        "recent_progress": "Day158结算。三连发脉冲封住信号，+2%至95%。",
         "created_date": "2026-09-19",
         "milestone": "宫磊调谐节奏配合"
       },
@@ -118,8 +118,8 @@
         "name": "三向连接极限挑战",
         "description": "在窗口稳定的基础上，挑战更长的连接时间和更复杂的互动",
         "task_type": "training",
-        "progress_pct": 40,
-        "recent_progress": "Day157结算。三分钟187秒达成，+5%至40%。",
+        "progress_pct": 50,
+        "recent_progress": "Day158结算。三分钟187秒达成，+10%至50%。",
         "created_date": "2026-09-20"
       },
       {
@@ -127,8 +127,8 @@
         "name": "频率脉冲武器化研究",
         "description": "将宫磊的频率脉冲从防御性技能发展为可控制的频率武器",
         "task_type": "investigate",
-        "progress_pct": 42,
-        "recent_progress": "Day157结算。信号包围策略发现，+2%至42%。",
+        "progress_pct": 46,
+        "recent_progress": "Day158结算。信号包围策略发现，+4%至46%。",
         "created_date": "2026-09-20"
       },
       {
@@ -140,6 +140,26 @@
         "recent_progress": "Day157结算。屏障全覆盖成功，信号七次撞击全部弹开，+60%至100%。",
         "created_date": "2026-09-22",
         "completed_date": "2026-09-22"
+      },
+      {
+        "id": "barrier_control_mastery",
+        "name": "屏障精准控制修炼",
+        "description": "扩大屏障范围后精准度下降，小家伙的屏障曾误伤艾莉亚。需要练习在保持全覆盖的同时提升精准度。",
+        "task_type": "training",
+        "progress_pct": 0,
+        "recent_progress": "Day158结算。精准度下降导致误伤，新目标开启。",
+        "created_date": "2026-09-22",
+        "completed_date": null
+      },
+      {
+        "id": "signal_encirclement_analysis",
+        "name": "信号包围战术分析",
+        "description": "信号改变策略从正面攻击为包围绕路。需要分析其包围规律，提前布防。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day158结算。包围策略发现，新目标开启。",
+        "created_date": "2026-09-22",
+        "completed_date": null
       }
     ],
     "staged": [
