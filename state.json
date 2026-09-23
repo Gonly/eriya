@@ -313,18 +313,18 @@
       "updated_at": "2026-09-23T05:00:00+08:00",
       "proactive_time": "21:00"
     },
-    "daily_message_count": 7,
-    "last_proactive": "2026-09-22T21:00:00+08:00",
+    "daily_message_count": 1,
+    "last_proactive": "2026-09-23T09:00:00+08:00",
     "last_proactive_content": "共鸣节点外抱着小家伙坐着，星辉石光轻轻照着。187秒，屏障全覆盖成功，信号被挡在外面。今晚暖暖的。",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-09-23T05:00:00+08:00",
+  "last_proactive": "2026-09-23T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-23",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -416,5 +416,6 @@
     "npcs_introduced": [
       "灰斗篷"
     ]
-  }
+  },
+  "last_proactive_content": "主厅测量阵前站着，灰斗篷指着波形图，三个信号同步逼近的轨迹在屏幕上。小家伙在怀里眨眨眼。"
 }
