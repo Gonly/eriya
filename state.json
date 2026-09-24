@@ -329,13 +329,13 @@
     "last_proactive_content": "主厅测量阵前，灰斗篷说第四音是意识体，一直在等小家伙。艾莉亚紧紧抱住怀里发抖的小家伙，心里有点疼。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-24T18:00:00+08:00",
+  "last_proactive": "2026-09-24T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-24",
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -428,5 +428,5 @@
       "灰斗篷"
     ]
   },
-  "last_proactive_content": "灰斗篷说第四音留下了频率坐标——通往频率本源的入口。小家伙窝在怀里小爪子紧紧按着星辉石，有人在那边等它很久了，要找到那扇门。"
+  "last_proactive_content": "夜深了，怀里的小家伙已经睡着，小爪子还紧紧按着星辉石。今天它第一次加入合唱，感觉到了有人在等它——心里暖暖的，期待下次窗口打开。"
 }
