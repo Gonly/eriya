@@ -323,8 +323,8 @@
       "updated_at": "2026-09-25T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": null,
+    "daily_message_count": 1,
+    "last_proactive": "2026-09-25T09:00:00+08:00",
     "last_proactive_content": null,
     "proactive_time": "19:00"
   },
