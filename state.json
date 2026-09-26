@@ -374,13 +374,13 @@
     "last_proactive_content": null,
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-26T12:00:00+08:00",
+  "last_proactive": "2026-09-26T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-26",
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -473,5 +473,5 @@
       "灰斗篷"
     ]
   },
-  "last_proactive_content": "[21:00] 雨声比傍晚轻了，通讯石的光在耳边静静亮着。小家伙窝在怀里睡着了，小爪子时不时动一下，像在梦里追什么。安静守着它。"
+  "last_proactive_content": "[15:00] 共鸣节点洞穴里，艾莉亚抱着小家伙坐在测量阵旁。灰斗篷在分析地下扫描数据。雨声在洞外沙沙响，洞里的光淡淡的。小家伙的眼睛还有些湿，它在想——它等了三百年就为了回家。"
 }
