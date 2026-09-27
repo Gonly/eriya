@@ -288,18 +288,18 @@
       "updated_at": "2026-09-27T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 2,
-    "last_proactive": "2026-09-27T12:00:00+08:00",
+    "daily_message_count": 3,
+    "last_proactive": "2026-09-27T15:00:00+08:00",
     "last_proactive_content": "[12:00] 共鸣节点洞穴，测量阵边缘裂开一道细缝，蓝光从里面渗出来。第四音被困在里面，一直在被压制。小家伙在引导阵中心焦躁地跳来跳去，想冲进去但时候未到。艾莉亚紧紧盯着那道裂缝，大气不敢出。紧张得心跳都快了。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-27T12:00:00+08:00",
+  "last_proactive": "2026-09-27T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-27",
-  "daily_message_count": 2,
+  "daily_message_count": 3,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
