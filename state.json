@@ -1,5 +1,5 @@
 {
-  "day_number": 165,
+  "day_number": 166,
   "daily_schedule": {
     "date": "2026-09-27",
     "day_number": 158,
@@ -82,8 +82,8 @@
         "name": "频率本源完整真相",
         "description": "第四音被释放后，频率本源的完整真相将彻底揭露——先民、测量阵、小家伙的起源都将浮出水面。",
         "task_type": "investigate",
-        "progress_pct": 15,
-        "recent_progress": "Day158结算。第四音回家但尚未开口说明真相，+15%至15%。",
+        "progress_pct": 30,
+        "recent_progress": "Day165结算。第四音成功释放回家，开始透露本源信息，+15%至30%。",
         "created_date": "2026-09-26"
       },
       {
@@ -91,8 +91,8 @@
         "name": "第四音身份确认",
         "description": "在窗口中询问第四音的名字和来历，确认它与频率本源的关联",
         "task_type": "investigate",
-        "progress_pct": 75,
-        "recent_progress": "Day158结算。第四音已现身但尚未透露身份，已确认它与小家伙是同类，+30%至75%。",
+        "progress_pct": 88,
+        "recent_progress": "Day165结算。第四音现身确认是同类，身份细节待进一步确认，+13%至88%。",
         "created_date": "2026-09-25"
       }
     ],
