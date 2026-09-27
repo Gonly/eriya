@@ -288,18 +288,18 @@
       "updated_at": "2026-09-27T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-09-26T21:00:00+08:00",
+    "daily_message_count": 1,
+    "last_proactive": "2026-09-27T09:00:00+08:00",
     "last_proactive_content": "[21:00] 共鸣节点洞穴深处，测量阵蓝光淡淡的。小家伙窝在艾莉亚怀里睡着了，小爪子还轻轻按在星辉石上。明天要帮第四音回家，今晚先好好休息。安静的夜晚，雨声沙沙的，心里的光暖暖的。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-27T05:00:00+08:00",
+  "last_proactive": "2026-09-27T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-27",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
