@@ -316,18 +316,18 @@
       "updated_at": "2026-09-28T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-09-28T15:00:00+08:00",
-    "last_proactive_content": "[15:00] 公会地下走廊门后阴影里，手心都是汗。第四音的光被灰斗篷遮住，小家伙窝在怀里一动不动。脚步声在门口停了一下然后渐渐远去——好险。",
+    "daily_message_count": 4,
+    "last_proactive": "2026-09-28T18:00:00+08:00",
+    "last_proactive_content": "[18:00] 共鸣节点洞穴，第四音的光映在洞壁上，小家伙窝在腿边听它说「不急，我们已经等了三百年」。淡金色的柔光笼罩整个洞穴，三百年的等待今天终于有了回应。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-28T15:00:00+08:00",
+  "last_proactive": "2026-09-28T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-28",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -371,8 +371,8 @@
     "mood_date": "2026-09-28",
     "affection": 39,
     "recent_topics": [],
-    "last_proactive_content": "[09:00] 共鸣节点洞穴，第四音在洞壁上投出淡金色地图，七个标记慢慢亮起来。七个同族……原来不止一个。心脏跳得有点快。",
-    "last_proactive_content_time": "2026-09-28T09:00:00+08:00",
+    "last_proactive_content": "[18:00] 共鸣节点洞穴，第四音的光映在洞壁上，小家伙窝在腿边听它说「不急，我们已经等了三百年」。淡金色的柔光笼罩整个洞穴，三百年的等待今天终于有了回应。",
+    "last_proactive_content_time": "2026-09-28T18:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
       "start": 22,
