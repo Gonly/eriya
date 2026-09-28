@@ -316,18 +316,18 @@
       "updated_at": "2026-09-28T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 1,
-    "last_proactive": "2026-09-28T09:00:00+08:00",
-    "last_proactive_content": "[09:00] 共鸣节点洞穴，第四音在洞壁上投出淡金色地图，七个标记慢慢亮起来。七个同族……原来不止一个。心脏跳得有点快。",
+    "daily_message_count": 2,
+    "last_proactive": "2026-09-28T12:00:00+08:00",
+    "last_proactive_content": "[12:00] 公会地下走廊尽头的门前，第四音的光被灰斗篷的斗篷遮住。艾莉亚挤在门后阴影里，小家伙窝在怀里一动不动。远处脚步声渐近——有人来了。\n\n心跳得厉害。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-28T09:00:00+08:00",
+  "last_proactive": "2026-09-28T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-28",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
