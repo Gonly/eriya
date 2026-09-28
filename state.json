@@ -1,5 +1,5 @@
 {
-  "day_number": 167,
+  "day_number": 168,
   "daily_schedule": {
     "date": "2026-09-28",
     "day_number": 159,
@@ -82,8 +82,8 @@
         "name": "频率本源完整真相",
         "description": "第四音被释放后，频率本源的完整真相将彻底揭露——先民、测量阵、小家伙的起源都将浮出水面。",
         "task_type": "investigate",
-        "progress_pct": 45,
-        "recent_progress": "Day159结算。地图揭示七个同族存在，公会地下有前代核心，新线索+15%至45%。",
+        "progress_pct": 55,
+        "recent_progress": "Day167结算。地图揭示七个同族位置，公会地下前代核心入口确认，+10%至55%。",
         "created_date": "2026-09-26"
       },
       {
@@ -91,8 +91,8 @@
         "name": "第四音身份确认",
         "description": "在窗口中询问第四音的名字和来历，确认它与频率本源的关联",
         "task_type": "investigate",
-        "progress_pct": 92,
-        "recent_progress": "Day159结算。第四音透露同族信息，身份进一步确认+4%至92%。",
+        "progress_pct": 97,
+        "recent_progress": "Day167结算。第四音透露同族信息，确认七个同族存在，+5%至97%。",
         "created_date": "2026-09-25"
       },
       {
@@ -100,8 +100,8 @@
         "name": "公会地下前代核心调查",
         "description": "公会总部地下有一处被遗忘的前代核心，可能是先民留下的频率之源。需要找机会进入调查。",
         "task_type": "investigate",
-        "progress_pct": 15,
-        "recent_progress": "Day159结算。地图显示公会地下有前代核心位置，被公会人员打断未能进入，+15%至15%。",
+        "progress_pct": 30,
+        "recent_progress": "Day167结算。公会地下发现前代核心入口，门已打开但被打断，+15%至30%。",
         "created_date": "2026-09-28"
       },
       {
@@ -109,8 +109,8 @@
         "name": "七音之民寻找计划",
         "description": "地图显示共有七个频率使者散落在各地。第四音透露有些同族还在等待被发现。需要逐一找到它们。",
         "task_type": "investigate",
-        "progress_pct": 10,
-        "recent_progress": "Day159结算。地图揭示七个同族存在，标记了位置，第一个目标在公会地下，+10%至10%。",
+        "progress_pct": 20,
+        "recent_progress": "Day167结算。地图标记七个位置，第一个目标在公会地下，+10%至20%。",
         "created_date": "2026-09-28"
       }
     ],
