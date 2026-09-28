@@ -316,18 +316,18 @@
       "updated_at": "2026-09-28T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-09-27T18:00:00+08:00",
-    "last_proactive_content": "[17:00] 共鸣节点洞穴，裂缝里透出淡金色光芒，小家伙身后跟着一个温热的光球——第四音。三百年的门，终于开了。眼眶热热的，说不出话。",
+    "daily_message_count": 1,
+    "last_proactive": "2026-09-28T09:00:00+08:00",
+    "last_proactive_content": "[09:00] 共鸣节点洞穴，第四音在洞壁上投出淡金色地图，七个标记慢慢亮起来。七个同族……原来不止一个。心脏跳得有点快。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-27T18:00:00+08:00",
+  "last_proactive": "2026-09-28T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-28",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -371,9 +371,8 @@
     "mood_date": "2026-09-28",
     "affection": 39,
     "recent_topics": [],
-    "last_proactive_content": null,
-    "last_proactive_content_time": null,
-    "user_mood_estimate": "unknown",
+    "last_proactive_content": "[09:00] 共鸣节点洞穴，第四音在洞壁上投出淡金色地图，七个标记慢慢亮起来。七个同族……原来不止一个。心脏跳得有点快。",
+    "last_proactive_content_time": "2026-09-28T09:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
       "start": 22,
@@ -420,5 +419,5 @@
       "灰斗篷"
     ]
   },
-  "last_proactive_content": null
+  "last_proactive_content": "[09:00] 共鸣节点洞穴，第四音在洞壁上投出淡金色地图，七个标记慢慢亮起来。七个同族……原来不止一个。心脏跳得有点快。"
 }
