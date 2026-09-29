@@ -341,13 +341,13 @@
     "last_proactive_content": null,
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-29T09:00:00+08:00",
+  "last_proactive": "2026-09-29T12:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-29",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -441,6 +441,6 @@
       "第二音"
     ]
   },
-  "last_proactive_content": "[09:00] 从公会后门出来，秋风凉凉的，斗篷下第四音的光压得很低。灰斗篷走得很快，小家伙窝在她怀里一声不吭——刚才看到的蓝紫色光球，让它到现在还没缓过来。有点担心。",
-  "last_proactive_content_time": "2026-09-29T09:00:00+08:00"
+  "last_proactive_content": "[12:00] 封印门完全打开，蓝紫色光球飘到面前，小家伙吓得躲到身后。陌生频率的压迫感让后背发凉。",
+  "last_proactive_content_time": "2026-09-29T12:00:00+08:00"
 }
