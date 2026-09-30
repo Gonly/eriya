@@ -238,18 +238,18 @@
       "updated_at": "2026-09-30T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-09-30T18:00:00+08:00",
+    "daily_message_count": 4,
+    "last_proactive": "2026-09-30T21:00:00+08:00",
     "last_proactive_content": "[12:00] 共鸣节点洞穴里坐着，小家伙在腿上，第四音悬在旁边。说着说着突然意识到——如果拿走前代核心，测量阵会停转，小家伙的屏障就没了。心情一下子沉下去。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-09-30T12:00:00+08:00",
+  "last_proactive": "2026-09-30T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-09-29",
-  "daily_message_count": 5,
+  "daily_message_count": 6,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -293,8 +293,8 @@
     "mood_date": "2026-09-30",
     "affection": 39,
     "recent_topics": [],
-    "last_proactive_content": "[09:00] 从公会后门出来，秋风凉，斗篷下第四音的光压得很低。小家伙窝在她怀里——昨天看到的蓝紫色光球让它到现在还没缓过来。",
-    "last_proactive_content_time": "2026-09-29T09:00:00+08:00",
+    "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙窝在怀里睡着了，第四音的光淡淡地亮着。秋夜很长，明天的谈判还没开始，有些答案还要再等等。",
+    "last_proactive_content_time": "2026-09-30T21:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
       "start": 22,
