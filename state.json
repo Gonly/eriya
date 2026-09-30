@@ -1,5 +1,5 @@
 {
-  "day_number": 171,
+  "day_number": 172,
   "daily_schedule": {
     "date": "2026-09-30",
     "day_number": 161,
@@ -63,8 +63,8 @@
         "name": "频率本源完整真相",
         "description": "第四音被释放后，频率本源的完整真相将彻底揭露——先民、测量阵、小家伙的起源都将浮出水面。",
         "task_type": "investigate",
-        "progress_pct": 70,
-        "recent_progress": "Day169结算。第二音出现揭示更多频率生命体存在，+5%至70%。",
+        "progress_pct": 75,
+        "recent_progress": "Day171结算。第四音揭示先民意志与测量阵关系，第二音透露危险第三方存在，+5%至75%。",
         "created_date": "2026-09-26"
       },
       {
@@ -72,8 +72,8 @@
         "name": "公会地下前代核心调查",
         "description": "公会总部地下有一处被遗忘的前代核心，可能是先民留下的频率之源。需要找机会进入调查。",
         "task_type": "investigate",
-        "progress_pct": 60,
-        "recent_progress": "Day169结算。公会地下发现第二音，前代核心调查新进展，+10%至60%。",
+        "progress_pct": 65,
+        "recent_progress": "Day171结算。第四音提出建小阵引出部分力量方案，可保住屏障同时满足第二音，明天谈判，+5%至65%。",
         "created_date": "2026-09-28"
       },
       {
@@ -82,7 +82,7 @@
         "description": "地图显示共有七个频率使者散落在各地。第四音透露有些同族还在等待被发现。需要逐一找到它们。",
         "task_type": "investigate",
         "progress_pct": 30,
-        "recent_progress": "Day169结算。发现第二音但确认非先民同族，+5%至30%。",
+        "recent_progress": "Day171结算。无新进展，维持30%。",
         "created_date": "2026-09-28"
       },
       {
@@ -90,8 +90,8 @@
         "name": "第二音调查",
         "description": "在公会地下发现的蓝紫色频率生命体。它不是先民的同族，但也在寻找前代核心。需要弄清楚它的来历和目的。",
         "task_type": "investigate",
-        "progress_pct": 25,
-        "recent_progress": "Day169结算。直接接触第二音，了解其也在寻找前代核心，+10%至25%。",
+        "progress_pct": 38,
+        "recent_progress": "Day171结算。第二音提出合作，透露危险第三势力和先民意志存在，+13%至38%。",
         "created_date": "2026-09-29"
       },
       {
@@ -99,16 +99,16 @@
         "name": "第二音接触计划",
         "description": "在公会地下遭遇神秘第二音。它不是先民同族，却在寻找前代核心。需要找到安全接触的方式，了解它的真正目的。",
         "task_type": "investigate",
-        "progress_pct": 0,
-        "recent_progress": "Day169结算。新目标开启，0%。"
+        "progress_pct": 20,
+        "recent_progress": "Day171结算。开启接触计划，开始与第二音建立联系，+20%至20%。"
       },
       {
         "id": "third_force_investigation",
         "name": "第三势力调查",
         "description": "第四音透露世界上不只有七个频率使者。第二音的出现证明还有其他频率生命体在活动。需要调查它们的来历和目的。",
         "task_type": "investigate",
-        "progress_pct": 0,
-        "recent_progress": "Day169结算。新目标开启，0%。"
+        "progress_pct": 15,
+        "recent_progress": "Day171结算。第二音透露有危险存在在追查前代核心，新调查方向开启，+15%至15%。"
       }
     ],
     "staged": [
