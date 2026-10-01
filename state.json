@@ -1,5 +1,5 @@
 {
-  "day_number": 162,
+  "day_number": 163,
   "daily_schedule": {
     "date": "2026-10-01",
     "day_number": 162,
@@ -63,8 +63,8 @@
         "name": "频率本源完整真相",
         "description": "第四音被释放后，频率本源的完整真相将彻底揭露——先民、测量阵、小家伙的起源都将浮出水面。",
         "task_type": "investigate",
-        "progress_pct": 80,
-        "recent_progress": "Day162结算。谈判成功，第二音接受小阵方案，选址完成，+5%至80%。",
+        "progress_pct": 83,
+        "recent_progress": "Day162结算。谈判成功，第二音接受方案，选址完成，+3%至83%。",
         "created_date": "2026-09-26"
       },
       {
@@ -72,8 +72,8 @@
         "name": "公会地下前代核心调查",
         "description": "公会总部地下有一处被遗忘的前代核心，可能是先民留下的频率之源。需要找机会进入调查。",
         "task_type": "investigate",
-        "progress_pct": 75,
-        "recent_progress": "Day162结算。小阵选址完成，明天开始建造，+10%至75%。",
+        "progress_pct": 80,
+        "recent_progress": "Day162结算。小阵选址完成，明天开始建造，+5%至80%。",
         "created_date": "2026-09-28"
       },
       {
@@ -91,7 +91,7 @@
         "description": "在公会地下发现的蓝紫色频率生命体。它不是先民的同族，但也在寻找前代核心。需要弄清楚它的来历和目的。",
         "task_type": "investigate",
         "progress_pct": 55,
-        "recent_progress": "Day162结算。谈判成功，第二音同意合作并参与选址，+17%至55%。",
+        "recent_progress": "Day162结算。谈判成功，深度接触，无重大突破，维持55%。",
         "created_date": "2026-09-29"
       },
       {
@@ -99,8 +99,8 @@
         "name": "第二音接触计划",
         "description": "在公会地下遭遇神秘第二音。它不是先民同族，却在寻找前代核心。需要找到安全接触的方式，了解它的真正目的。",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day162结算。谈判大成功，第二音完全接受方案并配合选址，+35%至55%。",
+        "progress_pct": 70,
+        "recent_progress": "Day162结算。谈判大成功，第二音完全接受方案并配合选址，+15%至70%。",
         "created_date": "2026-09-29"
       },
       {
@@ -108,8 +108,8 @@
         "name": "第三势力调查",
         "description": "第四音透露世界上不只有七个频率使者。第二音的出现证明还有其他频率生命体在活动。需要调查它们的来历和目的。",
         "task_type": "investigate",
-        "progress_pct": 20,
-        "recent_progress": "Day162结算。灰斗篷警告危险存在可能已在附近，+5%至20%。",
+        "progress_pct": 23,
+        "recent_progress": "Day162结算。灰斗篷警告危险存在可能已在附近，+3%至23%。",
         "created_date": "2026-09-29"
       },
       {
@@ -117,8 +117,8 @@
         "name": "测量阵旁边小阵建造",
         "description": "在测量阵旁边建造一个小阵，引出部分前代核心的力量。既能满足第二音的需求，又能保住小家伙的屏障。",
         "task_type": "build",
-        "progress_pct": 15,
-        "recent_progress": "Day162结算。选址完成，明天开始正式建造，+15%至15%。",
+        "progress_pct": 25,
+        "recent_progress": "Day162结算。选址完成，明天开始正式建造，+10%至25%。",
         "created_date": "2026-10-01"
       }
     ],
