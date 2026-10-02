@@ -266,18 +266,18 @@
       "updated_at": "2026-10-02T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 2,
-    "last_proactive": "2026-10-02T12:00:00+08:00",
+    "daily_message_count": 3,
+    "last_proactive": "2026-10-02T15:00:00+08:00",
     "last_proactive_content": "[09:00] 公会地下石厅，第四音和第二音同时剧烈闪烁。那个比第二音还强的古老存在在问我们在干什么。小家伙缩在脚边不敢动，我们说在建小阵，不是要拿走核心。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-10-02T09:00:00+08:00",
+  "last_proactive": "2026-10-02T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-02",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -371,7 +371,7 @@
       "第三势力"
     ]
   },
-  "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙窝在腿上睡着了，第四音的光淡淡地亮着。秋天的夜晚很长，今天谈判成功了，但危险还在暗处等着。",
+  "last_proactive_content": "[15:00] 公会地下，第二块共鸣石嵌好，淡淡的蓝金光在符文阵边缘亮起。黑暗里的存在还在看，没有靠近也没有离开。第二音悬在旁边，蓝紫色的光稳定地亮着——它在守护。",
   "lore_sync_log": [
     {
       "date": "2026-10-01",
