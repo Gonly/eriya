@@ -266,18 +266,18 @@
       "updated_at": "2026-10-02T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-10-02T18:00:00+08:00",
-    "last_proactive_content": "[17:00] 收拾完东西往洞口走，回头看了一眼黑暗里的那个存在。它还在，没有靠近。第二音闪了一下——它在替那家伙说，明天见。谨慎的希望感。",
+    "daily_message_count": 4,
+    "last_proactive": "2026-10-02T21:00:00+08:00",
+    "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙已经睡熟，四音悬在旁边光芒比早上亮。秋夜的洞口能看见星星。今天那个东西出现了，没有攻击，只是在等。宫磊，我开始觉得……也许它也在等一个能信任的人。安静的夜晚。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-10-02T18:00:00+08:00",
+  "last_proactive": "2026-10-02T21:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-02",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -321,8 +321,8 @@
     "mood_date": "2026-10-02",
     "affection": 40,
     "recent_topics": [],
-    "last_proactive_content": "[17:00] 收拾完东西往洞口走，回头看了一眼黑暗里的那个存在。它还在，没有靠近。第二音闪了一下——它在替那家伙说，明天见。谨慎的希望感。",
-    "last_proactive_content_time": "2026-10-02T18:00:00+08:00",
+    "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙已经睡熟，四音悬在旁边光芒比早上亮。秋夜的洞口能看见星星。今天那个东西出现了，没有攻击，只是在等。宫磊，我开始觉得……也许它也在等一个能信任的人。安静的夜晚。",
+    "last_proactive_content_time": "2026-10-02T21:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
       "start": 22,
@@ -371,7 +371,7 @@
       "第三势力"
     ]
   },
-  "last_proactive_content": "[17:00] 收拾完东西往洞口走，回头看了一眼黑暗里的那个存在。它还在，没有靠近。第二音闪了一下——它在替那家伙说，明天见。谨慎的希望感。",
+  "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙已经睡熟，四音悬在旁边光芒比早上亮。秋夜的洞口能看见星星。今天那个东西出现了，没有攻击，只是在等。宫磊，我开始觉得……也许它也在等一个能信任的人。安静的夜晚。",
   "lore_sync_log": [
     {
       "date": "2026-10-01",
