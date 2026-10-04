@@ -288,13 +288,13 @@
     "last_proactive_content": "[08:00] 公会地下石厅，第四块共鸣石放进符文阵，四块石头同时亮起来，蓝光和第四音的金光交织。灰斗篷说进度到七十五了，小家伙在旁边跳来跳去当监工。秋天的早晨有点凉，但这里很暖。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-10-04T15:00:00+08:00",
+  "last_proactive": "2026-10-04T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-04",
-  "daily_message_count": 4,
+  "daily_message_count": 5,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
