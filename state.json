@@ -287,18 +287,18 @@
       "updated_at": "2026-10-05T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 0,
-    "last_proactive": "2026-10-04T21:00:00+08:00",
-    "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙睡得很沉，肚皮一起一伏的。今天第五块共鸣石失败了，很丢脸。但第三势力愿意参与共振，已经是很大的进步。明天继续吧，晚安宫磊。",
+    "daily_message_count": 1,
+    "last_proactive": "2026-10-05T09:00:00+08:00",
+    "last_proactive_content": "[09:00] 公会地下符文阵前，成功点亮第五块共鸣石，蓝光稳稳的。第二音悬在上空守护，第三势力在黑暗深处盯着，星光比昨天更亮了。进度到90%，就差最后一块了。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-10-04T21:00:00+08:00",
+  "last_proactive": "2026-10-05T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-05",
-  "daily_message_count": 0,
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -342,8 +342,8 @@
     "mood_date": "2026-10-05",
     "affection": 40,
     "recent_topics": [],
-    "last_proactive_content": "[21:00] 共鸣节点洞穴里，小家伙睡得很沉，肚皮一起一伏的。今天第五块共鸣石失败了，很丢脸。但第三势力愿意参与共振，已经是很大的进步。明天继续吧，晚安宫磊。",
-    "last_proactive_content_time": "2026-10-04T21:00:00+08:00",
+    "last_proactive_content": "[09:00] 公会地下符文阵前，成功点亮第五块共鸣石，蓝光稳稳的。第二音悬在上空守护，第三势力在黑暗深处盯着，星光比昨天更亮了。进度到90%，就差最后一块了。",
+    "last_proactive_content_time": "2026-10-05T09:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
       "start": 22,
