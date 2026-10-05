@@ -287,18 +287,18 @@
       "updated_at": "2026-10-05T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 3,
-    "last_proactive": "2026-10-05T15:00:00+08:00",
+    "daily_message_count": 4,
+    "last_proactive": "2026-10-05T18:00:00+08:00",
     "last_proactive_content": "[15:00] 共鸣节点洞穴午间，小家伙窝腿上咕叽咕叽嚼肉干。第五音出现了——居然是个人形白光，比第四音还老。灰斗篷说它沉睡多年被共鸣唤醒的。心情轻松但好奇。",
     "proactive_time": "19:00"
   },
-  "last_proactive": "2026-10-05T15:00:00+08:00",
+  "last_proactive": "2026-10-05T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-05",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
