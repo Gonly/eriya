@@ -316,18 +316,18 @@
       "updated_at": "2026-10-06T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 1,
-    "last_proactive": "2026-10-06T12:00:00+08:00",
+    "daily_message_count": 2,
+    "last_proactive": "2026-10-06T15:00:00+08:00",
     "last_proactive_content": "[21:00] 共鸣节点洞穴深处，小家伙窝在怀里睡得很沉，小身子暖暖的。秋夜星空清澈，洞外风轻轻的，安静的夜晚。",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-10-05T21:00:00+08:00",
+  "last_proactive": "2026-10-06T15:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-06",
-  "daily_message_count": 1,
+  "daily_message_count": 2,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
