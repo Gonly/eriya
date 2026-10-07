@@ -319,18 +319,18 @@
       "updated_at": "2026-10-07T05:00:00+08:00",
       "proactive_time": "19:00"
     },
-    "daily_message_count": 2,
-    "last_proactive": "2026-10-07T12:00:00+08:00",
-    "last_proactive_content": "[08:00] 站在公会地下入口石阶前，手握精钢短剑，小家伙在肩上耳朵竖直。深吸一口气，开始往下走。谨慎但有了方向，地下在等着。",
+    "daily_message_count": 4,
+    "last_proactive": "2026-10-07T18:00:00+08:00",
+    "last_proactive_content": "[18:00] 坐在共鸣节点洞穴边，膝盖的伤口还在隐隐作痛。下午在符文阵裂缝前摔了一跤，堂堂B级冒险者四仰八叉的，丢脸死了。只有小家伙和灰斗篷知道。",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-10-07T15:00:00+08:00",
+  "last_proactive": "2026-10-07T18:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
   "daily_message_date": "2026-10-07",
-  "daily_message_count": 3,
+  "daily_message_count": 4,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -374,7 +374,7 @@
     "mood_date": "2026-10-07",
     "affection": 40,
     "recent_topics": [],
-    "last_proactive_content": "[15:00] 公会地下六块共鸣石同时亮起，蓝金交织成旋转光环，第三势力和第五音同时飘到符文阵上方接受。方案成功了，眼眶有点湿润。",
+    "last_proactive_content": "[15:00] 在公会地下石厅检查符文阵裂缝，脚下一滑摔了个四仰八叉，短剑都飞出去了。膝盖磕破了一大块，丢脸死了，幸好只有小家伙看见。",
     "last_proactive_content_time": "2026-10-05T15:00:00+08:00",
     "cooldown_until": null,
     "quiet_hours": {
@@ -528,5 +528,5 @@
       "skipped": []
     }
   ],
-  "last_proactive_content": "[15:00] 在公会地下石厅检查符文阵裂缝，脚下一滑摔了个四仰八叉，短剑都飞出去了。膝盖磕破了一大块，丢脸死了，幸好只有小家伙看见。"
+  "last_proactive_content": "[18:00] 坐在共鸣节点洞穴边，膝盖的伤口还在隐隐作痛。下午在符文阵裂缝前摔了一跤，堂堂B级冒险者四仰八叉的，丢脸死了。只有小家伙和灰斗篷知道。"
 }
