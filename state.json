@@ -324,13 +324,13 @@
     "last_proactive_content": "[21:00] 坐在共鸣节点洞穴口，秋夜的凉意渗进斗篷里。昨晚地底传来的心跳般的震动停了，但那种恐惧还留在心里。封印真的在崩溃。",
     "proactive_time": "21:00"
   },
-  "last_proactive": "2026-10-07T21:00:00+08:00",
+  "last_proactive": "2026-10-08T09:00:00+08:00",
   "consecutive_no_reply": 0,
   "paused": false,
   "paused_at": null,
   "paused_reason": null,
-  "daily_message_date": "2026-10-07",
-  "daily_message_count": 5,
+  "daily_message_date": "2026-10-08",
+  "daily_message_count": 1,
   "reply_tracking": {
     "enabled": false,
     "note": "已停用。对话自然进行，用什么发什么，不设计回复条款套消歧义。"
@@ -530,5 +530,5 @@
       "skipped": []
     }
   ],
-  "last_proactive_content": "[18:00] 坐在共鸣节点洞穴边，膝盖的伤口还在隐隐作痛。下午在符文阵裂缝前摔了一跤，堂堂B级冒险者四仰八叉的，丢脸死了。只有小家伙和灰斗篷知道。"
+  "last_proactive_content": "[09:00] 公会地下入口站了一会儿，手握着精钢短剑。昨晚守护者说的那些话还在脑子里转，但第二音还在等着。不能后退。"
 }
