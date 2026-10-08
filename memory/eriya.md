@@ -9,12 +9,12 @@
 
 ## 目标进度
 
-- investigation_team_search：89%（Day140结算。调查组仍在赴王都途中，+0%至89%。）
-- anonymous_note_trace：15%（Day140结算。无新线索，维持15%。）
-- retired_metalworker_interrogation：65%（Day140结算。共推档案已递交，+0%至65%。）
-- dark_red_stone_purpose：61%（Day140结算。石芯用途确认：信标网络核心组件，配套共鸣器使用，+0%至61%。）
-- underground_beacon_claim：37%（Day140结算。地下信标声称，+0%至37%。）
-- selas_rune_trap_investigation：24%（Day140结算。符文陷阱未触发，+0%至24%。）
+- investigation_team_search：89%（Day170结算。调查组无新消息，维持25%。）
+- anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
+- retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
+- dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
+- underground_beacon_claim：37%（Day170结算。共鸣器激活确认地下信标网络，维持37%。）
+- selas_rune_trap_investigation：24%（Day170结算。符文陷阱未触发，维持24%。）
 - splinter_trap_counter：50%（Day140结算。分裂派合作进入核心阵列，+0%至50%。）
 - white_family_search：89%（Day140结算。89%维持，无新进展。）
 - splinter_stone_knowledge_source：21%（Day140结算。分裂派追踪中断，+0%至21%。）
@@ -55,6 +55,9 @@
 
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
+
+- seal_collapse_investigation：5%（Day170结算。新增目标：封印崩溃调查中，灰斗篷确认我们是闯祸了。）
+- resonance_array_upgrade：10%（Day170结算。新增目标：小阵完成但共振消耗大，需要升级稳定性。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）

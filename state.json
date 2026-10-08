@@ -83,74 +83,78 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 90,
+        "progress_pct": 92,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-06-20",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day73追踪者出现·有人在打听星辉石持有者·90%"
+        "recent_progress": "Day170结算。星辉石确认信标网络核心，追踪者身份确认中。92%。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 61,
+        "progress_pct": 63,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day74共鸣器激活成功·信标网络核心确认·59%→61%"
+        "recent_progress": "Day170结算。共鸣器激活成功，信标网络核心确认。61%→63%。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 73,
+        "progress_pct": 78,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "research",
         "description": "研究星辉石与信标网络的共鸣联系",
-        "recent_progress": "Day74共鸣器激活·频率与石柱群记录匹配·68%→73%"
-      },
-      {
-        "id": "resonance_device_investigation",
-        "name": "共鸣器下落追查",
-        "progress_pct": 65,
-        "estimate": 80,
-        "estimated_days": 15,
-        "daily_limit": 15,
-        "started_at": "2026-07-14",
-        "task_type": "investigate",
-        "description": "追查共鸣器碎片和退休金属匠下落",
-        "recent_progress": "Day73共鸣器到手·沃尔夫交付·追踪者身份追查中·65%"
+        "recent_progress": "Day170结算。共鸣器激活后星辉石频率匹配信标网络，+5%至78%。"
       },
       {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
-        "progress_pct": 20,
+        "progress_pct": 25,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day73失联第37天·塞拉斯追查中·20%"
+        "recent_progress": "Day170结算。无新消息，维持25%。"
       },
       {
         "id": "trace_anon",
         "name": "追踪匿名者",
-        "progress_pct": 8,
+        "progress_pct": 12,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day74追踪者戒指线索·窗框符号与地窖符文相似·5%→8%"
+        "recent_progress": "Day170结算。追踪者再次现身警告，戒指线索追查中。8%→12%。"
+      },
+      {
+        "id": "seal_collapse_investigation",
+        "name": "封印崩溃调查",
+        "description": "调查地底裂缝和封印崩溃的原因，查明「它们」的身份和威胁程度",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day170新增。封印崩溃调查中，灰斗篷确认我们是闯祸了。"
+      },
+      {
+        "id": "resonance_array_upgrade",
+        "name": "小阵共振升级",
+        "description": "六块共鸣石小阵建造完成，研究如何稳定共振频率并扩大规模",
+        "task_type": "training",
+        "progress_pct": 10,
+        "recent_progress": "Day170新增。小阵完成但共振消耗大，需要升级稳定性。"
       }
     ],
     "staged": [],
@@ -218,6 +222,19 @@
       {
         "id": "fire_magic_training",
         "completed_date": "2026-07-13"
+      },
+      {
+        "id": "resonance_device_investigation",
+        "name": "共鸣器下落追查",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "investigate",
+        "description": "追查共鸣器碎片和退休金属匠下落",
+        "recent_progress": "Day170结算。共鸣器激活成功，追踪者交付。68%→100%——目标完成！",
+        "completed_date": "2026-10-08"
       }
     ]
   },
@@ -226,5 +243,6 @@
   "daily_message_date": "2026-07-24",
   "daily_message_count": 3,
   "last_proactive": "2026-10-08T21:00:00+08:00",
-  "last_proactive_content": "[21:00] 宿舍里握着通讯石，共鸣器激活成功、星辉石是信标网络核心……这些都确定了。但那个追踪者姑娘到底是谁？她为什么要帮我？夜很安静，心情也安静不下来。"
+  "last_proactive_content": "[21:00] 宿舍里握着通讯石，共鸣器激活成功、星辉石是信标网络核心……这些都确定了。但那个追踪者姑娘到底是谁？她为什么要帮我？夜很安静，心情也安静不下来。",
+  "day_number": 61
 }
