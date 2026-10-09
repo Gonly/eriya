@@ -83,38 +83,38 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 92,
+        "progress_pct": 94,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-06-20",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day170结算。星辉石确认信标网络核心，追踪者身份确认中。92%。"
+        "recent_progress": "Day175结算。星辉石确认信标网络核心，维持。92%→94%。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 65,
+        "progress_pct": 68,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day171结算。塞拉斯分析共鸣器激活波动，追踪者可能持有共鸣媒介。63%→65%。"
+        "recent_progress": "Day175结算。塞拉斯分析共鸣器激活波动，追踪者可能持有共鸣媒介。65%→68%。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 80,
+        "progress_pct": 83,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "research",
         "description": "研究星辉石与信标网络的共鸣联系",
-        "recent_progress": "Day171结算。共鸣器激活后星辉石频率匹配信标网络，78%→80%。"
+        "recent_progress": "Day175结算。共鸣器激活后星辉石频率匹配信标网络。80%→83%。"
       },
       {
         "id": "investigation_team_search",
@@ -126,35 +126,35 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day171结算。无新消息，维持25%。"
+        "recent_progress": "Day175结算。无新消息，维持25%。"
       },
       {
         "id": "trace_anon",
         "name": "追踪匿名者",
-        "progress_pct": 15,
+        "progress_pct": 25,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day171结算。追踪者戒指线索：酒保称其付钱时哼古老调子，疑似守护者。12%→15%。"
+        "recent_progress": "Day175结算。追踪者戒指线索：古老调子+符文标志，守护者身份基本确认。15%→25%。"
       },
       {
         "id": "seal_collapse_investigation",
         "name": "封印崩溃调查",
         "description": "调查地底裂缝和封印崩溃的原因，查明「它们」的身份和威胁程度",
         "task_type": "investigate",
-        "progress_pct": 8,
-        "recent_progress": "Day171结算。符文阵裂缝扩大，边缘有崩落痕迹，洞穴传来震动。5%→8%。"
+        "progress_pct": 15,
+        "recent_progress": "Day175结算。符文阵裂缝扩大，边缘崩落，洞穴震动。8%→15%。"
       },
       {
         "id": "resonance_array_upgrade",
         "name": "小阵共振升级",
         "description": "六块共鸣石小阵建造完成，研究如何稳定共振频率并扩大规模",
         "task_type": "training",
-        "progress_pct": 12,
-        "recent_progress": "Day171结算。小阵稳定运行，第二音恢复中，裂缝位置传来异常震动。10%→12%。"
+        "progress_pct": 17,
+        "recent_progress": "Day175结算。小阵稳定运行，第二音恢复中，裂缝位置异常震动。12%→17%。"
       }
     ],
     "staged": [],
@@ -244,5 +244,5 @@
   "daily_message_count": 4,
   "last_proactive": "2026-10-09T21:00:00+08:00",
   "last_proactive_content": "[21:00] 宿舍躺在床上握着通讯石，今天的事太多太乱了——共鸣器激活、符文阵裂缝、追踪者姑娘的戒指……想说点什么给他，嘴唇动了动又咽回去了。安静的夜晚，星辉石在胸口微微发热。",
-  "day_number": 75
+  "day_number": 76
 }

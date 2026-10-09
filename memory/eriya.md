@@ -9,7 +9,7 @@
 
 ## 目标进度
 
-- investigation_team_search：89%（Day170结算。调查组无新消息，维持25%。）
+- investigation_team_search：25%（Day170结算。调查组无新消息，维持25%。）
 - anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
 - retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
 - dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
@@ -56,8 +56,8 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- seal_collapse_investigation：5%（Day170结算。新增目标：封印崩溃调查中，灰斗篷确认我们是闯祸了。）
-- resonance_array_upgrade：10%（Day170结算。新增目标：小阵完成但共振消耗大，需要升级稳定性。）
+- seal_collapse_investigation：15%（Day170结算。新增目标：封印崩溃调查中，灰斗篷确认我们是闯祸了。）
+- resonance_array_upgrade：17%（Day170结算。新增目标：小阵完成但共振消耗大，需要升级稳定性。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
