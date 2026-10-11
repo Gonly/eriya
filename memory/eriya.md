@@ -56,13 +56,13 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- glowing_stone_network：94%（Day77结算。追踪者提供封印线索，与星辉石网络或有关联，维持94%。）
-- old_ku_beacon_plan：76%（Day77结算。追踪者提供修复封印线索，老库计划可能有关联。72%→76%。）
-- star_stone_resonance：91%（Day77结算。第三次共振成功，第二音恢复至65%。86%→91%。）
-- investigation_team_search：25%（Day77结算。无新消息，维持25%。）
-- trace_anon：48%（Day77结算。追踪者再次主动现身，警告共振消耗封印能量。38%→48%。）
-- seal_collapse_investigation：35%（Day77结算。符文阵裂缝持续扩大，追踪者警告共振消耗封印能量。25%→35%。）
-- resonance_array_upgrade：30%（Day77结算。第三次共振成功，第二音恢复至65%。22%→30%。）
+- glowing_stone_network：95%（Day78结算。追踪者线索或与网络相关，维持95%。）
+- old_ku_beacon_plan：78%（Day78结算。追踪者提供平衡修复线索，或与信标计划相关。78%→80%。）
+- star_stone_resonance：95%（Day78结算。第四次共振成功，第三音恢复至70%。91%→95%。）
+- investigation_team_search：25%（Day78结算。无新消息，维持25%。）
+- trace_anon：53%（Day78结算。追踪者再次现身，提供共振与修复平衡线索。48%→53%。）
+- seal_collapse_investigation：52%（Day78结算。裂缝扩大减缓，追踪者提供修复平衡方案。35%→52%。）
+- resonance_array_upgrade：38%（Day78结算。新配比方案验证有效，第四次共振成功。30%→38%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
