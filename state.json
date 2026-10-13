@@ -90,7 +90,7 @@
         "started_at": "2026-06-20",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day79结算。网络布局接近尾声。96%→97%。"
+        "recent_progress": "Day79结算。维持97%。"
       },
       {
         "id": "old_ku_beacon_plan",
@@ -102,19 +102,19 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day79结算。追踪者线索持续推进。81%→82%。"
+        "recent_progress": "Day79结算。维持82%。"
       },
       {
         "id": "star_stone_resonance",
         "name": "星辉石共鸣研究",
-        "progress_pct": 96,
+        "progress_pct": 97,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "research",
         "description": "研究星辉石与信标网络的共鸣联系",
-        "recent_progress": "Day79结算。共振测试稳定通过，古籍记载补充理论。95%→96%。"
+        "recent_progress": "Day79结算。共振测试稳定通过。96%→97%。"
       },
       {
         "id": "investigation_team_search",
@@ -126,35 +126,35 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day79结算。无新消息，维持25%。"
+        "recent_progress": "Day79结算。维持25%。"
       },
       {
         "id": "trace_anon",
         "name": "追踪匿名者",
-        "progress_pct": 75,
+        "progress_pct": 78,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day79结算。追踪者主动留条，接触积极。70%→75%。"
+        "recent_progress": "Day79结算。追踪者主动留条，互动积极。75%→78%。"
       },
       {
         "id": "seal_collapse_investigation",
         "name": "封印崩溃调查",
         "description": "调查地底裂缝和封印崩溃的原因，查明「它们」的身份和威胁程度",
         "task_type": "investigate",
-        "progress_pct": 78,
-        "recent_progress": "Day79结算。暗红纹路被古籍解释为封印自愈应激反应，新认知解锁。72%→78%。"
+        "progress_pct": 88,
+        "recent_progress": "Day79结算。暗红纹路=封印自愈应激反应，重大认知突破！78%→88%。"
       },
       {
         "id": "resonance_array_upgrade",
         "name": "小阵共振升级",
         "description": "六块共鸣石小阵建造完成，研究如何稳定共振频率并扩大规模",
         "task_type": "training",
-        "progress_pct": 65,
-        "recent_progress": "Day79结算。第六次共振测试成功，频率稳定无紊乱。55%→65%。"
+        "progress_pct": 73,
+        "recent_progress": "Day79结算。第六次共振测试成功，频率稳定。65%→73%。"
       }
     ],
     "staged": [],
@@ -244,5 +244,5 @@
   "daily_message_count": 8,
   "last_proactive": "2026-10-13T21:00:00+08:00",
   "last_proactive_content": "躺在床上握着通讯石，把今天的事轻声说了一遍——新配比有效但出现了暗红纹路，追踪者说是封印自我修复的应激反应。星辉石贴在胸口，温温热热的。感觉事情在慢慢变好，但还是有点担心。",
-  "day_number": 79
+  "day_number": 80
 }
