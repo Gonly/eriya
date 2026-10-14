@@ -78,38 +78,26 @@
       {
         "id": "glowing_stone_network",
         "name": "发光石头收购网络",
-        "progress_pct": 97,
+        "progress_pct": 98,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-06-20",
         "task_type": "investigate",
         "description": "追踪发光石头的收购网络和流通渠道",
-        "recent_progress": "Day80结算。维持97%。"
+        "recent_progress": "Day81结算。纹路消退=封印自愈=发光石头网络支撑体系稳固。98%。"
       },
       {
         "id": "old_ku_beacon_plan",
         "name": "老库信标计划调查",
-        "progress_pct": 82,
+        "progress_pct": 87,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day80结算。维持82%。"
-      },
-      {
-        "id": "star_stone_resonance",
-        "name": "星辉石共鸣研究",
-        "progress_pct": 97,
-        "estimate": 80,
-        "estimated_days": 15,
-        "daily_limit": 15,
-        "started_at": "2026-07-14",
-        "task_type": "research",
-        "description": "研究星辉石与信标网络的共鸣联系",
-        "recent_progress": "Day80结算。纹路消退确认封印自愈进行中。97%→98%。"
+        "recent_progress": "Day81结算。封印自愈突破，老库信标计划重大进展。82%→87%。"
       },
       {
         "id": "investigation_team_search",
@@ -121,27 +109,27 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day80结算。维持25%。"
+        "recent_progress": "Day81结算。维持25%。"
       },
       {
         "id": "trace_anon",
         "name": "追踪匿名者",
-        "progress_pct": 80,
+        "progress_pct": 82,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day80结算。追踪者主动提供修订参数，互动持续积极。78%→80%。"
+        "recent_progress": "Day81结算。追踪者主动提供修订参数，互动持续积极。78%→82%。"
       },
       {
         "id": "seal_collapse_investigation",
         "name": "封印崩溃调查",
         "description": "调查地底裂缝和封印崩溃的原因，查明「它们」的身份和威胁程度",
         "task_type": "investigate",
-        "progress_pct": 90,
-        "recent_progress": "Day80结算。纹路消退确认封印自愈进行中！共振波动原因解明（封印结构调整期的谐振窗口）。88%→90%。"
+        "progress_pct": 98,
+        "recent_progress": "Day81结算。纹路消退=封印自愈直接证据！接近完成。90%→98%。"
       },
       {
         "id": "resonance_array_upgrade",
@@ -150,6 +138,24 @@
         "task_type": "training",
         "progress_pct": 75,
         "recent_progress": "Day80结算。第七次共振出现频率波动（封印结构调整期谐振窗口），追踪者提供修订参数。73%→75%。"
+      },
+      {
+        "id": "resonance_daily_monitor",
+        "name": "星辉石共振监测日志",
+        "description": "建立每日本地共振监测机制，记录星辉石温度、光芒变化、共鸣稳定性，防止再次出现异常波动。",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day81新增。每日监测机制建立中。5%。",
+        "created_date": "2026-10-14"
+      },
+      {
+        "id": "seal_healing_trigger",
+        "name": "封印自愈原理深调",
+        "description": "追踪者提到的「封印结构调整期谐振窗口」原理是什么？纹路为何会自行消退？继续调查封印自愈的触发条件。",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day81新增。谐振窗口原理调查中。5%。",
+        "created_date": "2026-10-14"
       }
     ],
     "staged": [],
@@ -230,6 +236,19 @@
         "description": "追查共鸣器碎片和退休金属匠下落",
         "recent_progress": "Day170结算。共鸣器激活成功，追踪者交付。68%→100%——目标完成！",
         "completed_date": "2026-10-08"
+      },
+      {
+        "id": "star_stone_resonance",
+        "name": "星辉石共鸣研究",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "research",
+        "description": "研究星辉石与信标网络的共鸣联系",
+        "recent_progress": "Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！",
+        "completed_date": "2026-10-14"
       }
     ]
   },
@@ -239,5 +258,5 @@
   "daily_message_count": 4,
   "last_proactive": "2026-10-14T18:00:00+08:00",
   "last_proactive_content": "躺在床上握着通讯石，把今天的符文阵复查、共振波动和追踪者的修订参数都告诉了宫磊。星辉石温温热热的，有点复杂但不坏。",
-  "day_number": 80
+  "day_number": 81
 }

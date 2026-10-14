@@ -56,13 +56,13 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- glowing_stone_network：97%（Day80结算。维持97%。）
-- old_ku_beacon_plan：82%（Day80结算。追踪者持续提供线索，维持82%。）
-- star_stone_resonance：97%（Day80结算。共振测试稳定通过，古籍补充理论。95%→97%。）
-- investigation_team_search：25%（Day80结算。无新消息，维持25%。）
-- trace_anon：78%（Day80结算。追踪者主动留条，互动积极。53%→78%。）
-- seal_collapse_investigation：88%（Day80结算。暗红纹路=封印自愈应激反应，重大认知突破！52%→88%。）
-- resonance_array_upgrade：73%（Day80结算。第六次共振测试成功，频率稳定。38%→73%。）
+- glowing_stone_network：98%（Day81结算。纹路消退=封印自愈=发光石头网络支撑体系稳固。98%。）
+- old_ku_beacon_plan：87%（Day81结算。封印自愈突破，老库信标计划重大进展。82%→87%。）
+- star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
+- investigation_team_search：25%（Day81结算。维持25%。）
+- trace_anon：82%（Day81结算。追踪者主动提供修订参数，互动持续积极。78%→82%。）
+- seal_collapse_investigation：98%（Day81结算。纹路消退=封印自愈直接证据！接近完成。90%→98%。）
+- resonance_array_upgrade：78%（Day81结算。第七次共振频率波动，追踪者确认谐振窗口。75%→78%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
