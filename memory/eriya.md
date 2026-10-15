@@ -56,13 +56,17 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- glowing_stone_network：98%（Day81结算。纹路消退=封印自愈=发光石头网络支撑体系稳固。98%。）
-- old_ku_beacon_plan：87%（Day81结算。封印自愈突破，老库信标计划重大进展。82%→87%。）
+- glowing_stone_network：98%（Day82结算。纹路消退封印自愈确认，网络支撑稳固。98%。）
+- old_ku_beacon_plan：88%（Day82结算。封印自愈进行中，老库信标计划稳步推进。87%→88%。）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
-- investigation_team_search：25%（Day81结算。维持25%。）
-- trace_anon：82%（Day81结算。追踪者主动提供修订参数，互动持续积极。78%→82%。）
-- seal_collapse_investigation：98%（Day81结算。纹路消退=封印自愈直接证据！接近完成。90%→98%。）
-- resonance_array_upgrade：78%（Day81结算。第七次共振频率波动，追踪者确认谐振窗口。75%→78%。）
+- investigation_team_search：25%（Day82结算。维持25%。）
+- trace_anon：83%（Day82结算。追踪者互动持续积极，修订参数确认。82%→83%。）
+✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
+- resonance_array_upgrade：79%（Day82结算。第八次共振平稳完成，压低输出策略有效。77%→79%。）
+- resonance_daily_monitor：12%（Day82结算。星辉石闪光记录，主动响应封印调整确认。10%→12%。）
+- seal_healing_trigger：18%（Day82结算。纹路消退速度观察中，自愈原理持续研究。15%→18%。）
+- seal_healing_long_term：0%（Day82结算。封印自愈机制长期监测新目标启动。0%。）
+- guardian_frequency_warnings：0%（Day82结算。追踪者频率警告跟进新目标。0%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
@@ -109,6 +113,7 @@
 
 - ✅ **共振之桥研究完成**（Day143）小家伙顿悟，裂隙稳定三十秒，即将达到完全接触！
 - ✅ **星辉石完全恢复**（Day144）小家伙防火墙辅助下裂隙稳定四十五秒，100%完成！
+- ✅ **封印崩溃调查完成**（Day82）封印自愈确认，纹路消退直接证据确凿！
 
 ## 当前待办
 - firewall_upgrade_mastery：55%（Day145结算。小家伙防火墙超过外部频率极限，抗压测试通过，+10%至55%。）
