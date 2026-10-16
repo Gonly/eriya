@@ -9,7 +9,7 @@
 
 ## 目标进度
 
-- investigation_team_search：25%（Day80结算。调查组无新消息，维持25%。）
+- investigation_team_search：25%（Day83结算）
 - anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
 - retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
 - dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
@@ -56,17 +56,17 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- glowing_stone_network：98%（Day82结算。纹路消退封印自愈确认，网络支撑稳固。98%。）
-- old_ku_beacon_plan：88%（Day82结算。封印自愈进行中，老库信标计划稳步推进。87%→88%。）
+- glowing_stone_network：100%（Day83结算）
+- old_ku_beacon_plan：90%（Day83结算）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
 - investigation_team_search：25%（Day82结算。维持25%。）
-- trace_anon：83%（Day82结算。追踪者互动持续积极，修订参数确认。82%→83%。）
+- trace_anon：85%（Day83结算）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
-- resonance_array_upgrade：79%（Day82结算。第八次共振平稳完成，压低输出策略有效。77%→79%。）
-- resonance_daily_monitor：12%（Day82结算。星辉石闪光记录，主动响应封印调整确认。10%→12%。）
-- seal_healing_trigger：18%（Day82结算。纹路消退速度观察中，自愈原理持续研究。15%→18%。）
-- seal_healing_long_term：0%（Day82结算。封印自愈机制长期监测新目标启动。0%。）
-- guardian_frequency_warnings：0%（Day82结算。追踪者频率警告跟进新目标。0%。）
+- resonance_array_upgrade：83%（Day83结算）
+- resonance_daily_monitor：16%（Day83结算）
+- seal_healing_trigger：24%（Day83结算）
+- seal_healing_long_term：7%（Day83结算）
+- guardian_frequency_warnings：5%（Day83结算）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
