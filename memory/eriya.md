@@ -57,16 +57,16 @@
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
 - glowing_stone_network：100%（Day83结算）
-- old_ku_beacon_plan：92%（Day83结算）
+- old_ku_beacon_plan：92%（Day85结算）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
 - investigation_team_search：25%（Day82结算。维持25%。）
-- trace_anon：88%（Day83结算）
+- trace_anon：88%（Day85结算）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
-- resonance_array_upgrade：88%（Day83结算）
-- resonance_daily_monitor：22%（Day83结算）
-- seal_healing_trigger：30%（Day83结算）
-- seal_healing_long_term：12%（Day83结算）
-- guardian_frequency_warnings：9%（Day83结算）
+- resonance_array_upgrade：95%（Day85结算）
+- resonance_daily_monitor：48%（Day85结算）
+- seal_healing_trigger：50%（Day85结算）
+- seal_healing_long_term：32%（Day85结算）
+- guardian_frequency_warnings：12%（Day85结算）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
