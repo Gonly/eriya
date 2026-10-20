@@ -59,7 +59,7 @@
 - glowing_stone_network：100%（Day83结算）
 - old_ku_beacon_plan：92%（Day85结算）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
-- investigation_team_search：25%（Day82结算。维持25%。）
+- investigation_team_search：25%（Day86结算。维持25%。）
 - trace_anon：88%（Day85结算）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
 - resonance_array_upgrade：95%（Day85结算）
