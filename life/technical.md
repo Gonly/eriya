@@ -1,6 +1,21 @@
 # Technical Patterns
 
 > 个人技术知识库，记录踩坑经验和解决方案。
+> 相关文件：L2 经验索引 `memory/evolution/patterns/index.md`；长期记忆 `MEMORY.md`；工具速查 `TOOLS.md`
+
+---
+
+## 索引
+
+| 分类 | 内容 |
+|------|------|
+| [📌 Spring Boot 问题](#-spring-boot-问题) | Bean 命名、Bean 注入前提 |
+| [📌 前后端与资源访问](#-前后端与资源访问) | OSS 白名单、CDN 缓存 |
+| [📌 工作流引擎](#-工作流引擎) | Activiti 条件表达式 |
+| [📌 待办系统与脚本](#-待办系统与脚本) | 滴答清单 API 限制、脚本修复 |
+| [📌 定时任务与消息推送](#-定时任务与消息推送) | 多条消息拆分、cron 调参 |
+| [📌 时间与时区](#-时间与时区) | WSL2 UTC 偏移 |
+| [📌 工具使用规范](#-工具使用规范) | 比价、文件同步、主键设计 |
 
 ---
 
@@ -8,9 +23,11 @@
 
 | 分类 | 说明 |
 |------|------|
-| 工作环境 | 内网环境，文件加密 |
-| 主要技术 | nginx 版本演进、Spring Boot 开发 |
-| 技术方向 | 技术选型 / 问题排查 / 个人学习 |
+| 工作环境 | 内网环境，文件加密；WSL2（服务器时区 UTC） |
+| 主要技术 | nginx 版本演进、Spring Boot、Activiti、OceanBase MySQL 模式 |
+| 业务域 | 支付收银（通华/银联）、IC 卡圈提、待办工作流 |
+
+> OceanBase 兼容性、API 错误处理、Skill 激活等专题已独立成文，见 `memory/evolution/patterns/`。
 
 ---
 
@@ -57,7 +74,7 @@
 
 ---
 
-## 📌 前端与资源访问
+## 📌 前后端与资源访问
 
 ### [2026-08-06] 前端不能直接访问 OSS 地址
 
@@ -80,6 +97,86 @@
 **解决方法** 手动刷新 CDN 缓存，让它重新回源拉取最新的 OSS 文件。
 
 **适用场景** 图片、静态资源更新后不生效，OSS + CDN 架构的项目。
+
+---
+
+## 📌 工作流引擎
+
+### [2026-08-24] Activiti conditionExpression 多条件判断写法
+
+**问题** 如何在 Activiti 的 condition expression 中同时判断两个条件成立。
+
+**解决方案** 使用 UEL/SPEL 表达式语法：
+
+```xml
+<sequenceFlow sourceRef="exclusiveGw" targetRef="approveTask">
+  <conditionExpression xsi:type="tFormalExpression">
+    ${amount >= 1000 and status == 'APPROVED'}
+  </conditionExpression>
+</sequenceFlow>
+```
+
+**常用逻辑运算符：**
+
+| 逻辑关系 | 写法 |
+|---------|------|
+| 逻辑与 | `${条件1 && 条件2}` 或 `${条件1 and 条件2}` |
+| 逻辑或 | `${条件1 || 条件2}` 或 `${条件1 or 条件2}` |
+| 逻辑非 | `${!条件}` 或 `${not 条件}` |
+
+**注意：** 变量需存在于表达式上下文中，否则报找不到属性错误。
+
+---
+
+## 📌 待办系统与脚本
+
+### [2026-08] 滴答清单 API 限制
+
+- `/project/{id}/data` **只返回未完成任务**（status=0），已完成的拿不到
+- 因此无法通过 API 查询「今日已完成」的任务，只能靠 `dueDate < today` 判断超期
+- 其他已知限制（不支持 DELETE、不支持 GET 单任务、complete 端点为 `/project/{pid}/task/{tid}/complete`）见 `TOOLS.md`
+
+### [2026-07-14] 待办脚本三处修复
+
+| 脚本 | 问题 | 修复 |
+|------|------|------|
+| `fetch_todo_from_api.py` | 任务完成后 API 不再返回，脚本静默标记 completed 不上报 | 增加变化检测与报告 |
+| `todo_reminder_data.py` | 循环任务误报，非执行日也提醒 | 解析 RRULE 的 BYDAY 字段判断今天是否执行日 |
+| 快照同步 cron | agentId 为 null、timeout 180s 超时 | 补 agentId，timeout 提到 300s |
+
+---
+
+## 📌 定时任务与消息推送
+
+### [2026-07] cron 多条消息发送
+
+**方法** prompt 里写「分多条发送」，模型会自动多次调用 `message` 工具。
+
+**关键** `mimo-v2.5` 会用 message 工具但不稳定，有时偷懒合成一条；`minimax/MiniMax-M2.7` 每次都会老实拆分。
+
+**教训** 拆分稳定性取决于 prompt 结构 —— 明确按类拆（工作/个人）比笼统说「1~3条」靠谱得多。
+
+**参考 prompt 结构**：「【重要：分多条发送】把内容拆成 X 条消息分别发送，不要合成一条」
+
+### [2026-07-14] 快照同步 cron 静默化
+
+无变化时让模型回复 `NO_REPLY`，避免往 QQ 发无关消息。
+
+---
+
+## 📌 时间与时区
+
+### [2026-06-23] WSL2 datetime.now() 取到 UTC 日期导致任务 dueDate 偏移一天
+
+**问题** 健身任务 dueDate 全部偏移一天，WSL2 服务器时区为 UTC，`datetime.now()` 返回 UTC 时间。
+
+**原因** UTC 16:00~24:00 = 上海次日 0:00~8:00，用无时区 `datetime.now()` 在上海下午/晚间取到的日期比实际快一天。
+
+**教训** 所有日期相关操作必须显式指定 `Asia/Shanghai` 时区，不能用裸 `datetime.now()`。
+
+**修复** `dida_api.py` 和 `daily_briefing.py` 中统一用 `datetime.now(timezone(timedelta(hours=8)))` 或 `datetime.now().astimezone()`。
+
+> 完整规范与检查清单见 `memory/evolution/patterns/datetime-timezone.md`
 
 ---
 
@@ -109,48 +206,20 @@
 
 **⚠️ 重要：** 比价后必须给购买链接和口令，不要只给搜索关键词！
 
----
+> 已验证（2026-07-16）：`calc_savings` 中 `actualPrice` 就是券后价，无重复减法逻辑。
 
-## 📌 Activiti 工作流
+> 通用「先查 TOOLS.md 再决定用 API 还是搜索」原则见 `memory/evolution/patterns/api-first.md`
 
-### [2026-08-24] conditionExpression 多条件判断写法
+### [2026-07] 艾莉亚页面文件同步
 
-**问题** 如何在 Activiti 的 condition expression 中同时判断两个条件成立。
+- 源文件在 `workspace/memory/`，viewer 副本在 `skills/isekai-companion/viewer/memory/`
+- Linux crontab 每 5 分钟跑 `auto-sync.sh`：对比时间戳 → 有更新才 cp → git commit → push
+- ⚠️ 改页面内容要改**源文件**，改 viewer 副本会被同步覆盖
 
-**解决方案** 使用 UEL/SPEL 表达式语法：
+### [2026-07-09] 身份证号 hash 做主键
 
-```xml
-<sequenceFlow sourceRef="exclusiveGw" targetRef="approveTask">
-  <conditionExpression xsi:type="tFormalExpression">
-    ${amount >= 1000 and status == 'APPROVED'}
-  </conditionExpression>
-</sequenceFlow>
-```
-
-**常用逻辑运算符：**
-
-| 逻辑关系 | 写法 |
-|---------|------|
-| 逻辑与 | `${条件1 && 条件2}` 或 `${条件1 and 条件2}` |
-| 逻辑或 | `${条件1 || 条件2}` 或 `${条件1 or 条件2}` |
-| 逻辑非 | `${!条件}` 或 `${not 条件}` |
-
-**注意：** 变量需存在于表达式上下文中，否则报找不到属性错误。
+MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表），不要直接用明文身份证号做主键。
 
 ---
 
-## 📌 日期时间踩坑
-
-### [2026-06-23] WSL2 datetime.now() 取到 UTC 日期导致任务 dueDate 偏移一天
-
-**问题** 健身任务 dueDate 全部偏移一天，WSL2 服务器时区为 UTC，`datetime.now()` 返回 UTC 时间。
-
-**原因** UTC 16:00~24:00 = 上海次日 0:00~8:00，用无时区 `datetime.now()` 在上海下午/晚间取到的日期比实际快一天。
-
-**教训** 所有日期相关操作必须显式指定 `Asia/Shanghai` 时区，不能用裸 `datetime.now()`。
-
-**修复** `dida_api.py` 和 `daily_briefing.py` 中统一用 `datetime.now(timezone(timedelta(hours=8)))` 或 `datetime.now().astimezone()`。
-
----
-
-*最后整理：2026-10-21*
+*最后整理：2026-10-22*
