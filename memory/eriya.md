@@ -9,7 +9,7 @@
 
 ## 目标进度
 
-- investigation_team_search：25%（Day83结算）
+- investigation_team_search：25%（Day88结算。无新信号。）
 - anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
 - retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
 - dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
@@ -57,16 +57,21 @@
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
 - glowing_stone_network：100%（Day83结算）
-- old_ku_beacon_plan：92%（Day85结算）
+- old_ku_beacon_plan：92%（Day88结算。标准强度恢复首日，无新线索。）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
-- investigation_team_search：25%（Day86结算。维持25%。）
-- trace_anon：88%（Day85结算）
+- investigation_team_search：25%（Day88结算。无新信号。）
+- trace_anon：90%（Day88结算。匿名者线索暂无新动向。）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
-- resonance_array_upgrade：95%（Day85结算）
-- resonance_daily_monitor：48%（Day85结算）
-- seal_healing_trigger：50%（Day85结算）
-- seal_healing_long_term：32%（Day85结算）
-- guardian_frequency_warnings：12%（Day85结算）
+- resonance_array_upgrade：100%（Day86结算。完整共振测试通过，可逐步恢复标准强度。95%→100%完成！）
+- resonance_daily_monitor：66%（Day88结算。走音事件记录，追踪者确认为手指紧张。）
+- seal_healing_trigger：50%（Day88结算。封印稳定。）
+- seal_healing_long_term：45%（Day88结算。标准强度恢复首日封印无波动。）
+- guardian_frequency_warnings：16%（Day88结算。走音非频率警告范畴。）
+- child_crystal_connection：84%（Day88结算。小家伙在训练场蜷成一团睡着，完全放松。78%→84%。）
+- seal_full_recovery_study：42%（Day88结算。标准强度恢复中封印无异常。42%维持。）
+- resonance_array_standard_recovery：26%（Day88结算。标准强度第一次测试完成，走音原因查明（手指紧张非封印），重试成功。18%→26%。）
+- child_trust_building：30%（Day88结算。小家伙主动靠近并在我面前安心入睡。22%→30%。）
+- sword_skill_recovery：5%（Day88结算。新目标：恢复期剑术适应训练，风魔法加速斩击+基础剑术组合。0%→5%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
