@@ -117,7 +117,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day89结算。共鸣石底座剥出老库信标网络老记号金属片，追踪者确认存在第二使用者。92%→94%。"
+        "recent_progress": "Day89结算。老库信标网络老记号金属片，追踪者确认存在第二使用者。92%→94%。"
       },
       {
         "id": "investigation_team_search",
@@ -129,19 +129,19 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day88结算。无新信号。25%维持。"
+        "recent_progress": "Day89结算。无新信号。25%维持。"
       },
       {
         "id": "trace_anon",
         "name": "追踪匿名者",
-        "progress_pct": 90,
+        "progress_pct": 94,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day88结算。匿名者线索暂无新动向。90%维持。"
+        "recent_progress": "Day89结算。追踪者确认同一套记号存在第二使用者，与匿名者线可能同源。90%→94%。"
       },
       {
         "id": "resonance_daily_monitor",
@@ -156,16 +156,16 @@
         "name": "封印自愈原理深调",
         "description": "追踪者提到的「封印结构调整期谐振窗口」原理是什么？纹路为何会自行消退？继续调查封印自愈的触发条件。",
         "task_type": "investigate",
-        "progress_pct": 50,
-        "recent_progress": "Day88结算。封印稳定，自愈触发机制待后续研究。50%维持。"
+        "progress_pct": 52,
+        "recent_progress": "Day89结算。封印完全适应标准强度，自愈触发条件线索推进。50%→52%。"
       },
       {
         "id": "seal_healing_long_term",
         "name": "封印自愈机制长期监测",
         "description": "封印自愈已确认，后续需持续监测愈合进度与结构稳定性，确认纹路完全消退后的封印强度变化。",
         "task_type": "investigate",
-        "progress_pct": 45,
-        "recent_progress": "Day88结算。标准强度恢复首日封印无波动，长期监测持续。45%维持。"
+        "progress_pct": 47,
+        "recent_progress": "Day89结算。标准强度恢复确认，长期监测无波动。45%→47%。"
       },
       {
         "id": "guardian_frequency_warnings",
@@ -358,5 +358,5 @@
   "daily_message_count": 5,
   "last_proactive": "2026-10-22T21:00:00+08:00",
   "last_proactive_content": "夜里在窗边把共鸣石底座剥下的老记号金属片记进调查本，笔尖停了一会儿。",
-  "day_number": 89
+  "day_number": 90
 }
