@@ -9,7 +9,7 @@
 
 ## 目标进度
 
-- investigation_team_search：25%（Day89结算。无新信号。25%维持。）
+- investigation_team_search：25%（Day90结算。无新信号，维持。25%。）
 - anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
 - retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
 - dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
@@ -57,22 +57,22 @@
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
 - glowing_stone_network：100%（Day83结算）
-- old_ku_beacon_plan：94%（Day89结算。老库信标网络老记号金属片，追踪者确认存在第二使用者。92%→94%。）
+- old_ku_beacon_plan：96%（Day90结算。洞穴深处发现第二片老库信标记号金属片（缺口在正中央，数日内新留），追踪者确认为「出货记号」，第二人就在城内。94%→96%。）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
-- investigation_team_search：25%（Day89结算。无新信号。25%维持。）
-- trace_anon：94%（Day89结算。追踪者确认同一套记号存在第二使用者，与匿名者线可能同源。90%→94%。）
+- investigation_team_search：25%（Day90结算。无新信号，维持。25%。）
+- trace_anon：96%（Day90结算。出货记号与匿名者线疑点重合，对手已潜入共鸣节点洞穴。94%→96%。）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
 - resonance_array_upgrade：100%（Day86结算。完整共振测试通过，可逐步恢复标准强度。95%→100%完成！）
-- resonance_daily_monitor：70%（Day89结算。标准强度下星辉石温度+0.8度，光芒平稳，监测日志累计。66%→70%。）
-- seal_healing_trigger：52%（Day89结算。封印完全适应标准强度，自愈触发条件线索推进。50%→52%。）
-- seal_healing_long_term：47%（Day89结算。标准强度恢复确认，长期监测无波动。45%→47%。）
-- guardian_frequency_warnings：18%（Day89结算。洞穴深处异响待查，暂未见外部频率匹配迹象。16%→18%。）
-- child_crystal_connection：88%（Day89结算。小家伙主动靠近并接受抚摸，悬爪发呆现象已有解释性进展。84%→88%。）
-- seal_full_recovery_study：46%（Day89结算。标准强度下封印完全适应，恢复参数已记录归档。42%→46%。）
-- resonance_array_standard_recovery：34%（Day89结算。六音符全程无失误，标准强度完全恢复确认，追踪者认可。26%→34%。）
-- child_trust_building：40%（Day89结算。小家伙首次主动低头允许被抚摸，信任建立取得关键进展。30%→40%。）
-- sword_skill_recovery：12%（Day89结算。恢复期剑术适应第二日，加速斩击与基础剑术配合更顺畅。5%→12%。）
-- second_signal_user_trace：5%（Day89结算。新目标：追踪者揭示老库记号存在第二使用者。0%→5%。）
+- resonance_daily_monitor：72%（Day90结算。标准强度连续第二日无失误，温度+0.7度，光芒平稳。70%→72%。）
+- seal_healing_trigger：53%（Day90结算。封印于标准强度下稳定适应，自愈触发条件无新线索。52%→53%。）
+- seal_healing_long_term：48%（Day90结算。长期监测无波动，参数已归档。47%→48%。）
+- guardian_frequency_warnings：21%（Day90结算。洞穴深处撬痕确认有人近期进入，星辉石在夜行蛛遭遇中主动护主，外部干扰风险上升。18%→21%。）
+- child_crystal_connection：89%（Day90结算。小家伙今日未在训练场现身，洞内亦未见踪迹，待观察。88%→89%。）
+- seal_full_recovery_study：47%（Day90结算。标准强度复测参数归档，封印完全适应。46%→47%。）
+- resonance_array_standard_recovery：38%（Day90结算。连续第二日六音符无失误，标准强度稳定维持。34%→38%。）
+- child_trust_building：41%（Day90结算。小家伙缺席训练场，信任建立进度暂停观察。40%→41%。）
+- sword_skill_recovery：16%（Day90结算。风魔法加速斩击实战击退夜行蛛群，恢复期手感正在回来。12%→16%。）
+- second_signal_user_trace：10%（Day90结算。第二片金属片为「出货记号」，确认城内存在二次转卖老库货物之人。5%→10%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
