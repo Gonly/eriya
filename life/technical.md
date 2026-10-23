@@ -17,6 +17,7 @@
 | [📌 时间与时区](#-时间与时区) | WSL2 UTC 偏移 |
 | [📌 工具使用规范](#-工具使用规范) | 比价、文件同步、主键设计 |
 | [📌 支付接口规范](#-支付接口规范) | 通华/银联、终端能力码值 |
+| [📌 知识库维护](#-知识库维护) | 归档规则、L1/L2 分工 |
 
 ---
 
@@ -183,7 +184,7 @@
 
 ## 📌 工具使用规范
 
-### 比价工具使用时机
+### [2026-07-08] 比价工具使用时机
 
 **触发场景：** 用户询问商品价格、想购物、比价
 
@@ -211,6 +212,14 @@
 
 > 通用「先查 TOOLS.md 再决定用 API 还是搜索」原则见 `memory/evolution/patterns/api-first.md`
 
+### [2026-05-10] 找文件先搜本地，不要先查 git remote
+
+**问题** 想找某个文件时第一反应是去 git remote 找，白白浪费对话轮次。
+
+**正确做法** 先在本地工作区搜索（`find` / `grep` / `ls`），本地找不到再考虑 remote。
+
+**适用范围** 任何「帮我找 X 文件 / X 在哪」类请求。
+
 ### [2026-07] 艾莉亚页面文件同步
 
 - 源文件在 `workspace/memory/`，viewer 副本在 `skills/isekai-companion/viewer/memory/`
@@ -225,18 +234,12 @@ MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表）�
 
 ## 📌 支付接口规范
 
-> 详细规范库见 `self-evolution/patterns/payment-specs/README.md`，含通华收银宝 POS API（机构版）PDF 与终端能力码值表。
+> **权威库**：`self-evolution/patterns/payment-specs/README.md`
+> 含通华收银宝 POS API（机构版）PDF 与终端读取能力码值表（60.4 域）。
+> 本节只留结论，码值表以规范库为准，避免两处维护漂移。
 
-### 终端读取能力码值（60.4 域）
-
-| 码值 | 含义 |
-|------|------|
-| `0` | 终端能力未知 |
-| `2` | 可读取磁条卡 |
-| `5` | IC卡交易 / Fall Back / 纯磁条卡交易发生在IC卡终端 |
-| `6` | CUPMobile 现场移动支付（当 22 域前两位取值为 96 时） |
-
-> **注意**：码值 `6` 适用于手机 PAY 类场景（Apple Pay、华为 Pay、小米 Pay 等）。
+- 终端能力码值 `6`（CUPMobile 现场移动支付，22 域前两位为 96）适用于手机 PAY 场景（Apple Pay、华为 Pay、小米 Pay 等）
+- 其他码值（`0` / `2` / `5`）见规范库表格
 
 ---
 
@@ -244,8 +247,14 @@ MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表）�
 
 - 本文件为 L1 技术知识库；L2 专题见 `memory/evolution/patterns/`（索引：`memory/evolution/patterns/index.md`）
 - 空壳/已整合的历史模板统一归档到 `archived.md`，不保留空白占位文件
-- 每日夜间整理时同步检查 `self-evolution/pending.jsonl`、`memory/evolution/gaps.md`、`memory/evolution/todo.md`
+- 永久原则（P001~P006）存于 `skills/evo-memory/principles.md`，与本文件不重复维护
+- 每日夜间整理时同步检查：
+  - `self-evolution/pending.jsonl` 与 `memory/evolution/pending.jsonl`（待综合信号）
+  - `memory/evolution/gaps.md`（能力缺口，唯一权威来源）
+  - `memory/evolution/todo.md`（复盘改进待办）
+  - `memory/evolution/patterns/整理日志/`（写当日日志）
+- 同一事实只存一处：细节存 pattern 文件，MEMORY.md 只留索引与一行摘要
 
 ---
 
-*最后整理：2026-10-23*
+*最后整理：2026-10-24*
