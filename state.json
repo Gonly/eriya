@@ -367,5 +367,10 @@
   "daily_message_count": 5,
   "last_proactive": "2026-10-23T21:00:00+08:00",
   "last_proactive_content": "夜里握着通讯石，把出货记号和城内第二人的事说了出来。",
-  "day_number": 91
+  "day_number": 91,
+  "story_arc": {
+    "npcs_introduced": [
+      "第二人（身份不明·出货记号持有者）"
+    ]
+  }
 }
