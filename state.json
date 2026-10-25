@@ -374,9 +374,9 @@
   "today_mood": "天没亮就醒了，左肩一疼立刻想起下午那柄斧子。但今天也不算白挨——铜指套是登记领用的，磨坊只是中转点，还有一只被丢下的手套躺在她的木盒里。星辉石是温的，她把左手按在胸口，忽然觉得有点踏实：不管对方是谁，她今天不是一个人。",
   "mood_date": "2026-10-25",
   "daily_message_date": "2026-10-25",
-  "daily_message_count": 0,
-  "last_proactive": "2026-10-25T05:00:00+08:00",
-  "last_proactive_content": "Day92日程生成：埋伏旧磨坊失败，遭遇持斧女人，左肩受伤；获得铜护指「一人一副、登记领用」线索与被遗落的皮手套。",
+  "daily_message_count": 1,
+  "last_proactive": "2026-10-25T09:00:00+08:00",
+  "last_proactive_content": "[09:00] 公会大厅追踪者处换线索，铁屑与马场绳结指向磨坊是中转点。",
   "day_number": 92,
   "story_arc": {
     "npcs_introduced": [
