@@ -34,6 +34,11 @@
         "action": "新增禁止机械式结尾规则",
         "result": "已更新"
       }
+    ],
+    "npcs_introduced": [
+      "持短斧的女人（磨坊武装护卫·身份不明）",
+      "城南铜匠（缺三指·姓名未详）",
+      "公会医务室老修女"
     ]
   },
   "daily_schedule": {
@@ -107,18 +112,6 @@
   "goals": {
     "active": [
       {
-        "id": "old_ku_beacon_plan",
-        "name": "老库信标计划调查",
-        "progress_pct": 99,
-        "estimate": 80,
-        "estimated_days": 15,
-        "daily_limit": 15,
-        "started_at": "2026-07-14",
-        "task_type": "investigate",
-        "description": "调查老库收集信标零件的真实目的",
-        "recent_progress": "Day92结算。铜匠老头证实铜护指为信标工坊登记领用器具（一人一副、坏后缴回重铸），工坊废后流入西门收旧货者；磨坊确认是中转点而非终点。99%。"
-      },
-      {
         "id": "investigation_team_search",
         "name": "调查组失联追踪",
         "progress_pct": 26,
@@ -128,7 +121,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day91结算。无新信号，维持观察。25%→26%。"
+        "recent_progress": "Day92结算。无新信号，维持观察。26%维持。"
       },
       {
         "id": "trace_anon",
@@ -140,39 +133,39 @@
         "started_at": "2026-07-22",
         "task_type": "investigate",
         "description": "追查同时给沃尔夫看星辉石照片、又来酒馆打听艾莉亚的神秘人",
-        "recent_progress": "Day92结算。磨坊接货团伙已有武装护卫（持旧库制式短斧的女人），身份仍未锁定。99%。"
+        "recent_progress": "Day92结算。磨坊一方已有武装护卫（持旧库制式短斧的女人），且已能指认艾莉亚身份；匿名者本人仍未锁定，但特征升级为「曾登记领用铜护指并摘下藏匿」。99%维持。"
       },
       {
         "id": "resonance_daily_monitor",
         "name": "星辉石共振监测日志",
         "description": "建立每日本地共振监测机制，记录星辉石温度、光芒变化、共鸣稳定性，防止再次出现异常波动。",
         "task_type": "investigate",
-        "progress_pct": 74,
-        "recent_progress": "Day92结算。星辉石整日温度稳定，光芒平稳，无外部频率干扰迹象。74%。"
+        "progress_pct": 75,
+        "recent_progress": "Day92结算。星辉石整日温度稳定，光芒平稳，无外部频率干扰迹象。74%→75%。"
       },
       {
         "id": "seal_healing_trigger",
         "name": "封印自愈原理深调",
         "description": "追踪者提到的「封印结构调整期谐振窗口」原理是什么？纹路为何会自行消退？继续调查封印自愈的触发条件。",
         "task_type": "investigate",
-        "progress_pct": 54,
-        "recent_progress": "Day91结算。封印在标准强度下持续稳定适应，无新触发线索。53%→54%。"
+        "progress_pct": 55,
+        "recent_progress": "Day92结算。封印在标准强度下持续稳定适应，无新触发线索。54%→55%。"
       },
       {
         "id": "seal_healing_long_term",
         "name": "封印自愈机制长期监测",
         "description": "封印自愈已确认，后续需持续监测愈合进度与结构稳定性，确认纹路完全消退后的封印强度变化。",
         "task_type": "investigate",
-        "progress_pct": 49,
-        "recent_progress": "Day91结算。长期监测无波动，参数已归档。48%→49%。"
+        "progress_pct": 50,
+        "recent_progress": "Day92结算。长期监测无波动，参数已归档。49%→50%。"
       },
       {
         "id": "guardian_frequency_warnings",
         "name": "追踪者频率警告跟进",
         "description": "追踪者多次警告外部频率尝试匹配共振频率，星辉石闪光是封印调整的信号——需持续关注共振稳定性，防范外部干扰。",
         "task_type": "investigate",
-        "progress_pct": 24,
-        "recent_progress": "Day92结算。埋伏失败，磨坊一方已能指认艾莉亚身份，外部暴露风险上升。21%→24%."
+        "progress_pct": 28,
+        "recent_progress": "Day92结算。埋伏失败，磨坊一方已能指认艾莉亚身份，外部暴露风险上升，此后不单独行动。24%→28%。"
       },
       {
         "id": "child_crystal_connection",
@@ -180,7 +173,7 @@
         "description": "小家伙对共鸣石余韵产生异常反应，悬爪发呆，眼睛闪烁微光。从恐惧逃避到好奇观察，再到主动触碰艾莉亚鞋尖，昨天在训练场看训练时打瞌睡——这个现象需要进一步观察。",
         "task_type": "investigate",
         "progress_pct": 89,
-        "recent_progress": "Day91结算。小家伙今日仍未现身，洞内未见踪迹，维持观察。89%。",
+        "recent_progress": "Day92结算。小家伙今日仍未现身，洞内未见踪迹，维持观察。89%维持。",
         "created_date": "2026-10-16"
       },
       {
@@ -188,8 +181,8 @@
         "name": "封印完全愈合后续研究",
         "description": "封印完全愈合，追踪者确认恢复正常输出并可恢复标准强度。需要记录愈合后的参数变化，建立完整档案。",
         "task_type": "investigate",
-        "progress_pct": 48,
-        "recent_progress": "Day91结算。完全愈合后续参数归档，无异常。47%→48%。",
+        "progress_pct": 49,
+        "recent_progress": "Day92结算。完全愈合后续参数归档，无异常。48%→49%。",
         "created_date": "2026-10-16"
       },
       {
@@ -197,8 +190,8 @@
         "name": "共振阵列标准强度恢复",
         "description": "完整共振测试通过后进入第二阶段，逐步恢复标准强度。今天第一次标准强度测试，走音事件非封印问题，继续推进。",
         "task_type": "training",
-        "progress_pct": 40,
-        "recent_progress": "Day92结算。标准强度第四日，虎口旧伤影响握力，需降量维持。38%→40%."
+        "progress_pct": 42,
+        "recent_progress": "Day92结算。标准强度第四日无失误，虎口旧伤影响握力，需降量维持。40%→42%。"
       },
       {
         "id": "child_trust_building",
@@ -206,35 +199,59 @@
         "description": "小家伙第一次主动肢体接触（碰鞋尖），昨天又在训练场看训练时打瞌睡。继续尝试接近，目标是能让它愿意被抚摸。",
         "task_type": "social",
         "progress_pct": 41,
-        "recent_progress": "Day91结算。小家伙缺席训练场，信任计划暂停观察。41%。"
+        "recent_progress": "Day92结算。小家伙缺席训练场，信任计划暂停观察。41%维持。"
       },
       {
         "id": "sword_skill_recovery",
         "name": "恢复期剑术适应训练",
         "description": "标准强度恢复后需重新适应新的共振频率与身体节奏。风魔法加速斩击与基础剑术配合，追踪者建议恢复期不能懈怠，战斗手感容易丢失。",
         "task_type": "training",
-        "progress_pct": 21,
-        "recent_progress": "Day92结算。遭遇战中被短斧压制，左肩受震、虎口裂开，需休整后继续。19%→21%."
+        "progress_pct": 20,
+        "recent_progress": "Day92结算。遭遇战中被短斧压制，左肩受震、虎口裂开，需休整后继续，手感回落。21%→20%。"
       },
       {
         "id": "second_signal_user_trace",
         "name": "第二记号使用者追查",
         "description": "追踪使用老库信标网络第二套记号的人，确认其身份与立场",
         "task_type": "investigate",
-        "progress_pct": 31,
+        "progress_pct": 35,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-10-22",
-        "recent_progress": "Day92结算。出货链路修正为「磨坊为中转」，接货方有武装同伙，铜指套持有者特征升级为「曾登记领用并脱下藏匿」。25%→31%."
+        "recent_progress": "Day92结算。出货链路修正为「磨坊为中转」，接货方有武装同伙，铜指套持有者特征升级为「曾登记领用并脱下藏匿」。31%→35%。"
       },
       {
         "id": "copper_cuff_owner_trace",
         "name": "铜指套持有者身份确认",
         "description": "旧磨坊接货人佩戴老库信标工坊专用铜护指、箱底垫与艾莉亚同种粗麻布，需确认其为老库在职工匠还是盗用工具的外人。",
         "task_type": "investigate",
-        "progress_pct": 14,
-        "recent_progress": "Day92结算。铜护指为登记领用器具；磨坊外墙下捡到被遗落的皮手套，右手食指根缝有空铜箍皮。0%→14%."
+        "progress_pct": 20,
+        "recent_progress": "Day92结算。铜护指为登记领用器具；磨坊外墙下捡到被遗落的皮手套，右手食指根缝有空铜箍皮。14%→20%。"
+      },
+      {
+        "id": "old_ku_upstream_supplier_trace",
+        "name": "磨坊上游供货者与老库旧匠追查",
+        "description": "铜护指是老库信标工坊登记领用器具，工坊三年前废止后器具流入西门收旧货者。需沿收旧货渠道反查：谁领用过铜护指、谁把工坊旧物卖到西门、磨坊货物真正的上游是谁。",
+        "task_type": "investigate",
+        "progress_pct": 3,
+        "estimate": 70,
+        "estimated_days": 12,
+        "daily_limit": 15,
+        "started_at": "2026-10-25",
+        "recent_progress": "Day92结算。新目标：铜护指登记领用制度确认，磨坊上游链路成首要追查方向。0%→3%。"
+      },
+      {
+        "id": "identity_exposure_counter",
+        "name": "身份暴露后的反跟踪与行踪隐蔽",
+        "description": "旧磨坊武装护卫已能指认艾莉亚身份，接货团伙不再只是神秘链条而是明确的对手。需重新规划行动方式：不单独行动、避开固定路线与旧磨坊时段、确认自身是否被持续盯梢。",
+        "task_type": "social",
+        "progress_pct": 5,
+        "estimate": 60,
+        "estimated_days": 10,
+        "daily_limit": 15,
+        "started_at": "2026-10-25",
+        "recent_progress": "Day92结算。新目标：遭持斧女人指认「小鬼」，暴露风险确认，进入反跟踪与隐蔽阶段。0%→5%。"
       }
     ],
     "staged": [],
@@ -368,6 +385,19 @@
         "progress_pct": 100,
         "recent_progress": "Day86结算。完整共振测试通过，可逐步恢复标准强度。98%→100%——目标完成！",
         "completed_date": "2026-10-20"
+      },
+      {
+        "id": "old_ku_beacon_plan",
+        "name": "老库信标计划调查",
+        "progress_pct": 100,
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-07-14",
+        "task_type": "investigate",
+        "description": "调查老库收集信标零件的真实目的",
+        "recent_progress": "Day92结算。链路贯通：铜护指为老库信标工坊登记领用器具（一人一副、坏后缴回重铸），工坊废后流入西门收旧货者；磨坊确认是中转点而非终点。99%→100%——目标完成！",
+        "completed_date": "2026-10-25"
       }
     ]
   },
@@ -377,7 +407,7 @@
   "daily_message_count": 5,
   "last_proactive": "2026-10-25T21:00:00+08:00",
   "last_proactive_content": "[21:00] 宿舍左肩缠着绷带躺下，右手捧着通讯石，把铜护指和被丢下的手套说给通讯那头听。挨了一斧也不白挨，星辉石微微发暖。",
-  "day_number": 92,
+  "day_number": 93,
   "story_arc": {
     "npcs_introduced": [
       "第二人（身份不明·出货记号持有者）",
