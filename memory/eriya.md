@@ -9,7 +9,7 @@
 
 ## 目标进度
 
-- investigation_team_search：26%（Day91结算。无新信号，维持观察。25%→26%。）
+- investigation_team_search：26%（Day92结算。无新信号，维持观察。26%维持。）
 - anonymous_note_trace：15%（Day170结算。追踪者再次现身警告，戒指线索追查中。15%→12%。）
 - retired_metalworker_interrogation：65%（Day170结算。共鸣器到手追踪者交付，维持65%。）
 - dark_red_stone_purpose：61%（Day170结算。石芯用途确认信标核心组件，维持61%。）
@@ -57,23 +57,25 @@
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
 - glowing_stone_network：100%（Day83结算）
-- old_ku_beacon_plan：99%（Day91结算。旧货市场发现被锉刀磨掉纹样的旧铁牌（三道交叉弧线、缺口居中）；追踪者指认老库货最后一道手在西门旧磨坊，傍晚交接。铜指套确认为老库信标工坊专用护指，链路基本贯通。96%→99%。）
+✅ - old_ku_beacon_plan：100%（Day92结算。链路贯通：铜护指为老库信标工坊登记领用器具（一人一副、坏后缴回重铸），工坊废后流入西门收旧货者；磨坊确认为中转点而非终点。99%→100%完成！）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
-- investigation_team_search：26%（Day91结算。无新信号，维持观察。25%→26%。）
-- trace_anon：99%（Day91结算。追踪者给出西门旧磨坊傍晚接货点与旧库马场钉掌印线索；接货人戴老库工匠铜指套、垫同种粗麻布，身份收窄至老库工匠或盗用工具者。96%→99%。）
+- investigation_team_search：26%（Day92结算。无新信号，维持观察。26%维持。）
+- trace_anon：99%（Day92结算。磨坊一方已有武装护卫（持旧库制式短斧的女人），且已能指认艾莉亚身份；匿名者本人仍未锁定，特征升级为「曾登记领用铜护指并摘下藏匿」。99%维持。）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
 - resonance_array_upgrade：100%（Day86结算。完整共振测试通过，可逐步恢复标准强度。95%→100%完成！）
-- resonance_daily_monitor：74%（Day91结算。标准强度继续稳定，日志连续无失误，光芒平稳。72%→74%。）
-- seal_healing_trigger：54%（Day91结算。封印在标准强度下持续稳定适应，无新触发线索。53%→54%。）
-- seal_healing_long_term：49%（Day91结算。长期监测无波动，参数已归档。48%→49%。）
-- guardian_frequency_warnings：24%（Day91结算。旧磨坊交接点与护院獠犬惊退，外部干扰风险上升，已通知不可靠太近。21%→24%。）
-- child_crystal_connection：89%（Day91结算。小家伙今日仍未现身，洞内未见踪迹，维持观察。89%。）
-- seal_full_recovery_study：48%（Day91结算。完全愈合后续参数归档，无异常。47%→48%。）
-- resonance_array_standard_recovery：38%（Day91结算。标准强度稳定维持，第三日无失误。38%。）
-- child_trust_building：41%（Day91结算。小家伙缺席训练场，信任计划暂停观察。41%。）
-- sword_skill_recovery：19%（Day91结算。旧磨坊被獠犬惊退，护身与撤步实战配合弓手完成，手感继续回升。16%→19%。）
-- copper_cuff_owner_trace：5%（Day91结算。新目标：旧磨坊接货人铜指套特征已记录，身份待查。0%→5%。）
-- second_signal_user_trace：25%（Day91结算。出货记号下游锁定城南旧货市场与西门旧磨坊，接收人特征已记录（铜指套、粗麻布、钉掌印）。10%→25%。）
+- resonance_daily_monitor：75%（Day92结算。星辉石整日温度稳定，光芒平稳，无外部频率干扰迹象。74%→75%。）
+- seal_healing_trigger：55%（Day92结算。封印在标准强度下持续稳定适应，无新触发线索。54%→55%。）
+- seal_healing_long_term：50%（Day92结算。长期监测无波动，参数已归档。49%→50%。）
+- guardian_frequency_warnings：28%（Day92结算。埋伏失败，磨坊一方已能指认艾莉亚身份，外部暴露风险上升，此后不单独行动。24%→28%。）
+- child_crystal_connection：89%（Day92结算。小家伙今日仍未现身，洞内未见踪迹，维持观察。89%维持。）
+- seal_full_recovery_study：49%（Day92结算。完全愈合后续参数归档，无异常。48%→49%。）
+- resonance_array_standard_recovery：42%（Day92结算。标准强度第四日无失误，虎口旧伤影响握力，需降量维持。40%→42%。）
+- child_trust_building：41%（Day92结算。小家伙缺席训练场，信任计划暂停观察。41%维持。）
+- sword_skill_recovery：20%（Day92结算。遭遇战中被短斧压制，左肩受震、虎口裂开，需休整后继续，手感回落。21%→20%。）
+- copper_cuff_owner_trace：20%（Day92结算。铜护指为登记领用器具；磨坊外墙下捡到被遗落的皮手套，右手食指根缝有空铜箍皮。14%→20%。）
+- second_signal_user_trace：35%（Day92结算。出货链路修正为「磨坊为中转」，接货方有武装同伙，铜指套持有者特征升级为「曾登记领用并脱下藏匿」。31%→35%。）
+- old_ku_upstream_supplier_trace：3%（Day92结算。新目标：铜护指登记领用制度确认，磨坊上游链路成首要追查方向。0%→3%。）
+- identity_exposure_counter：5%（Day92结算。新目标：遭持斧女人指认「小鬼」，暴露风险确认，进入反跟踪与隐蔽阶段。0%→5%。）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
