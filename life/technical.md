@@ -226,6 +226,18 @@
 - Linux crontab 每 5 分钟跑 `auto-sync.sh`：对比时间戳 → 有更新才 cp → git commit → push
 - ⚠️ 改页面内容要改**源文件**，改 viewer 副本会被同步覆盖
 
+**艾莉亚 state.json 源文件位置（易改错）**
+
+| 文件 | 路径 | 说明 |
+|------|------|------|
+| 源文件（唯一正确） | `/home/gong/.openclaw/workspace/skills/isekai-companion/state.json` | 改这里 |
+| viewer 副本 | `skills/isekai-companion/viewer/state.json` | 只读，会被同步覆盖 |
+| 日程数据 | `state.json` 的 `daily_schedule` 字段 | 不是独立文件 |
+
+```bash
+python3 -c "import json; print(json.dumps(json.load(open('/home/gong/.openclaw/workspace/skills/isekai-companion/state.json'))['daily_schedule'], ensure_ascii=False, indent=2))"
+```
+
 ### [2026-07-09] 身份证号 hash 做主键
 
 MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表），不要直接用明文身份证号做主键。
@@ -257,4 +269,4 @@ MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表）�
 
 ---
 
-*最后整理：2026-10-25*
+*最后整理：2026-10-28*
