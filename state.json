@@ -264,6 +264,14 @@
         "daily_limit": 15,
         "started_at": "2026-10-27",
         "recent_progress": "Day95结算。编号「短斧·柒（工装制式）」，备注「监工自领，销旧号，永不复领」——唯一一把不在任何名册上的斧，即叁正清手中那把。3%→15%。"
+      },
+      {
+        "id": "armory_key_register_check",
+        "name": "公会器物库房钥匙登记簿核查",
+        "description": "按「明路」第一条：查公会器物库房钥匙登记簿，确认登记了几把钥匙、各在谁名下，并比对本会签发记录与叁正清的领用权限。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "recent_progress": "Day95新目标。箭垛定下的明路三事之一，尚未开始。0%。"
       }
     ],
     "staged": [],
@@ -434,7 +442,7 @@
   "last_proactive_content": [
     "[21:00] 宿舍里把明天三件事写在纸上：查库房钥匙登记簿、翻城门出入记录、去问布罗。抄录纸压在星辉石下，石头温温的。"
   ],
-  "day_number": 95,
+  "day_number": 96,
   "story_arc": {
     "npcs_introduced": [
       "第二人（身份不明·出货记号持有者）",
