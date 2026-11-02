@@ -17,7 +17,7 @@
 | [📌 时间与时区](#-时间与时区) | WSL2 UTC 偏移 |
 | [📌 工具使用规范](#-工具使用规范) | 比价、文件同步、主键设计 |
 | [📌 支付接口规范](#-支付接口规范) | 通华/银联、终端能力码值 |
-| [📌 知识库维护](#-知识库维护) | 归档规则、L1/L2 分工 |
+| [📌 知识库维护](#-知识库维护) | 归档规则、L1/L2 分工、信号队列边界 |
 
 ---
 
@@ -244,6 +244,21 @@ MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表）�
 
 ---
 
+### [2026-11-03] 价格记录必须按时间顺序追加，不得插队
+
+**问题** `memory/shopping/wishlist.md` 里 2026-11-02 的比价记录写在 2026-11-01 记录**之前**，
+而 11-02 那条正文引用了「较 2026-11-01 记录的京东¥355 上涨约¥44」——引用的记录排在自己后面，读者无法顺读。
+
+**根因** 写入方按「找到同一产品行 → 在行末追加」写入，跨轮并发/乱序到达时，
+新记录会插到旧记录前面（11-02 那轮比 11-01 那轮晚落盘，但写入位置被挤到了前面）。
+
+**正确做法**
+1. 追加前先扫一遍该产品已有的日期行，新记录的日期必须**晚于**所有已有行
+2. 若发现顺序倒置，交换行序而不是覆盖
+3. 引用历史值时，引用对象必须出现在**自己之前**
+
+**适用范围** `memory/shopping/wishlist.md`、`memory/games/wishlist.md` 这类「同一产品多条时间线记录」的文件。
+
 ## 📌 支付接口规范
 
 > **权威库**：`self-evolution/patterns/payment-specs/README.md`
@@ -261,12 +276,13 @@ MD5 理论上够用，但建议 **SHA-256 + 加盐**（合规 + 防彩虹表）�
 - 空壳/已整合的历史模板统一归档到 `archived.md`，不保留空白占位文件
 - 永久原则（P001~P006）存于 `skills/evo-memory/principles.md`，与本文件不重复维护
 - 每日夜间整理时同步检查：
-  - `self-evolution/pending.jsonl` 与 `memory/evolution/pending.jsonl`（待综合信号）
   - `memory/evolution/gaps.md`（能力缺口，唯一权威来源）
   - `memory/evolution/todo.md`（复盘改进待办）
   - `memory/evolution/patterns/整理日志/`（写当日日志）
+- ⚠️ **信号队列不在本工作区**：本工作区的 `self-evolution/pending.jsonl` 与 `memory/evolution/pending.jsonl` **恒为 0 字节**（无写入方），真正的队列在主工作区 `~/.openclaw/workspace/memory/evolution/pending.jsonl`（由 cron `924a5d1a` 写、`nightly-review` 综合）。**不要把「本工作区队列为空」当成「没有待整理信号」**——那是长期假健康信号。判定方法见 `memory/evolution/patterns/cross-workspace-signal.md`。
 - 同一事实只存一处：细节存 pattern 文件，MEMORY.md 只留索引与一行摘要
+
 
 ---
 
-*最后整理：2026-11-01*
+*最后整理：2026-11-03*
