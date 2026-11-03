@@ -132,7 +132,7 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day100结算。调查组仍无新信号，29%维持。"
+        "recent_progress": "Day101结算。调查组仍无新信号，29%维持。"
       },
       {
         "id": "resonance_daily_monitor",
@@ -140,7 +140,7 @@
         "description": "建立每日本地共振监测机制，记录星辉石温度、光芒变化、共鸣稳定性，防止再次出现异常波动。",
         "task_type": "investigate",
         "progress_pct": 80,
-        "recent_progress": "Day100结算。星辉石无异常波动，80%维持。"
+        "recent_progress": "Day101结算。星辉石无异常波动，80%维持。"
       },
       {
         "id": "seal_healing_trigger",
@@ -148,7 +148,7 @@
         "description": "追踪者提到的「封印结构调整期谐振窗口」原理是什么？纹路为何会自行消退？继续调查封印自愈的触发条件。",
         "task_type": "investigate",
         "progress_pct": 55,
-        "recent_progress": "Day100结算。无新触发线索，55%维持。"
+        "recent_progress": "Day101结算。无新触发线索，55%维持。"
       },
       {
         "id": "seal_healing_long_term",
@@ -156,7 +156,7 @@
         "description": "封印自愈已确认，后续需持续监测愈合进度与结构稳定性，确认纹路完全消退后的封印强度变化。",
         "task_type": "investigate",
         "progress_pct": 50,
-        "recent_progress": "Day100结算。长期监测无波动，50%维持。"
+        "recent_progress": "Day101结算。长期监测无波动，50%维持。"
       },
       {
         "id": "guardian_frequency_warnings",
@@ -164,7 +164,7 @@
         "description": "追踪者多次警告外部频率尝试匹配共振频率，星辉石闪光是封印调整的信号——需持续关注共振稳定性，防范外部干扰。",
         "task_type": "investigate",
         "progress_pct": 37,
-        "recent_progress": "Day100结算。追踪者今日只教眼睛与反跟踪，未见外部频率异常介入，37%维持。"
+        "recent_progress": "Day101结算。追踪者第三课讲的是「被谁记住」，未见外部频率异常介入，37%维持。"
       },
       {
         "id": "seal_full_recovery_study",
@@ -172,7 +172,7 @@
         "description": "封印完全愈合，追踪者确认恢复正常输出并可恢复标准强度。需要记录愈合后的参数变化，建立完整档案。",
         "task_type": "investigate",
         "progress_pct": 50,
-        "recent_progress": "Day100结算。完全愈合后续参数归档，无异常，50%维持。",
+        "recent_progress": "Day101结算。完全愈合后续参数归档，无异常，50%维持。",
         "created_date": "2026-10-16"
       },
       {
@@ -181,7 +181,7 @@
         "description": "完整共振测试通过后进入第二阶段，逐步恢复标准强度。今天第一次标准强度测试，走音事件非封印问题，继续推进。",
         "task_type": "training",
         "progress_pct": 70,
-        "recent_progress": "Day100结算。标准强度第三天，風穿ち起手收势各一遍，肩不疼、手腕没松。64%→70%。"
+        "recent_progress": "Day101结算。今日只有反跟踪课，未上剑；左肩全抬不疼，70%维持。"
       },
       {
         "id": "child_trust_building",
@@ -189,7 +189,7 @@
         "description": "小家伙第一次主动肢体接触（碰鞋尖），昨天又在训练场看训练时打瞌睡。继续尝试接近，目标是能让它愿意被抚摸。",
         "task_type": "social",
         "progress_pct": 80,
-        "recent_progress": "Day100结算。它第一次主动走到一步远，低头闻她的鞋，然后把下巴搁上她的鞋面，搁得很轻，尾巴卷了一下；她数到四十下它才自己走开。73%→80%。"
+        "recent_progress": "Day101结算。今日未见小家伙，80%维持。"
       },
       {
         "id": "sword_skill_recovery",
@@ -197,7 +197,7 @@
         "description": "标准强度恢复后需重新适应新的共振频率与身体节奏。风魔法加速斩击与基础剑术配合，追踪者建议恢复期不能懈怠，战斗手感容易丢失。",
         "task_type": "training",
         "progress_pct": 55,
-        "recent_progress": "Day100结算。恢复期第十二日零绷带，追踪者今日让她出剑三式（風穿ち起手收势各一遍）；加练反跟踪自检「每五十步用眼角回扫一次墙根」。48%→50%→55%。"
+        "recent_progress": "Day101结算。恢复期第十三日零绷带，左肩抬到最高不疼；今日改练掌心朝后走法，未出剑，55%维持。"
       },
       {
         "id": "second_signal_user_trace",
@@ -209,7 +209,7 @@
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-10-22",
-        "recent_progress": "Day100结算。他改了时间——清早那条巷只走初一，他改得比她起得还早；加上布罗「走水」，他不出现在纸上、不出现在大路。62%→64%→68%。"
+        "recent_progress": "Day101结算。他改时间的判断仍在，今日新增叁记字号但未与第二记号使用者并上，68%维持。"
       },
       {
         "id": "copper_cuff_owner_trace",
@@ -217,7 +217,7 @@
         "description": "旧磨坊接货人佩戴老库信标工坊专用铜护指、箱底垫与艾莉亚同种粗麻布，需确认其为老库在职工匠还是盗用工具的外人。",
         "task_type": "investigate",
         "progress_pct": 52,
-        "recent_progress": "Day100结算。归还台女助手指腹青绿只是铜作业痕迹，未直接指向铜指套持有者本人，52%维持。"
+        "recent_progress": "Day101结算。陶师傅指认那对铜指套就是归还台女助手的：泡铜药水一天三遍、泡三年指节就绿，剪了指套手还是绿的；她不是做铜的，是替料行跑腿的，手按秤砣按绳不洗。52%→70%。"
       },
       {
         "id": "old_ku_upstream_supplier_trace",
@@ -229,7 +229,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-25",
-        "recent_progress": "Day100结算。铜的水路工序查清：旧运铜水道→城北泡铜的料行→铜锈兑药引子，上游供货链多了一条水路分支。45%→48%。"
+        "recent_progress": "Day101结算。铜匠铺后院风刮下来的包货纸：城北料行·叁记·初五取铜锈三十斤；陶师傅说初五来取货的人他不写名字，写了要出事。上游供货链多出一张单据字号，48%→60%。"
       },
       {
         "id": "identity_exposure_counter",
@@ -241,7 +241,7 @@
         "estimated_days": 10,
         "daily_limit": 15,
         "started_at": "2026-10-25",
-        "recent_progress": "Day100结算。水道边挑水老头看见了她的脸；追踪者判定「怕一个记住你脸的普通人和怕一个盯梢你的人是两回事，前者可以放过，后者不能，所以今天不能再去了」——实地线中止。33%→40%→46%。"
+        "recent_progress": "Day101结算。追踪者第三课：要紧的不是有没有被记住，是被谁记住、记多久、他会拿这条做什么；新动作走时手垂身侧、掌心朝后，三遍各五十步。46%→50%。"
       },
       {
         "id": "west_gate_broker_trace",
@@ -249,7 +249,7 @@
         "description": "西门外第二个岔路口的收旧货老头布罗，一夜之间摊子被清空、旧铜件被拖走。追查布罗其人、拖痕去向与出城铜件的实际买主。",
         "task_type": "investigate",
         "progress_pct": 56,
-        "recent_progress": "Day100结算。无新线索，56%维持。"
+        "recent_progress": "Day101结算。无新线索，56%维持。"
       },
       {
         "id": "san_xiansheng_trace",
@@ -261,7 +261,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-27",
-        "recent_progress": "Day100结算。布罗第四句「水……不走船。铜……走水。」——「往北走」改写为「往北·走水」；城南到城北除大路外还有旧运铜水道。身份链从「脸」推进到「水路」。62%→70%。"
+        "recent_progress": "Day101结算。叁记＝料行字号，招牌与纸上同一路字；叁正清＝公会留任保管员——布罗说「叁……记」，但两个「叁」不划等号。70%→78%。"
       },
       {
         "id": "old_axe_trace",
@@ -273,7 +273,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-27",
-        "recent_progress": "Day100结算。无新指向短斧柒的证据，24%维持。"
+        "recent_progress": "Day101结算。无新指向短斧柒的证据，24%维持。"
       },
       {
         "id": "armory_key_register_check",
@@ -281,7 +281,7 @@
         "description": "按「明路」第一条：查公会器物库房钥匙登记簿，确认登记了几把钥匙、各在谁名下，并比对本会签发记录与叁正清的领用权限。",
         "task_type": "investigate",
         "progress_pct": 74,
-        "recent_progress": "Day100结算。当值名单与归还簿同案、同刀、同一次批量处理，说明他不只抹归还簿——凡是记过他名字的纸都在同一批里；登记簿这条路继续失效。70%→72%→74%。"
+        "recent_progress": "Day101结算。登记簿这条路继续失效，74%维持。"
       },
       {
         "id": "san_xiansheng_motive_check",
@@ -293,7 +293,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-29",
-        "recent_progress": "Day100结算。追踪者一条撤回、一条加固：汤屋初一初二例休⇒摊主从同谋降为不知情的普通人；而他初二清早没再走那条巷、那条巷清早只走初一，说明他改的不是手法是时间，在等人看。35%→45%→50%。"
+        "recent_progress": "Day101结算。今日无新动机线索；汤屋摊主彻底洗清（例休＝每月初二休），50%维持。"
       },
       {
         "id": "monthly_iron_bag_line",
@@ -305,7 +305,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-29",
-        "recent_progress": "Day100结算。往北走＝往北·走水：铜从旧运铜水道过一遍，水面那层绿膜就是铜锈，被带进城北泡铜的料行兑药引子。布袋线与铜料行线由水路并线。45%→52%→62%→68%。"
+        "recent_progress": "Day101结算。水路方向倒过来：不是城南往北运铜，是城北泡铜的水被扛回城南公会后院；后院那片绿不是沾上，是浇上去的。追踪者定论。68%→78%。"
       },
       {
         "id": "melted_key_remainder_trace",
@@ -313,7 +313,7 @@
         "description": "登记簿册底「三把旧钥熔销于器物库，存底」——作废钥匙并未消失，被熔成铜料存入库房某处；需查明存底位置、形式（块/锭/混料）与经手人，只走账目与登记明路。",
         "task_type": "investigate",
         "progress_pct": 19,
-        "recent_progress": "Day100结算。仍无直接确认熔销旧钥实体存底，19%维持。"
+        "recent_progress": "Day101结算。仍无直接确认熔销旧钥实体存底，19%维持。"
       },
       {
         "id": "first_day_bag_watch",
@@ -325,7 +325,7 @@
         "estimated_days": 3,
         "daily_limit": 15,
         "started_at": "2026-10-30",
-        "recent_progress": "Day100结算。观察收尾：初二清早那条巷子什么都不动，只走初一的规律成立；女助手独自空手回巷。今日她换了位置站（老位置不再站第二次），一眼未跟。10%→42%→52%。"
+        "recent_progress": "Day101结算。布袋线今日无动作，52%维持。"
       },
       {
         "id": "return_log_page_swap_trace",
@@ -337,7 +337,7 @@
         "started_at": "2026-10-31",
         "task_type": "investigate",
         "description": "查明归还簿边栏那几页偏新的纸页是否被整页替换，以及三月十一、三月十七两处同刀刮痕对应的原始记录去了哪里",
-        "recent_progress": "Day100结算。新目标：文书房当值名单上同一个人的名字三次出现三次被刮，刮痕与归还簿边栏三月十一／三月十七一模一样——同刀、同向、同一批处理，当值名单与归还簿边栏是同一次抹除。0%→20%。"
+        "recent_progress": "Day101结算。当值名单上除了她，另外两个名字也被同一把刀同向刮去，连纸毛朝向都一样——三个名字一次带走。被刮的是一批人，不是一个人。20%→35%。"
       },
       {
         "id": "return_desk_helper_identity",
@@ -349,7 +349,7 @@
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day100结算。两条新指向：一是指腹一道洗不掉的青绿、指甲缝一点绿、指侧一片搓破的皮，而归还台只碰纸墨不碰铜；二是文书房当值名单上她的名字出现三次、三次都被刮去，刀口与归还簿边栏同刀同向同一次批量处理——她是被记录过、然后被抹掉的人。5%→25%。"
+        "recent_progress": "Day101结算。三条硬指向：①陶师傅认得她的铜指套；②她替料行跑腿，手上一层洗不掉的绿是自己不洗的——「洗掉了就没人知道她碰过铜」；③她上月在铜匠铺换过一只比铺里还旧、铜都发黑的秤砣。今日她不在归还台（窗口坐的是戴单只铜指套的老头）。25%→52%。"
       },
       {
         "id": "old_copper_waterway_probe",
@@ -361,7 +361,7 @@
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day100结算。水道实地找到并走完：三个废弃取料口，前两个石阶塌半边、栅栏锈死，第三个石阶完整、栅栏被细齿锯开，断口新锯纹、锯开那截靠在旁边、锯面朝上。0%→35%。"
+        "recent_progress": "Day101结算。水道作为城北到城南最短路线再获证实：她扛桶从料行侧门出来、桶沿滴水，湿痕往南拖。35%→42%。"
       },
       {
         "id": "copper_patina_disappearance",
@@ -373,7 +373,7 @@
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day100结算。来源查明：挑水老头说「这水早就不运铜了」「城北泡铜的料行，铜得从这水上过一遍，绿的那层就是铜锈」——铜绿是水道的水带出来的，被人带回公会后院；第二天消失不是自己散的。0%→30%。"
+        "recent_progress": "Day101结算。性质改写：铜绿不是墙根自己长的，也不是蹭上去的，是有人把城北泡铜的水运回后院「浇上去」的成品，所以第二天消失不是自己散的。30%→45%。"
       },
       {
         "id": "creature_lair_waterway_link",
@@ -385,7 +385,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-11-02",
-        "recent_progress": "Day100结算。新目标：巢穴即水道取料口，待确认哪一个。0%。"
+        "recent_progress": "Day101结算。新目标：巢穴即水道取料口；今日水道运输方向确认（城北→城南），巢穴位置仍待锁定。0%→5%。"
       },
       {
         "id": "waterway_carrier_trace",
@@ -397,7 +397,25 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-11-02",
-        "recent_progress": "Day100结算。新目标：谁把水道的水带回后院。0%。"
+        "recent_progress": "Day101结算。新目标：谁把水道的水带回后院。首个身影：料行侧门出来的女助手，扛盖布小木桶，桶沿滴水往南走。0%→15%。"
+      },
+      {
+        "id": "san_ji_copper_rust_deal",
+        "name": "叁记·初五铜锈交割追踪",
+        "description": "城北料行字号「叁记」初五取铜锈三十斤；来取货的人陶师傅不肯写名字，写了要出事。交割是否发生、谁来取、取多少、运往何处。",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day101结算。新目标：铜匠铺后院包货纸「城北料行·叁记·初五取铜锈三十斤」；纸角记号两条横一道竖，与旧库出货记号同族。初五就在后天。5%。",
+        "started_day": 101
+      },
+      {
+        "id": "waterway_timing_chart",
+        "name": "旧运铜水道运水时间表绘制",
+        "description": "追踪者定的功课：把水路的时间对出来——初几、几点、谁来、桶往哪走，表自己画，追踪者只复核。为初五交割与后院浇灌锁定时段。",
+        "task_type": "investigate",
+        "progress_pct": 5,
+        "recent_progress": "Day101结算。新目标：追踪者只做复核，表自己画；明日只做这一件事。5%。",
+        "started_day": 101
       }
     ],
     "staged": [],
@@ -576,7 +594,7 @@
   "daily_message_count": 5,
   "last_proactive": "2026-11-03T21:00:00+08:00",
   "last_proactive_content": "[21:00] 宿舍，桌上摊着新画的那张表，格子里只填了三行：初几、几点、谁来。她把水路上要走的每一段都画成线，标了「城南→城北」和「城北→城南」两个方向，等着明天一笔一笔填。星辉石贴在掌心，微温。",
-  "day_number": 101,
+  "day_number": 102,
   "story_arc": {
     "npcs_introduced": [
       "第二人（身份不明·出货记号持有者）",
