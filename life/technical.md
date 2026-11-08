@@ -13,7 +13,7 @@
 | [📌 前后端与资源访问](#-前后端与资源访问) | OSS 白名单、CDN 缓存 |
 | [📌 工作流引擎](#-工作流引擎) | Activiti 条件表达式 |
 | [📌 待办系统与脚本](#-待办系统与脚本) | 滴答清单 API 限制、脚本修复 |
-| [📌 定时任务与消息推送](#-定时任务与消息推送) | 多条消息拆分、cron 调参、调度槽位碰撞、payload.model 大小写、timeout 预算余量、单次 ok ≠ 恢复、error 轮也可能已落盘、连续 N 轮才算恢复、ok 轮也可能零产出 |
+| [📌 定时任务与消息推送](#-定时任务与消息推送) | 多条消息拆分、cron 调参、调度槽位碰撞、payload.model 大小写、timeout 预算余量、单次 ok ≠ 恢复、error 轮也可能已落盘、连续 N 轮才算恢复、ok 轮也可能零产出、error 原文四分类（FailoverError 网络故障）、timeout 非硬上限 |
 | [📌 时间与时区](#-时间与时区) | WSL2 UTC 偏移 |
 | [📌 工具使用规范](#-工具使用规范) | 比价、文件同步、主键设计 |
 | [📌 支付接口规范](#-支付接口规范) | 通华/银联、终端能力码值 |
@@ -211,13 +211,18 @@ cron payload.model 'minimax/minimax-M2.7' rejected by agents.defaults.models all
 `minimax/MiniMax-M2.7`（**M2.7 的大小写敏感**）。同一天的其他作业用同样的模型能跑通，
 所以不是模型不可用，是**大小写不匹配**。
 
-**教训** 排查 cron 作业失败时，**必须先看 error 原文的三类形态**：
+**教训** 排查 cron 作业失败时，**必须先看 error 原文的四类形态**：
 
 | error 形态 | 含义 | 处理方向 |
 |-----------|------|---------|
 | `rejected by ... allowlist` | 配置问题，模型名与 allowlist 不匹配 | 改 `payload.model` 精确到 allowlist 登记值 |
 | `cron: job execution timed out` | 执行预算问题 | 先查启动延迟（见上条），别急着提 timeout |
 | `timed out` 但该作业历史上常 ok | 工作量逼近预算上限 | 见下一条「预算余量」 |
+| `FailoverError: LLM request failed: network connection error` | **网络/上游 failover**，与预算、配置都无关 | 重试即可；不要改 timeout、不要动 payload |
+
+> 第四类实测（2026-11-08 04:15，`924a5d1a`）：`durationMs=134377`，**远低于 timeout 上限**，
+> 是「根本没跑满就被打断」的形态，与超时类形态从耗时上就能一眼区分。
+> 判据：**error 轮的 durationMs 明显小于 timeout ⇒ 不是预算问题**（详见 [2026-11-09] 条目）。
 
 **附带教训** 改 `payload.model` / `payload.timeoutSeconds` 都在 `jobs.json` 的 **`payload` 节点**里，
 **不在 job 顶层**（顶层没有这两个字段），改错层级会静默无效。
