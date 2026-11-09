@@ -517,6 +517,45 @@
         "task_type": "equip",
         "progress_pct": 16,
         "recent_progress": "Day108结算。指尖印首次验成（印在=昨夜无人进屋），自检机制有效并推广至老修女药材筐下与宫磊的铅笔圈；铜片蜡封经追踪者第二人复核封口完好，替代藏物点定为「追踪者处蜡封／抄件压路线图下／纸条抄本抽出另藏」三处"
+      },
+      {
+        "id": "copy_of_vertical_mark_trace",
+        "name": "复制线·照着记号造一枚新铜牌",
+        "description": "对手不再磨除记号，改为按同模子复制。后院墙根新铜绿中留下铜牌大小的取印圆印、旁以砂写「竖」；陶师傅称工坊那一批模子刻了九块、每块背面都是那一竖；追踪者与宫磊同日提示「看见第二块带竖的别当成是你自己的」。须查：现存量产模子与现存铜牌能否一一对应、工坊废止后模子流向、取印圆印的施压角度与铜牌直径（较本人铜牌小半厘）。",
+        "progress_pct": 6,
+        "task_type": "investigate",
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-11-10",
+        "started_day": 108,
+        "recent_progress": "Day108结算。新目标。后院取印圆印＋砂写竖＋九块模子之说同时落地，复制线正式开线（6%）。"
+      },
+      {
+        "id": "identity_substitution_risk",
+        "name": "被顶替风险与自制物识别标记",
+        "description": "复制品可携带同样的记号去做艾莉亚做过的事（签过的字、说过的话、拿过的碗）。须建立自制识别机制：记号形态、直径差半厘、随身时刻戳、他人代持记录；并把「被顶替」列入身份暴露后的反跟踪清单。",
+        "progress_pct": 8,
+        "task_type": "investigate",
+        "estimate": 70,
+        "estimated_days": 12,
+        "daily_limit": 10,
+        "started_at": "2026-11-10",
+        "started_day": 108,
+        "recent_progress": "Day108结算。新目标。追踪者与宫磊同日给出同一提示，艾莉亚已决定不交出铜牌并把砂样三包分封（8%）。"
+      },
+      {
+        "id": "evidence_seal_discipline",
+        "name": "证物封装规范与第二人开验",
+        "description": "铜片蜡封封口完好已由追踪者复核，但蜡中砂系艾莉亚昨日顺手塞入造成的自污染。须固化为规范：多件证物分封不混包、每包标注取样时刻与地点、解封须第二人先验封口并记录砂样状态，避免污染被误读为敌方痕迹。",
+        "progress_pct": 12,
+        "task_type": "investigate",
+        "estimate": 40,
+        "estimated_days": 8,
+        "daily_limit": 5,
+        "started_at": "2026-11-10",
+        "started_day": 108,
+        "recent_progress": "Day108结算。新目标。追踪者指出「蜡里有砂」，艾莉亚当场认错并改为三包分封，规范待固化（12%）。"
       }
     ],
     "staged": [],
