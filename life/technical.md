@@ -76,6 +76,63 @@
 
 ---
 
+## 📌 Java 线程池与阻塞排查
+
+### [2026-11-09] 线程池 RejectedExecutionException 排查决策树
+
+**背景** ICC卡批处理 `Evaluate.execute` 抛
+`RejectedExecutionException ... [Running, pool size=20, active threads=20, queued tasks=20000, completed tasks=0]`
+日志伴随 `SocketIO - connect to app.tkms.prd.csrcb:12002 timeout:6000s`。
+
+**核心判据（按可靠性排序）**
+1. **`completed tasks = 0`** → 最可靠的雪崩信号。活跃线程满可能只是正常高负载；
+   completed 停在 0 说明有任务卡在**不可中断的 IO** 上，一个都没跑完。
+2. `pool size` 与 `active threads` 长期相等 → 线程被占满
+3. `queued tasks` 持续上涨到上限 → 堆积
+
+**决策树**
+```
+RejectedExecutionException
+├─ completed tasks = 0？ ── 否 → 单纯并发过高，调大池/降批量/加限流
+│        │是
+│        └─ jstack <pid> > /tmp/thread.txt，搜线程名（如 pool-92-thread-20）
+│             ├─ 卡在 socketRead0 / connect  → 网络不可达或服务端不回包
+│             ├─ 卡在 park/wait + 连接池      → 连接池耗尽（maxActive/maxWait）
+│             ├─ 卡在 getConnection / lock    → 锁竞争
+│             └─ 卡在业务方法（DB/下游 HTTP） → 下游慢，线程池只是背锅
+└─ 队列 20000 满 + 池编号递增（pool-92） → 另有线程池泄漏（每任务/chunk new 一个）
+```
+
+**关键认知：超时值是「放大器」不是「起因」**
+- 服务端**秒回**时，线程毫秒级释放，超时值根本不会生效 → 改 timeout 无效
+- 服务端**不可达**（黑洞 DROP / backlog 满）时，connect 挂满整个超时窗口 →
+  超时值决定「卡多久」。6000ms 写成 6000s = 一挂 100 分钟，20 线程全被钉死
+- 因此：**先查根因（对端可达性），再调超时**。把 6000s 改 6000s→ms 只是让雪崩来得更快，
+  不解决「对端连不上」
+
+**超时配置的坑**
+- connect 超时和 socket 读超时是**两个独立配置**，别只改一个
+- 用连接池时，`maxActive` 不足 → 线程卡在「借连接」上，**不走 socket 超时**，
+  只能看 `maxWait` 和活跃连接数；日志线索是 `wait millis`
+
+**验证动作（快→慢）**
+1. `nc -zv <host> <port>` / `telnet` 测握手
+2. `ss -tan | grep <port>`：大量 SYN_SENT = 对方不回包；ESTABLISHED 堆积 = 连上了但不返数据
+3. 查对端同期日志与连接数
+4. 核对 connect/读超时两个配置项
+5. 若用连接池，拉 `maxActive` / `maxWait` / 活跃连接数
+
+**修复优先级**
+1. 修根因（服务不可达/超时单位错）
+2. 线程池改单例（Spring Bean 注入），禁止在 execute 内 new
+3. 队列调小 + 换拒绝策略（落库/重试），别静默丢任务
+4. 加熔断：连续 N 次超时即标记批次失败，不再投递
+5. 监控补 pool size / active / queued / **completed** 四指标，completed 停在 0 应告警
+
+**合规附带项** ICC 报文日志里 `iccPAN` 明文卡号、`signData01/02/03` 未脱敏，需一并处理
+
+---
+
 ## 📌 前后端与资源访问
 
 ### [2026-08-06] 前端不能直接访问 OSS 地址
