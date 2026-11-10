@@ -1,27 +1,12 @@
-# 2026-11-10 · patterns 库按根因归并
 
-## 起因
-宫磊发现「最近几天记录了很多技术问题」，除他问过的那条外，其余都是后台夜间复盘自动写入的。
-他指出这些条目「看起来是一个问题」——确实是同一条根因被反复记了 141 遍。
-
-## 动作
-- 备份：`memory/evolution/archive/{agent-ops,memory-system}.full-20261110.md`（原始全文，未改动）
-- 归并：`agent-ops.md` 79 条 → **A1~A11**（11 条，1987 行 → 962 行）
-       `memory-system.md` 62 条 → **B1~B10**（10 条，1780 行 → 618 行）
-- 共 141 条 → 21 条根因主题
-- 每条新结构：**一句话判据 → 规则 → 常见形态 → 检查动作 → 证据 → 合并自**
-- 校验：脚本比对原始备份，标题**零缺失、零重复**（全角括号的 2 条标题需特殊匹配）
-- 证据全部保留：路径、jobId（924a5d1a / e12bc525 / lore-sync / nightly-review / cleanup-5day 等）、实测数字、日期
-- 归并口径存档：`memory/evolution/archive/_taxonomy-20261110.md`
-
-## 防复发（关键）
-1. **nightly-review cron payload 已改**：新增第 4 条硬规则——写 pattern 前先查 `patterns/index.md` 主题表，
-   命中已有主题就在该主题内追加证据行，禁止新建平行条目；无法归类才允许新增并须说明理由。
-   （`~/.openclaw/cron/jobs.json` 已改，备份 `jobs.json.bak.20261110-merge`）
-2. `patterns/index.md`：索引改为主题表 + 归并说明 + 使用约定更新
-3. `memory/evolution/README.md`：patterns 章节写入新格式与写入纪律
-4. 归并口径文件移入 `archive/`（避免被当成 pattern 条目），prompt 内引用路径同步更新
-
-## 教训（本身也是 A10 的一条实例）
-「同一模式再次出现时更新原条目」这条约定，在 141 条按日期堆叠的文件形态下形同虚设——
-条目粒度太细，根因被拆散，约定无法执行。**必须先有主题粒度，约定才有约束力。**
+## 补充（13:10）：防复发的三层硬防线
+1. **规则层**：nightly-review（主工作区写 patterns）+ 291bcec3（本工作区写 patterns）
+   两个实际写入方的 prompt 都加了「按根因归并」硬规则；cleanup-5day 只引用 patterns 不写入，未改。
+2. **校验层**：新增 `memory/evolution/patterns/_lint.py`——
+   检查①无旧式 `### 标题 (日期)` 平行条目 ②编号序列恰为 A1~A11/B1~B10 ③21 条条目各含六个必需字段
+   ④「合并自」引用的原始条目不重复归类。已接入 nightly-review prompt，退出码非 0 则不许回填 status=synthesized。
+   ⚠️ 校验器自身踩过两个坑：①编号正则漏了 `###` 前缀导致引用计数恒为 0；
+   ②只扫全文《》会把「已知未归并项」散文的引用误判为重复——已改为只取「合并自」字段。
+3. **本工作区侧**：self-evolution/patterns/technical.md 的 cron 段 9 条（11-05~11-10）
+   同样与主工作区 A2/A3/A5 同根因，已归并为 3 条（排查顺序 / 恢复判据 / 产物判定），
+   并注明权威条目在主工作区，本地只留指针。技术条目 25 → 19。
