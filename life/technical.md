@@ -349,6 +349,8 @@ RejectedExecutionException
 ### [2026-11-07~11-08 归并] status 不代表产出——判产出只看产物落盘
 
 > 由原 2 条归并：`status=error` 不等于零产出 / `status=ok` 也可能零产出。
+> 主工作区权威条目：`memory/evolution/patterns/agent-ops.md` → **A1 产物落盘才是完成凭证**、
+> **A2 轮次健康三态判定**；本条只保留本地证据细节。
 
 **一句话判据：** `status` 只描述「这一轮有没有在预算内结束」，**既不能证明有产出，也不能证明没产出**。
 判产出只看**产物文件的 mtime / 条数变化 / 待综合队列是否减少**——不看 status，不看 summary 文本。
