@@ -55,19 +55,19 @@
 - frequency_source_window_explore：81%（Day163结算。频率窗口稳定性提升，+17%。）
 - frequency_signal_stabilization：99%（Day163结算。信号稳定化维持，+6%。）
 
-- glowing_stone_network：100%（Day83结算）
+- glowing_stone_network：100%（Day83结算。封印完全愈合，纹路彻底消退，网络全面稳定。100%达成。）
 ✅ - old_ku_beacon_plan：100%（Day92结算。链路贯通：铜护指为老库信标工坊登记领用器具（一人一副、坏后缴回重铸），工坊废后流入西门收旧货者；磨坊确认为中转点而非终点。99%→100%完成！）
 - star_stone_resonance：100%（Day81结算。纹路消退确认封印自愈进行中！共鸣器稳定。97%→100%完成！）
 - ✅ - trace_anon：100%（Day94结算。锁定：代称「断指」，真名残存「叁」字；追踪者忆起老库信标工坊三年前废止时最后一任监工姓「叁」，老工人背后叫「叁先生」，管的正是器具移交。匿名者本人锁定。99%→100%完成！）
 ✅ - seal_collapse_investigation：100%（Day82结算。封印自愈确认，纹路消退直接证据确凿！100%完成！）
-- resonance_array_upgrade：100%（Day86结算。完整共振测试通过，可逐步恢复标准强度。95%→100%完成！）
-- armory_key_register_check：94%（Day103结算。告示明确「钥匙交代管，事后归还」，库房初五停用一日，钥匙登记簿仍看不到实物，只能从告示措辞间接推。74%→75%。）
+- resonance_array_upgrade：100%（Day86结算。完整共振测试通过，可逐步恢复标准强度。98%→100%——目标完成！）
+- armory_key_register_check：97%（Day114结算。钥匙登记线索并入「代」字办件线）
 
-- copper_weight_lie_trace：15%（Day103结算。新目标：布罗「三十斤……不够」——三十斤是写给谁看的，真实运走量是多少。0%。）
-- single_vertical_mark_signer：40%（Day103结算。新目标：三处「一道竖」同形——一个人同一套器具签了三处；与「两条横一道竖」不同族。0%。）
-- second_draws_charts：70%（Day103结算。C级新人独立填表成功（布袋一格两人独立吻合），汤屋摊主/陶师傅/布罗各证一格；追踪者评「过关」。行踪复现尚未开始。0%→15%。）
-- soup_stall_knowledge_trace：39%（Day103结算。新目标：18:00 汤屋胖摊主第一次开口「今天的水，别去碰」——城里有三个人预知初五涨水（布罗、摊主、戴铜指套的老头）。0%。）
-- green_bait_waiter_trace：16%（Day103结算。新目标：追踪者「那就先别去找它。你今天被那个老头看见了。如果这城里有人在等一个人看见后院那片绿——」；须体现「先别去找它」的约束。0%。）
+- copper_weight_lie_trace：15%（Day114结算。无新进展）
+- single_vertical_mark_signer：48%（Day114结算。无新进展）
+- second_draws_charts：74%（Day114结算。无新进展）
+- soup_stall_knowledge_trace：39%（Day114结算。无新进展）
+- green_bait_waiter_trace：18%（Day114结算。无新进展）
 
 ## 已完成里程碑
 - ✅ C级晋升（2026-04）
@@ -149,42 +149,43 @@
 
 - core_array_exploration：0%（Day137结算。新目标：核心阵列内部探索。）
 - splinter_betrayal_watch：0%（Day137结算。新目标：分裂派动向监视。）
-- san_xiansheng_motive_check：78%（Day103结算。告假从半日变成整天，恰是初五交割当日，且货仍在往外挪、钥匙交代管——像是在给谁腾出不受见证的时间窗。50%→53%→55%。）
-- monthly_iron_bag_line：93%（Day103结算。C级新人独立填出的版本与她自己的版本在「布袋被取走」一格首次吻合，「每月初一一次」成为两人共识。78%→80%→81%。）
-- melted_key_remainder_trace：30%（Day103结算。仍无直接确认熔销旧钥实体存底，19%维持。）
-- first_day_bag_watch：66%（Day103结算。初一后门布袋线今日无动作，52%维持。）
-- san_xiansheng_trace：99%（Day103结算。叁正清整整一天告假，库房照旧不开、旧料仍往外挪、钥匙「交代管」——代管正对着文书房「代」字底下那三个被刮的名字。78%→82%→84%。）
-- west_gate_broker_trace：72%（Day103结算。布罗给出关键量词「三十斤……不够」，老修女补出梦话尾音上挑的「san——」；布罗仍在西门医棚，未归位。56%→60%→62%。）
-- old_ku_upstream_supplier_trace：80%（Day103结算。初五：叁保管员整日告假、器物库房停用一日、旧料仍往外挪、钥匙「交代管」——无人签收的搬迁，上游供货链再添一环。64%→66%。）
-- old_axe_trace：25%（Day103结算。无新指向短斧柒的证据，24%维持。）
-- identity_exposure_counter：90%（Day103结算。上午在水道边被戴铜指套的老头看清了脸——行踪第二次被公会内部的人记住，且是在不该出现的场合出现；15:00 被追踪者训「三条规矩一起犯」但被肯定「你没跟上去」，15:00起新增第五课「行踪要能被第二个人重走一遍」。46%→54%→58%。）
+- san_xiansheng_motive_check：80%（Day114结算。无新进展）
+- monthly_iron_bag_line：94%（Day114结算。无新进展）
+- melted_key_remainder_trace：32%（Day114结算。无新进展）
+- first_day_bag_watch：66%（Day114结算。无新进展）
+- san_xiansheng_trace：100%（Day114结算。带钩一支正式归叁正清本人，「代」是他签的——叁先生线收口）
+- west_gate_broker_trace：72%（Day114结算。无新进展）
+- old_ku_upstream_supplier_trace：87%（Day114结算。陶师傅侧光定案：绿砂是锈、后门亮屑是锉下的铜本体，同源不同出，锈走水路屑走灰路）
+- old_axe_trace：33%（Day114结算。残角实物三点验出（锯断口、「七」为錾、厚薄同牌），七号模单挑那块待鉴模）
+- identity_exposure_counter：95%（Day114结算。宽肩斗笠檐影子跟了四十步；复盘认错：看见被跟要当场变线，不能等）
 - child_crystal_connection：100%（Day100结算。突破性：窝底蹭碎的铜绿＋水道铜锈水＋它主动收集铜，三条对上——它不是野生的，来自旧运铜水道某个取料口，窝就在水道边。它认的是人、它认的是铜，两条线并成一条。99%→100%完成！）
-- child_trust_building：84%（Day103结算。未接近小家伙（追踪者要求先别去找它），但她的判断被追踪者接受并推进主线；窝边铜绿线与饵的关联已在追踪者面前第一次说出口。80%→82%。）
-- resonance_daily_monitor：83%（Day103结算。星辉石无异常波动，80%维持。）
-- resonance_array_standard_recovery：89%（Day103结算。恢复期第十五日第三剑收得住，左肩零绷带第十五天；追踪者评「你的手记住的东西用脚去记」。70%→74%→76%。）
-- sword_skill_recovery：88%（Day103结算。恢复期第十五日第三剑：不再追求快，收剑时风只灌半口袖口，人没晃，左肩不疼；今日水道摔倒右膝磕伤，明日暂缓高强度。55%→61%→65%。）
-- guardian_frequency_warnings：37%（Day103结算。追踪者第五课讲的是「你的行踪要能被第二个人重走一遍」，未见外部频率异常介入，37%维持。）
-- investigation_team_search：29%（Day103结算。调查组仍无新信号，29%维持。）
-- seal_healing_trigger：55%（Day103结算。无新触发线索，55%维持。）
-- seal_healing_long_term：50%（Day103结算。长期监测无波动，50%维持。）
-- seal_full_recovery_study：50%（Day103结算。完全愈合后续参数归档，无异常，50%维持。）
-- second_signal_user_trace：85%（Day103结算。纸条记号「两条横一道竖」那族今日无新指向；告示落款、归还台桌沿、护身符铜牌三处「一道竖」属另一族，严格不混。72%维持。）
-- copper_cuff_owner_trace：84%（Day103结算。戴单只铜指套的老头在水道边亲手把她拉上来，其指节青绿、手上有铜指套，与归还台窗口值班人同一副铜指套；确认该铜指套持有者兼库房外勤。70%→73%。）
-- return_desk_helper_identity：75%（Day103结算。归还台窗口初五重新打开（封窗木板拆除），但桌上没有归还簿，只有戴单只铜指套的老头独自在写；窗口与簿子仍然对不上。25%→55%→57%。）
-- old_copper_waterway_probe：80%（Day103结算。第三个取料口（栅栏被细齿锯开处）外堤上亲眼见水道涨水、铜锈色水漫上碎石、水面浮铜屑；发现戴铜指套的老头沿水道提桶往城南。35%→47%→55%。）
-- copper_patina_disappearance：64%（Day103结算。老头沿水道提两只滴水桶往城南——初五确实是把水运回后院浇绿的一天；铜绿此后是否再消失待观察。30%→50%→52%。）
-- return_log_page_swap_trace：62%（Day103结算。归还台窗口开启但归还簿不在桌上，只有柜台内侧桌沿新添一道竖划痕；换页痕迹仍无实物可对。20%→40%→41%。）
-- creature_lair_waterway_link：20%（Day103结算。19:00 她终于向追踪者说出小家伙——绿是饵、饵是给它的；追踪者判断「有人在等一个人看见后院那片绿」，并要求先别去找它。10%→13%。）
-- waterway_carrier_trace：43%（Day103结算。搬水者现身：归还台戴单只铜指套的老头，初五沿水道提两只滴水桶往城南；她被看清了脸。0%→19%→28%。）
+- child_trust_building：98%（Day114结算。小家伙第一次主动蹭手背并抖下同源绒毛，还叼来带半个「七」的残角）
+- resonance_daily_monitor：84%（Day114结算。无新进展）
+- resonance_array_standard_recovery：95%（Day114结算。追踪者转教三段路法；水洼里见身后四十步一道宽肩斗笠檐的影子）
+- sword_skill_recovery：96%（Day114结算。第五剑「走十二步收剑」连续两遍全过，第二遍剑尖不动、右膝十二步不热）
+- guardian_frequency_warnings：37%（Day114结算。无新进展）
+- investigation_team_search：29%（Day114结算。无新进展）
+- seal_healing_trigger：55%（Day114结算。无新进展）
+- seal_healing_long_term：50%（Day114结算。无新进展）
+- seal_full_recovery_study：50%（Day114结算。无新进展）
+- second_signal_user_trace：89%（Day114结算。追踪者定性：带钩＝叁正清、不带钩＝另一人，两支笔正式分家）
+- copper_cuff_owner_trace：84%（Day114结算。无新进展）
+- return_desk_helper_identity：80%（Day114结算。女助手归位却不打招呼，袖口干净，疑点加深）
+- old_copper_waterway_probe：82%（Day114结算。无新进展）
+- copper_patina_disappearance：64%（Day114结算。无新进展）
+- return_log_page_swap_trace：66%（Day114结算。归还台第七块牌下纸条被换成空白，抹人痕迹清单添第五项）
+- creature_lair_waterway_link：24%（Day114结算。无新进展）
+- waterway_carrier_trace：45%（Day114结算。无新进展）
 
-- san_ji_copper_rust_deal：40%（Day103结算。初五当日亲见水道涨水、水面浮铜屑、戴单只铜指套的老头提两只滴水桶往城南；布罗给出「三十斤……不够」——取货条上的量是写给看条子的人看的。初五取铜锈是否发生、真实量多少、运往何处。10%→18%。）
-- waterway_timing_chart：48%（Day103结算。四列表（初几/几点/谁来/谁能证明）通过第一关：C级新人独立填表与艾莉亚版本在「布袋被取走」一格首次独立吻合；陶师傅（铜）、汤屋摊主（休沐）、布罗（涨水）三人互不相识却各自独立画出一部分。追踪者评「这张表过关了」。5%→22%（自10%）。）
-- amulet_note_source_trace：19%（Day103结算。告示落款只有一道竖，与护身符铜牌背面划痕、归还台柜台内侧桌沿新划痕同形——凑出「同一个人、同一套旧器具、签过三处」的签名链；与纸条记号「两条横一道竖」不同族，三者不混为一事。0%→5%→12%。）
-- green_bait_target_trace：30%（Day103结算。艾莉亚终于对追踪者说出小家伙——后院那片铜绿是饵，饵是给那只主动收集铜、四趾灰白的兽的；追踪者判断「有人在等一个人看见后院那片绿」，并要求她先别去找它。0%→12%。）
-- notice_countdown_check：43%（Day108结算。倒计时第二日；告示新增「十一十二日闭册」，闭册含义（册不接／登记机会取消）未查实，「登记造册是否即免于失窃论」仍不得默认）
-- copper_plaque_registry_year：35%（Day108结算。查册成功：年份「三年前·工坊废止前最后一批」，原领用人栏「叁〇七」（经老修女确认＝批号非人名）；领用栏旁另有一行后补淡字，涂改不可辨，原本在库房）
-- hiding_place_migration_check：39%（Day108结算。指尖印首次验成（印在=昨夜无人进屋），自检机制有效并推广至老修女药材筐下与宫磊的铅笔圈；铜片蜡封经追踪者第二人复核封口完好，替代藏物点定为「追踪者处蜡封／抄件压路线图下／纸条抄本抽出另藏」三处）
-- copy_of_vertical_mark_trace：39%（Day108结算。新目标。后院取印圆印＋砂写竖＋九块模子之说同时落地，复制线正式开线（6%）。）
-- identity_substitution_risk：40%（Day108结算。新目标。追踪者与宫磊同日给出同一提示，艾莉亚已决定不交出铜牌并把砂样三包分封（8%）。）
-- evidence_seal_discipline：46%（Day108结算。新目标。追踪者指出「蜡里有砂」，艾莉亚当场认错并改为三包分封，规范待固化（12%）。）
-- paper_issuer_trace：0%（Day113结算。新目标：补纸经手人·文书房用纸领用查询。补纸＝公会文书房现成用纸、撕角补上，须查领用笺余纸与经手人。）
+- san_ji_copper_rust_deal：43%（Day114结算。无新进展）
+- waterway_timing_chart：48%（Day114结算。无新进展）
+- amulet_note_source_trace：19%（Day114结算。无新进展）
+- green_bait_target_trace：33%（Day114结算。无新进展）
+- notice_countdown_check：48%（Day114结算。窗口旁新增用纸领用登记公示板，公示七日：十一月十一至十七）
+- copper_plaque_registry_year：39%（Day114结算。残角「七」为錾，与模背旧痕同族，年份线待接）
+- hiding_place_migration_check：50%（Day114结算。压痕被彻底抹平，改住医棚后院柴房，窗台粗碗换半碗沙作基准）
+- copy_of_vertical_mark_trace：45%（Day114结算。无新进展）
+- identity_substitution_risk：43%（Day114结算。无新进展）
+- evidence_seal_discipline：53%（Day114结算。残角先画位置再包封存，开验三处藏点均未动，「三处三样」成型）
+- paper_issuer_trace：23%（Day114结算。公示板领用笺余纸栏明载「壹刀·补册用」、签押「新代笔人（代）」，补纸来源时段用途全在明处）
+- second_unhooked_signer_trace：0%（Day114结算。新目标：批签栏「不带钩」的第二人）
