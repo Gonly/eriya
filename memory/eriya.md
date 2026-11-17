@@ -198,3 +198,9 @@
 - middleman_offer_trace：34%（Day115结算。中间人正面出现并报价、带限期；追踪者定性「盯梢的人不跟你说话，那是收货的」；「买主是怕东西被人拿在手里的人」；应付话术「这东西我交给公会了」已定（19%））
 - woodshed_intruder_count：36%（Day115结算。柴房重验得草席半个臀印＋脚印从正门走出去⇒至少两个人来过；追踪者结案「影子那道是收货的，进柴房的是另外的」（22%））
 - notice_final_day_copy_trace：26%（Day115结算。新目标：公示板最后一天的第三抄与第二次独立复现（0%））
+- waterway_third_house_receiver_trace：0%（Day116结算。无新进展（0%））
+- void_ledger_signer_uniqueness_check：0%（Day116结算。叁〇七批闭册当日那一栏被划线「已销」，销号经手人栏写着「文」一个字⇒销号留了名；追踪者追问：销号销不掉货，流出去的牌子名字在哪张纸上（42%））
+- yu_signer_old_ledger_trace：0%（Day116新立。「余」字销号经手人与三年前那一炉「共玖」（0%））
+- three_toed_coppersmith_trace：0%（Day116新立。缺三指铜匠·老库信标工坊旧工·专接「把旧东西弄干净」的活（0%））
+- copper_patina_on_hand_trace：0%（Day116新立。掌心的铜绿锈斑·自己带走的物证痕迹（0%））
+- one_sheet_many_safes：0%（Day116新立。「做很多个安全的人」·可作证性与反跟踪双轨（0%））
