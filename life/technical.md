@@ -201,6 +201,18 @@ RejectedExecutionException
 - 因此无法通过 API 查询「今日已完成」的任务，只能靠 `dueDate < today` 判断超期
 - 其他已知限制（不支持 DELETE、不支持 GET 单任务、complete 端点为 `/project/{pid}/task/{tid}/complete`）见 `TOOLS.md`
 
+### [2026-11-18] 滴答清单创建带子项的任务
+
+- `POST /open/v1/task` 支持 `items` 数组，**一次请求即可创建「父任务 + 多个勾选子项」**：
+  ```json
+  {"projectId":"<pid>","title":"父任务","priority":5,
+   "content":"步骤说明",
+   "items":[{"title":"子项1","status":0},{"title":"子项2","status":0}]}
+  ```
+- 返回体里每个 item 会自动分配 `id`，任务 `kind` 变成 `CHECKLIST`
+- ⚠️ 排查「找不到某个父任务」时注意：`/project/{id}/data` 只返回**未完成**任务；已完成的父任务在 API 里查不到（`?status=1` / `?completed=true` / `/completed` 等参数一律无效或 404）
+- 若任务确实不存在，只能新建父任务再挂子项，避免重复创建前先确认
+
 ### [2026-07-14] 待办脚本三处修复
 
 | 脚本 | 问题 | 修复 |
