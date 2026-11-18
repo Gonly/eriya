@@ -43,7 +43,7 @@
   },
   "daily_schedule": {
     "date": "2026-11-18",
-    "day_number": 116,
+    "day_number": 117,
     "day_label": "B级第一百一十六天·十一月初十八，闭册后第六日，销号簿上多了一个「余」、第三户塞了她半袋铜、买主不撤了只让她停",
     "weather": "阴、有零星小雨，湿冷；气温1~5°C，北风3级转东北风2级，湿度90%；城南旧运铜水道下游浮冰未化、靠岸青苔滑石上结了一层薄泥；公示板木板空着，只剩四枚泛白钉头与一圈纸灰；公会医棚后院廊下木栏湿透，晾药绳滴水；城南匠人街泥水横流，工坊后院木台面受潮，霜化成湿土（鞋印仍可留）；旧铜器摊主说今天铜绿不好卖，因为**连着三天没下雨，卖相太好了反而不像真的**",
     "today_mood": "十一十八，闭册后第六日，恢复期第二十八日。昨天宫磊那句「他们不是抓你，他们画你……线是最好画的」在她脑子里烧了一夜，今天一整天她都在跟那条看不见的线较劲——**规矩一旦固定，你就不再是一个人，是一条线**。夜里她数出自己昨天的行踪：卯末食堂、辰正训练场、巳时医棚、午时铜匠铺、未时石阶、申时后廊、酉初石阶、戌时水道——**八个点，四个固定地方，两条固定路线**。她把这张表画在草纸上，看了很久，然后撕了。今天追踪者给的新功课不是剑，是「**打乱节奏**」：同一件事永不在同一个时辰做、同一条路永不走第二遍、话永远先说半句；05:00 她在第二个过夜点（石屋第二户后檐旧船板）做自检，发现**墙根多了一道新划痕、薄冰上只朝船板方向的半枚鞋印**——**昨夜有人站在她睡的三步外看她**⇒**换地方也救不了「固定」**。06:30 她在归还台后廊翻公开的《器物销号簿》：三个月十一条销号，经手人栏**九条写全名，两条只落单字**——一条是叁〇七批的「文」，另一条是**三年前旧销号上的「余」**；10:30 请文书房管文书老头只念不拿独立复现，老头念完说「**这字两年前就在了，那时候不是我写的**」⇒第二人复现成立，且「余」与「文」是同一种落法。11:30 陶师傅一句把线头接上老库：**粗齿锉是修旧铜器用的，城南只有缺三指那个铜匠在用，他从前在老库信标工坊做过**。12:30 她按追踪者的新规矩把随身假铜钉换成一枚**磨光的旧铜扣**——「**不磨损的锚点，是磨得看不出磨损的**」。**13:00 突发事件（出糗）**：城南旧运铜水道下游第三户石屋，她只看不碰，站得太久，屋里人把她当成「来问铜的」，**扔给她半篓旧铜片，她伸手接了**——手心立刻沾上一层铜绿。追踪者一句「**说好的只看不碰**」；屋里人还说「**上个月也有人来问过同样的事**」。14:30 石阶上中间人第二次回话，**买主不撤那三个字了**，改成条件式停火：「**你留着也行，只要你别再抄**」——并反问「**铜片还在不在？**」⇒**买主知道铜片，医棚后院的内应在买主那边**。16:30 销号销不掉货的另一半：**名字不在纸上，在物上、在秤上**。18:30 追踪者教「不磨损的锚点」，并把星辉石自闪定性为「**第二次试探：上次是敲门，这次是问你在不在**」；她试着用铜片隔着石头——石头立刻变凉。19:00 五处互报：唯一被动过的是**缝**，不是纸；染坊那处旧铺盖原样留着，**假象还没被拆**。夜里她转到**第三个过夜点**（城南水道下游更靠外的一处旧石阶），宫磊问她昨天那个没答得出的问题，第九行她写下：「**十一十八：安全要藏，作证要露——所以我不做一个安全的人，我做很多个安全的人。**」",
@@ -246,15 +246,15 @@
         "started_at": "2026-07-14",
         "task_type": "investigate",
         "description": "追踪调查组失联事件进展",
-        "recent_progress": "Day116结算。无新进展（29%）"
+        "recent_progress": "Day117结算。无新进展（29%）"
       },
       {
         "id": "resonance_daily_monitor",
         "name": "星辉石共振监测日志",
         "description": "建立每日本地共振监测机制，记录星辉石温度、光芒变化、共鸣稳定性，防止再次出现异常波动。",
         "task_type": "investigate",
-        "progress_pct": 89,
-        "recent_progress": "Day116结算。今夜星辉石偏凉；傍晚在石阶上**自己闪了一下**（非情绪、非动作），已写进共振日志——外部频率试探（89%）"
+        "progress_pct": 95,
+        "recent_progress": "Day117结算。星辉石傍晚第二次自闪，追踪者定性「第二次试探：上次敲门，这次问你在不在」；用旧铜扣压石，石头一炷香内变凉⇒铜能挡一次外部频率（95%）"
       },
       {
         "id": "seal_healing_trigger",
@@ -262,7 +262,7 @@
         "description": "追踪者提到的「封印结构调整期谐振窗口」原理是什么？纹路为何会自行消退？继续调查封印自愈的触发条件。",
         "task_type": "investigate",
         "progress_pct": 55,
-        "recent_progress": "Day116结算。无新进展（55%）"
+        "recent_progress": "Day117结算。无新进展（55%）"
       },
       {
         "id": "seal_healing_long_term",
@@ -270,15 +270,15 @@
         "description": "封印自愈已确认，后续需持续监测愈合进度与结构稳定性，确认纹路完全消退后的封印强度变化。",
         "task_type": "investigate",
         "progress_pct": 50,
-        "recent_progress": "Day116结算。无新进展（50%）"
+        "recent_progress": "Day117结算。无新进展（50%）"
       },
       {
         "id": "guardian_frequency_warnings",
         "name": "追踪者频率警告跟进",
         "description": "追踪者多次警告外部频率尝试匹配共振频率，星辉石闪光是封印调整的信号——需持续关注共振稳定性，防范外部干扰。",
         "task_type": "investigate",
-        "progress_pct": 41,
-        "recent_progress": "Day116结算。星辉石自闪一次，追踪者定性：「记下。外面有人在试你的频率。」（41%）"
+        "progress_pct": 49,
+        "recent_progress": "Day117结算。第二次外部频率试探成立；新对策雏形：铜扣可挡一次外部频率，但追踪者警告多用会暴露（49%）"
       },
       {
         "id": "seal_full_recovery_study",
@@ -286,16 +286,8 @@
         "description": "封印完全愈合，追踪者确认恢复正常输出并可恢复标准强度。需要记录愈合后的参数变化，建立完整档案。",
         "task_type": "investigate",
         "progress_pct": 50,
-        "recent_progress": "Day116结算。无新进展（50%）",
+        "recent_progress": "Day117结算。无新进展（50%）",
         "created_date": "2026-10-16"
-      },
-      {
-        "id": "resonance_array_standard_recovery",
-        "name": "共振阵列标准强度恢复",
-        "description": "完整共振测试通过后进入第二阶段，逐步恢复标准强度。今天第一次标准强度测试，走音事件非封印问题，继续推进。",
-        "task_type": "training",
-        "progress_pct": 99,
-        "recent_progress": "Day116结算。第五剑「十二步＋半步缓冲」立为正式功课，三遍收剑剑尖不动、右膝全程不热；新规矩：走完不许回头看第二遍、被盯着先变线再想（99%）"
       },
       {
         "id": "child_trust_building",
@@ -303,39 +295,39 @@
         "description": "小家伙第一次主动肢体接触（碰鞋尖），昨天又在训练场看训练时打瞌睡。继续尝试接近，目标是能让它愿意被抚摸。",
         "task_type": "social",
         "progress_pct": 99,
-        "recent_progress": "Day116结算。今天没有去后院墙根，不惊动小家伙（99%）"
+        "recent_progress": "Day117结算。无新进展（99%）"
       },
       {
         "id": "second_signal_user_trace",
         "name": "第二记号使用者追查",
         "description": "追踪使用老库信标网络第二套记号的人，确认其身份与立场",
         "task_type": "investigate",
-        "progress_pct": 92,
+        "progress_pct": 97,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-10-22",
-        "recent_progress": "Day116结算。第二人第一次落名「文」（不带钩、墨新），且与带钩的「叁正清」正式分家——「文」很可能是名不是姓（92%）"
+        "recent_progress": "Day117结算。「余」与「文」被第二人复现判定为同一种落法，第二记号使用者线从「文」扩到「余」——三年前工坊废止那一年就已在落名（97%）"
       },
       {
         "id": "copper_cuff_owner_trace",
         "name": "铜指套持有者身份确认",
         "description": "旧磨坊接货人佩戴老库信标工坊专用铜护指、箱底垫与艾莉亚同种粗麻布，需确认其为老库在职工匠还是盗用工具的外人。",
         "task_type": "investigate",
-        "progress_pct": 87,
-        "recent_progress": "Day116结算。铜匠铺第二次来问铜绿的人虎口与食指第二节有握锉茧——与城墙石阶那宽肩斗笠檐男人同一双手；来问铜绿的人＝中间人或同一伙（87%）"
+        "progress_pct": 92,
+        "recent_progress": "Day117结算。缺三指铜匠 = 老库信标工坊旧工 + 工坊台脚菱形格纹鞋印的主人候选；握锉茧与泡药水横裂指腹两条特征并上（92%）"
       },
       {
         "id": "old_ku_upstream_supplier_trace",
         "name": "磨坊上游供货者与老库旧匠追查",
         "description": "铜护指是老库信标工坊登记领用器具，工坊三年前废止后器具流入西门收旧货者。需沿收旧货渠道反查：谁领用过铜护指、谁把工坊旧物卖到西门、磨坊货物真正的上游是谁。",
         "task_type": "investigate",
-        "progress_pct": 95,
+        "progress_pct": 99,
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-25",
-        "recent_progress": "Day116结算。那人改问「哪一批的铜绿最绿」——「批」是公文用字，街上的人不该知道要问批⇒他是来对叁〇七批那一炉的（95%）"
+        "recent_progress": "Day117结算。销号销的是源、货是从源上长出的枝：「余」销掉的是三年前那批「模与器·共玖」，模子出的货没跟着销⇒上游改从秤上倒查（99%）"
       },
       {
         "id": "west_gate_broker_trace",
@@ -343,7 +335,7 @@
         "description": "西门外第二个岔路口的收旧货老头布罗，一夜之间摊子被清空、旧铜件被拖走。追查布罗其人、拖痕去向与出城铜件的实际买主。",
         "task_type": "investigate",
         "progress_pct": 72,
-        "recent_progress": "Day116结算。无新进展（72%）"
+        "recent_progress": "Day117结算。无新进展（72%）"
       },
       {
         "id": "old_axe_trace",
@@ -355,7 +347,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-27",
-        "recent_progress": "Day116结算。无新进展（42%）"
+        "recent_progress": "Day117结算。无新进展（42%）"
       },
       {
         "id": "armory_key_register_check",
@@ -363,7 +355,7 @@
         "description": "按「明路」第一条：查公会器物库房钥匙登记簿，确认登记了几把钥匙、各在谁名下，并比对本会签发记录与叁正清的领用权限。",
         "task_type": "investigate",
         "progress_pct": 97,
-        "recent_progress": "Day116结算。无新进展（97%）"
+        "recent_progress": "Day117结算。无新进展（97%）"
       },
       {
         "id": "san_xiansheng_motive_check",
@@ -375,7 +367,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-29",
-        "recent_progress": "Day116结算。无新进展（85%）"
+        "recent_progress": "Day117结算。无新进展（85%）"
       },
       {
         "id": "monthly_iron_bag_line",
@@ -387,7 +379,7 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-10-29",
-        "recent_progress": "Day116结算。无新进展（94%）"
+        "recent_progress": "Day117结算。无新进展（94%）"
       },
       {
         "id": "melted_key_remainder_trace",
@@ -395,7 +387,7 @@
         "description": "登记簿册底「三把旧钥熔销于器物库，存底」——作废钥匙并未消失，被熔成铜料存入库房某处；需查明存底位置、形式（块/锭/混料）与经手人，只走账目与登记明路。",
         "task_type": "investigate",
         "progress_pct": 32,
-        "recent_progress": "Day116结算。无新进展（32%）"
+        "recent_progress": "Day117结算。无新进展（32%）"
       },
       {
         "id": "first_day_bag_watch",
@@ -407,7 +399,7 @@
         "estimated_days": 3,
         "daily_limit": 15,
         "started_at": "2026-10-30",
-        "recent_progress": "Day116结算。无新进展（66%）"
+        "recent_progress": "Day117结算。无新进展（66%）"
       },
       {
         "id": "return_log_page_swap_trace",
@@ -419,7 +411,7 @@
         "started_at": "2026-10-31",
         "task_type": "investigate",
         "description": "查明归还簿边栏那几页偏新的纸页是否被整页替换，以及三月十一、三月十七两处同刀刮痕对应的原始记录去了哪里",
-        "recent_progress": "Day116结算。无新进展（72%）"
+        "recent_progress": "Day117结算。无新进展（72%）"
       },
       {
         "id": "return_desk_helper_identity",
@@ -431,31 +423,31 @@
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day116结算。女助手说出「别再来第四遍」（是怕不是令），第一次从柜台底下摸出铁盒、开一条缝又合上、不给她看，只说「你要的答案不在公示板上」（94%）"
+        "recent_progress": "Day117结算。无新进展（94%）"
       },
       {
         "id": "old_copper_waterway_probe",
         "name": "旧运铜水道与废弃取料口探查",
         "description": "布罗说「车往北走」——走的是路还是河？城南到城北除大路外另有一条旧运铜水道，水道边有几个地图未标的废弃取料口。只看，不进，不跟",
         "task_type": "investigate",
-        "progress_pct": 82,
+        "progress_pct": 85,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day116结算。无新进展（82%）"
+        "recent_progress": "Day117结算。水道下游第三户实勘：院门开着、院里摊满旧铜器，蹲着一个拿粗齿锉的矮胖男人⇒旧水道这一段确有旧铜汇集点（85%）"
       },
       {
         "id": "copper_patina_disappearance",
         "name": "墙根铜绿消失之谜",
         "description": "公会后院墙根石缝里那片指甲盖大的铜绿旧铜片一天之内不见了——是自发消散还是被人取走？先记位置，不声张",
         "task_type": "investigate",
-        "progress_pct": 68,
+        "progress_pct": 70,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-01",
-        "recent_progress": "Day116结算。无新进展（68%）"
+        "recent_progress": "Day117结算。后院墙根那片铜绿旧铜片仍无着落，但药篓夹层錾字铜片今日被取走⇒「铜绿是饵」的判断进一步坐实（70%）"
       },
       {
         "id": "creature_lair_waterway_link",
@@ -467,27 +459,27 @@
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-11-02",
-        "recent_progress": "Day116结算。无新进展（24%）"
+        "recent_progress": "Day117结算。无新进展（24%）"
       },
       {
         "id": "waterway_carrier_trace",
         "name": "水道铜锈水带入公会后院者追查",
         "description": "铜绿是水道的水带进后院的，那天之后铜绿又不见了。须查清谁把水道的水带回后院、后院那一摊铜绿用于何处",
         "task_type": "investigate",
-        "progress_pct": 45,
+        "progress_pct": 48,
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 15,
         "started_at": "2026-11-02",
-        "recent_progress": "Day116结算。无新进展（45%）"
+        "recent_progress": "Day117结算。名字不在纸上、在物上在秤上：水道下游收旧铜那户的口头账成为待查之秤（48%）"
       },
       {
         "id": "san_ji_copper_rust_deal",
         "name": "叁记·初五铜锈交割追踪",
         "description": "城北料行字号「叁记」初五取铜锈三十斤；来取货的人陶师傅不肯写名字，写了要出事。交割是否发生、谁来取、取多少、运往何处。",
         "task_type": "investigate",
-        "progress_pct": 43,
-        "recent_progress": "Day116结算。无新进展（43%）",
+        "progress_pct": 46,
+        "recent_progress": "Day117结算。叁记收货簿成为「名字在秤上」的首个倒查入口（46%）",
         "started_day": 101
       },
       {
@@ -496,7 +488,7 @@
         "description": "追踪者定的功课：把水路的时间对出来——初几、几点、谁来、桶往哪走，表自己画，追踪者只复核。为初五交割与后院浇灌锁定时段。",
         "task_type": "investigate",
         "progress_pct": 48,
-        "recent_progress": "Day116结算。无新进展（48%）",
+        "recent_progress": "Day117结算。无新进展（48%）",
         "started_day": 101
       },
       {
@@ -505,7 +497,7 @@
         "description": "护身符是成为B级冒险者时登记配发，铜牌由库房统一制作、用的是老库信标工坊那批旧模子（工坊已废三年，库存还剩一堆）。护身符里那张折了四折的纸条记号两条横一道竖，与包货纸纸角同族；铜牌背面磨出的划痕只有一道竖。同族≠同源——纸条是哪来的、谁放进护身符的、登记是哪一年谁发的。",
         "task_type": "investigate",
         "progress_pct": 19,
-        "recent_progress": "Day116结算。无新进展（19%）",
+        "recent_progress": "Day117结算。无新进展（19%）",
         "started_day": 102
       },
       {
@@ -514,7 +506,7 @@
         "description": "追踪者点破：把城北泡铜的水运回后院、泼在墙根，若那绿不是废料，那就是饵。问题从「谁在泼」转到「泼给谁」——铜绿引什么东西过来？艾莉亚脑中已浮出窝底蹭碎铜绿、主动收集铜的四趾灰白小兽，但她还没说出口。",
         "task_type": "investigate",
         "progress_pct": 33,
-        "recent_progress": "Day116结算。无新进展（33%）",
+        "recent_progress": "Day117结算。无新进展（33%）",
         "started_day": 102
       },
       {
@@ -522,7 +514,7 @@
         "name": "取货条「三十斤」假量与真实运走量追查",
         "description": "布罗说「三十斤……不够」——取货条上写的三十斤可能是给看条子的人看的假数，真实运走量另有数字。须弄清真实量、装的什么、运到哪里。",
         "progress_pct": 15,
-        "recent_progress": "Day116结算。无新进展（15%）",
+        "recent_progress": "Day117结算。无新进展（15%）",
         "task_type": "investigate",
         "started_at": "2026-11-05",
         "started_day": 103,
@@ -535,7 +527,7 @@
         "name": "「一道竖」签名链·同一个人同一套旧器具",
         "description": "告示落款、归还台柜台内侧桌沿、护身符铜牌背面三处各一道竖，同形。须查此人是叁正清、是库房发牌管事、还是另一人；须与「两条横一道竖」那族严格分开。",
         "progress_pct": 48,
-        "recent_progress": "Day116结算。无新进展（48%）",
+        "recent_progress": "Day117结算。无新进展（48%）",
         "task_type": "investigate",
         "started_at": "2026-11-05",
         "started_day": 103,
@@ -547,8 +539,8 @@
         "id": "second_draws_charts",
         "name": "第二人独立复现机制（表与行踪）",
         "description": "追踪者第五课：表要能被第二个人独立画出来才算数，行踪也要能被第二个人照着重走一遍。已用C级新人独立填表一次，需扩展为常规验证流程，并用于请宫磊口述复现。",
-        "progress_pct": 89,
-        "recent_progress": "Day116结算。第二人复现第二次有形状：女助手对批签栏与余纸栏一字不落，唯独那行「看不清」；铁盒第一次出现（89%）",
+        "progress_pct": 95,
+        "recent_progress": "Day117结算。第二人复现第一次落到公会内部不相干第三方（文书房管文书老头）身上，只念不拿，口述当场复述登记为「第四抄·附口述」（95%）",
         "task_type": "investigate",
         "started_at": "2026-11-05",
         "started_day": 103,
@@ -566,7 +558,7 @@
         "estimate": 60,
         "estimated_days": 10,
         "daily_limit": 5,
-        "recent_progress": "Day116结算。无新进展（39%）"
+        "recent_progress": "Day117结算。无新进展（39%）"
       },
       {
         "id": "green_bait_waiter_trace",
@@ -578,15 +570,15 @@
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 5,
-        "recent_progress": "Day116结算。无新进展（18%）"
+        "recent_progress": "Day117结算。无新进展（18%）"
       },
       {
         "id": "notice_countdown_check",
         "name": "三日告示倒计时与「登记造册」是否即免于失窃论",
         "description": "初九第一日、十二第三日；持有工坊旧制铜牌者须当日登记造册，逾时视同隐匿。须查实登记造册是否等于免于「按失窃论」，以及逾期的真实后果。",
         "task_type": "investigate",
-        "progress_pct": 55,
-        "recent_progress": "Day116结算。公示七日到期，公示板今日撤纸（整张被揭走）；但登记簿那一行留着——她昨天登记「个人留存」那一联成了唯一出处（55%）"
+        "progress_pct": 57,
+        "recent_progress": "Day117结算。公示板整张被揭走，只剩四枚泛白钉头与一圈纸灰⇒纸能揭，出处揭不掉（登记簿上「个人留存」那行还在）（58%）"
       },
       {
         "id": "copper_plaque_registry_year",
@@ -594,80 +586,80 @@
         "description": "登记造册换来抄件，落款一道竖；册子上应能查「谁领过、哪一年领的、原来叫什么」。须走明路查册，不得触碰库房。",
         "task_type": "investigate",
         "progress_pct": 39,
-        "recent_progress": "Day116结算。无新进展（39%）"
+        "recent_progress": "Day117结算。无新进展（39%）"
       },
       {
         "id": "hiding_place_migration_check",
         "name": "替代藏物点迁移与窗台自检机制",
         "description": "住处已被进入（窗台粗碗失踪、窗沿留磨铜细砂）；宿舍由安全屋降为泄露点。铜片已蜡封交追踪者，须定替代藏物点并以窗台灰上指尖印作为每夜自检项。",
         "task_type": "equip",
-        "progress_pct": 67,
-        "recent_progress": "Day116结算。柴房彻底弃用（门虚掩不插闩、留一粒反向锚点铜屑看有没有人碰过）；今夜第二个过夜点：水道下游石屋第二户后檐旧船板，第一处旧铺盖原样留下做假象（67%）"
+        "progress_pct": 73,
+        "recent_progress": "Day117结算。第三个过夜点（旧运铜水道更外侧旧石阶）已定：不设锚点不留东西；五处藏点互报后唯一被动的是缝不是纸；染坊旧铺盖原样留作假象（73%）"
       },
       {
         "id": "copy_of_vertical_mark_trace",
         "name": "复制线·照着记号造一枚新铜牌",
         "description": "对手不再磨除记号，改为按同模子复制。后院墙根新铜绿中留下铜牌大小的取印圆印、旁以砂写「竖」；陶师傅称工坊那一批模子刻了九块、每块背面都是那一竖；追踪者与宫磊同日提示「看见第二块带竖的别当成是你自己的」。须查：现存量产模子与现存铜牌能否一一对应、工坊废止后模子流向、取印圆印的施压角度与铜牌直径（较本人铜牌小半厘）。",
-        "progress_pct": 45,
+        "progress_pct": 48,
         "task_type": "investigate",
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-10",
         "started_day": 108,
-        "recent_progress": "Day116结算。无新进展（45%）"
+        "recent_progress": "Day117结算。「共玖」九件模与器下落成为新查点：现存九块模与现存铜牌能否一一对应（48%）"
       },
       {
         "id": "identity_substitution_risk",
         "name": "被顶替风险与自制物识别标记",
         "description": "复制品可携带同样的记号去做艾莉亚做过的事（签过的字、说过的话、拿过的碗）。须建立自制识别机制：记号形态、直径差半厘、随身时刻戳、他人代持记录；并把「被顶替」列入身份暴露后的反跟踪清单。",
-        "progress_pct": 43,
+        "progress_pct": 46,
         "task_type": "investigate",
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 10,
         "started_at": "2026-11-10",
         "started_day": 108,
-        "recent_progress": "Day116结算。无新进展（43%）"
+        "recent_progress": "Day117结算。随身锚点由假铜钉（一天摸十一遍、磨损加快）换成磨光的旧铜扣——「磨得看不出磨损」；被顶替识别清单新增打乱节奏一栏（46%）"
       },
       {
         "id": "evidence_seal_discipline",
         "name": "证物封装规范与第二人开验",
         "description": "铜片蜡封封口完好已由追踪者复核，但蜡中砂系艾莉亚昨日顺手塞入造成的自污染。须固化为规范：多件证物分封不混包、每包标注取样时刻与地点、解封须第二人先验封口并记录砂样状态，避免污染被误读为敌方痕迹。",
-        "progress_pct": 65,
+        "progress_pct": 70,
         "task_type": "investigate",
         "estimate": 40,
         "estimated_days": 8,
         "daily_limit": 5,
         "started_at": "2026-11-10",
         "started_day": 108,
-        "recent_progress": "Day116结算。新增规定：看过的记号也不许写在现场，只画在离现场两里外的草纸上（65%）"
+        "recent_progress": "Day117结算。新增一条替代动作：看了但没碰时也要留下「问过什么、没问什么」的记录，因为没碰过可能被当成没来过（70%）"
       },
       {
         "id": "batch307_no1_plate_trace",
         "name": "叁〇七批·壹号牌持有人与补登记人追查",
         "description": "《持有申报回执》补记栏抄出「原领用栏旁补记：壹」——壹是序号不是人名。库房管事承认后补那行淡字是他写的：三年前工坊废止，该批有一枚壹号未交回库房，他按流程补写「壹」把它销号。须查：销号记录、这枚牌现在在谁手里、其复制品可能已被用于何种顶替（登记／代签／代领）。合法入口＝闭册前底册抄件与销号登记，不得触库房。",
-        "progress_pct": 42,
+        "progress_pct": 45,
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 10,
         "started_at": "2026-11-11",
         "started_day": 109,
         "task_type": "investigate",
-        "recent_progress": "Day116结算。叁〇七批闭册当日那一栏被划线「已销」，销号经手人栏写着「文」一个字⇒销号留了名；追踪者追问：销号销不掉货，流出去的牌子名字在哪张纸上（42%）"
+        "recent_progress": "Day117结算。叁〇七批销号栏「已销」、经手人「文」；其源头是三年前销掉的「模与器·共玖」⇒壹号牌的源流须从模子流向倒推（45%）"
       },
       {
         "id": "ledger_graft_execution_trace",
         "name": "底册挖栏补纸的执行路径追查",
         "description": "闭册日抄件时发现叁〇七批领用栏被挖去一块、补上新纸，原字消失，只剩一道残横划；回执上的「壹」墨色比别栏新＝补写。须查执行路径：经手人（库房管事主持＋新代笔人办件）、补纸来源、挖补时段。合法入口＝旧底册副本／册部留档，须第二人复核，不并。",
-        "progress_pct": 67,
+        "progress_pct": 70,
         "task_type": "investigate",
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 10,
         "started_at": "2026-11-12",
         "started_day": 110,
-        "recent_progress": "Day116结算。销号栏经手人落「文」字，制度第二次逼人留名；登记簿上「个人留存」那行仍在，挖栏补纸的执行路径再添一环（67%）"
+        "recent_progress": "Day117结算。销号经手人栏再次落单字「余」，与挖栏补纸同属制度层逼人留名的路径（70%）"
       },
       {
         "id": "third_party_ledger_page_check",
@@ -680,7 +672,7 @@
         "daily_limit": 10,
         "started_at": "2026-11-12",
         "started_day": 110,
-        "recent_progress": "Day116结算。无新进展（33%）"
+        "recent_progress": "Day117结算。无新进展（33%）"
       },
       {
         "id": "hooked_vertical_signer_trace",
@@ -693,20 +685,20 @@
         "daily_limit": 10,
         "started_at": "2026-11-13",
         "started_day": 112,
-        "recent_progress": "Day116结算。无新进展（52%）"
+        "recent_progress": "Day117结算。无新进展（52%）"
       },
       {
         "id": "copper_scrub_cuprum_line",
         "name": "铜屑灰线·后门中转销赃与「让这里什么都没有」",
         "description": "后门巷女助手每日倒出含亮而卷边铜屑的灰，与后院新绿砂、后院铜绿、城北叁记铜锈同族。铜的来路不是被运走而是被「销掉」：让「这里什么都有」变成「这里什么都没有」。须查铜屑实际来源、灰倒向谁、新空麻袋（小半号批次）的用途，以及这一手法与挖栏补纸、换新件是否同源。",
-        "progress_pct": 47,
+        "progress_pct": 50,
         "task_type": "investigate",
         "estimate": 70,
         "estimated_days": 12,
         "daily_limit": 10,
         "started_at": "2026-11-14",
         "started_day": 113,
-        "recent_progress": "Day116结算。磨牌台面顺向细齿痕上压着逆向粗齿痕（「顺向是磨，逆向是盖」）＋皮衬三枚铜绿指腹印⇒造牌与销牌共用一张台子，铜线拆成两拨人（47%）"
+        "recent_progress": "Day117结算。粗齿锉非工坊之物（工坊全是细齿），城南唯缺三指铜匠在用⇒顺向磨与逆向盖之外，销赃还多出「把旧东西弄干净」这一路（50%）"
       },
       {
         "id": "paper_issuer_trace",
@@ -714,7 +706,7 @@
         "description": "查补纸的经手：补纸为公会文书房现成用纸、撕角补上，须查领用笺余纸与经手人，确认闭册当日谁在文书房。",
         "task_type": "investigate",
         "progress_pct": 33,
-        "recent_progress": "Day116结算。公示纸整张被揭走、只剩四枚钉头与一圈纸灰——纸面证据被抹到只剩「出处」；文书房用纸领用与经手人线索只剩登记簿（33%）"
+        "recent_progress": "Day117结算。无新进展（33%）"
       },
       {
         "id": "beast_hair_and_swapped_floor_trace",
@@ -727,15 +719,15 @@
         "daily_limit": 10,
         "started_at": "2026-11-15",
         "started_day": 113,
-        "recent_progress": "Day116结算。无新进展（28%）"
+        "recent_progress": "Day117结算。无新进展（28%）"
       },
       {
         "id": "second_unhooked_signer_trace",
         "name": "批签栏「不带钩」的第二人追查",
         "description": "带钩一支已归叁正清；批签栏与告示落款的不带钩手笔属另一人——认得归属却不领用。需查此人是谁、代笔人十二至十四三格空白那几天由谁补记「代」。",
         "task_type": "investigate",
-        "progress_pct": 39,
-        "recent_progress": "Day116结算。第二人第一次落名「文」（不带钩、墨新），且与带钩的「叁正清」正式分家——「文」很可能是名不是姓（92%）",
+        "progress_pct": 47,
+        "recent_progress": "Day117结算。第二人落名「文」之后再落一个「余」：两处同族残缺写法，第二人线从叁〇七批扩到三年前工坊废止那一年（47%）",
         "created_date": "2026-11-15",
         "estimate": 80,
         "estimated_days": 15,
@@ -747,16 +739,16 @@
         "name": "中间人与残角报价·买主是谁追查",
         "description": "宽肩斗笠檐者自报「收货的」，称有人出价买那块带「七」的铜牌残角，并带限期（今日同一时刻要答复）。追踪者定性其为收货的中间人，断言「买主不是偷东西的人，是怕东西被人拿在手里的人」。需借其捎话反钓买主身份，并弄清他为何知道她今早在柴房门口。",
         "task_type": "investigate",
-        "progress_pct": 34,
-        "recent_progress": "Day116结算。她回「这东西我交给公会了」，他转成「公会不给」——一句话被两头用，中间人成了报信的；买主回话：残角不要了，要撤登记簿上「个人留存」三个字⇒买主不是偷东西的人，是能改记录的人（34%）"
+        "progress_pct": 42,
+        "recent_progress": "Day117结算。买主不撤那三个字了，改成条件式停火「你留着也行，只要你别再抄」；中间人反问「铜片还在不在？」⇒买主知道铜片，后院内应在买主那边（42%）"
       },
       {
         "id": "woodshed_intruder_count",
         "name": "柴房入侵者人数与身份辨析",
         "description": "柴房一夜之间被人进过：北墙豁口霜蹭掉一掌宽（看）、门槛外半枚湿鞋印·鞋底横防滑档、门缝铜钉多一圈新划痕、草席半个臀印、脚印从正门走出去。收货人鞋底横档与湿鞋印同型，但臀印与药柜被开不像他的做派。需辨明至少两人还是三人，以及两路入侵路径（豁口 vs 正门）。",
         "task_type": "investigate",
-        "progress_pct": 36,
-        "recent_progress": "Day116结算。工坊台脚半枚菱形格纹鞋印（非横防滑横档）＋皮衬上三枚铜绿指腹印⇒至少三人、三种鞋底、三条进入路径；柴房线因铜屑未被碰而结案（36%）"
+        "progress_pct": 39,
+        "recent_progress": "Day117结算。铜片被从药篓布包里取走（结未动、只余水印），后院能进出者四个：老修女、晒药老伯、扫街的、拿药的⇒盯后院那四个人，不盯第三户（39%）"
       },
       {
         "id": "notice_final_day_copy_trace",
@@ -764,7 +756,7 @@
         "description": "公示板「本月用纸领用登记（公示七日）」十一月十七最后一天。须最后抄一次（带钩「叁正清」、批签「文□」、余纸栏逐字），并再请第二人独立复现（归还台女助手只念不拿）；抄件再挪一联到老修女身上，药柜只留空壳。",
         "task_type": "investigate",
         "progress_pct": 26,
-        "recent_progress": "Day116结算。公示纸**整张被揭走**只剩四枚钉头与一圈纸灰（抹人第七项），但归还台登记簿上「领用笺抄录·个人留存」那行还在⇒纸能揭、出处揭不掉；同日叁〇七批销号经手人栏落「文」（26%）",
+        "recent_progress": "Day117结算。无新进展（26%）",
         "created_date": "2026-11-16",
         "created_day": 115,
         "estimate": 40,
@@ -777,72 +769,85 @@
         "name": "水道下游第三户·收旧铜者身份查证",
         "description": "药篓夹层里那枚錾字铜片写「城南 水道 下游 第三户」。铜匠说水道尽头有三户石屋，住的是挑水人和一户收旧铜的。须只看不碰、只问不拦，弄清收旧铜的是谁、收去做什么、是否与工坊那拨盖痕的人同伙。",
         "task_type": "investigate",
-        "progress_pct": 0,
+        "progress_pct": 9,
         "created_date": "2026-11-17",
         "created_day": 116,
-        "recent_progress": "Day116结算。无新进展（0%）"
+        "recent_progress": "Day117结算。第三户石屋里矮胖男人蹲在铜堆边用粗齿锉，把它当「来问铜的」塞了半篓旧铜片；「上个月也有人来问过同样的事」⇒第三户是中转，且上个月已有人来过（9%）"
       },
       {
         "id": "void_ledger_signer_uniqueness_check",
         "name": "销号经手人「文」字唯一性核查",
         "description": "叁〇七批销号栏的经手人只写了一个「文」。须翻全部销号记录，看这个只签单字的经手人是不是唯一一个——若是，说明制度里另有一类只落单字的经手人，那个人就是第二人。",
         "task_type": "investigate",
-        "progress_pct": 0,
+        "progress_pct": 8,
         "created_date": "2026-11-17",
         "created_day": 116,
-        "recent_progress": "Day116结算。叁〇七批闭册当日那一栏被划线「已销」，销号经手人栏写着「文」一个字⇒销号留了名；追踪者追问：销号销不掉货，流出去的牌子名字在哪张纸上（42%）"
+        "recent_progress": "Day117结算。销号簿三个月十一条，经手人栏九条全名、两条只落单字⇒「只落单字」不是个人怪癖，是制度允许的一类经手人；「余」与「文」同一种落法（8%）"
       },
       {
         "id": "yu_signer_old_ledger_trace",
         "name": "「余」字销号经手人与三年前那一炉「共玖」",
         "description": "《器物销号簿》上只落单字的经手人出现第二个：一条三年前工坊废止那年的旧销号「余」，器物名栏写「旧库信标工坊·叁〇七批·模与器·共玖」。须查清这九件模与器的实际去向，「余」与「文」是否同一人、是否同一种落法。",
         "task_type": "investigate",
-        "progress_pct": 0,
+        "progress_pct": 9,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-18",
         "started_day": 116,
-        "recent_progress": "Day116新立。「余」字销号经手人与三年前那一炉「共玖」（0%）"
+        "recent_progress": "Day117结算。销号簿三个月十一条，两条只落单字：三年前旧销号「余」与叁〇七批「文」；器物名栏「模与器·共玖」；文书房老头「这字两年前就在了，那时候不是我写的」⇒第二人复现落在公会第三方（9%）"
       },
       {
         "id": "three_toed_coppersmith_trace",
         "name": "缺三指铜匠·老库信标工坊旧工·专接「把旧东西弄干净」的活",
         "description": "工坊台脚那枚菱形格纹鞋印与皮衬三枚铜绿指腹印的主人，可能是城南唯一使用粗齿锉修旧铜器的缺三指铜匠；此人从前在老库信标工坊做工，工坊废止后开了小摊，专接把旧铜器弄干净的活。须只看不碰，并确认与工坊逆向盖痕是否为同一人。",
         "task_type": "investigate",
-        "progress_pct": 0,
+        "progress_pct": 8,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-18",
         "started_day": 116,
-        "recent_progress": "Day116新立。缺三指铜匠·老库信标工坊旧工·专接「把旧东西弄干净」的活（0%）"
+        "recent_progress": "Day117结算。陶师傅定案：粗齿锉是修旧铜器用的，城南只有缺三指那个铜匠在用，他从前在老库信标工坊做过工，专接「把旧东西弄干净」的活⇒工坊台脚第三人与老库旧匠线合轨（8%）"
       },
       {
         "id": "copper_patina_on_hand_trace",
         "name": "掌心的铜绿锈斑·自己带走的物证痕迹",
         "description": "在水道下游第三户接了半袋旧铜片，手心沾上擦不掉的铜绿锈斑。须做封存与自污染时刻记录，并弄清这类自取痕迹日后如何解释、能否反用。",
         "task_type": "equip",
-        "progress_pct": 0,
+        "progress_pct": 8,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-18",
         "started_day": 116,
-        "recent_progress": "Day116新立。掌心的铜绿锈斑·自己带走的物证痕迹（0%）"
+        "recent_progress": "Day117结算。掌心铜绿锈斑洗三遍仍在，追踪者定性「铜锈擦不掉，它记着你碰过它」——自污染物证成立，须封存并记录自污染时刻（8%）"
       },
       {
         "id": "one_sheet_many_safes",
         "name": "「做很多个安全的人」·可作证性与反跟踪双轨",
         "description": "宫磊第九行：安全要藏，作证要露——不做一个安全的人，做很多个安全的人。老修女「你天天都不一样，谁替你说话」与追踪者「打乱节奏」冲突，须落地为可执行的分工：固定的部分交给别人记着，变的部分留给自己。",
         "task_type": "social",
-        "progress_pct": 0,
+        "progress_pct": 8,
         "estimate": 80,
         "estimated_days": 15,
         "daily_limit": 15,
         "started_at": "2026-11-18",
         "started_day": 116,
-        "recent_progress": "Day116新立。「做很多个安全的人」·可作证性与反跟踪双轨（0%）"
+        "recent_progress": "Day117结算。宫磊第九行落地：「安全要藏，作证要露——不做一个安全的人，做很多个安全的人」；固定的那部分交给别人记着，变的那部分留给自己（8%）"
+      },
+      {
+        "id": "name_on_scale_trace",
+        "name": "「名字不在纸上，在物上、在秤上」·倒查谁在称那批货",
+        "description": "销号簿销掉的是源，货是从源上长出来的枝。须沿叁记收货簿（每月初一取铜锈三十斤）、西门旧货摊收条、城南水道下游收旧铜户的口头账倒查：那批从「模与器·共玖」流出的货，最后是谁在称、谁在收、钱付给了谁。",
+        "task_type": "investigate",
+        "progress_pct": 0,
+        "estimate": 80,
+        "estimated_days": 15,
+        "daily_limit": 15,
+        "started_at": "2026-11-18",
+        "started_day": 117,
+        "recent_progress": "Day117新立。「名字不在纸上，在物上、在秤上」——从秤上倒查那批货的流向（0%）"
       }
     ],
     "staged": [],
@@ -1050,10 +1055,20 @@
         "recent_progress": "Day116结算。宫磊点破「他们不是抓你，他们画你……线是最好画的」；过夜点轮换到第二个、旧铺盖留假象、门虚掩不插闩、柴房彻底弃用（100%）",
         "completed_date": "2026-11-17",
         "completed_day": 116
+      },
+      {
+        "id": "resonance_array_standard_recovery",
+        "name": "共振阵列标准强度恢复",
+        "description": "完整共振测试通过后进入第二阶段，逐步恢复标准强度。今天第一次标准强度测试，走音事件非封印问题，继续推进。",
+        "task_type": "training",
+        "progress_pct": 100,
+        "recent_progress": "Day117结算。训练场十二步分三段不同的路走、时辰临时改、话先说半句，三遍收剑剑尖一点不动，右膝十二步半步全程不热；标准强度恢复至此收官（100%）",
+        "completed_date": "2026-11-18",
+        "completed_day": 117
       }
     ],
-    "last_settled": "2026-11-17",
-    "settled_day": 116
+    "last_settled": "2026-11-18",
+    "settled_day": 117
   },
   "today_mood": "十一十八，闭册后第六日，恢复期第二十八日。昨天宫磊那句「他们不是抓你，他们画你……线是最好画的」在她脑子里烧了一夜，今天一整天她都在跟那条看不见的线较劲——**规矩一旦固定，你就不再是一个人，是一条线**。夜里她数出自己昨天的行踪：卯末食堂、辰正训练场、巳时医棚、午时铜匠铺、未时石阶、申时后廊、酉初石阶、戌时水道——**八个点，四个固定地方，两条固定路线**。她把这张表画在草纸上，看了很久，然后撕了。今天追踪者给的新功课不是剑，是「**打乱节奏**」：同一件事永不在同一个时辰做、同一条路永不走第二遍、话永远先说半句；05:00 她在第二个过夜点（石屋第二户后檐旧船板）做自检，发现**墙根多了一道新划痕、薄冰上只朝船板方向的半枚鞋印**——**昨夜有人站在她睡的三步外看她**⇒**换地方也救不了「固定」**。06:30 她在归还台后廊翻公开的《器物销号簿》：三个月十一条销号，经手人栏**九条写全名，两条只落单字**——一条是叁〇七批的「文」，另一条是**三年前旧销号上的「余」**；10:30 请文书房管文书老头只念不拿独立复现，老头念完说「**这字两年前就在了，那时候不是我写的**」⇒第二人复现成立，且「余」与「文」是同一种落法。11:30 陶师傅一句把线头接上老库：**粗齿锉是修旧铜器用的，城南只有缺三指那个铜匠在用，他从前在老库信标工坊做过**。12:30 她按追踪者的新规矩把随身假铜钉换成一枚**磨光的旧铜扣**——「**不磨损的锚点，是磨得看不出磨损的**」。**13:00 突发事件（出糗）**：城南旧运铜水道下游第三户石屋，她只看不碰，站得太久，屋里人把她当成「来问铜的」，**扔给她半篓旧铜片，她伸手接了**——手心立刻沾上一层铜绿。追踪者一句「**说好的只看不碰**」；屋里人还说「**上个月也有人来问过同样的事**」。14:30 石阶上中间人第二次回话，**买主不撤那三个字了**，改成条件式停火：「**你留着也行，只要你别再抄**」——并反问「**铜片还在不在？**」⇒**买主知道铜片，医棚后院的内应在买主那边**。16:30 销号销不掉货的另一半：**名字不在纸上，在物上、在秤上**。18:30 追踪者教「不磨损的锚点」，并把星辉石自闪定性为「**第二次试探：上次是敲门，这次是问你在不在**」；她试着用铜片隔着石头——石头立刻变凉。19:00 五处互报：唯一被动过的是**缝**，不是纸；染坊那处旧铺盖原样留着，**假象还没被拆**。夜里她转到**第三个过夜点**（城南水道下游更靠外的一处旧石阶），宫磊问她昨天那个没答得出的问题，第九行她写下：「**十一十八：安全要藏，作证要露——所以我不做一个安全的人，我做很多个安全的人。**」",
   "mood_date": "2026-11-18",
@@ -1061,7 +1076,7 @@
   "daily_message_count": 5,
   "last_proactive": "2026-11-18T21:00:00+08:00",
   "last_proactive_content": "[19:00] 五处藏点互报完：药柜只剩空壳，棉袄的缝被挑开又缝回，铜片已被人取走。动的还是缝，不是纸。今夜第三个过夜点。",
-  "day_number": 116,
+  "day_number": 117,
   "story_arc": {
     "npcs_introduced": [
       "第二人（身份不明·出货记号持有者）",
