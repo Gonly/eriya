@@ -594,13 +594,13 @@ error 8 轮全部 600s 超时），**最长连续 ok 段 = 2**（00:17→02:19�
 **正确做法（按优先级）**
 ```bash
 sudo netstat -ano | grep -w 9100     # 拿到 PID + Program name
-fuser 9100/tcp                        # AIX 自带
-lsof -nP -i TCP:9100                 # 需装 lsof
+fuser -n tcp 9100                    # AIX 自带（注意是 -n tcp，不能写 9100/tcp）
+lsof -i :9100                        # 需装 lsof
 procfiles <pid>                      # AIX 查进程打开的 socket
 grep -i 238C /proc/net/tcp           # 9100 = 0x238C
 ```
 
-**坑** ① `netstat -ano | grep 9100` 会把 UNIX socket 名里含 "9100" 的行一起捞出（十六进制路径），属误伤；② AIX 上别用 `ss`；③ AIX 默认无 `lsof`。
+**坑** ① `netstat -ano | grep 9100` 会把 UNIX socket 名里含 "9100" 的行一起捞出（十六进制路径），属误伤；② AIX 上别用 `ss`；③ AIX 默认无 `lsof`；④ **AIX 的 `fuser` 不认 `9100/tcp` 这种路径写法**，会报 `9100/tcp: A file or directory in the path name does not exist.`——协议要用 `-n tcp` 指定，端口单独跟后面。
 
 > 关联：端口占用排查三形态 = ①有 PID ②有 LISTEN 无 PID（权限）③ grep 误伤。
 
