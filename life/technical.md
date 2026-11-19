@@ -585,6 +585,25 @@ error 8 轮全部 600s 超时），**最长连续 ok 段 = 2**（00:17→02:19�
 
 > 通用「先查 TOOLS.md 再决定用 API 还是搜索」原则见 `memory/evolution/patterns/api-first.md`
 
+### [2026-11-19] AIX 上 `netstat -ano` 看不到 PID = 权限问题，不是没进程
+
+**现象** AIX (ksh) 上 `netstat -ano | grep -w 9100` 只输出 `tcp4 0 0 *.9100 *.* LISTEN`，没有 PID/Program name 列；`ss` 不存在（AIX 无 iproute2）。
+
+**根因** AIX 的 `netstat -o` 只显示**当前用户可见**进程的 PID；非 root 用户查别人的 socket 时，PID/Program 列整列为空。端口确实有人在听。
+
+**正确做法（按优先级）**
+```bash
+sudo netstat -ano | grep -w 9100     # 拿到 PID + Program name
+fuser 9100/tcp                        # AIX 自带
+lsof -nP -i TCP:9100                 # 需装 lsof
+procfiles <pid>                      # AIX 查进程打开的 socket
+grep -i 238C /proc/net/tcp           # 9100 = 0x238C
+```
+
+**坑** ① `netstat -ano | grep 9100` 会把 UNIX socket 名里含 "9100" 的行一起捞出（十六进制路径），属误伤；② AIX 上别用 `ss`；③ AIX 默认无 `lsof`。
+
+> 关联：端口占用排查三形态 = ①有 PID ②有 LISTEN 无 PID（权限）③ grep 误伤。
+
 ### [2026-05-10] 找文件先搜本地，不要先查 git remote
 
 **问题** 想找某个文件时第一反应是去 git remote 找，白白浪费对话轮次。
